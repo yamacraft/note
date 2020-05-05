@@ -1,0 +1,17 @@
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; {{ .Site.Copyright }} {{ now.Format "2006"}} · {{ with $.Site.Params.license }}<a href="{{ $.Site.Params.licenseURL }}">{{ . | safeHTML }}</a>{{end}}
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" rel="noopener" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- End Footer
+================================================== -->

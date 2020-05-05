@@ -1,0 +1,21 @@
+baseURL = "https://yamacraft.github.io/note/"
+title = "山田航空ネットワーク3rd"
+languageCode = "ja-jp"
+theme = "mediumish"
+
+publishDir = "docs"
+
+hasCJKLanguage = true
+enableEmoji = true
+googleAnalytics = "UA-49508140-1"
+
+copyright = "yamacraft"
+
+[params]
+author = "yamacraft"
+description="yamacraftの雑記"
+
+license = "CC BY 4.0"
+licenseURL = "https://creativecommons.org/licenses/by/4.0/deed.ja"
+
+customCss = ["css/note.css"]
