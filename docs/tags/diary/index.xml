@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>山田航空ネットワーク3rd</title>
-    <link>https://yamacraft.github.io/note/</link>
-    <description>Recent content on 山田航空ネットワーク3rd</description>
+    <title>diary on 山田航空ネットワーク3rd</title>
+    <link>https://yamacraft.github.io/note/tags/diary/</link>
+    <description>Recent content in diary on 山田航空ネットワーク3rd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>yamacraft</copyright>
     <lastBuildDate>Sun, 10 May 2020 22:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://yamacraft.github.io/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yamacraft.github.io/note/tags/diary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://yamacraft.github.io/note/submit-kyufukin/</guid>
       <description>自分の地域でも定額給付金の受け付けが始まっていたのと、確定申告絡みでマイナンバーカードやカードリーダーの用意が整っていたので、オンライン申請</description>
-    </item>
-    
-    <item>
-      <title>Sample（サンプル）</title>
-      <link>https://yamacraft.github.io/note/sample/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://yamacraft.github.io/note/sample/</guid>
-      <description>表示確認用の記事です。 各種記法 リスト1 リスト2 リスト2-1 リスト2-2 リスト3 リスト1 リスト2 リスト3 あのイーハトーヴォのすきとおった風、夏</description>
     </item>
     
   </channel>
