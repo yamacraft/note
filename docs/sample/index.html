@@ -35,7 +35,7 @@
         <div class="site-content-custom">   
             <div class="container">
 <div class="mainheading">
-    <a href="https://yamacraft.github.io/note//">
+    <a href="https://yamacraft.github.io/note/">
         <h1 class="sitetitle">山田航空ネットワーク3rd</h1>
     </a>
     <p class="lead">
@@ -134,7 +134,32 @@
 </tbody>
 </table>
 <p><strong>強調</strong> <em>斜体</em> <del>取り消し</del></p>
-<h2 id="各種埋め込み表示">各種埋め込み表示</h2>
+<p>インラインコード -&gt; <code>Discord.Client()</code></p>
+<pre><code>const Discord = require('discord.js')
+const admin = require(&quot;firebase-admin&quot;);
+const client = new Discord.Client()
+
+var getFirebaseDatabase = function() {
+    let serviceAccount = require(`./serviceAccountKey.json`)
+    admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount),
+        databaseURL: &quot;https://{project-id}.firebaseio.com/&quot;
+    })
+    return admin.database()
+}
+</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Discord</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;discord.js&#39;</span>)
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">admin</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;firebase-admin&#34;</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">client</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Discord</span>.<span style="color:#a6e22e">Client</span>()
+
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">getFirebaseDatabase</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">serviceAccount</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">`./serviceAccountKey.json`</span>)
+    <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">initializeApp</span>({
+        <span style="color:#a6e22e">credential</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">credential</span>.<span style="color:#a6e22e">cert</span>(<span style="color:#a6e22e">serviceAccount</span>),
+        <span style="color:#a6e22e">databaseURL</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://{project-id}.firebaseio.com/&#34;</span>
+    })
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">database</span>()
+}
+</code></pre></div><h2 id="各種埋め込み表示">各種埋め込み表示</h2>
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【バーチャル背景画像】最後に『龍が如く７』から！横浜イセザキロードはもちろん、夜景がキレイな浜北公園からホームレス街までご用意しました。お好きなのをどうぞ！<a href="https://t.co/Zf3pwMBjsK">https://t.co/Zf3pwMBjsK</a> <a href="https://twitter.com/hashtag/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F?src=hash&amp;ref_src=twsrc%5Etfw">#龍が如く</a>　<a href="https://twitter.com/hashtag/%E9%BE%8D7?src=hash&amp;ref_src=twsrc%5Etfw">#龍7</a>　<a href="https://twitter.com/hashtag/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F7?src=hash&amp;ref_src=twsrc%5Etfw">#龍が如く7</a> <a href="https://t.co/DvZ77TTsxm">pic.twitter.com/DvZ77TTsxm</a></p>&mdash; セガ公式アカウント🦔 (@SEGA_OFFICIAL) <a href="https://twitter.com/SEGA_OFFICIAL/status/1247107110636150786?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
