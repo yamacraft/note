@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>yamacraft</copyright>
-    <lastBuildDate>Sun, 10 May 2020 22:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 23:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://yamacraft.github.io/note/tags/diary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ブログを移転した</title>
+      <link>https://yamacraft.github.io/note/start-blog-3rd/</link>
+      <pubDate>Sun, 17 May 2020 23:00:00 +0900</pubDate>
+      
+      <guid>https://yamacraft.github.io/note/start-blog-3rd/</guid>
+      <description>ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。 これからのドキュメント関連のアウトプットに</description>
+    </item>
     
     <item>
       <title>特別定額給付金をオンライン申請した</title>
