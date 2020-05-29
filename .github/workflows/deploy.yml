@@ -45,9 +45,10 @@ jobs:
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TIME: "${{ steps.time.outputs.time }}"
         with:
-          tag_name: ${{ TIME }}
-          release_name: Release ${{ TIME }}
+          tag_name: $TIME
+          release_name: Release $TIME
           draft: false
           prerelease: false
 
