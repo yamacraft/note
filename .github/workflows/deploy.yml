@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - add_github_actions #TODO: master に最後戻す
+      - master
 
 jobs:
   deploy:
@@ -32,13 +32,14 @@ jobs:
       - name: Upload Archive
         uses: actions/upload-artifact@v1
         with:
-          name: dist
+          name: gh-pages
           path: public
 
       - name: Notify Slack
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
+          author_name: yamacraft-note deploy
           fields: action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
