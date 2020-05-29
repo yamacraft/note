@@ -1,0 +1,43 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "山田航空ネットワーク3rd（blog）",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "textlint": "textlint -f pretty-error content/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamacraft/note.git"
+  },
+  "author": "yamacraft",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yamacraft/note/issues"
+  },
+  "homepage": "https://github.com/yamacraft/note#readme",
+  "devDependencies": {
+    "textlint": "^11.6.3",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-no-abusage": "^2.0.1",
+    "textlint-rule-ja-no-mixed-period": "^2.1.1",
+    "textlint-rule-ja-no-redundant-expression": "^3.0.1",
+    "textlint-rule-ja-no-successive-word": "^1.1.0",
+    "textlint-rule-ja-no-weak-phrase": "^1.0.4",
+    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+    "textlint-rule-no-double-negative-ja": "^1.0.5",
+    "textlint-rule-no-doubled-joshi": "^3.7.2",
+    "textlint-rule-no-dropping-the-ra": "^1.1.2",
+    "textlint-rule-no-mix-dearu-desumasu": "^4.0.1",
+    "textlint-rule-no-nfd": "^1.0.2",
+    "textlint-rule-prefer-tari-tari": "^1.0.3",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-prh": "^5.3.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
