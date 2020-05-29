@@ -9,6 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+      - name: Get Time
+        id: time
+        uses: nanzm/get-time-action@v1.0
+        with:
+          timeZone: 8
+          format: "YYYY-MM-DD-HH-mm-ss"
+
       - uses: actions/checkout@v2
         with:
           submodules: true
@@ -39,8 +46,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.sha }}
-          release_name: Release ${{ github.sha }}
+          tag_name: $TIME
+          release_name: Release $TIME
           draft: false
           prerelease: false
 
