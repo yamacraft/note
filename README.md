@@ -1,6 +1,8 @@
 山田航空ネットワーク3rd
 ====================
 
+![Build and Deploy](https://github.com/yamacraft/note/workflows/Build%20and%20Deploy/badge.svg)
+
 https://yamacraft.github.io/note
 
 ## 記事の追加

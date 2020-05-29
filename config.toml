@@ -3,8 +3,6 @@ title = "山田航空ネットワーク3rd"
 languageCode = "ja-jp"
 theme = "mediumish"
 
-publishDir = "docs"
-
 hasCJKLanguage = true
 enableEmoji = true
 googleAnalytics = "UA-49508140-1"
