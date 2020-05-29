@@ -9,13 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - name: Get Time
-        id: time
-        uses: nanzm/get-time-action@v1.0
-        with:
-          timeZone: 8
-          format: "YYYY-MM-DD-HH-mm-ss"
-
       - uses: actions/checkout@v2
         with:
           submodules: true
@@ -36,31 +29,11 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
 
-      - name: Create Archive
-        run: |
-          zip -r gh-pages public/
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TIME: "${{ steps.time.outputs.time }}"
+      - name: Upload Archive
+        uses: actions/upload-artifact@v1
         with:
-          tag_name: $TIME
-          release_name: Release $TIME
-          draft: false
-          prerelease: false
-
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./gh-pages.zip
-          asset_name: gh-pages.zip
-          asset_content_type: application/zip
+          name: dist
+          path: public
 
       - name: Notify Slack
         uses: 8398a7/action-slack@v3
