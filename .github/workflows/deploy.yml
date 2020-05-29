@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master
+      - add_github_actions
 
 jobs:
   deploy:
@@ -40,7 +40,6 @@ jobs:
         with:
           status: ${{ job.status }}
           author_name: yamacraft-note deploy
-          fields: action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
