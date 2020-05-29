@@ -14,7 +14,7 @@ $ hugo new <filename>.md
 ## ローカルサーバでのチェック
 
 ```sh
-$ hugo server --ignoreCache -D
+$ hugo server --ignoreCache --minify -D
 ```
 
 http://localhost:1313/note/ でサイトが見れるようになる。
@@ -23,9 +23,11 @@ http://localhost:1313/note/ でサイトが見れるようになる。
 
 ## deploy
 
-hugoしてdocs以下を更新してからmasterにpushする。
+masterが更新されれば、GitHub Actionsの方でサイト生成からアップロードまで行います。
 
-## TODO
+生成されたサイトのデータは、
 
-- hugoしてdocs以下の更新をCIにやらせたい
-  - master更新したら自動でhugo走らせたものをpusuする的な感じで。
+- `gh-pages` ブランチ全体
+- Actionsの各結果のartifact
+
+のどちらかで確認が可能。
