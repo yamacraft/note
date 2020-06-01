@@ -1,7 +1,7 @@
 ---
 title: "easylauncherをdocker上でも使えるようにする"
 date: 2020-06-01T13:00:00+09:00
-draft: true
+draft: false
 tags: ["tech", "Android", "Docker", "CI", "easylauncher"]
 ---
 
