@@ -11,7 +11,7 @@ tags: ["tech", "Android", "Docker", "CI", "easylauncher"]
 
 [akaita/easylauncher\-gradle\-plugin: Add a different ribbon to each of your Android app variants using this gradle plugin\. Of course, configure it as you will](https://github.com/akaita/easylauncher-gradle-plugin)
 
-![easylauncherを利用したアイコン（debug版）](/note/image/easy_launcher_use_docker/generate_easy_launcher.png)
+![easylauncherを利用したアイコン（debug版）](/note/image/easy-launcher-use-docker/001.png)
 
 easylauncherはビルド環境にインストールされているフォントを使ってリボンを作ります。
 そのため、たとえばDocker上で行うとフォントが見つからず、`NullPointerException`でビルドが失敗してしまいます。
