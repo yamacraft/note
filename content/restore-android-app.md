@@ -1,6 +1,6 @@
 ---
 title: "Androidアプリのレストアという需要"
-date: 2020-10-05T00:00:00+09:00
+date: 2020-10-05T23:00:00+09:00
 draft: false
 tags: ["poem", "app_restore", "android"]
 ---
