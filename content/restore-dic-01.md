@@ -5,6 +5,12 @@ draft: false
 tags: ["app_restore", "dic_restore", "android"]
 ---
 
+## D.I.C.レストア記録記事一覧
+
+- [#0 - レストアの方針](/note/restore-dic-00/)
+- [#1 - 開発環境を整える](/note/restore-dic-01/)
+- [#2 - コードをkotlinに置き換える](/note/restore-dic-02/)
+
 ## 開発環境を整えるということについて
 
 メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。

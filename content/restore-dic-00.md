@@ -7,6 +7,12 @@ tags: ["app_restore", "dic_restore", "android"]
 
 [先日の記事](/note/restore-android-app/)で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。
 
+## D.I.C.レストア記録記事一覧
+
+- [#0 - レストアの方針](/note/restore-dic-00/)
+- [#1 - 開発環境を整える](/note/restore-dic-01/)
+- [#2 - コードをkotlinに置き換える](/note/restore-dic-02/)
+
 ## D.I.C. について
 
 数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
