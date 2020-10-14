@@ -10,6 +10,7 @@ tags: ["app_restore", "dic_restore", "android"]
 - [#0 - レストアの方針](/note/restore-dic-00/)
 - [#1 - 開発環境を整える](/note/restore-dic-01/)
 - [#2 - コードをkotlinに置き換える](/note/restore-dic-02/)
+- [#3 - マテリアルデザインとダークテーマへの対応](/note/restore-dic-03/)
 
 ## 開発環境を整えるということについて
 
