@@ -1681,8 +1681,8 @@ rules:
     pattern:  /アステリスク/
   - expected: アーキテクチャ
     pattern:  /アーキテクチャー|アーキティクチャ/
-  - expected: アクティビティ
-    pattern:  /\bActivity\b|アクティビティー/
+#  - expected: アクティビティ
+#    pattern:  /\bActivity\b|アクティビティー/
   - expected: アダプタ
     pattern:  /アダプター/
   - expected: アドバイス
