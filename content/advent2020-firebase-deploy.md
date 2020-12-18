@@ -1,6 +1,6 @@
 ---
-title: "FirebaseをCIでDeployできるようにする（2020年版）"
-date: 2020-12-18T00:00:00+09:00
+title: "FirebaseをCIでデプロイできるようにする（2020年版）"
+date: 2020-12-21T00:00:00+09:00
 draft: false
 tags: ["tech", "firebase"]
 ---
@@ -11,7 +11,7 @@ tags: ["tech", "firebase"]
 
 ## 前提条件
 
-CIでdeployを行う上で、次の条件は満たせるようにしています。
+CIでデプロイを行う上で、次の条件を満たせるようにしています。
 
 - 開発、ステージング、本番などにデプロイ先を切り替えられる
 - 秘匿情報はリポジトリに組み込まない
@@ -20,13 +20,13 @@ CIでdeployを行う上で、次の条件は満たせるようにしています
 ## Firebase CLIについて
 
 その名の通り、CLI上でFirebaseを利用するためのツールです。
-本記事ではこのCLIを使うことを前提としています。
+本記事ではこのツールを使うことを前提としています。
 
 Firebase CLI自体の詳細な解説は、公式のドキュメントを参照してください。
 
 [Firebase CLI リファレンス](https://firebase.google.com/docs/cli/?hl=ja)
 
-## Deploy先を切り替えられるようにする
+## デプロイ先を切り替えられるようにする
 
 Firebaseで開発環境と本番環境を用意したい場合、２つのFirebaseプロジェクトを用意する必要があります。
 
@@ -53,7 +53,7 @@ $ firebase deploy
 
 ## CI用の認証トークンを用意する
 
-CIでdeployを行うためには、事前に対象のFirebaseプロジェクトへデプロイ可能な権限を持つユーザーの認証トークンを取得しなければいけません。
+CIでデプロイを行うためには、事前に対象のFirebaseプロジェクトへデプロイ可能な権限を持つユーザーの認証トークンを取得しなければいけません。
 あらかじめ対象のユーザーにログイン可能なローカルマシンなどで `firebase login:ci` を行い、トークンを取得してください。
 
 ``` sh
@@ -89,20 +89,20 @@ $ firebase logout --token 1//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ✔  Logged out token "1//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-### ユーザーと認証トークンの注意事項
-
-ここで発行している認証トークンは、Firebaseプロジェクトに紐付いたものではなく、Googleアカウントに紐付いたトークンです。
-ここで取得の際に選択したGoogleアカウントがほかのFirebaseプロジェクトにもdeploy可能な権限を持っていた場合、トークンが使い回せるということです。
-
-たとえば、「開発（ステージング）環境用のトークンと本番環境のトークンを別にしてdeployの事故を防ぎたい」といったケースが考えられます。
-この場合は、それぞれの環境のFirebaseプロジェクトにしか権限のないGoogleアカウントを用意して、それぞれで認証トークンを発行しなければいけません。
-
-また、発行時に使用したGoogleアカウントが削除された場合、当然トークンは利用できなくなります。
-
 ### 過去に発行した認証トークンの確認方法
 
 2020年現在も、あいかわらず確認はできないようです。
 ですので、発行したトークンの管理はきちんとしておきましょう。
+
+### ユーザーと認証トークンの注意事項
+
+ここで発行している認証トークンは、Firebaseプロジェクトに紐付いたものではなく、Googleアカウントに紐付いたトークンです。
+ここで取得の際に選択したGoogleアカウントが、ほかのFirebaseプロジェクトにもdeploy可能な権限を持っていた場合、トークンが使い回せるということです。
+
+たとえば、「開発（ステージング）環境用のトークンと本番環境のトークンを別にしてデプロイの事故を防ぎたい」といったケースが考えられます。
+この場合は、それぞれの環境のFirebaseプロジェクトにしか権限のないGoogleアカウントを用意して、それぞれで認証トークンを発行しなければいけません。
+
+また、発行時に使用したGoogleアカウントが削除された場合、当然トークンは利用できなくなります。
 
 ## Dockerでデプロイ環境を作る
 
@@ -135,18 +135,22 @@ services:
     command: /bin/sh -c "firebase use release --token $FIREBASE_TOKEN && firebase deploy --token=$FIREBASE_TOKEN"
 ```
 
-これで、 `docker-compose -f ./deploy-compose.yml up --build` を実行すればreleaseへデプロイされます。
+これで、次のコマンドを実行することでreleaseへデプロイできます。
+
+``` sh
+$ export FIREBASE_TOKEN=1//xxxxxxxx....
+$ docker-compose -f ./deploy-compose.yml up --build
+```
 
 ## Circle CIでデプロイする
 
-Circle CIではこのコマンドを実行するだけです。
+Circle CIでは、前述のコマンドを実行するymlを用意するだけです。
+`FIREBASE_TOKEN` 自体はCircle CIの環境変数に登録しておきます。
 
 ``` yml
 # .circleci/config.yml
+# masterブランチの更新でreleaseにデプロイする
 version: 2.1
-
-orbs:
-  slack: circleci/slack@4.0.2
 
 jobs:
   deploy:
@@ -167,13 +171,15 @@ workflows:
               only: master
 ```
 
-### GitHub Actionsでdeployする
+## GitHub Actionsでdeployする
 
 GitHub Actionsの場合、[GitHub Action for Firebase](https://github.com/marketplace/actions/github-action-for-firebase)というworkflowを使うことで、とても簡単に実装できます。
 
 GitHub Actionsの場合でも、環境変数 `FIREBASE_TOKEN` の設定が必要です。
 
 ``` yml
+# .github/workflows/deploy.yml
+# masterブランチの更新でreleaseにデプロイする
 name: Deploy
 
 on:
@@ -187,7 +193,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true
           fetch-depth: 0
 
       - name: Deploy to Firebase
