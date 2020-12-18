@@ -1,8 +1,8 @@
 ---
-title: "WebViewで表示しているWebページのHTMLを取得する"
+title: "WebViewで表示しているWebページのHTMLを取得する(deprecated)"
 date: 2020-12-19T00:00:00+09:00
 draft: false
-tags: ["tech"]
+tags: ["tech", "android"]
 ---
 
 この記事は、 [QiitaのAndroid Advent Calendar 2020](https://qiita.com/advent-calendar/2020/android)の19日目の記事になります。
@@ -29,7 +29,7 @@ Custom TabsはこうしたWebページを（ユーザーにとって）安全に
 ## WebViewで開いたWebページのHTMLソースを取得する
 
 結論から書くと、WebView自体には開いているWebページのHTMLを取得できるようなAPIはありません。
-ですので、JavaScriptを使って読み込みを行う手段しかありません。
+ですので、JavaScriptを使って読み込みを行うことになります。
 
 ``` kotlin
 @SuppressLint("JavascriptInterface")
@@ -77,7 +77,7 @@ companion object {
 その脆弱性に関してはAndroid 4.2以降からは `@JavascriptInterface` アノテーションが付与されたメソッドしか呼ばれないように対策が取られています。
 今回のサンプルコードの場合、 `processJs()` メソッド以外は呼ばれることがありません。
 
-現在はminSdkVersionが16に設定されているアプリはだいぶ減りましたが、もしそうしたアプリでWebViewからHTMLソースを取得したい場合は **諦めてください。**
+現在はminSdkVersionが16以下に設定されているアプリはだいぶ減りましたが、もしそうしたアプリでWebViewからHTMLソースを取得したい場合は **諦めてください。**
 
 そもそも、これに限らずWebView自体は自社管理外からのコンテンツ（Webページ）を表示する場合、JavaScriptを有効にさせるべきではありません。
 アプリネイティブのメソッド実行以外にも、JavaScript自体を利用した悪意ある攻撃をされる可能性があるためです。
