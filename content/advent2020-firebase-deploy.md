@@ -1,15 +1,39 @@
 ---
 title: "FirebaseをCIでDeployできるようにする（2020年版）"
-date: 2020-12-16T00:00:00+09:00
+date: 2020-12-18T00:00:00+09:00
 draft: false
-tags: ["tech"]
+tags: ["tech", "firebase"]
 ---
 
 この記事は、 [QiitaのFirebase Advent Calendar 2020](https://qiita.com/advent-calendar/2020/firebase)の21日目の記事になります。
 
 また、Qiitaに投稿した[Firebaseプロジェクトのデプロイについて](https://qiita.com/yamacraft/items/d8b623cceb5c91692b65)の2020年版の記事になります。
 
+## 前提条件
+
+CIでdeployを行う上で、次の条件は満たせるようにしています。
+
+- 開発、ステージング、本番などにデプロイ先を切り替えられる
+- 秘匿情報はリポジトリに組み込まない
+- CIでデプロイ可能にする
+
+## Firebase CLIについて
+
+その名の通り、CLI上でFirebaseを利用するためのツールです。
+本記事ではこのCLIを使うことを前提としています。
+
+Firebase CLI自体の詳細な解説は、公式のドキュメントを参照してください。
+
+[Firebase CLI リファレンス](https://firebase.google.com/docs/cli/?hl=ja)
+
+## Deploy先を切り替えられるようにする
+
+Firebaseで開発環境と本番環境を用意したい場合、２つのFirebaseプロジェクトを用意する必要があります。
+
+作成したFirebaseプロジェクトの追加は `$firebase use --add` が用意されていますが、対象のプロジェクトの `.firebserc` を直接編集するのが手っ取り早くお勧めです。
+
 ``` json
+// .firebaserc
 {
   "projects": {
     "release": "project-id",
@@ -18,13 +42,18 @@ tags: ["tech"]
 }
 ```
 
+デフォルトでFirebaseプロジェクトを設定した場合、 defaultが設定されているので意図的に削除します。
+こうすることでデプロイ先を明示的に指定する必要が出てくるので、デプロイ先を間違える事故をある程度防げます。
+
 ``` sh
 # develop環境へdeployを実施する
 $ firebase use develop
 $ firebase deploy
 ```
 
-CIでdeployを行うためには、事前に対象のFirebaseプロジェクトにdeploy可能な権限を持つユーザーの認証トークンを取得しなければいけません。
+## CI用の認証トークンを用意する
+
+CIでdeployを行うためには、事前に対象のFirebaseプロジェクトへデプロイ可能な権限を持つユーザーの認証トークンを取得しなければいけません。
 あらかじめ対象のユーザーにログイン可能なローカルマシンなどで `firebase login:ci` を行い、トークンを取得してください。
 
 ``` sh
@@ -43,7 +72,15 @@ Example: firebase deploy --token "$FIREBASE_TOKEN"
 ```
 
 ここで表示されている、 `1//xxxxx...` が、認証トークンです。
+Firebase CLIで `--token 1//xxx...` を追加することで、ログインしていない環境でもFirebase CLIを使うことができます。
 
+``` sh
+# tokenを利用してdevelop環境でdeployを実施
+$ firebase use develop --token 1/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+$ firebase deploy --token 1/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 作成したtokenを無効化する
 
 生成したtokenは `firebase logout` によって無効化（ログアウト）できます。
 
@@ -67,9 +104,13 @@ $ firebase logout --token 1//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 2020年現在も、あいかわらず確認はできないようです。
 ですので、発行したトークンの管理はきちんとしておきましょう。
 
+## Dockerでデプロイ環境を作る
+
+個人的意見ですが、CI環境はいざというときにローカル環境でも動作したいので、Dockerfileで環境を構築します。
 
 ``` dockerfile
-FROM node:12.17.0-buster-slim
+# deploy.dockerfile
+FROM node:12-buster-slim
 
 RUN npm install -g firebase-tools
 
@@ -80,6 +121,7 @@ CMD tail -f /dev/null
 ```
 
 ``` yml
+# deploy-compose.yml
 version: '2'
 services:
   deploy:
@@ -90,10 +132,17 @@ services:
       dockerfile: deploy.dockerfile
     volumes:
       - ./:/app
-    command: /bin/sh -c "firebase deploy --token=$FIREBASE_TOKEN"
+    command: /bin/sh -c "firebase use release --token $FIREBASE_TOKEN && firebase deploy --token=$FIREBASE_TOKEN"
 ```
 
+これで、 `docker-compose -f ./deploy-compose.yml up --build` を実行すればreleaseへデプロイされます。
+
+## Circle CIでデプロイする
+
+Circle CIではこのコマンドを実行するだけです。
+
 ``` yml
+# .circleci/config.yml
 version: 2.1
 
 orbs:
@@ -120,6 +169,10 @@ workflows:
 
 ### GitHub Actionsでdeployする
 
+GitHub Actionsの場合、[GitHub Action for Firebase](https://github.com/marketplace/actions/github-action-for-firebase)というworkflowを使うことで、とても簡単に実装できます。
+
+GitHub Actionsの場合でも、環境変数 `FIREBASE_TOKEN` の設定が必要です。
+
 ``` yml
 name: Deploy
 
@@ -142,5 +195,8 @@ jobs:
         with:
           args: deploy
         env:
+          PROJECT_ID: release
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 ```
+
+以上です。
