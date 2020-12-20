@@ -107,6 +107,7 @@ $ firebase logout --token 1//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## Dockerでデプロイ環境を作る
 
 個人的意見ですが、CI環境はいざというときにローカル環境でも動作したいので、Dockerfileで環境を構築します。
+実際にCIで運用する場合、デプロイの前にビルドなどの作業も行うので、そうした環境を用意しておきたいためです。
 
 ``` dockerfile
 # deploy.dockerfile
@@ -170,6 +171,8 @@ workflows:
             branches:
               only: master
 ```
+
+v2.1であればOrbsでも実装可能だと思いますが、 `firebase use *` も備えたものがパッと見当たらなかったので紹介しませんでした。
 
 ## GitHub Actionsでdeployする
 
