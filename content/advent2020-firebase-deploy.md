@@ -172,7 +172,7 @@ workflows:
               only: master
 ```
 
-v2.1であればOrbsでも実装可能だと思いますが、 `firebase use *` も備えたものがパッと見当たらなかったので紹介しませんでした。
+v2.1であればOrbsでも実装可能ですが、 `firebase use *` も備えたものがパッと見当たらなかったので紹介しませんでした。
 
 ## GitHub Actionsでdeployする
 
