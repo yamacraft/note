@@ -9,6 +9,7 @@
     "ja-no-successive-word": true,
     "ja-no-weak-phrase": true,
     "ja-unnatural-alphabet": true,
+    "ja-technical-writing/no-exclamation-question-mark": false,
     "no-double-negative-ja": true,
     "no-doubled-joshi": true,
     "no-dropping-the-ra": true,
