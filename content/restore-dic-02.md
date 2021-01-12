@@ -2,7 +2,7 @@
 title: "D.I.C. レストア記録 #2 - コードをkotlinに置き換える"
 date: 2020-10-12T20:00:00+09:00
 draft: false
-tags: ["app_restore", "dic_restore", "android"]
+tags: ["tech", "work", "app_restore", "dic_restore", "android"]
 ---
 
 ## D.I.C.レストア記録記事一覧

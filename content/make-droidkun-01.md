@@ -2,7 +2,7 @@
 title: "blenderでdroidくんを作る #1"
 date: 2020-09-22T20:00:00+09:00
 draft: false
-tags: ["blender", "unity"]
+tags: ["diary", "blender", "unity"]
 ---
 
 シルバーウィーク後半2日の成果です。

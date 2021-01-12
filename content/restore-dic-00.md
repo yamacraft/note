@@ -2,7 +2,7 @@
 title: "D.I.C. レストア記録 #0 - レストアの方針"
 date: 2020-10-07T12:00:00+09:00
 draft: false
-tags: ["app_restore", "dic_restore", "android"]
+tags: ["tech", "work", "app_restore", "dic_restore", "android"]
 ---
 
 [先日の記事](/note/restore-android-app/)で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。

@@ -11,6 +11,35 @@ https://yamacraft.github.io/note
 $ hugo new <filename>.md
 ```
 
+### 基本タグ
+
+すべての記事は、必ずこのタグが１つ以上あるようにする。
+
+- tech
+  - 技術記事（特にコードのあるもの）、技術ブログとして抽出して適切なものにつける
+- work
+  - 技術記事とはちょっと外れるお仕事関連の記事
+  - ヤマダ印に関するものはyamadajirushiタグを併記する
+- diary
+  - 日記
+- poem
+  - 個人的な主張でつけるやつ。やや技術寄り。
+- yodan
+  - 上記のどれとも違う趣味的なコラム記事につける
+
+#### サブタグ
+
+- dabun
+  - あまり内容を精査していない半端な記事につける
+- study
+  - 勉強メモ
+- yamadajirushi
+  - ヤマダ印関連
+- android, unity, CI, GitHub Actions,Circle CI
+  - 技術系は大項目＋中項目を意識
+- notice
+  - お知らせ
+
 ## ローカルサーバでのチェック
 
 ```sh

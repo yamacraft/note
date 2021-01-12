@@ -2,7 +2,7 @@
 title: "ブログを移転した"
 date: 2020-05-17T23:00:00+09:00
 draft: false
-tags: ["diary"]
+tags: ["diary", "notice"]
 ---
 
 ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。

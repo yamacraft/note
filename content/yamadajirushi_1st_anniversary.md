@@ -2,7 +2,7 @@
 title: "合同会社ヤマダ印を設立して１年が経ちました"
 date: 2020-12-03T21:00:00+09:00
 draft: false
-tags: ["yamadajirushi", "work"]
+tags: ["work", "yamadajirushi"]
 ---
 
 [合同会社ヤマダ印](https://yamadajirushi.co.jp/)は2019年12月3日に設立しました。
