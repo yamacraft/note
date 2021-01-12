@@ -1,2 +1,14 @@
 <!-- Categories Jumbotron
 ================================================== -->
+<!-- そのうち主要タグのみ乗せる -->
+<!--
+<div class="jumbotron fortags">
+	<div class="d-md-flex">
+		<div class="col-md-8 p-5 align-self-center text-center">
+			{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			<a class="mt-1 mb-1" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+			{{ end }}
+		</div>
+	</div>
+</div>
+-->

@@ -2,7 +2,7 @@
 title: "お父さんになれなかったエタリオウ"
 date: 2020-12-25T22:00:00+09:00
 draft: false
-tags: ["keiba"]
+tags: ["yodan", "keiba"]
 ---
 
 [競馬 Advent Calendar 2020 \- Adventar](https://adventar.org/calendars/5130)として投稿しようかと思っていました。（埋まってた）

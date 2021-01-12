@@ -2,7 +2,7 @@
 title: "Nuxtの勉強を始めた（2020年10月号）"
 date: 2020-10-29T21:00:00+09:00
 draft: false
-tags: ["diary", "nuxt"]
+tags: ["diary", "study", "nuxt"]
 ---
 
 いままでVue.jsのテンプレートでWebサービスを作ったことはあったのですが、Nuxtでちゃんと作ったことがなかったので勉強しています。
