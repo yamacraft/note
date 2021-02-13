@@ -80,7 +80,7 @@ Dockerでの対応方法に関しては、以前に記事で書いているの�
 [easylauncherをdocker上でも使えるようにする \| 山田航空ネットワーク3rd](/note/easy-launcher-use-docker/)
 
 なお、アダプティブアイコンを導入している（する）のであれば、backgroundをbuildTypeごとに変えてしまうという手もあります。
-他にもアイコンのリソースそのものをbuildTypeごとに変えてしまうのもよいでしょう。
+ほかにもアイコンのリソースそのものをbuildTypeごとに変えてしまうのもよいでしょう。
 そのあたりの判断は、ケースバイケースです。
 
 [Adaptive icons  \|  Android Developers](https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive)
