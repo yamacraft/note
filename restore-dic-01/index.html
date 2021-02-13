@@ -8,7 +8,7 @@
 下手にADT時代のプロジェクトを弄っても時間がかかるだけですし、あとあとのメンテナンスのしづらさの原因にもなることでしょう。</p><p>あとはテスト関連がちゃんと実装されているのなら、そちらもCLI（gradlew）で実行できることを確認しておきます。</p><h3 id=easylauncherを利用したアイコンによるbuildtypeの可視化>easylauncherを利用した、アイコンによるbuildTypeの可視化</h3><p><a href=https://github.com/akaita/easylauncher-gradle-plugin>akaita/easylauncher-gradle-plugin</a></p><p>easylauncherを導入することで、buildType（＋Flavors）ごとにアプリアイコンへリボン表記を追加できます。
 デバッグ版とリリース版を区別しやすくする方法として、文字列リソースを使ってアプリタイトルを変える方法もありますが、こちらも導入することでより分かりやすくなります。</p><p>ちなみにeasylauncherはビルドするマシンがインストールしているフォントを利用してリボンを生成するので、事前にCI環境へフォントをインストールする必要があります。
 Dockerでの対応方法に関しては、以前に記事で書いているので、こちらをご参照ください。</p><p><a href=/note/easy-launcher-use-docker/>easylauncherをdocker上でも使えるようにする | 山田航空ネットワーク3rd</a></p><p>なお、アダプティブアイコンを導入している（する）のであれば、backgroundをbuildTypeごとに変えてしまうという手もあります。
-他にもアイコンのリソースそのものをbuildTypeごとに変えてしまうのもよいでしょう。
+ほかにもアイコンのリソースそのものをbuildTypeごとに変えてしまうのもよいでしょう。
 そのあたりの判断は、ケースバイケースです。</p><p><a href=https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive>Adaptive icons  |  Android Developers</a></p><h3 id=firebase-app-distributionとdeploygateのどちらを採用すべきか>Firebase App DistributionとDeployGateのどちらを採用すべきか</h3><p>社内の開発アプリ配布ツールを選択する上でメジャーどころといえばこの2つですが、個人的にはどちらでも（開発者視点では）問題ありません。
 Androidアプリに関して言えば、どちらもgradleプラグインが用意されていて、どちらもCLIでデプロイが可能だからです。</p><p>Firebase App DistributionはGoogleが開発していることと、金銭的なコストは一切発生しない点が大きなメリットですが、配布ページや専用アプリがローカライズされていません。
 また、不特定多数向けた配布も行えません。
