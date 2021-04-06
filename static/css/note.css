@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;700&family=Roboto:wght@400;700&display=swap');
 
 .site-content-custom {
     min-height: 60vh;
@@ -17,5 +17,51 @@
     font-family: 'Roboto', 'Noto Serif JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     line-height: 2;
     font-size: 20px;
+    font-weight: 300;
     color: #222;
+}
+
+/* table */
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+body tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+}
+
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+    display: table-cell;
+    vertical-align: inherit;
 }
