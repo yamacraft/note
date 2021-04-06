@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;700&family=Roboto:wght@400;700&display=swap');
 
 .site-content-custom {
     min-height: 60vh;
@@ -17,6 +17,7 @@
     font-family: 'Roboto', 'Noto Serif JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     line-height: 2;
     font-size: 20px;
+    font-weight: 300;
     color: #222;
 }
 
