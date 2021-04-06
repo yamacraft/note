@@ -19,3 +19,48 @@
     font-size: 20px;
     color: #222;
 }
+
+/* table */
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+body tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+}
+
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+    display: table-cell;
+    vertical-align: inherit;
+}
