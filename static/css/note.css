@@ -21,6 +21,10 @@
     color: #222;
 }
 
+.article-post h2,.article-post h3  {
+    margin-top: 1.5em;
+}
+
 /* table */
 table {
     margin-bottom: 1rem;
