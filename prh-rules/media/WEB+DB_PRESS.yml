@@ -1993,8 +1993,8 @@ rules:
     pattern:  /ハンドラー/
   - expected: ビューア
     pattern:  /ビューアー|ビューワー|ビューワ/
-  - expected: ビルダ
-    pattern:  /ビルダー/
+#  - expected: ビルダ
+#    pattern:  /ビルダー/
   - expected: ビルトイン
     pattern:  /ビルドイン/
   - expected: ヒット率
