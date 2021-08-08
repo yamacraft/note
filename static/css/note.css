@@ -29,6 +29,76 @@
     margin-bottom: 1.5em;
 }
 
+/* tag cloud */
+
+.transpdark2 {
+    background: rgba(0, 0, 0, 0);
+    color: #000;
+}
+
+@media (max-width:999px) {
+    .jumbotron2.fortags {
+        margin-bottom: 0 !Important;
+    }
+    .jumbotron2 {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
+
+@media (min-width:768px) {
+    .jumbotron2.fortags {
+        margin-bottom: -50px;
+        margin-top: 3rem;
+        padding: 0;
+        height: 350px;
+        border-radius: 0;
+        background-size: cover;
+    }
+
+    /* .jumbotron2.fortags .col-md-4 {
+        background: rgba(0, 0, 0, 0.75);
+        color: #fff;
+    } */
+
+    .jumbotron2.fortags .row {
+        margin: 0;
+    }
+}
+
+.jumbotron2.fortags {
+    margin-top: 3rem;
+    padding: 0;
+    border-radius: 0;
+    background-size: cover;
+}
+
+.jumbotron2.fortags a {
+    padding: 5px 10px 7px;
+    background: #00ab6b;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.layout-page .jumbotron2.fortags {
+    display: none;
+}
+
+a.tags {
+    padding: 5px 10px 7px;
+    background: #00ab6b;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
 /* table */
 table {
     margin-bottom: 1rem;
