@@ -16,4 +16,5 @@ description="yamacraftの雑記"
 license = "CC BY 4.0"
 licenseURL = "https://creativecommons.org/licenses/by/4.0/deed.ja"
 
+images = ["image/ogp.png"]
 customCss = ["css/note.css"]
