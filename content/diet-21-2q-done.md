@@ -16,7 +16,7 @@ tags: ["diary", "workout"]
 
 ## 結果
 
-体組成計で記録した体重、体脂肪率、除脂肪重の繊維です。
+体組成計で記録した体重、体脂肪率、除脂肪重の推移です。
 
 ![体重推移](/note/image/diet-21-2q-done/chart_weight.png)
 
