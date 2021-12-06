@@ -2222,10 +2222,10 @@ rules:
     pattern:  /プランナ([^ー])/
   - expected: $1マスタ$2
     pattern:  /(?:([^ム])マスター)|(?:マスター([^.]))/
-  - expected: $1マスタ$2
-    pattern:  /(?:([^ム])\bMaster)|(?:Master\b([^.]))/
-  - expected: $1マスタ$2
-    pattern:  /(?:([^ム])\bmaster)|(?:master\b([^.]))/
+#  - expected: $1マスタ$2
+#    pattern:  /(?:([^ム])\bMaster)|(?:Master\b([^.]))/
+#  - expected: $1マスタ$2
+#    pattern:  /(?:([^ム])\bmaster)|(?:master\b([^.]))/
   - expected: マネージャー$1
     pattern:  /マネージャ([^ー])/
   - expected: メンテナー$1
