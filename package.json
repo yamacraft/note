@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "textlint": "textlint -f pretty-error content/",
+    "textlint": "./node_modules/.bin/textlint -f pretty-error content/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
