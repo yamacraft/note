@@ -1,6 +1,6 @@
 ---
 title: "2021 4Qやったこと"
-date: 2022-01-10T16:30:00+09:00
+date: 2022-01-10T19:00:00+09:00
 draft: false
 categories: ["work"]
 tags: ["work", "done-report"]
