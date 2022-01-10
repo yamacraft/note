@@ -1,5 +1,5 @@
 ---
-title: "2021年のヤマダ印ふりかえる"
+title: "2021年のヤマダ印をふりかえる"
 date: 2021-12-20T18:30:00+09:00
 draft: false
 tags: ["work", "yamadajirushi"]
