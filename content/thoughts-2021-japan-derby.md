@@ -2,6 +2,7 @@
 title: "2021年日本ダービーの感想"
 date: 2021-05-30T21:30:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["yodan", "keiba"]
 ---
 

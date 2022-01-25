@@ -2,6 +2,7 @@
 title: "アカウント登録方法の選定"
 date: 2021-04-23T22:15:00+09:00
 draft: false
+categories: ["tech"]
 tags: ["tech", "dabun"]
 ---
 

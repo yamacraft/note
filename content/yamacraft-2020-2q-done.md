@@ -2,6 +2,7 @@
 title: "2020 2Qやったこと"
 date: 2020-07-04T20:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "done-report"]
 ---
 
@@ -10,7 +11,6 @@ tags: ["work", "done-report"]
 ## 2020年のまとめ
 
 - [2020 1Q](https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac)
-　
 
 ## やったこと
 
@@ -18,24 +18,20 @@ tags: ["work", "done-report"]
 
 - 週４日の客先常駐のAndroidアプリ開発案件を、1Qから引き続き続けていました。
 - 1Qは全期間フルリモートでした。
-　
 
 ### 自社開発系
 
 - [AAびゅーわ](https://play.google.com/store/apps/details?id=jp.yamaglo.aaviewer) の開発をちまちまと進めています。
 - まだ全然表に出せていないレベルですが、Nuxtの勉強がてらで新しいWebサービスを開発中です。
   - 2Q中リリース目標でしたが、だめでした。3Q中にリリースするつもりでがんばります。
-　
 
 ### 他の業務関連
 
 - ヤマダ印の法人口座がひとつ増えました（６月）
-　
 
 ### その他プライベート方面のトピック
 
 - ブログをGitHub Pages + Hugo (+ CI) で再構築しました。つまりここです。
-　
 
 ## 売上／支援報告
 
@@ -47,7 +43,6 @@ tags: ["work", "done-report"]
 5月|¥0|
 6月|¥0|
 合計|¥0
-　
 
 ### 支援（Kyashなど）
 
@@ -57,7 +52,6 @@ tags: ["work", "done-report"]
 5月|¥0
 6月|¥0
 合計|¥0
-　
 
 ## 今後の予定／雑感など
 

@@ -2,6 +2,7 @@
 title: "Hometeのα版（オープンテスト）をリリースしました"
 date: 2021-06-30T22:30:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "android", "homete"]
 ---
 

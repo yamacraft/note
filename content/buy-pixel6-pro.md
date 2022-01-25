@@ -2,6 +2,7 @@
 title: "Pixel6 Proを買いました"
 date: 2021-11-15T18:30:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "android", "pixel"]
 ---
 

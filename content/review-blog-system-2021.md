@@ -2,6 +2,7 @@
 title: "山田航空ネットワーク3rdを支える技術の振り返り（2021）"
 date: 2021-12-27T18:30:00+09:00
 draft: false
+categories: ["tech"]
 tags: ["tech", "blog", "hugo", "github"]
 ---
 

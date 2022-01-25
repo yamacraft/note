@@ -2,6 +2,7 @@
 title: "１回目の新型コロナウイルスワクチンの接種が終わった"
 date: 2021-09-05T15:00:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary"]
 ---
 

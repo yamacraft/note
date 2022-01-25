@@ -2,6 +2,7 @@
 title: "UnityとBlenderを再入門した"
 date: 2020-07-27T17:21:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "study", "unity", "blender"]
 ---
 

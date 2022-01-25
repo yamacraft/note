@@ -2,6 +2,7 @@
 title: "ブログを移転した"
 date: 2020-05-17T23:00:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "notice"]
 ---
 

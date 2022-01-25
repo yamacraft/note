@@ -2,6 +2,7 @@
 title: "2021年2Q 減量結果報告"
 date: 2021-07-05T21:30:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "workout"]
 ---
 

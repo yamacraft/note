@@ -2,6 +2,7 @@
 title: "2020 3Qやったこと"
 date: 2020-10-15T20:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "done-report"]
 ---
 
@@ -11,7 +12,7 @@ tags: ["work", "done-report"]
 
 - [2020 1Q](https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac)
 - [2020 2Q](/note/yamacraft-2020-2q-done/)
-　
+
 ## やったこと
 
 ### 開発支援

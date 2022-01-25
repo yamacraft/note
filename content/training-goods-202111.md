@@ -2,6 +2,7 @@
 title: "愛用している室内トレーニングアイテム 2021年版"
 date: 2021-11-01T20:00:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "workout"]
 ---
 

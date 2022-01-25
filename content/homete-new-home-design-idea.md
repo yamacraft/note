@@ -2,6 +2,7 @@
 title: "Hometeの新しいホーム画面のデザイン案"
 date: 2021-07-19T22:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "android", "homete"]
 ---
 

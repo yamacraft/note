@@ -2,6 +2,7 @@
 title: "2020 4Qやったこと"
 date: 2020-12-31T12:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "done-report"]
 ---
 
