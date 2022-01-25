@@ -2,6 +2,7 @@
 title: "アウトプットのリハビリをやっていく"
 date: 2020-09-14T20:00:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary"]
 ---
 

@@ -2,6 +2,7 @@
 title: "WebViewで表示しているWebページのHTMLを取得する(deprecated)"
 date: 2020-12-19T00:00:00+09:00
 draft: false
+categories: ["tech"]
 tags: ["tech", "android"]
 ---
 

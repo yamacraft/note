@@ -2,6 +2,7 @@
 title: "Nuxtの勉強を始めた（2020年10月号）"
 date: 2020-10-29T21:00:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["diary", "study", "nuxt"]
 ---
 

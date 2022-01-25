@@ -2,6 +2,7 @@
 title: "2021 2Qやったこと"
 date: 2021-07-05T16:30:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "done-report"]
 ---
 

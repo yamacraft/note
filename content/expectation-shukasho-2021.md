@@ -2,6 +2,7 @@
 title: "2021秋華賞の期待"
 date: 2021-10-16T22:30:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["yodan", "keiba"]
 ---
 

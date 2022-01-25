@@ -2,6 +2,7 @@
 title: "いま開発中のアプリ（サービス）についての状況報告"
 date: 2021-05-31T22:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "homete"]
 ---
 

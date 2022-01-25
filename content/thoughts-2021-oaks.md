@@ -2,6 +2,7 @@
 title: "ソダシのオークス敗戦を見て感じたことをいろいろ書きたい"
 date: 2021-05-24T22:30:00+09:00
 draft: false
+categories: ["diary"]
 tags: ["yodan", "keiba"]
 ---
 

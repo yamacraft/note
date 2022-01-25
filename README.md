@@ -11,6 +11,15 @@ https://yamacraft.github.io/note
 $ hugo new <filename>.md
 ```
 
+### カテゴリー
+
+- tech
+  - techのみ
+- work
+  - workのみ
+- diary
+  - diary、poem、yodan含む
+
 ### 基本タグ
 
 すべての記事は、必ずこのタグが１つ以上あるようにする。

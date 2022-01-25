@@ -2,6 +2,7 @@
 title: "Google I/O 2021のアーカイブ視聴用メモ"
 date: 2021-05-18T20:00:00+09:00
 draft: false
+categories: ["tech"]
 tags: ["tech", "googleIO", "Android", "firebase"]
 ---
 

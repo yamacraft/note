@@ -2,6 +2,7 @@
 title: "合同会社ヤマダ印を設立して１年が経ちました"
 date: 2020-12-03T21:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "yamadajirushi"]
 ---
 

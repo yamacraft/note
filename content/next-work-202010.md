@@ -2,6 +2,7 @@
 title: "【終了】2020年10月からのお仕事を探しています"
 date: 2020-07-18T10:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "notice", "yamadajirushi"]
 ---
 

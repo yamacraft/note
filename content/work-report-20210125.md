@@ -2,6 +2,7 @@
 title: "作業記録（2021年1月25日）"
 date: 2021-01-25T18:00:00+09:00
 draft: false
+categories: ["work"]
 tags: ["work", "android"]
 ---
 
