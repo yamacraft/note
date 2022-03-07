@@ -1,0 +1,256 @@
+<!doctype html><html lang=ja-jp><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=generator content="Hugo 0.93.2">
+<link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
+<link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
+<link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
+<link rel=apple-touch-icon sizes=76x76 href=/note/ico/apple-icon-76x76.png>
+<link rel=apple-touch-icon sizes=114x114 href=/note/ico/apple-icon-114x114.png>
+<link rel=apple-touch-icon sizes=120x120 href=/note/ico/apple-icon-120x120.png>
+<link rel=apple-touch-icon sizes=144x144 href=/note/ico/apple-icon-144x144.png>
+<link rel=apple-touch-icon sizes=152x152 href=/note/ico/apple-icon-152x152.png>
+<link rel=apple-touch-icon sizes=180x180 href=/note/ico/apple-icon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href=/note/ico/android-icon-192x192.png>
+<link rel=icon type=image/png sizes=32x32 href=/note/ico/favicon-32x32.png>
+<link rel=icon type=image/png sizes=96x96 href=/note/ico/favicon-96x96.png>
+<link rel=icon type=image/png sizes=16x16 href=/note/ico/favicon-16x16.png>
+<link rel=manifest href=/note/ico/manifest.json>
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
+<meta name=theme-color content="#ffffff">
+<title>CIでAndroidのSecretファイルをどう扱うか（2022年最新版） | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
+<meta name=twitter:title content="CIでAndroidのSecretファイルをどう扱うか（2022年最新版）">
+<meta name=twitter:description content="AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。 たとえ">
+<meta property="og:title" content="CIでAndroidのSecretファイルをどう扱うか（2022年最新版）">
+<meta property="og:description" content="AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。 たとえ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/"><meta property="og:image" content="https://yamacraft.github.io/note/image/ogp.png"><meta property="article:section" content>
+<meta property="article:published_time" content="2022-03-07T17:30:00+09:00">
+<meta property="article:modified_time" content="2022-03-07T17:30:00+09:00">
+<link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css rel=stylesheet integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous>
+<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel=stylesheet>
+<link href=/note/css/medium.css rel=stylesheet>
+<link href=/note/css/additional.css rel=stylesheet>
+<link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
+</head><body>
+<div class=site-content-custom>
+<div class=container>
+<div class=mainheading>
+<a href=https://yamacraft.github.io/note/>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
+<p class=lead>
+<a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
+記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
+</p></div><div class=main-content>
+<div class=container>
+<div class=row>
+<div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
+<p>Share</p><ul>
+<li class="ml-1 mr-1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=CI%e3%81%a7Android%e3%81%aeSecret%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e3%81%a9%e3%81%86%e6%89%b1%e3%81%86%e3%81%8b%ef%bc%882022%e5%b9%b4%e6%9c%80%e6%96%b0%e7%89%88%ef%bc%89 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fmanage-secret-file-at-ci-2022%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
+<i class="fab fa-twitter"></i>
+</a>
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fmanage-secret-file-at-ci-2022%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
+<i class="fab fa-facebook-f"></i>
+</a>
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
+<div class=mainheading>
+<span class=post-date>Mar 7, 2022 - 4 min read</span>
+<h1 class=posttitle>CIでAndroidのSecretファイルをどう扱うか（2022年最新版）</h1><div class=after-post-tags>
+<ul class=tags>
+<li>
+<a href=/note/tags/tech>tech</a>&ensp;
+</li><li>
+<a href=/note/tags/ci>ci</a>&ensp;
+</li><li>
+<a href=/note/tags/android>android</a>&ensp;
+</li><li>
+<a href=/note/tags/github-actions>GitHub Actions</a>&ensp;
+</li><li>
+<a href=/note/tags/circle-ci>Circle CI</a>&ensp;
+</li></ul></div></div><div class=article-post>
+<p>AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。
+たとえばリリース用のkeystoreファイルだったり、そのファイル関連のパスワード情報などです。</p><p>単純なテキストデータであれば、CIの環境変数（GitHub Actionsで言うならActions secrets）に保存するのが一般的です。
+バイナリデータの場合はどう扱うべきでしょうか。</p><p>以前自分はバイナリデータであればOpenSSLで暗号化してリポジトリに保存、CIで複合するという手段を取っていました。
+ただOpenSSLは何度か大きな脆弱性が発見されるようになったため、採用は避けるようにしました。
+その後、特にCI上でアプリをデプロイする必要がなくなったこともあり、代替手段は特に考えていませんでした。</p><p>ですが最近、CI上でアプリをデプロイするしくみがまた欲しくなってきたので、あらためてこの対応策を考えることにしました。</p><p>考えるといっても、ゼロから考えたところでよい手段は見つかりません。
+そこでエンジニアの集合知を利用するため、DroidKaigiの公式カンファレンスアプリのプロジェクトを参考とすることにしました。
+調べたところ、2020年版、2021年版ともにシークレットファイルを<a href=https://gnupg.org/>GnuPG</a>で暗号化したものをリポジトリに加えています。</p><ul>
+<li><a href=https://github.com/DroidKaigi/conference-app-2020/tree/master/.encrypted>https://github.com/DroidKaigi/conference-app-2020/tree/master/.encrypted</a></li><li><a href=https://github.com/DroidKaigi/conference-app-2021/tree/main/android>https://github.com/DroidKaigi/conference-app-2021/tree/main/android</a></li></ul><p>2020年版では<a href=https://github.com/DroidKaigi/conference-app-2020/blob/master/.github/android/decrypt-files.bash>複合シェルスクリプトの内容</a>から、リリース用のkeystoreとgoogle-services.jsonをzipでアーカイブしたものを暗号化しているようです。
+一方2021年版では、ファイルごとに同じパスフレーズで暗号化を施しています。
+また、keystoreのaliasやパスワード情報を、<code>signing.properties</code>に保存して、これも暗号化を施しています。
+これは2020年版同様に、2021年版の<a href=https://github.com/DroidKaigi/conference-app-2021/blob/main/scripts/decrypt_secrets.sh>複合シェルスクリプトの内容</a>から判断が可能です。
+個人的な好き嫌いの話であれば、2021年版のやり方の方が私は好みです。</p><pre tabindex=0><code class=language-properties data-lang=properties># おそらくsigning.propertiesは、このような内容になっている
+storePassword=XXXXXXXXXXX
+keyAlias=XXXXXXXXXXXX
+keyPassword=XXXXXXXXXXXX
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gradle data-lang=gradle><span style=display:flex><span><span style=color:#75715e>// android/build.gradle
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>signingConfigs <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    release <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>def</span> signingPropertyFile <span style=color:#f92672>=</span> file<span style=color:#f92672>(</span><span style=color:#e6db74>&#39;signing.properties&#39;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span> <span style=color:#f92672>(</span>signingPropertyFile<span style=color:#f92672>.</span><span style=color:#a6e22e>exists</span><span style=color:#f92672>())</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>def</span> fileInputStream <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> FileInputStream<span style=color:#f92672>(</span>signingPropertyFile<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>def</span> props <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> Properties<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>            props<span style=color:#f92672>.</span><span style=color:#a6e22e>load</span><span style=color:#f92672>(</span>fileInputStream<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>            fileInputStream<span style=color:#f92672>.</span><span style=color:#a6e22e>close</span><span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>            storeFile <span style=color:#a6e22e>file</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;release.keystore&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>            storePassword props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;storePassword&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>            keyAlias props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;keyAlias&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>            keyPassword  props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;keyPassword&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>特にsigning.propertiesの読み込み方が好きです。
+signingConfigsの中でプロパティファイルを読み込むことで、コントリビューターは開発に関係のないファイルを意識する必要がありません。</p><p>実は2020年版が公開された時点で、シークレットファイルの暗号化にGnuPGを使っていることは把握していました。
+ただ、なぜこれを採用理由まで把握していなかったのですが、GitHubの方で採用されていたようですね。</p><p><a href=https://docs.github.com/ja/actions/security-guides/encrypted-secrets>暗号化されたシークレット - GitHub Docs</a></p><p>ちなみに小さなバイナリデータであれば、BASE64にしたものを環境変数に保存してもヨシとしているようです。</p><h2 id=サンプル>サンプル</h2><p>ということで、私的なメモ代わりにCircle CIとGitHub Actionsのサンプルを掲載します。</p><h3 id=専用のプロパティファイルの作成>専用のプロパティファイルの作成</h3><p>keystoreのAliasやパスワードは、専用のプロパティファイル（<code>signing.properties</code>）に記述します。</p><pre tabindex=0><code class=language-properties data-lang=properties>storePassword=XXXXXXXXXXX
+keyAlias=XXXXXXXXXXXX
+keyPassword=XXXXXXXXXXXX
+</code></pre><p>そして<code>signingConfigs.release</code>内でのみ、このプロパティファイルを読むようにします。
+DroidKaigi2021のカンファレンスアプリとまったく同じです。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gradle data-lang=gradle><span style=display:flex><span>    signingConfigs <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>        debug <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>            <span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>        release <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>def</span> signingPropertyFile <span style=color:#f92672>=</span> file<span style=color:#f92672>(</span><span style=color:#e6db74>&#39;signing.properties&#39;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>if</span> <span style=color:#f92672>(</span>signingPropertyFile<span style=color:#f92672>.</span><span style=color:#a6e22e>exists</span><span style=color:#f92672>())</span> <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>                <span style=color:#66d9ef>def</span> fileInputStream <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> FileInputStream<span style=color:#f92672>(</span>signingPropertyFile<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>                <span style=color:#66d9ef>def</span> props <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> Properties<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>                props<span style=color:#f92672>.</span><span style=color:#a6e22e>load</span><span style=color:#f92672>(</span>fileInputStream<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>                fileInputStream<span style=color:#f92672>.</span><span style=color:#a6e22e>close</span><span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>                storeFile <span style=color:#a6e22e>file</span><span style=color:#f92672>(</span><span style=color:#e6db74>&#34;release.keystore&#34;</span><span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>                storePassword props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;RELEASE_STORE_PASSWORD&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>                keyAlias props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;RELEASE_KEY_ALIAS&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>                keyPassword props<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;RELEASE_KEY_PASSWORD&#39;</span><span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>            <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span></code></pre></div><h3 id=暗号化>暗号化</h3><p>そして必要なファイルを暗号化します。
+なお暗号化と複合部分も、GitHubのドキュメントやDroidKaigi公式カンファレンスアプリで行われている内容そのままです。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#75715e># 暗号化、パスフレーズの入力を求められる（30文字以上のパスフレーズを入力してます）</span>
+</span></span><span style=display:flex><span>gpg --symmetric --cipher-algo AES256 -o <span style=color:#e6db74>&#34;app/google-services.json.gpg&#34;</span> <span style=color:#e6db74>&#34;app/google-services.json&#34;</span>
+</span></span><span style=display:flex><span>gpg --symmetric --cipher-algo AES256 -o <span style=color:#e6db74>&#34;app/release.keystore.gpg&#34;</span> <span style=color:#e6db74>&#34;app/release.keystore&#34;</span>
+</span></span><span style=display:flex><span>gpg --symmetric --cipher-algo AES256 -o <span style=color:#e6db74>&#34;app/signing.properties.gpg&#34;</span> <span style=color:#e6db74>&#34;app/signing.properties&#34;</span>
+</span></span></code></pre></div><h3 id=複合シェルスクリプトの用意>複合シェルスクリプトの用意</h3><p><code>scripts/decrypt_secrets.sh</code> を作成します。
+CIではこのファイルを使って複合させます。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#75715e>#!/bin/sh
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>gpg --quiet --batch --yes --decrypt --passphrase<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$SECRET_PASSPHRASE<span style=color:#e6db74>&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --output <span style=color:#e6db74>&#34;app/google-services.json&#34;</span> <span style=color:#e6db74>&#34;app/google-services.json.gpg&#34;</span>
+</span></span><span style=display:flex><span>gpg --quiet --batch --yes --decrypt --passphrase<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$SECRET_PASSPHRASE<span style=color:#e6db74>&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --output <span style=color:#e6db74>&#34;app/release.keystore&#34;</span> <span style=color:#e6db74>&#34;app/release.keystore.gpg&#34;</span>
+</span></span><span style=display:flex><span>gpg --quiet --batch --yes --decrypt --passphrase<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;</span>$SECRET_PASSPHRASE<span style=color:#e6db74>&#34;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  --output <span style=color:#e6db74>&#34;app/signing.properties&#34;</span> <span style=color:#e6db74>&#34;app/signing.properties.gpg&#34;</span>
+</span></span></code></pre></div><h3 id=circle-ciでの設定>Circle CIでの設定</h3><p>Environment Variablesで<code>SECRET_PASSPHRASE</code>を設定します。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#75715e># Circle CI</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>version</span>: <span style=color:#ae81ff>2.1</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>executors</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>android</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>working_directory</span>: <span style=color:#ae81ff>~/android</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>docker</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>image</span>: <span style=color:#ae81ff>cimg/android:2022.01.1</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>jobs</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>build</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>executor</span>: <span style=color:#ae81ff>android</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>steps</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>checkout</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>name</span>: <span style=color:#ae81ff>install package （もしかしたら不要かも）</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>command</span>: <span style=color:#ae81ff>sudo apt install -y gpg</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>name</span>: <span style=color:#ae81ff>decrypt secrets</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>command</span>: <span style=color:#ae81ff>./scripts/decrypt_secrets.sh</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Build and Upload App Distribution</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>command</span>: <span style=color:#ae81ff>./gradlew --stacktrace assembleRelease</span>
+</span></span></code></pre></div><h3 id=github-actionsでの設定>GitHub Actionsでの設定</h3><p>Actions secretsで<code>SECRET_PASSPHRASE</code>を設定します。
+なお、GnuPGは最初からインストールされているようです。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#75715e># masterブランチの更新で実行</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>name</span>: <span style=color:#66d9ef>On</span> <span style=color:#ae81ff>master branch</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>on</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>push</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>branches</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>master</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>jobs</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>build</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>runs-on</span>: <span style=color:#ae81ff>ubuntu-latest</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>steps</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>actions/checkout@v2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>with</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>fetch-depth</span>: <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Setup decrypt secret files</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>run</span>: <span style=color:#ae81ff>./scripts/decrypt_secrets.sh</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>env</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>SECRET_PASSPHRASE</span>: <span style=color:#ae81ff>${{ secrets.SECRET_PASSPHRASE }}</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>run build</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>run</span>: <span style=color:#ae81ff>./gradlew --stacktrace assembleRelease</span>
+</span></span></code></pre></div><p>以上です。</p></div><div class=after-post-tags>
+<ul class=tags>
+<li>
+<a href=/note/tags/tech>tech</a>&ensp;
+</li><li>
+<a href=/note/tags/ci>ci</a>&ensp;
+</li><li>
+<a href=/note/tags/android>android</a>&ensp;
+</li><li>
+<a href=/note/tags/github-actions>GitHub Actions</a>&ensp;
+</li><li>
+<a href=/note/tags/circle-ci>Circle CI</a>&ensp;
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+<a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/buy-contessa-seconda/>椅子をコンテッサセコンダに変えた &#187;</a>
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
+<div class="d-md-flex h-100">
+<div class="col-md-4 transpdark2 align-self-center text-center h-100">
+<div class="d-md-flex align-items-center justify-content-center h-100">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
+<a class="mt-1 mb-1" href=/note/tags/android>android</a>
+<a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
+<a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
+<a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
+<a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
+<a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
+<a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/docker>docker</a>
+<a class="mt-1 mb-1" href=/note/tags/done-report>done-report</a>
+<a class="mt-1 mb-1" href=/note/tags/easylauncher>easylauncher</a>
+<a class="mt-1 mb-1" href=/note/tags/firebase>firebase</a>
+<a class="mt-1 mb-1" href=/note/tags/github>github</a>
+<a class="mt-1 mb-1" href=/note/tags/github-actions>github-actions</a>
+<a class="mt-1 mb-1" href=/note/tags/googleio>googleio</a>
+<a class="mt-1 mb-1" href=/note/tags/homete>homete</a>
+<a class="mt-1 mb-1" href=/note/tags/hugo>hugo</a>
+<a class="mt-1 mb-1" href=/note/tags/keiba>keiba</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design>material-design</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design3>material-design3</a>
+<a class="mt-1 mb-1" href=/note/tags/notice>notice</a>
+<a class="mt-1 mb-1" href=/note/tags/nuxt>nuxt</a>
+<a class="mt-1 mb-1" href=/note/tags/pixel>pixel</a>
+<a class="mt-1 mb-1" href=/note/tags/poem>poem</a>
+<a class="mt-1 mb-1" href=/note/tags/study>study</a>
+<a class="mt-1 mb-1" href=/note/tags/tech>tech</a>
+<a class="mt-1 mb-1" href=/note/tags/tsubo>tsubo</a>
+<a class="mt-1 mb-1" href=/note/tags/unity>unity</a>
+<a class="mt-1 mb-1" href=/note/tags/work>work</a>
+<a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
+<a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
+<a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
+</div></div></div><footer class=footer>
+<div class=container>
+<div class=row>
+<div class="col-md-6 col-sm-6 text-center text-lg-left">
+&copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
+<a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
+<script src=/note/js/mediumish.js></script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>

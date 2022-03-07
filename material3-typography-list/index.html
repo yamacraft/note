@@ -1,7 +1,7 @@
 <!doctype html><html lang=ja-jp><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.93.2">
 <link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
@@ -19,8 +19,7 @@
 <meta name=msapplication-TileColor content="#ffffff">
 <meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
 <meta name=theme-color content="#ffffff">
-<title>Material Design3でTypographyが変わった | 山田航空ネットワーク3rd</title>
-<meta name=twitter:card content="summary_large_image">
+<title>Material Design3でTypographyが変わった | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
 <meta name=twitter:title content="Material Design3でTypographyが変わった">
 <meta name=twitter:description content="Material3の正式リリース 先日、Android版のmaterial-componentsの1.5.0がリリースされました。 このリリース">
@@ -36,203 +35,92 @@
 <link href=/note/css/medium.css rel=stylesheet>
 <link href=/note/css/additional.css rel=stylesheet>
 <link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
-</head>
-<body>
+</head><body>
 <div class=site-content-custom>
 <div class=container>
 <div class=mainheading>
 <a href=https://yamacraft.github.io/note/>
-<h1 class=sitetitle>山田航空ネットワーク3rd</h1>
-</a>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
 <p class=lead>
 <a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
 記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
-</p>
-</div><div class=main-content>
+</p></div><div class=main-content>
 <div class=container>
 <div class=row>
 <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
-<p>Share</p>
-<ul>
+<p>Share</p><ul>
 <li class="ml-1 mr-1">
-<a target=_blank href="https://twitter.com/intent/tweet?text=Material%20Design3%e3%81%a7Typography%e3%81%8c%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%9f - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fmaterial3-typography-list%2f" onclick="return window.open(this.href,'twitter-share','width=550,height=435'),!1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=Material%20Design3%e3%81%a7Typography%e3%81%8c%e5%a4%89%e3%82%8f%e3%81%a3%e3%81%9f - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fmaterial3-typography-list%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
 <i class="fab fa-twitter"></i>
 </a>
-</li>
-<li class="ml-1 mr-1">
-<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fmaterial3-typography-list%2f" onclick="return window.open(this.href,'facebook-share','width=550,height=435'),!1">
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fmaterial3-typography-list%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
 <i class="fab fa-facebook-f"></i>
 </a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-9 flex-first flex-md-unordered">
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
 <div class=mainheading>
 <span class=post-date>Jan 20, 2022 - 2 min read</span>
-<h1 class=posttitle>Material Design3でTypographyが変わった</h1>
-<div class=after-post-tags>
+<h1 class=posttitle>Material Design3でTypographyが変わった</h1><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/material-design3>Material Design3</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/material-design>Material Design</a>&ensp;
-</li>
-</ul>
-</div>
-</div>
-<div class=article-post>
-<h2 id=material3の正式リリース>Material3の正式リリース</h2>
-<p>先日、Android版のmaterial-componentsの1.5.0がリリースされました。
-このリリースバージョンから<a href=https://m3.material.io/>Material Design3</a>が含まれるようになりました。</p>
-<p><a href=https://github.com/material-components/material-components-android/releases/tag/1.5.0>Release 1.5.0 · material-components/material-components-android</a></p>
-<h2 id=material3のテキストtypographyについて>Material3のテキスト（Typography）について</h2>
-<p>Material3（Material Design3対応のテーマ）といえば色周りが（多分）注目されがちですが、Typographyにも大きな変更が入っています。
+</li></ul></div></div><div class=article-post>
+<h2 id=material3の正式リリース>Material3の正式リリース</h2><p>先日、Android版のmaterial-componentsの1.5.0がリリースされました。
+このリリースバージョンから<a href=https://m3.material.io/>Material Design3</a>が含まれるようになりました。</p><p><a href=https://github.com/material-components/material-components-android/releases/tag/1.5.0>Release 1.5.0 · material-components/material-components-android</a></p><h2 id=material3のテキストtypographyについて>Material3のテキスト（Typography）について</h2><p>Material3（Material Design3対応のテーマ）といえば色周りが（多分）注目されがちですが、Typographyにも大きな変更が入っています。
 これまではHeadline / Subtitle / Body / Captionで分けられていた名称がDisplay / Headline / Title / Labelの項目に変わりました。
-さらにそれぞれ、Large / Medium / Smallの3種類の大きさが用意されています。</p>
-<p>ただしこれらのテキスト設定は、完全に新規で作られたというわけではなく、既存のMaterial Componentsがベースになっています。
-今後既存のMaterial Designからのマイグレーションをやったときの事を考え、Material3のそれぞれの設定が過去の何の設定をベースにしているか一覧にしてみました。</p>
-<table>
+さらにそれぞれ、Large / Medium / Smallの3種類の大きさが用意されています。</p><p>ただしこれらのテキスト設定は、完全に新規で作られたというわけではなく、既存のMaterial Componentsがベースになっています。
+今後既存のMaterial Designからのマイグレーションをやったときの事を考え、Material3のそれぞれの設定が過去の何の設定をベースにしているか一覧にしてみました。</p><table>
 <thead>
 <tr>
-<th style=text-align:left>Material3</th>
-<th style=text-align:left>Material Components</th>
-<th style=text-align:left>Default Size(M3)</th>
-</tr>
-</thead>
-<tbody>
+<th style=text-align:left>Material3</th><th style=text-align:left>Material Components</th><th style=text-align:left>Default Size(M3)</th></tr></thead><tbody>
 <tr>
-<td style=text-align:left>DisplayLarge</td>
-<td style=text-align:left>Headline2</td>
-<td style=text-align:left>Regular 57sp</td>
-</tr>
-<tr>
-<td style=text-align:left>DisplayMedium</td>
-<td style=text-align:left>Headline3</td>
-<td style=text-align:left>Regular 45sp</td>
-</tr>
-<tr>
-<td style=text-align:left>DisplaySmall</td>
-<td style=text-align:left>Headline4</td>
-<td style=text-align:left>Regular 36sp</td>
-</tr>
-<tr>
-<td style=text-align:left>HeadlineLarge</td>
-<td style=text-align:left>Headline4</td>
-<td style=text-align:left>Regular 32sp</td>
-</tr>
-<tr>
-<td style=text-align:left>HeadlineMedium</td>
-<td style=text-align:left>Headline5</td>
-<td style=text-align:left>Regular 28sp</td>
-</tr>
-<tr>
-<td style=text-align:left>HeadlineSmall</td>
-<td style=text-align:left>Headline6</td>
-<td style=text-align:left>Regular 24sp</td>
-</tr>
-<tr>
-<td style=text-align:left>TitleLarge</td>
-<td style=text-align:left>Headline6</td>
-<td style=text-align:left>Regular 22sp</td>
-</tr>
-<tr>
-<td style=text-align:left>TitleMedium</td>
-<td style=text-align:left>Subtitle1</td>
-<td style=text-align:left>Medium 16sp</td>
-</tr>
-<tr>
-<td style=text-align:left>TitleSmall</td>
-<td style=text-align:left>Subtitle2</td>
-<td style=text-align:left>Medium 14sp</td>
-</tr>
-<tr>
-<td style=text-align:left>BodyLarge</td>
-<td style=text-align:left>Body1</td>
-<td style=text-align:left>Regular 16sp</td>
-</tr>
-<tr>
-<td style=text-align:left>BodyMedium</td>
-<td style=text-align:left>Body2</td>
-<td style=text-align:left>Regular 14sp</td>
-</tr>
-<tr>
-<td style=text-align:left>BodySmall</td>
-<td style=text-align:left>Caption</td>
-<td style=text-align:left>Regular 12sp</td>
-</tr>
-<tr>
-<td style=text-align:left>LabelLarge</td>
-<td style=text-align:left>Body2</td>
-<td style=text-align:left>Medium 14sp</td>
-</tr>
-<tr>
-<td style=text-align:left>LabelMedium</td>
-<td style=text-align:left>Caption</td>
-<td style=text-align:left>Medium 12sp</td>
-</tr>
-<tr>
-<td style=text-align:left>LabelSmall</td>
-<td style=text-align:left>Caption</td>
-<td style=text-align:left>Medium 11sp</td>
-</tr>
-</tbody>
-</table>
-<p>とはいえ、これは1.5.0時点での対応表になるので、今後変わる可能性はあります。
+<td style=text-align:left>DisplayLarge</td><td style=text-align:left>Headline2</td><td style=text-align:left>Regular 57sp</td></tr><tr>
+<td style=text-align:left>DisplayMedium</td><td style=text-align:left>Headline3</td><td style=text-align:left>Regular 45sp</td></tr><tr>
+<td style=text-align:left>DisplaySmall</td><td style=text-align:left>Headline4</td><td style=text-align:left>Regular 36sp</td></tr><tr>
+<td style=text-align:left>HeadlineLarge</td><td style=text-align:left>Headline4</td><td style=text-align:left>Regular 32sp</td></tr><tr>
+<td style=text-align:left>HeadlineMedium</td><td style=text-align:left>Headline5</td><td style=text-align:left>Regular 28sp</td></tr><tr>
+<td style=text-align:left>HeadlineSmall</td><td style=text-align:left>Headline6</td><td style=text-align:left>Regular 24sp</td></tr><tr>
+<td style=text-align:left>TitleLarge</td><td style=text-align:left>Headline6</td><td style=text-align:left>Regular 22sp</td></tr><tr>
+<td style=text-align:left>TitleMedium</td><td style=text-align:left>Subtitle1</td><td style=text-align:left>Medium 16sp</td></tr><tr>
+<td style=text-align:left>TitleSmall</td><td style=text-align:left>Subtitle2</td><td style=text-align:left>Medium 14sp</td></tr><tr>
+<td style=text-align:left>BodyLarge</td><td style=text-align:left>Body1</td><td style=text-align:left>Regular 16sp</td></tr><tr>
+<td style=text-align:left>BodyMedium</td><td style=text-align:left>Body2</td><td style=text-align:left>Regular 14sp</td></tr><tr>
+<td style=text-align:left>BodySmall</td><td style=text-align:left>Caption</td><td style=text-align:left>Regular 12sp</td></tr><tr>
+<td style=text-align:left>LabelLarge</td><td style=text-align:left>Body2</td><td style=text-align:left>Medium 14sp</td></tr><tr>
+<td style=text-align:left>LabelMedium</td><td style=text-align:left>Caption</td><td style=text-align:left>Medium 12sp</td></tr><tr>
+<td style=text-align:left>LabelSmall</td><td style=text-align:left>Caption</td><td style=text-align:left>Medium 11sp</td></tr></tbody></table><p>とはいえ、これは1.5.0時点での対応表になるので、今後変わる可能性はあります。
 またベースと言っても、フォントサイズはMaterial3で微妙に変わっています。
-注意してください。</p>
-<h2 id=参考>参考</h2>
-<ul>
-<li><a href=https://github.com/material-components/material-components-android/blob/master/docs/theming/Typography.md>Material3に関するTypographyの公式ドキュメント</a></li>
-<li><a href=https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/typography/res/values/styles.xml>Material3のstyle.xml</a></li>
-</ul>
-</div>
-<div class=after-post-tags>
+注意してください。</p><h2 id=参考>参考</h2><ul>
+<li><a href=https://github.com/material-components/material-components-android/blob/master/docs/theming/Typography.md>Material3に関するTypographyの公式ドキュメント</a></li><li><a href=https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/typography/res/values/styles.xml>Material3のstyle.xml</a></li></ul></div><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/material-design3>Material Design3</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/material-design>Material Design</a>&ensp;
-</li>
-</ul>
-</div>
-<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
 <a class="d-block col-md-6" href=https://yamacraft.github.io/note/agp-7-1-add-classpath/> &#171; AGP7.1でclasspathを追加する</a>
 <a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/yamacraft-2021-4q-done/>2021 4Qやったこと &#187;</a>
-<div class=clearfix></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jumbotron2 fortags">
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
 <div class="d-md-flex h-100">
 <div class="col-md-4 transpdark2 align-self-center text-center h-100">
 <div class="d-md-flex align-items-center justify-content-center h-100">
-<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2>
-</div>
-</div>
-<div class="col-md-8 p-5 align-self-center text-center">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
 <a class="mt-1 mb-1" href=/note/tags/android>android</a>
 <a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
 <a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
 <a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
 <a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
 <a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
 <a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
 <a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
@@ -260,26 +148,16 @@
 <a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
 <a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
 <a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
-</div>
-</div>
-</div>
-<footer class=footer>
+</div></div></div><footer class=footer>
 <div class=container>
 <div class=row>
 <div class="col-md-6 col-sm-6 text-center text-lg-left">
 &copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
-</div>
-<div class="col-md-6 col-sm-6 text-center text-lg-right">
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
 <a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
-</div>
-</div>
-</div>
-</footer>
-</div>
-<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
 <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
 <script src=/note/js/mediumish.js></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-49508140-1','auto'),ga('send','pageview'))</script>
-</body>
-</html>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>

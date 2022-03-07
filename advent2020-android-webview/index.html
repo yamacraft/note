@@ -1,7 +1,7 @@
 <!doctype html><html lang=ja-jp><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.93.2">
 <link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
@@ -19,8 +19,7 @@
 <meta name=msapplication-TileColor content="#ffffff">
 <meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
 <meta name=theme-color content="#ffffff">
-<title>WebViewで表示しているWebページのHTMLを取得する(deprecated) | 山田航空ネットワーク3rd</title>
-<meta name=twitter:card content="summary_large_image">
+<title>WebViewで表示しているWebページのHTMLを取得する(deprecated) | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
 <meta name=twitter:title content="WebViewで表示しているWebページのHTMLを取得する(deprecated)">
 <meta name=twitter:description content="この記事は、 QiitaのAndroid Advent Calendar 2020の19日目の記事になります。 言いたいこと WebViewで表示しているWebページのHTML">
@@ -36,157 +35,108 @@
 <link href=/note/css/medium.css rel=stylesheet>
 <link href=/note/css/additional.css rel=stylesheet>
 <link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
-</head>
-<body>
+</head><body>
 <div class=site-content-custom>
 <div class=container>
 <div class=mainheading>
 <a href=https://yamacraft.github.io/note/>
-<h1 class=sitetitle>山田航空ネットワーク3rd</h1>
-</a>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
 <p class=lead>
 <a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
 記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
-</p>
-</div><div class=main-content>
+</p></div><div class=main-content>
 <div class=container>
 <div class=row>
 <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
-<p>Share</p>
-<ul>
+<p>Share</p><ul>
 <li class="ml-1 mr-1">
-<a target=_blank href="https://twitter.com/intent/tweet?text=WebView%e3%81%a7%e8%a1%a8%e7%a4%ba%e3%81%97%e3%81%a6%e3%81%84%e3%82%8bWeb%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%aeHTML%e3%82%92%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b%28deprecated%29 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fadvent2020-android-webview%2f" onclick="return window.open(this.href,'twitter-share','width=550,height=435'),!1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=WebView%e3%81%a7%e8%a1%a8%e7%a4%ba%e3%81%97%e3%81%a6%e3%81%84%e3%82%8bWeb%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%aeHTML%e3%82%92%e5%8f%96%e5%be%97%e3%81%99%e3%82%8b%28deprecated%29 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fadvent2020-android-webview%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
 <i class="fab fa-twitter"></i>
 </a>
-</li>
-<li class="ml-1 mr-1">
-<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fadvent2020-android-webview%2f" onclick="return window.open(this.href,'facebook-share','width=550,height=435'),!1">
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fadvent2020-android-webview%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
 <i class="fab fa-facebook-f"></i>
 </a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-9 flex-first flex-md-unordered">
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
 <div class=mainheading>
 <span class=post-date>Dec 19, 2020 - 4 min read</span>
-<h1 class=posttitle>WebViewで表示しているWebページのHTMLを取得する(deprecated)</h1>
-<div class=after-post-tags>
+<h1 class=posttitle>WebViewで表示しているWebページのHTMLを取得する(deprecated)</h1><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-</div>
-<div class=article-post>
-<p>この記事は、 <a href=https://qiita.com/advent-calendar/2020/android>QiitaのAndroid Advent Calendar 2020</a>の19日目の記事になります。</p>
-<h2 id=言いたいこと>言いたいこと</h2>
-<p><strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません</strong></p>
-<h2 id=webviewとは何か>WebViewとは何か</h2>
-<p>その名のとおり、Webページ（HTML）を表示するためのViewです。
-おそらく大半の端末では、ChromeまたはChromiumのコンポーネントを利用して表示しています。</p>
-<p>現在のAndroidではCustom Tabsというしくみが用意されていますが、昔はアプリ内でWebページを表示するために、よくWebViewが使われていました。</p>
-<h2 id=custom-tabsとは何が違うのか>Custom Tabsとは何が違うのか</h2>
-<p>Custom Tabsは、端末内のブラウザアプリを利用して、Webページを表示するためのしくみです。
-この時、Custom Tabsで利用可能なアプリが複数あった場合、ユーザーにどのブラウザを使用するか選択してもらうことになります。</p>
-<p>Custom TabsはこうしたWebページを（ユーザーにとって）安全に表示するために作られたしくみですので、それ以外にどんな処理も追加できません。
-開いたWebページに対して何か処理を行いたいのであれば、WebViewを使って実装する必要があります。</p>
-<h2 id=webviewで開いたwebページのhtmlソースを取得する>WebViewで開いたWebページのHTMLソースを取得する</h2>
-<p>結論から書くと、WebView自体には開いているWebページのHTMLを取得できるようなAPIはありません。
-ですので、JavaScriptを使って読み込みを行うことになります。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=color:#a6e22e>@SuppressLint</span>(<span style=color:#e6db74>&#34;JavascriptInterface&#34;</span>)
-<span style=color:#66d9ef>override</span> <span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>onCreate</span>(savedInstanceState: Bundle?) {
-
-    <span style=color:#75715e>// ...
-</span><span style=color:#75715e></span>
-    <span style=color:#a6e22e>@SuppressLint</span>(<span style=color:#e6db74>&#34;SetJavaScriptEnabled&#34;</span>)
-    binding.webView.settings.javaScriptEnabled = <span style=color:#66d9ef>true</span>
-
-    binding.webView.apply {
-        addJavascriptInterface(<span style=color:#66d9ef>this</span><span style=color:#a6e22e>@WebViewSampleActivity</span>, JS_INTERFACE_NAME)
-
-        webViewClient = <span style=color:#66d9ef>object</span> <span style=color:#960050;background-color:#1e0010>: </span><span style=color:#a6e22e>WebViewClient</span>() {
-
-            <span style=color:#75715e>// Webページ読み込み完了時に呼ばれる
-</span><span style=color:#75715e></span>            <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>onPageFinished</span>(view: WebView?, url: String?) {        
-                <span style=color:#75715e>// 今回は読み込み完了時点で呼び出すが、ボタンなどで任意に実行してもよい
-</span><span style=color:#75715e></span>                view<span style=color:#f92672>?.</span>loadUrl(JS_CODE_GET_INNER_HTML)
-                <span style=color:#66d9ef>super</span>.onPageFinished(view, url)
-            }
-        }
-    }
-}
-
-<span style=color:#a6e22e>@Suppress</span>(<span style=color:#e6db74>&#34;unused&#34;</span>)
-<span style=color:#a6e22e>@JavascriptInterface</span>
-<span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>processJs</span>(text: String?) {
-    <span style=color:#75715e>// バックグラウンドで呼び出されるので、UIスレッドで呼ばれる場合は注意
-</span><span style=color:#75715e></span>    runOnUiThread {
-        binding.sourceTextView.text = <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${text.orEmpty()}</span><span style=color:#e6db74>&#34;</span>
-    }
-}
-
-<span style=color:#66d9ef>companion</span> <span style=color:#66d9ef>object</span> {
-    <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>const</span> <span style=color:#66d9ef>val</span> JS_INTERFACE_NAME = <span style=color:#e6db74>&#34;Android&#34;</span>
-
-    <span style=color:#75715e>// htmlソースを取得する
-</span><span style=color:#75715e></span>    <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>const</span> <span style=color:#66d9ef>val</span> JS_CODE_GET_INNER_HTML =
-        <span style=color:#e6db74>&#34;javascript:</span><span style=color:#e6db74>${JS_INTERFACE_NAME}</span><span style=color:#e6db74>.processJs(document.getElementsByTagName(&#39;html&#39;)[0].outerHTML);&#34;</span>
-}
-</code></pre></div><p>その昔、AndroidのWebViewにはJavaScript越しに任意のメソッドが実行されるという脆弱性がありました。
+</li></ul></div></div><div class=article-post>
+<p>この記事は、 <a href=https://qiita.com/advent-calendar/2020/android>QiitaのAndroid Advent Calendar 2020</a>の19日目の記事になります。</p><h2 id=言いたいこと>言いたいこと</h2><p><strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません</strong></p><h2 id=webviewとは何か>WebViewとは何か</h2><p>その名のとおり、Webページ（HTML）を表示するためのViewです。
+おそらく大半の端末では、ChromeまたはChromiumのコンポーネントを利用して表示しています。</p><p>現在のAndroidではCustom Tabsというしくみが用意されていますが、昔はアプリ内でWebページを表示するために、よくWebViewが使われていました。</p><h2 id=custom-tabsとは何が違うのか>Custom Tabsとは何が違うのか</h2><p>Custom Tabsは、端末内のブラウザアプリを利用して、Webページを表示するためのしくみです。
+この時、Custom Tabsで利用可能なアプリが複数あった場合、ユーザーにどのブラウザを使用するか選択してもらうことになります。</p><p>Custom TabsはこうしたWebページを（ユーザーにとって）安全に表示するために作られたしくみですので、それ以外にどんな処理も追加できません。
+開いたWebページに対して何か処理を行いたいのであれば、WebViewを使って実装する必要があります。</p><h2 id=webviewで開いたwebページのhtmlソースを取得する>WebViewで開いたWebページのHTMLソースを取得する</h2><p>結論から書くと、WebView自体には開いているWebページのHTMLを取得できるようなAPIはありません。
+ですので、JavaScriptを使って読み込みを行うことになります。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#a6e22e>@SuppressLint</span>(<span style=color:#e6db74>&#34;JavascriptInterface&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:#66d9ef>override</span> <span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>onCreate</span>(savedInstanceState: Bundle?) {
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>@SuppressLint</span>(<span style=color:#e6db74>&#34;SetJavaScriptEnabled&#34;</span>)
+</span></span><span style=display:flex><span>    binding.webView.settings.javaScriptEnabled = <span style=color:#66d9ef>true</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    binding.webView.apply {
+</span></span><span style=display:flex><span>        addJavascriptInterface(<span style=color:#66d9ef>this</span><span style=color:#a6e22e>@WebViewSampleActivity</span>, JS_INTERFACE_NAME)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        webViewClient = <span style=color:#66d9ef>object</span> <span style=color:#960050;background-color:#1e0010>: </span><span style=color:#a6e22e>WebViewClient</span>() {
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>            <span style=color:#75715e>// Webページ読み込み完了時に呼ばれる
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>onPageFinished</span>(view: WebView?, url: String?) {        
+</span></span><span style=display:flex><span>                <span style=color:#75715e>// 今回は読み込み完了時点で呼び出すが、ボタンなどで任意に実行してもよい
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                view<span style=color:#f92672>?.</span>loadUrl(JS_CODE_GET_INNER_HTML)
+</span></span><span style=display:flex><span>                <span style=color:#66d9ef>super</span>.onPageFinished(view, url)
+</span></span><span style=display:flex><span>            }
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>@Suppress</span>(<span style=color:#e6db74>&#34;unused&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:#a6e22e>@JavascriptInterface</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>processJs</span>(text: String?) {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// バックグラウンドで呼び出されるので、UIスレッドで呼ばれる場合は注意
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    runOnUiThread {
+</span></span><span style=display:flex><span>        binding.sourceTextView.text = <span style=color:#e6db74>&#34;</span><span style=color:#e6db74>${text.orEmpty()}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>companion</span> <span style=color:#66d9ef>object</span> {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>const</span> <span style=color:#66d9ef>val</span> JS_INTERFACE_NAME = <span style=color:#e6db74>&#34;Android&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// htmlソースを取得する
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>const</span> <span style=color:#66d9ef>val</span> JS_CODE_GET_INNER_HTML =
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;javascript:</span><span style=color:#e6db74>${JS_INTERFACE_NAME}</span><span style=color:#e6db74>.processJs(document.getElementsByTagName(&#39;html&#39;)[0].outerHTML);&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>その昔、AndroidのWebViewにはJavaScript越しに任意のメソッドが実行されるという脆弱性がありました。
 その脆弱性に関してはAndroid 4.2以降からは <code>@JavascriptInterface</code> アノテーションが付与されたメソッドしか呼ばれないように対策が取られています。
-今回のサンプルコードの場合、 <code>processJs()</code> メソッド以外は呼ばれることがありません。</p>
-<p>現在はminSdkVersionが16以下に設定されているアプリはだいぶ減りましたが、もしそうしたアプリでWebViewからHTMLソースを取得したい場合は <strong>諦めてください。</strong></p>
-<p>そもそも、これに限らずWebView自体は自社管理外からのコンテンツ（Webページ）を表示する場合、JavaScriptを有効にさせるべきではありません。
+今回のサンプルコードの場合、 <code>processJs()</code> メソッド以外は呼ばれることがありません。</p><p>現在はminSdkVersionが16以下に設定されているアプリはだいぶ減りましたが、もしそうしたアプリでWebViewからHTMLソースを取得したい場合は <strong>諦めてください。</strong></p><p>そもそも、これに限らずWebView自体は自社管理外からのコンテンツ（Webページ）を表示する場合、JavaScriptを有効にさせるべきではありません。
 アプリネイティブのメソッド実行以外にも、JavaScript自体を利用した悪意ある攻撃をされる可能性があるためです。
-これはJSSECが提供している、<a href=https://www.jssec.org/report/securecoding.html>『Androidアプリのセキュア設計・セキュアコーディングガイド』</a>でも取り上げられています。</p>
-<p><a href=https://www.jssec.org/dl/android_securecoding/4_using_technology_in_a_safe_way.html#webview%E3%82%92%E4%BD%BF%E3%81%86>4. 安全にテクノロジーを活用する — Androidアプリのセキュア設計・セキュアコーディングガイド 2020-11-01 ドキュメント</a></p>
-<p>自社コンテンツのHTMLソースを取得したいのであれば、それ用のAPIを用意した方が安全です。
+これはJSSECが提供している、<a href=https://www.jssec.org/report/securecoding.html>『Androidアプリのセキュア設計・セキュアコーディングガイド』</a>でも取り上げられています。</p><p><a href=https://www.jssec.org/dl/android_securecoding/4_using_technology_in_a_safe_way.html#webview%E3%82%92%E4%BD%BF%E3%81%86>4. 安全にテクノロジーを活用する — Androidアプリのセキュア設計・セキュアコーディングガイド 2020-11-01 ドキュメント</a></p><p>自社コンテンツのHTMLソースを取得したいのであれば、それ用のAPIを用意した方が安全です。
 こうした処理を実装したいということは、デベロッパー側が制御できないようなWebページへのアクセスをするということを意味します。
-ですので、私自身はこうした処理を実装すること自体はお勧めしません。</p>
-<h2 id=補足通信処理でhtmlコードを取得することについて>補足：通信処理でHTMLコードを取得することについて</h2>
-<p>単純なWebページであれば、OkHttpなりでGET通信すれば、JavaScriptなどを考慮せずにHTMLコードをそのまま取得できます。
-ただこの場合、単純なGET通信だけではJavaScriptを使った後からコンテンツを取得し生成するようなWebページが、正しく取得できないはずです。</p>
-<h2 id=結論再掲>結論（再掲）</h2>
-<p><strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません</strong></p>
-</div>
-<div class=after-post-tags>
+ですので、私自身はこうした処理を実装すること自体はお勧めしません。</p><h2 id=補足通信処理でhtmlコードを取得することについて>補足：通信処理でHTMLコードを取得することについて</h2><p>単純なWebページであれば、OkHttpなりでGET通信すれば、JavaScriptなどを考慮せずにHTMLコードをそのまま取得できます。
+ただこの場合、単純なGET通信だけではJavaScriptを使った後からコンテンツを取得し生成するようなWebページが、正しく取得できないはずです。</p><h2 id=結論再掲>結論（再掲）</h2><p><strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません</strong></p></div><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
 <a class="d-block col-md-6" href=https://yamacraft.github.io/note/advent2020-firebase-deploy/> &#171; FirebaseをCIでデプロイできるようにする（2020年版）</a>
 <a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/yamadajirushi_1st_anniversary/>合同会社ヤマダ印を設立して１年が経ちました &#187;</a>
-<div class=clearfix></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jumbotron2 fortags">
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
 <div class="d-md-flex h-100">
 <div class="col-md-4 transpdark2 align-self-center text-center h-100">
 <div class="d-md-flex align-items-center justify-content-center h-100">
-<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2>
-</div>
-</div>
-<div class="col-md-8 p-5 align-self-center text-center">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
 <a class="mt-1 mb-1" href=/note/tags/android>android</a>
 <a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
 <a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
 <a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
 <a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
 <a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
 <a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
 <a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
@@ -214,26 +164,16 @@
 <a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
 <a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
 <a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
-</div>
-</div>
-</div>
-<footer class=footer>
+</div></div></div><footer class=footer>
 <div class=container>
 <div class=row>
 <div class="col-md-6 col-sm-6 text-center text-lg-left">
 &copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
-</div>
-<div class="col-md-6 col-sm-6 text-center text-lg-right">
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
 <a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
-</div>
-</div>
-</div>
-</footer>
-</div>
-<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
 <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
 <script src=/note/js/mediumish.js></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-49508140-1','auto'),ga('send','pageview'))</script>
-</body>
-</html>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>

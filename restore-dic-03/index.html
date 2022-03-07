@@ -1,7 +1,7 @@
 <!doctype html><html lang=ja-jp><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.93.2">
 <link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
@@ -19,8 +19,7 @@
 <meta name=msapplication-TileColor content="#ffffff">
 <meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
 <meta name=theme-color content="#ffffff">
-<title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応 | 山田航空ネットワーク3rd</title>
-<meta name=twitter:card content="summary_large_image">
+<title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応 | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
 <meta name=twitter:title content="D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応">
 <meta name=twitter:description content="D.I.C.レストア記録記事一覧 #0 - レストアの方針 #1 - 開発環境を整える #2 - コードをkotlinに置き換える #3 - マテリアルデザインとダークテー">
@@ -36,211 +35,133 @@
 <link href=/note/css/medium.css rel=stylesheet>
 <link href=/note/css/additional.css rel=stylesheet>
 <link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
-</head>
-<body>
+</head><body>
 <div class=site-content-custom>
 <div class=container>
 <div class=mainheading>
 <a href=https://yamacraft.github.io/note/>
-<h1 class=sitetitle>山田航空ネットワーク3rd</h1>
-</a>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
 <p class=lead>
 <a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
 記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
-</p>
-</div><div class=main-content>
+</p></div><div class=main-content>
 <div class=container>
 <div class=row>
 <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
-<p>Share</p>
-<ul>
+<p>Share</p><ul>
 <li class="ml-1 mr-1">
-<a target=_blank href="https://twitter.com/intent/tweet?text=D.I.C.%20%e3%83%ac%e3%82%b9%e3%83%88%e3%82%a2%e8%a8%98%e9%8c%b2%20%233%20-%20%e3%83%9e%e3%83%86%e3%83%aa%e3%82%a2%e3%83%ab%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e3%81%a8%e3%83%80%e3%83%bc%e3%82%af%e3%83%86%e3%83%bc%e3%83%9e%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-03%2f" onclick="return window.open(this.href,'twitter-share','width=550,height=435'),!1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=D.I.C.%20%e3%83%ac%e3%82%b9%e3%83%88%e3%82%a2%e8%a8%98%e9%8c%b2%20%233%20-%20%e3%83%9e%e3%83%86%e3%83%aa%e3%82%a2%e3%83%ab%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e3%81%a8%e3%83%80%e3%83%bc%e3%82%af%e3%83%86%e3%83%bc%e3%83%9e%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-03%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
 <i class="fab fa-twitter"></i>
 </a>
-</li>
-<li class="ml-1 mr-1">
-<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-03%2f" onclick="return window.open(this.href,'facebook-share','width=550,height=435'),!1">
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-03%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
 <i class="fab fa-facebook-f"></i>
 </a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-9 flex-first flex-md-unordered">
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
 <div class=mainheading>
 <span class=post-date>Oct 14, 2020 - 4 min read</span>
-<h1 class=posttitle>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</h1>
-<div class=after-post-tags>
+<h1 class=posttitle>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</h1><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/app_restore>app_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/dic_restore>dic_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-</div>
-<div class=article-post>
-<h2 id=dicレストア記録記事一覧>D.I.C.レストア記録記事一覧</h2>
-<ul>
-<li><a href=/note/restore-dic-00/>#0 - レストアの方針</a></li>
-<li><a href=/note/restore-dic-01/>#1 - 開発環境を整える</a></li>
-<li><a href=/note/restore-dic-02/>#2 - コードをkotlinに置き換える</a></li>
-<li><a href=/note/restore-dic-03/>#3 - マテリアルデザインとダークテーマへの対応</a></li>
-</ul>
-<h2 id=dic-v200を公開しました>D.I.C. v2.0.0を公開しました</h2>
-<p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。</p>
-<p><a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic">D.I.C. - Google Play のアプリ</a></p>
-<p>本アプリは合同会社ヤマダ印、並びに@yamacraftの技術的なプロモーションとして開発しています。
-また、コードはすべてGitHubにて近日公開予定です。</p>
-<p>正式な公開前にも、業務案件のご依頼に関係した理由で閲覧をご希望の場合は、別途対応します。
-ぜひ、<a href=https://yamadajirushi.co.jp/contact/>合同会社ヤマダ印の問い合わせフォーム</a>よりご連絡ください。</p>
-<h2 id=マテリアルデザインへの対応>マテリアルデザインへの対応</h2>
-<p>せっかく中身を新しくしたので、外側も新しくします。
-マテリアルデザインのガイドラインは公式が用意してくれているので、がんばって解読しながら実装していきます。</p>
-<p><a href=https://material.io/>Material Design</a></p>
-<p>また、今回を機にテーマカラーを設定しました。
-色自体はカラーユニバーサルデザインの推奨配色から採用しました。</p>
-<p><a href=https://jfly.uni-koeln.de/colorset/>カラーユニバーサルデザイン推奨配色セット</a></p>
-<h3 id=実装の参考>実装の参考</h3>
-<p>style周りは正直なところベストプラクティスという書き方が自分の中で確立できていないので、ioschedやDroidKaigi公式アプリのコードを参考にしています。</p>
-<ul>
-<li><a href=https://github.com/google/iosched>google/iosched: The Google I/O 2019 Android App</a></li>
-<li><a href=https://github.com/DroidKaigi/conference-app-2020>DroidKaigi/conference-app-2020: The Official Conference App for DroidKaigi 2020 Tokyo</a></li>
-</ul>
-<h2 id=uiの再選定>UIの再選定</h2>
-<p>今回のような古いアプリを突然新しく改修する場合、特に使っているサードパーティ製のライブラリが正常動作しなくなりがちです。
-だいたいがアプリ同様にライブラリのメンテナンスも止まっているケースがほとんどですので、それらの使用を取りやめるしかありません。</p>
-<p>この場合はケースバイケースですが、基本的には公式のUIのみを使う形に改修していきます。
+</li></ul></div></div><div class=article-post>
+<h2 id=dicレストア記録記事一覧>D.I.C.レストア記録記事一覧</h2><ul>
+<li><a href=/note/restore-dic-00/>#0 - レストアの方針</a></li><li><a href=/note/restore-dic-01/>#1 - 開発環境を整える</a></li><li><a href=/note/restore-dic-02/>#2 - コードをkotlinに置き換える</a></li><li><a href=/note/restore-dic-03/>#3 - マテリアルデザインとダークテーマへの対応</a></li></ul><h2 id=dic-v200を公開しました>D.I.C. v2.0.0を公開しました</h2><p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。</p><p><a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic">D.I.C. - Google Play のアプリ</a></p><p>本アプリは合同会社ヤマダ印、並びに@yamacraftの技術的なプロモーションとして開発しています。
+また、コードはすべてGitHubにて近日公開予定です。</p><p>正式な公開前にも、業務案件のご依頼に関係した理由で閲覧をご希望の場合は、別途対応します。
+ぜひ、<a href=https://yamadajirushi.co.jp/contact/>合同会社ヤマダ印の問い合わせフォーム</a>よりご連絡ください。</p><h2 id=マテリアルデザインへの対応>マテリアルデザインへの対応</h2><p>せっかく中身を新しくしたので、外側も新しくします。
+マテリアルデザインのガイドラインは公式が用意してくれているので、がんばって解読しながら実装していきます。</p><p><a href=https://material.io/>Material Design</a></p><p>また、今回を機にテーマカラーを設定しました。
+色自体はカラーユニバーサルデザインの推奨配色から採用しました。</p><p><a href=https://jfly.uni-koeln.de/colorset/>カラーユニバーサルデザイン推奨配色セット</a></p><h3 id=実装の参考>実装の参考</h3><p>style周りは正直なところベストプラクティスという書き方が自分の中で確立できていないので、ioschedやDroidKaigi公式アプリのコードを参考にしています。</p><ul>
+<li><a href=https://github.com/google/iosched>google/iosched: The Google I/O 2019 Android App</a></li><li><a href=https://github.com/DroidKaigi/conference-app-2020>DroidKaigi/conference-app-2020: The Official Conference App for DroidKaigi 2020 Tokyo</a></li></ul><h2 id=uiの再選定>UIの再選定</h2><p>今回のような古いアプリを突然新しく改修する場合、特に使っているサードパーティ製のライブラリが正常動作しなくなりがちです。
+だいたいがアプリ同様にライブラリのメンテナンスも止まっているケースがほとんどですので、それらの使用を取りやめるしかありません。</p><p>この場合はケースバイケースですが、基本的には公式のUIのみを使う形に改修していきます。
 そもそもメンテナンスは今後も頻繁にできるかわかりません。
-なるべく公式のUIを利用するようにして、特にtargetSdkVersionのアップデートの際に、そもそもビルドできないような状況は避けるようにします。</p>
-<p>ちなみにD.I.C.に関してはサードパーティ製のUIライブラリは使用していないので、そのまま公式のUIで実装を続けていきます。</p>
-<h2 id=フォントサイズの設定>フォントサイズの設定</h2>
-<p>公式のガイドラインでは、各テキストとフォントサイズに関する細かいガイドラインが指定されています。</p>
-<p><a href=https://material.io/design/typography/the-type-system.html#type-scale>The type system - Material Design</a></p>
-<p><code>TextAppearance.MaterialComponents.*</code> に、このガイドラインに沿ったTextAppearanceが用意されているので、これを使います。
-そのまま使うのではなく、これをベースに文字色などを設定して統一化させます。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
-<span style=color:#f92672>&lt;resources&gt;</span>
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Headline5&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Headline5&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Headline6&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Headline6&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Subtitle1&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Subtitle1&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Subtitle2&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Subtitle2&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Body1&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Body1&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Body2&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Body2&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Caption&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Caption&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-
-    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Button&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Button&#34;</span><span style=color:#f92672>&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
-        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;textAllCaps&#34;</span><span style=color:#f92672>&gt;</span>false<span style=color:#f92672>&lt;/item&gt;</span>
-    <span style=color:#f92672>&lt;/style&gt;</span>
-<span style=color:#f92672>&lt;/resources&gt;</span>
-</code></pre></div><p>ちなみにDroidKaigi公式アプリではNoto Sansを設定しているのですが、本アプリでは手間的な意味と容量的な意味でやりすぎなように感じたので、文字色の設定のみとしています。</p>
-<p>アプリに合わせてHeadline1〜3を修正すべきではないかと最初思いましたが、weight設定の違い等もあるので、下手にアプリに合わせて数字をいじるのはやめた方が良さそうです。</p>
-<h2 id=スペースの設定>スペースの設定</h2>
-<p>スペースは意識しないと画面ごとに統一感がでなくなりがちな部分です。
-D.I.C.では共通化したリソースを定義して、全体で使い回す設定値を個別のリソース名で設定することにしました。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
-<span style=color:#f92672>&lt;resources&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;item_app_icon_size&#34;</span><span style=color:#f92672>&gt;</span>48dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;tiny&#34;</span><span style=color:#f92672>&gt;</span>4dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;small&#34;</span><span style=color:#f92672>&gt;</span>8dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;medium&#34;</span><span style=color:#f92672>&gt;</span>16dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;large&#34;</span><span style=color:#f92672>&gt;</span>32dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;huge&#34;</span><span style=color:#f92672>&gt;</span>64dp<span style=color:#f92672>&lt;/dimen&gt;</span>
-
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;section_padding_height&#34;</span><span style=color:#f92672>&gt;</span>@dimen/medium<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;section_padding_width&#34;</span><span style=color:#f92672>&gt;</span>@dimen/medium<span style=color:#f92672>&lt;/dimen&gt;</span>
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;separate_padding_height&#34;</span><span style=color:#f92672>&gt;</span>@dimen/small<span style=color:#f92672>&lt;/dimen&gt;</span>
-
-    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;scroll_bottom_space&#34;</span><span style=color:#f92672>&gt;</span>@dimen/large<span style=color:#f92672>&lt;/dimen&gt;</span>
-<span style=color:#f92672>&lt;/resources&gt;</span>
-</code></pre></div><h2 id=ダークテーマの設定>ダークテーマの設定</h2>
-<p>ダークテーマに関しては、とりあえずそれっぽく対応だけさせておきたかったので、DroidKaigi公式アプリのTheme設定をそのまま当て込んでいます。</p>
-<p><a href=https://github.com/DroidKaigi/conference-app-2020/blob/master/corecomponent/androidcomponent/src/main/res/values-night/themes.xml>conference-app-2020/themes.xml at master · DroidKaigi/conference-app-2020</a></p>
-<p>多少なり最近のGoogleアプリにそろえようと思って調べて気付きましたが、最近のGoogleアプリはActionBarをそもそも使っていませんでした。
-とりあえずあんまりPrimaryColorが主張してもよろしくなさそうですので、ActionBarは黒色としました。</p>
-<h2 id=最終的なデザイン>最終的なデザイン</h2>
-<p>改修前と改修後、ダークテーマ版を並べます。</p>
-<p><img src=/note/image/restore-dic-03/restore-before-dic.png alt=改修前のD.I.C.の画面></p>
-<p><img src=/note/image/restore-dic-03/restore-after-dic.png alt=改修後のD.I.C.の画面></p>
-<p><img src=/note/image/restore-dic-03/restore-after-dic-dark.png alt=ダークテーマ適用時のD.I.C.の画面></p>
-<p>以上です。</p>
-</div>
-<div class=after-post-tags>
+なるべく公式のUIを利用するようにして、特にtargetSdkVersionのアップデートの際に、そもそもビルドできないような状況は避けるようにします。</p><p>ちなみにD.I.C.に関してはサードパーティ製のUIライブラリは使用していないので、そのまま公式のUIで実装を続けていきます。</p><h2 id=フォントサイズの設定>フォントサイズの設定</h2><p>公式のガイドラインでは、各テキストとフォントサイズに関する細かいガイドラインが指定されています。</p><p><a href=https://material.io/design/typography/the-type-system.html#type-scale>The type system - Material Design</a></p><p><code>TextAppearance.MaterialComponents.*</code> に、このガイドラインに沿ったTextAppearanceが用意されているので、これを使います。
+そのまま使うのではなく、これをベースに文字色などを設定して統一化させます。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=display:flex><span><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;resources&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Headline5&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Headline5&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Headline6&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Headline6&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Subtitle1&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Subtitle1&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Subtitle2&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Subtitle2&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Body1&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Body1&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Body2&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Body2&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Caption&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Caption&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;style</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;TextAppearance.DIC.Button&#34;</span> <span style=color:#a6e22e>parent=</span><span style=color:#e6db74>&#34;@style/TextAppearance.MaterialComponents.Button&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;android:textColor&#34;</span><span style=color:#f92672>&gt;</span>?colorOnBackground<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&lt;item</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;textAllCaps&#34;</span><span style=color:#f92672>&gt;</span>false<span style=color:#f92672>&lt;/item&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/style&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/resources&gt;</span>
+</span></span></code></pre></div><p>ちなみにDroidKaigi公式アプリではNoto Sansを設定しているのですが、本アプリでは手間的な意味と容量的な意味でやりすぎなように感じたので、文字色の設定のみとしています。</p><p>アプリに合わせてHeadline1〜3を修正すべきではないかと最初思いましたが、weight設定の違い等もあるので、下手にアプリに合わせて数字をいじるのはやめた方が良さそうです。</p><h2 id=スペースの設定>スペースの設定</h2><p>スペースは意識しないと画面ごとに統一感がでなくなりがちな部分です。
+D.I.C.では共通化したリソースを定義して、全体で使い回す設定値を個別のリソース名で設定することにしました。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=display:flex><span><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;resources&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;item_app_icon_size&#34;</span><span style=color:#f92672>&gt;</span>48dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;tiny&#34;</span><span style=color:#f92672>&gt;</span>4dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;small&#34;</span><span style=color:#f92672>&gt;</span>8dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;medium&#34;</span><span style=color:#f92672>&gt;</span>16dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;large&#34;</span><span style=color:#f92672>&gt;</span>32dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;huge&#34;</span><span style=color:#f92672>&gt;</span>64dp<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;section_padding_height&#34;</span><span style=color:#f92672>&gt;</span>@dimen/medium<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;section_padding_width&#34;</span><span style=color:#f92672>&gt;</span>@dimen/medium<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;separate_padding_height&#34;</span><span style=color:#f92672>&gt;</span>@dimen/small<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;dimen</span> <span style=color:#a6e22e>name=</span><span style=color:#e6db74>&#34;scroll_bottom_space&#34;</span><span style=color:#f92672>&gt;</span>@dimen/large<span style=color:#f92672>&lt;/dimen&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;/resources&gt;</span>
+</span></span></code></pre></div><h2 id=ダークテーマの設定>ダークテーマの設定</h2><p>ダークテーマに関しては、とりあえずそれっぽく対応だけさせておきたかったので、DroidKaigi公式アプリのTheme設定をそのまま当て込んでいます。</p><p><a href=https://github.com/DroidKaigi/conference-app-2020/blob/master/corecomponent/androidcomponent/src/main/res/values-night/themes.xml>conference-app-2020/themes.xml at master · DroidKaigi/conference-app-2020</a></p><p>多少なり最近のGoogleアプリにそろえようと思って調べて気付きましたが、最近のGoogleアプリはActionBarをそもそも使っていませんでした。
+とりあえずあんまりPrimaryColorが主張してもよろしくなさそうですので、ActionBarは黒色としました。</p><h2 id=最終的なデザイン>最終的なデザイン</h2><p>改修前と改修後、ダークテーマ版を並べます。</p><p><img src=/note/image/restore-dic-03/restore-before-dic.png alt=改修前のD.I.C.の画面></p><p><img src=/note/image/restore-dic-03/restore-after-dic.png alt=改修後のD.I.C.の画面></p><p><img src=/note/image/restore-dic-03/restore-after-dic-dark.png alt=ダークテーマ適用時のD.I.C.の画面></p><p>以上です。</p></div><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/app_restore>app_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/dic_restore>dic_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
 <a class="d-block col-md-6" href=https://yamacraft.github.io/note/yamacraft-2020-3q-done/> &#171; 2020 3Qやったこと</a>
 <a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/restore-dic-02/>D.I.C. レストア記録 #2 - コードをkotlinに置き換える &#187;</a>
-<div class=clearfix></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jumbotron2 fortags">
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
 <div class="d-md-flex h-100">
 <div class="col-md-4 transpdark2 align-self-center text-center h-100">
 <div class="d-md-flex align-items-center justify-content-center h-100">
-<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2>
-</div>
-</div>
-<div class="col-md-8 p-5 align-self-center text-center">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
 <a class="mt-1 mb-1" href=/note/tags/android>android</a>
 <a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
 <a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
 <a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
 <a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
 <a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
 <a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
 <a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
@@ -268,26 +189,16 @@ D.I.C.では共通化したリソースを定義して、全体で使い回す�
 <a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
 <a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
 <a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
-</div>
-</div>
-</div>
-<footer class=footer>
+</div></div></div><footer class=footer>
 <div class=container>
 <div class=row>
 <div class="col-md-6 col-sm-6 text-center text-lg-left">
 &copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
-</div>
-<div class="col-md-6 col-sm-6 text-center text-lg-right">
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
 <a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
-</div>
-</div>
-</div>
-</footer>
-</div>
-<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
 <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
 <script src=/note/js/mediumish.js></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-49508140-1','auto'),ga('send','pageview'))</script>
-</body>
-</html>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>

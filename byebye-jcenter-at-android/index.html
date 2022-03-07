@@ -1,7 +1,7 @@
 <!doctype html><html lang=ja-jp><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.93.2">
 <link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
@@ -19,8 +19,7 @@
 <meta name=msapplication-TileColor content="#ffffff">
 <meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
 <meta name=theme-color content="#ffffff">
-<title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況 | 山田航空ネットワーク3rd</title>
-<meta name=twitter:card content="summary_large_image">
+<title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況 | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
 <meta name=twitter:title content="JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況">
 <meta name=twitter:description content="JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。 Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog 余談ですが、">
@@ -36,144 +35,92 @@
 <link href=/note/css/medium.css rel=stylesheet>
 <link href=/note/css/additional.css rel=stylesheet>
 <link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
-</head>
-<body>
+</head><body>
 <div class=site-content-custom>
 <div class=container>
 <div class=mainheading>
 <a href=https://yamacraft.github.io/note/>
-<h1 class=sitetitle>山田航空ネットワーク3rd</h1>
-</a>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
 <p class=lead>
 <a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
 記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
-</p>
-</div><div class=main-content>
+</p></div><div class=main-content>
 <div class=container>
 <div class=row>
 <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
-<p>Share</p>
-<ul>
+<p>Share</p><ul>
 <li class="ml-1 mr-1">
-<a target=_blank href="https://twitter.com/intent/tweet?text=JCenter%e3%80%81Bintray%e7%b5%82%e4%ba%86%e3%81%ab%e4%bc%b4%e3%81%86%e3%83%a4%e3%83%9e%e3%82%b0%e3%83%ad%e6%8f%90%e4%be%9b%e3%81%aeAndroid%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%af%be%e5%bf%9c%e7%8a%b6%e6%b3%81 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fbyebye-jcenter-at-android%2f" onclick="return window.open(this.href,'twitter-share','width=550,height=435'),!1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=JCenter%e3%80%81Bintray%e7%b5%82%e4%ba%86%e3%81%ab%e4%bc%b4%e3%81%86%e3%83%a4%e3%83%9e%e3%82%b0%e3%83%ad%e6%8f%90%e4%be%9b%e3%81%aeAndroid%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%af%be%e5%bf%9c%e7%8a%b6%e6%b3%81 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fbyebye-jcenter-at-android%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
 <i class="fab fa-twitter"></i>
 </a>
-</li>
-<li class="ml-1 mr-1">
-<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fbyebye-jcenter-at-android%2f" onclick="return window.open(this.href,'facebook-share','width=550,height=435'),!1">
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fbyebye-jcenter-at-android%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
 <i class="fab fa-facebook-f"></i>
 </a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-9 flex-first flex-md-unordered">
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
 <div class=mainheading>
 <span class=post-date>Feb 8, 2021 - 3 min read</span>
-<h1 class=posttitle>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</h1>
-<div class=after-post-tags>
+<h1 class=posttitle>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</h1><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/yamadajirushi>yamadajirushi</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-</div>
-<div class=article-post>
-<p>JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。</p>
-<p><a href=https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/>Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog</a></p>
-<p>余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
-個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。</p>
-<p>話を戻して、閉鎖までの期間がたいへんに短いこともあり、本日は急遽提供しているAndroidアプリのjcenter脱却対応（主に調査周り）を行いました。
+</li></ul></div></div><div class=article-post>
+<p>JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。</p><p><a href=https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/>Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog</a></p><p>余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
+個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。</p><p>話を戻して、閉鎖までの期間がたいへんに短いこともあり、本日は急遽提供しているAndroidアプリのjcenter脱却対応（主に調査周り）を行いました。
 結論を先に書くと、必要なライブラリはすでにMavenCentralから取得できることが確認できたので、特に大きな対応は行っておりません。
-ただし、Android Gradle Pluginは一部Bintrayに依存している部分があるため、現時点で完全な脱却の対応はできません。</p>
-<p>これに関しては、すでに記事にまとめている方がいらっしゃるので、リンクだけ張っておきます。</p>
-<p><a href=https://bps-tomoya.hateblo.jp/entry/2021/02/04/184317>JCenter が2021年5月1日にシャットダウンすることになったので Android アプリエンジニア観点でメモをまとめた - BattleProgrammerShibata</a></p>
-<h2 id=簡単な確認方法>簡単な確認方法</h2>
-<p>とりあえずgradleファイルの <code>repositories</code> にある <code>jcenter()</code> をコメントアウトします。
-そしてjCenterの代わりに <code>mavenCentral()</code> を入れてビルドと動作ができるかチェックするのが一番簡単です。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gradle data-lang=gradle>buildscript <span style=color:#f92672>{</span>
-    repositories <span style=color:#f92672>{</span>
-        google<span style=color:#f92672>()</span>
-        <span style=color:#75715e>// TODO: Android Gradle Pluginがまだ対応していない
-</span><span style=color:#75715e></span>        <span style=color:#75715e>//jcenter()
-</span><span style=color:#75715e></span>        mavenCentral<span style=color:#f92672>()</span>
-    <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-
-allprojects <span style=color:#f92672>{</span>
-    repositories <span style=color:#f92672>{</span>
-        google<span style=color:#f92672>()</span>
-        <span style=color:#75715e>//jcenter()
-</span><span style=color:#75715e></span>        mavenCentral<span style=color:#f92672>()</span>
-    <span style=color:#f92672>}</span>
-<span style=color:#f92672>}</span>
-</code></pre></div><p>あとはビルドエラーになったライブラリの提供元（リポジトリなど）を確認して、対応の予定があるか、すでに対応されているかをチェックすればおしまいです。</p>
-<h2 id=利用しているサードパーティライブラリについて>利用しているサードパーティライブラリについて</h2>
-<p>基本的にGoogleやKotlin公式が提供しているライブラリの大半は、ほぼGoogleリポジトリかMavenCentralに上がっているので気にしなくてよさそうです。</p>
-<p>なのでサードパーティライブラリだけ気にすれば良さそうですが、現在提供しているアプリで使っているライブラリは次のものしかありませんでした。</p>
-<ul>
-<li><a href=https://github.com/JakeWharton/timber>JakeWharton/timber: A logger with a small, extensible API which provides utility on top of Android&rsquo;s normal Log class.</a></li>
-<li><a href=https://github.com/akaita/easylauncher-gradle-plugin>akaita/easylauncher-gradle-plugin: Add a different ribbon to each of your Android app variants using this gradle plugin. Of course, configure it as you will</a></li>
-</ul>
-<p>Timberは、<a href=https://github.com/JakeWharton/timber/blob/master/gradle/gradle-mvn-push.gradle#L42>最初からSonatype（MavenCentral）にアップロードされていました</a>。
-どうやらJCenter経由で取得できていたのが、そもそもよくなかったようです。</p>
-<p>一方でeasylauncherは、<a href=https://github.com/akaita/easylauncher-gradle-plugin/blob/master/plugin/build.gradle#L30>Bintrayにのみリリースしている</a>ため、JCenterを削除すると使えなくなります。
+ただし、Android Gradle Pluginは一部Bintrayに依存している部分があるため、現時点で完全な脱却の対応はできません。</p><p>これに関しては、すでに記事にまとめている方がいらっしゃるので、リンクだけ張っておきます。</p><p><a href=https://bps-tomoya.hateblo.jp/entry/2021/02/04/184317>JCenter が2021年5月1日にシャットダウンすることになったので Android アプリエンジニア観点でメモをまとめた - BattleProgrammerShibata</a></p><h2 id=簡単な確認方法>簡単な確認方法</h2><p>とりあえずgradleファイルの <code>repositories</code> にある <code>jcenter()</code> をコメントアウトします。
+そしてjCenterの代わりに <code>mavenCentral()</code> を入れてビルドと動作ができるかチェックするのが一番簡単です。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-gradle data-lang=gradle><span style=display:flex><span>buildscript <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    repositories <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>        google<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>        <span style=color:#75715e>// TODO: Android Gradle Pluginがまだ対応していない
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#75715e>//jcenter()
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        mavenCentral<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>allprojects <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    repositories <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>        google<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>        <span style=color:#75715e>//jcenter()
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        mavenCentral<span style=color:#f92672>()</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><p>あとはビルドエラーになったライブラリの提供元（リポジトリなど）を確認して、対応の予定があるか、すでに対応されているかをチェックすればおしまいです。</p><h2 id=利用しているサードパーティライブラリについて>利用しているサードパーティライブラリについて</h2><p>基本的にGoogleやKotlin公式が提供しているライブラリの大半は、ほぼGoogleリポジトリかMavenCentralに上がっているので気にしなくてよさそうです。</p><p>なのでサードパーティライブラリだけ気にすれば良さそうですが、現在提供しているアプリで使っているライブラリは次のものしかありませんでした。</p><ul>
+<li><a href=https://github.com/JakeWharton/timber>JakeWharton/timber: A logger with a small, extensible API which provides utility on top of Android&rsquo;s normal Log class.</a></li><li><a href=https://github.com/akaita/easylauncher-gradle-plugin>akaita/easylauncher-gradle-plugin: Add a different ribbon to each of your Android app variants using this gradle plugin. Of course, configure it as you will</a></li></ul><p>Timberは、<a href=https://github.com/JakeWharton/timber/blob/master/gradle/gradle-mvn-push.gradle#L42>最初からSonatype（MavenCentral）にアップロードされていました</a>。
+どうやらJCenter経由で取得できていたのが、そもそもよくなかったようです。</p><p>一方でeasylauncherは、<a href=https://github.com/akaita/easylauncher-gradle-plugin/blob/master/plugin/build.gradle#L30>Bintrayにのみリリースしている</a>ため、JCenterを削除すると使えなくなります。
 また、リポジトリのissueやPRの状況を見る限り、メンテナンスは数年レベルで止まっています。
 ただこれに関しては、すでに提供しているアプリがどちらもAdaptiveIcon対応していることもあって、easylauncherがないと困ることはほぼなくなっています。
 ですので、こちらに関してはライブラリそのものの脱却という対応を予定しています。
-どちらにしろ、リリースするアプリへの影響がないため、それほど急ぐ必要はありませんでした。</p>
-<p>ということで、こうして情報共有の記事をアップロードして、一時対応完了です。</p>
-<p>以上。</p>
-</div>
-<div class=after-post-tags>
+どちらにしろ、リリースするアプリへの影響がないため、それほど急ぐ必要はありませんでした。</p><p>ということで、こうして情報共有の記事をアップロードして、一時対応完了です。</p><p>以上。</p></div><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/yamadajirushi>yamadajirushi</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
 <a class="d-block col-md-6" href=https://yamacraft.github.io/note/my-rule-use-clubhouse/> &#171; 自分のClubhouseとの付き合い方</a>
 <a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/work-report-20210125/>作業記録（2021年1月25日） &#187;</a>
-<div class=clearfix></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jumbotron2 fortags">
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
 <div class="d-md-flex h-100">
 <div class="col-md-4 transpdark2 align-self-center text-center h-100">
 <div class="d-md-flex align-items-center justify-content-center h-100">
-<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2>
-</div>
-</div>
-<div class="col-md-8 p-5 align-self-center text-center">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
 <a class="mt-1 mb-1" href=/note/tags/android>android</a>
 <a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
 <a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
 <a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
 <a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
 <a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
 <a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
 <a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
@@ -201,26 +148,16 @@ allprojects <span style=color:#f92672>{</span>
 <a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
 <a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
 <a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
-</div>
-</div>
-</div>
-<footer class=footer>
+</div></div></div><footer class=footer>
 <div class=container>
 <div class=row>
 <div class="col-md-6 col-sm-6 text-center text-lg-left">
 &copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
-</div>
-<div class="col-md-6 col-sm-6 text-center text-lg-right">
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
 <a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
-</div>
-</div>
-</div>
-</footer>
-</div>
-<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
 <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
 <script src=/note/js/mediumish.js></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-49508140-1','auto'),ga('send','pageview'))</script>
-</body>
-</html>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>

@@ -1,7 +1,7 @@
 <!doctype html><html lang=ja-jp><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=generator content="Hugo 0.92.1">
+<meta name=generator content="Hugo 0.93.2">
 <link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png>
 <link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png>
 <link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png>
@@ -19,8 +19,7 @@
 <meta name=msapplication-TileColor content="#ffffff">
 <meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png">
 <meta name=theme-color content="#ffffff">
-<title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える | 山田航空ネットワーク3rd</title>
-<meta name=twitter:card content="summary_large_image">
+<title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png">
 <meta name=twitter:title content="D.I.C. レストア記録 #2 - コードをkotlinに置き換える">
 <meta name=twitter:description content="D.I.C.レストア記録記事一覧 #0 - レストアの方針 #1 - 開発環境を整える #2 - コードをkotlinに置き換える #3 - マテリアルデザインとダークテー">
@@ -36,140 +35,81 @@
 <link href=/note/css/medium.css rel=stylesheet>
 <link href=/note/css/additional.css rel=stylesheet>
 <link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css>
-</head>
-<body>
+</head><body>
 <div class=site-content-custom>
 <div class=container>
 <div class=mainheading>
 <a href=https://yamacraft.github.io/note/>
-<h1 class=sitetitle>山田航空ネットワーク3rd</h1>
-</a>
+<h1 class=sitetitle>山田航空ネットワーク3rd</h1></a>
 <p class=lead>
 <a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>
 記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a>
-</p>
-</div><div class=main-content>
+</p></div><div class=main-content>
 <div class=container>
 <div class=row>
 <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
-<p>Share</p>
-<ul>
+<p>Share</p><ul>
 <li class="ml-1 mr-1">
-<a target=_blank href="https://twitter.com/intent/tweet?text=D.I.C.%20%e3%83%ac%e3%82%b9%e3%83%88%e3%82%a2%e8%a8%98%e9%8c%b2%20%232%20-%20%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92kotlin%e3%81%ab%e7%bd%ae%e3%81%8d%e6%8f%9b%e3%81%88%e3%82%8b - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-02%2f" onclick="return window.open(this.href,'twitter-share','width=550,height=435'),!1">
+<a target=_blank href="https://twitter.com/intent/tweet?text=D.I.C.%20%e3%83%ac%e3%82%b9%e3%83%88%e3%82%a2%e8%a8%98%e9%8c%b2%20%232%20-%20%e3%82%b3%e3%83%bc%e3%83%89%e3%82%92kotlin%e3%81%ab%e7%bd%ae%e3%81%8d%e6%8f%9b%e3%81%88%e3%82%8b - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-02%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'>
 <i class="fab fa-twitter"></i>
 </a>
-</li>
-<li class="ml-1 mr-1">
-<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-02%2f" onclick="return window.open(this.href,'facebook-share','width=550,height=435'),!1">
+</li><li class="ml-1 mr-1">
+<a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2frestore-dic-02%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'>
 <i class="fab fa-facebook-f"></i>
 </a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-9 flex-first flex-md-unordered">
+</li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered">
 <div class=mainheading>
 <span class=post-date>Oct 12, 2020 - 3 min read</span>
-<h1 class=posttitle>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</h1>
-<div class=after-post-tags>
+<h1 class=posttitle>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</h1><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/app_restore>app_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/dic_restore>dic_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-</div>
-<div class=article-post>
-<h2 id=dicレストア記録記事一覧>D.I.C.レストア記録記事一覧</h2>
-<ul>
-<li><a href=/note/restore-dic-00/>#0 - レストアの方針</a></li>
-<li><a href=/note/restore-dic-01/>#1 - 開発環境を整える</a></li>
-<li><a href=/note/restore-dic-02/>#2 - コードをkotlinに置き換える</a></li>
-<li><a href=/note/restore-dic-03/>#3 - マテリアルデザインとダークテーマへの対応</a></li>
-</ul>
-<h2 id=コードをkotlinに変えるということ>コードをKotlinに変えるということ</h2>
-<p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
+</li></ul></div></div><div class=article-post>
+<h2 id=dicレストア記録記事一覧>D.I.C.レストア記録記事一覧</h2><ul>
+<li><a href=/note/restore-dic-00/>#0 - レストアの方針</a></li><li><a href=/note/restore-dic-01/>#1 - 開発環境を整える</a></li><li><a href=/note/restore-dic-02/>#2 - コードをkotlinに置き換える</a></li><li><a href=/note/restore-dic-03/>#3 - マテリアルデザインとダークテーマへの対応</a></li></ul><h2 id=コードをkotlinに変えるということ>コードをKotlinに変えるということ</h2><p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
 現在は公式のドキュメントのサンプルもKotlinでの記載が優先して表示されるなど、メインの開発公式言語の地位を築いています。
-この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。</p>
-<h2 id=dicでやったこと>D.I.C.でやったこと</h2>
-<p>D.I.C.はもともとコードの少ないアプリだったので、今回を機に、すべてのコードをKotlinに置き換えました。</p>
-<h2 id=androidアプリアーキテクチャへの置き換え>Androidアプリアーキテクチャへの置き換え</h2>
-<p>現在はAndroidが公式で推奨している、アプリのアーキテクチャが存在します。</p>
-<p><img src=/note/image/restore-dic-02/final-architecture.png alt=Androidアプリの推奨アーキテクチャ図（引用）></p>
-<blockquote>
-<p>公式のアーキテクチャガイドより引用</p>
-</blockquote>
-<p>公式でLiveDataとViewModelを用意してくれたおかげで、MVVMモデルでの開発がとてもやりやすくなりました。
-公式が推奨するアーキテクチャもMVVMをベースにしたようなものとなっています。</p>
-<p>D.I.C.は当時とりあえず動けばという感覚で作っていたので、いわゆる「Activity全部乗せ」で実装していました。</p>
-<p>せっかくなのでD.I.C.もこのアーキテクチャに合わせた形でリファクタリングを行いました。
+この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。</p><h2 id=dicでやったこと>D.I.C.でやったこと</h2><p>D.I.C.はもともとコードの少ないアプリだったので、今回を機に、すべてのコードをKotlinに置き換えました。</p><h2 id=androidアプリアーキテクチャへの置き換え>Androidアプリアーキテクチャへの置き換え</h2><p>現在はAndroidが公式で推奨している、アプリのアーキテクチャが存在します。</p><p><img src=/note/image/restore-dic-02/final-architecture.png alt=Androidアプリの推奨アーキテクチャ図（引用）></p><blockquote>
+<p>公式のアーキテクチャガイドより引用</p></blockquote><p>公式でLiveDataとViewModelを用意してくれたおかげで、MVVMモデルでの開発がとてもやりやすくなりました。
+公式が推奨するアーキテクチャもMVVMをベースにしたようなものとなっています。</p><p>D.I.C.は当時とりあえず動けばという感覚で作っていたので、いわゆる「Activity全部乗せ」で実装していました。</p><p>せっかくなのでD.I.C.もこのアーキテクチャに合わせた形でリファクタリングを行いました。
 ただし、まだD.I.C.にはRepositoryまで必要とするような処理がありません。
 またリファクタリングの方に時間をかけすぎるといつまでたっても改修が終わらないので、いったん「Activity全部乗せ」を「ViewModelにView以外の処理全部乗せ」に変えました。
-Viewで完結させるべき処理とそれ以外を分けるだけでも、コード自体の可読性はかなり良くなりました。</p>
-<p><img src=/note/image/restore-dic-02/restore-dic-02-architecture.png alt=Androidアプリの推奨アーキテクチャ図（引用）></p>
-<p>私の大好きな、WVVM（Whatever-View-ViewModel）というやつです。
-といっても、今回はWhateverに該当するものすらありませんが。</p>
-<h2 id=採用するライブラリについて>採用するライブラリについて</h2>
-<p>今回の対応で、合わせてバックグラウンドの処理をCoroutineに変更しました。</p>
-<p>基本的に実装内容は、なるべくAndroidが公式で用意されたもので実装するように置き換えていきます。
+Viewで完結させるべき処理とそれ以外を分けるだけでも、コード自体の可読性はかなり良くなりました。</p><p><img src=/note/image/restore-dic-02/restore-dic-02-architecture.png alt=Androidアプリの推奨アーキテクチャ図（引用）></p><p>私の大好きな、WVVM（Whatever-View-ViewModel）というやつです。
+といっても、今回はWhateverに該当するものすらありませんが。</p><h2 id=採用するライブラリについて>採用するライブラリについて</h2><p>今回の対応で、合わせてバックグラウンドの処理をCoroutineに変更しました。</p><p>基本的に実装内容は、なるべくAndroidが公式で用意されたもので実装するように置き換えていきます。
 okHttpやRetrofitといった、もはや公式ライブラリと遜色ないレベルで使われているものはそのままでもよいです。
-ですが、枯れたとも言えないような更新の止まったサードパーティ製のライブラリは、このタイミングで取り外しておきたいです。</p>
-<p>以上です。</p>
-</div>
-<div class=after-post-tags>
+ですが、枯れたとも言えないような更新の止まったサードパーティ製のライブラリは、このタイミングで取り外しておきたいです。</p><p>以上です。</p></div><div class=after-post-tags>
 <ul class=tags>
 <li>
 <a href=/note/tags/tech>tech</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/work>work</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/app_restore>app_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/dic_restore>dic_restore</a>&ensp;
-</li>
-<li>
+</li><li>
 <a href=/note/tags/android>android</a>&ensp;
-</li>
-</ul>
-</div>
-<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold">
 <a class="d-block col-md-6" href=https://yamacraft.github.io/note/restore-dic-03/> &#171; D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</a>
 <a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/restore-dic-01/>D.I.C. レストア記録 #1 - 開発環境を整える &#187;</a>
-<div class=clearfix></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jumbotron2 fortags">
+<div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags">
 <div class="d-md-flex h-100">
 <div class="col-md-4 transpdark2 align-self-center text-center h-100">
 <div class="d-md-flex align-items-center justify-content-center h-100">
-<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2>
-</div>
-</div>
-<div class="col-md-8 p-5 align-self-center text-center">
+<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center">
 <a class="mt-1 mb-1" href=/note/tags/android>android</a>
 <a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
 <a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
 <a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
 <a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
 <a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
 <a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
 <a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
@@ -197,26 +137,16 @@ okHttpやRetrofitといった、もはや公式ライブラリと遜色ないレ
 <a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
 <a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
 <a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
-</div>
-</div>
-</div>
-<footer class=footer>
+</div></div></div><footer class=footer>
 <div class=container>
 <div class=row>
 <div class="col-md-6 col-sm-6 text-center text-lg-left">
 &copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a>
-</div>
-<div class="col-md-6 col-sm-6 text-center text-lg-right">
+</div><div class="col-md-6 col-sm-6 text-center text-lg-right">
 <a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net
-</div>
-</div>
-</div>
-</footer>
-</div>
-<script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
 <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
 <script src=/note/js/mediumish.js></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-49508140-1','auto'),ga('send','pageview'))</script>
-</body>
-</html>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-49508140-1","auto"),ga("send","pageview"))</script>
+</body></html>
