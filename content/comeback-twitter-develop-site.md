@@ -1,6 +1,6 @@
 ---
 title: "Twitter開発者ポータルの出禁が解除されてた"
-date: 2022-04-26T14:34:10+09:00
+date: 2022-04-26T20:00:00+09:00
 draft: false
 categories: ["tech"]
 tags: ["tech", "twitter"]
