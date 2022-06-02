@@ -59,6 +59,9 @@
                     {{with $images.GetMatch "*cover*" }}
                         <img class="featured-image img-fluid" src="{{ . | relURL }}" alt="thumbnail for this post">
                     {{end}}
+                    {{- with $.Params.images -}}
+                        {{- range first 1 . }}<img class="featured-image img-fluid" src="{{ . | absURL }}" />{{ end -}}
+                    {{- end -}}
                     <!-- End Featured Image -->
 
                     <!-- Post Content -->
