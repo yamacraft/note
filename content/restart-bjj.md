@@ -1,6 +1,6 @@
 ---
 title: "ブラジリアン柔術を始めた（15年ぶり2度目）"
-date: 2022-06-05T18:00:00+09:00
+date: 2022-06-06T20:30:00+09:00
 draft: false
 categories: ["diary"]
 tags: ["diary", "bjj"]
