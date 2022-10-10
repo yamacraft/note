@@ -10,7 +10,7 @@ tags: ["work", "done-report"]
 
 ## 2022年のまとめ
 
-* [2021 1Q](/note/yamacraft-2022-1q-done/)
+* [2022 1Q](/note/yamacraft-2022-1q-done/)
 
 ## 仕事
 
