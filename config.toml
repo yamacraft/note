@@ -18,3 +18,6 @@ licenseURL = "https://creativecommons.org/licenses/by/4.0/deed.ja"
 
 images = ["image/ogp.png"]
 customCss = ["css/note.css"]
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
