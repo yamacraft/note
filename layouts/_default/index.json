@@ -1,0 +1,12 @@
+{
+    "title": {{ .Site.Title | jsonify }},
+    "url": {{ .Permalink | jsonify }},{{ with .OutputFormats.Get "RSS" }}
+    "feed": {{ .Permalink | jsonify }},{{ end }}
+    "entry": [{{ range $i, $v := first 5 .Data.Pages }}{{ if ne $i 0 }},{{ end }}{{ with $v }}
+      {
+        "title": {{ .Title | jsonify }},
+        "url": {{ .Permalink | jsonify }},
+        "published": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }}
+      }{{ end }}{{ end }}
+    ]
+  }
