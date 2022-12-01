@@ -49,6 +49,10 @@ Firebase HostingへデプロイするプロジェクトはCircle CIを使って�
 blogの方は予約投稿をある程度対応できるように、毎日0時（ただしくは0時5分以降）に実行するスケジュールを追加しています。
 ただ現状は何も変更がなくてもデプロイしてしまっているので、これは今後、ビルド結果の差分を見て必要があればデプロイをするという形に修正していく予定です。
 
+とりあえず現状ではデプロイまでやっても1分かからないので良しとしています。
+
+https://github.com/yamacraft/note/actions/workflows/deploy.yml
+
 ### GitHub Pages / Firebase Hosting
 
 デプロイ先に利用しています。
