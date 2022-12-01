@@ -1782,8 +1782,8 @@ rules:
       - クエリーストリング
   - expected: クエリ
     pattern:  /クエリー/
-  - expected: クオート
-    pattern:  /クォート|クオーテーション|クォーテーション/
+#  - expected: クオート
+#    pattern:  /クォート|クオーテーション|クォーテーション/
   - expected: クオリティ
     pattern:  /クオリティー|クォリティ|クォリティー/
   - expected: クライアント／サーバ
