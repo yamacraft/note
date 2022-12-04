@@ -1,0 +1,69 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.107.0"><link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/note/ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/note/ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/note/ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/note/ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/note/ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/note/ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/note/ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/note/ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/note/ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/note/ico/favicon-16x16.png><link rel=manifest href=/note/ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><title>クロスプラットフォームを導入したいかどうかは、場合による | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://yamacraft.github.io/note/image/it-depends-on-the-situation/2022-10-06-13-28.jpg"><meta name=twitter:title content="クロスプラットフォームを導入したいかどうかは、場合による"><meta name=twitter:description content="今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます"><meta property="og:title" content="クロスプラットフォームを導入したいかどうかは、場合による"><meta property="og:description" content="今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます"><meta property="og:type" content="article"><meta property="og:url" content="https://yamacraft.github.io/note/it-depends-on-the-situation-1/"><meta property="og:image" content="https://yamacraft.github.io/note/image/it-depends-on-the-situation/2022-10-06-13-28.jpg"><meta property="article:section" content><meta property="article:published_time" content="2022-12-05T00:05:00+09:00"><meta property="article:modified_time" content="2022-12-05T00:05:00+09:00"><link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css rel=stylesheet integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel=stylesheet><link href=/note/css/medium.css rel=stylesheet><link href=/note/css/additional.css rel=stylesheet><link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css></head><body><div class=site-content-custom><div class=container><div class=mainheading><a href=https://yamacraft.github.io/note/><h1 class=sitetitle>山田航空ネットワーク3rd</h1></a><p class=lead><a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a></p></div><div class=main-content><div class=container><div class=row><div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset"><p>Share</p><ul><li class="ml-1 mr-1"><a target=_blank href="https://twitter.com/intent/tweet?text=%e3%82%af%e3%83%ad%e3%82%b9%e3%83%97%e3%83%a9%e3%83%83%e3%83%88%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0%e3%82%92%e5%b0%8e%e5%85%a5%e3%81%97%e3%81%9f%e3%81%84%e3%81%8b%e3%81%a9%e3%81%86%e3%81%8b%e3%81%af%e3%80%81%e5%a0%b4%e5%90%88%e3%81%ab%e3%82%88%e3%82%8b - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fit-depends-on-the-situation-1%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'><i class="fab fa-twitter"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fit-depends-on-the-situation-1%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'><i class="fab fa-facebook-f"></i></a></li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered"><div class=mainheading><span class=post-date>Dec 5, 2022 - 5 min read</span><h1 class=posttitle>クロスプラットフォームを導入したいかどうかは、場合による</h1><div class=after-post-tags><ul class=tags><li><a href=/tags/tech>tech</a>&ensp;</li><li><a href=/tags/advent2022>advent2022</a>&ensp;</li></ul></div></div><img class="featured-image img-fluid" src=https://yamacraft.github.io/note/image/it-depends-on-the-situation/2022-10-06-13-28.jpg><div class=article-post><p>今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
+（ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）</p><p>Jetpack Composeはいずれ導入しないといかんだろうという考えで、アーキテクチャは一生何もわからないと思っています。
+あと残り2つのアンケートについての話です。
+今回はクロスプラットフォームについて。</p><p>なお、あくまでもyamacraft個人の見解であることをご留意ください。</p><h2 id=プライベートなら>プライベートなら…</h2><p>プライベートで個人開発なら、技術検証目的でなら導入したいかなとは思っています。
+それ以外であれば、Webのみでサービスを作るときには検討するかもしれません。
+自分がWebフロントの技術に疎いのと、あそこは流行り廃りが早すぎて何がトレンドなのかわからないので…。</p><p>AndroidとiOS両方にアプリを提供する場合、導入したくないのが個人的な見解です。
+理由として、結局１つのコードだけで両OSに対応したアプリを作るのは難しそうだなという導入事例をいくつか目にしていることです。
+おそらくアプリの内容次第では完全に共通コードだけで対応できるものがあるのでしょうが、それはおそらくWebでの提供も可能なはずです。
+そうなると、そもそもアプリで提供する必要はあるのかという疑問が拭えません。</p><p>あとは単純に、両OS対応するアプリを作る以上、それぞれでの動作検証の必要性が避けられません。
+プライベート以外でコーディング以降の作業に時間を消費するのは、ちょっとモチベーション的に避けたいところ。</p><p>結局、わざわざクロスプラットフォームでAndroidアプリ作るなら、ネイティブで素直に作りたいなあとなってしまうわけです。</p><h2 id=仕事なら>仕事なら…</h2><p>結論から書くと、極力導入は避けたいと考えています。</p><p>まず企業のプロダクトは、可能な限り（収益やらコストやらに問題がなければ）永きに渡って続けていきたいわけです。
+そうなるとプロダクトの改修や保守が続くわけで、ここでクロスプラットフォームを使う場合の不安要素があります。</p><p>AndroidやiOSはAPI（SDK）の更新が早く、また公式が積極的に最新版を利用することを求めてきます。
+ネイティブ開発であれば、開発者都合のタイミングでついていくことができます。一方でクロスプラットフォームの場合、そちらの都合で待ちが発生することもあります。
+ひどい場合は、クロスプラットフォームの更新が止まってしまうことで、結局ネイティブで作り直すケースも発生してしまいます。
+このあたりの話は、○honeGapとか○amarin等が脳裏をよぎります。</p><p>またプライベートの項で少し触れましたが、「それもうWebでよくないか？」というアプリでない限り、それぞれのOSの独自機能へ対応するコードの用意が求められがちです。
+結局それを対応するためには、それぞれのアプリの知識に精通したエンジニアが必要になり、そのエンジニアがいるならネイティブ開発でよくないか？と思ってしまいます。
+逆に言えば、それができないエンジニアしかいない中で安易にクロスプラットフォームを導入すると、その部分で地獄を見ることになるんじゃないかと不安になります。</p><p>一方でReactをバリバリやっているエンジニアしかいない会社がReact nativeを導入したり、Dartをバリバリやっていたエンジニアがflutterを導入したりするのは少し話が変わります。
+この場合、それぞれの地力があるのでゼロからネイティブで開発をするよりはスムージに品質のよいアプリが作りやすい可能性はあります。
+まあ、その辺は該当のエンジニアではないので、自分の壮大な勘違いの可能性があります。</p><p>そうした理由で、結局各クロスプラットフォームを使う上で考えられるメリットが本当にメリットになったのか？というケースが多いので、どうにも導入には懐疑的になってしまうのが個人的な見解です。
+エンジニアの技術的興味で導入したいという意見もわからなくはないですが、プロダクトはエンジニアのおもちゃではありません。
+仕事である以上、たとえば自分が何らかの理由によって関わらなくなる以降のことも考えた上で、慎重に検討したいところです。</p><h2 id=完全否定はではない>完全否定はではない</h2><p>なんだかだいぶクロスプラットフォーム否定派みたいになってしまいましたが、新しい技術を拒絶したいわけではありません。
+導入していろいろと頑張っている人達のことは応援していますし、うまく回っているプロダクトがあれば素直に尊敬します。</p><p>たとえばゲーム方面ではありますが、UnityやUnreal Engineはクロスプラットフォームとして十分な成果を上げていると思っています。
+今回の写真に写っているflutterやKMMがそれぐらいの立ち位置になる可能性だってあり得ますし、ぜひ目指して頑張ってほしいのが本音です。
+私個人はプログラミング言語を覚えるよりもプロダクトを作りたい側の人間ですので、覚える必要のある言語が少なくて済むのは大歓迎という立場です。</p></div><div class=after-post-tags><ul class=tags><li><a href=/tags/tech>tech</a>&ensp;</li><li><a href=/tags/advent2022>advent2022</a>&ensp;</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold"><a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/unsupport-csv-at-android/>AndroidはCSVをサポートしていないので導入は避けようという資料 &#187;</a><div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags"><div class="d-md-flex h-100"><div class="col-md-4 transpdark2 align-self-center text-center h-100"><div class="d-md-flex align-items-center justify-content-center h-100"><h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center"><a class="mt-1 mb-1" href=/tags/adb>adb</a>
+<a class="mt-1 mb-1" href=/tags/advent2022>advent2022</a>
+<a class="mt-1 mb-1" href=/tags/android>android</a>
+<a class="mt-1 mb-1" href=/tags/app_restore>app_restore</a>
+<a class="mt-1 mb-1" href=/tags/bjj>bjj</a>
+<a class="mt-1 mb-1" href=/tags/blender>blender</a>
+<a class="mt-1 mb-1" href=/tags/blog>blog</a>
+<a class="mt-1 mb-1" href=/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/tags/circle-ci>circle-ci</a>
+<a class="mt-1 mb-1" href=/tags/dabun>dabun</a>
+<a class="mt-1 mb-1" href=/tags/design>design</a>
+<a class="mt-1 mb-1" href=/tags/diary>diary</a>
+<a class="mt-1 mb-1" href=/tags/dic_restore>dic_restore</a>
+<a class="mt-1 mb-1" href=/tags/docker>docker</a>
+<a class="mt-1 mb-1" href=/tags/done-report>done-report</a>
+<a class="mt-1 mb-1" href=/tags/easylauncher>easylauncher</a>
+<a class="mt-1 mb-1" href=/tags/firebase>firebase</a>
+<a class="mt-1 mb-1" href=/tags/flutter>flutter</a>
+<a class="mt-1 mb-1" href=/tags/git>git</a>
+<a class="mt-1 mb-1" href=/tags/github>github</a>
+<a class="mt-1 mb-1" href=/tags/github-actions>github-actions</a>
+<a class="mt-1 mb-1" href=/tags/google-play>google-play</a>
+<a class="mt-1 mb-1" href=/tags/googleio>googleio</a>
+<a class="mt-1 mb-1" href=/tags/homete>homete</a>
+<a class="mt-1 mb-1" href=/tags/hugo>hugo</a>
+<a class="mt-1 mb-1" href=/tags/keiba>keiba</a>
+<a class="mt-1 mb-1" href=/tags/material-design>material-design</a>
+<a class="mt-1 mb-1" href=/tags/material-design3>material-design3</a>
+<a class="mt-1 mb-1" href=/tags/notice>notice</a>
+<a class="mt-1 mb-1" href=/tags/nuxt>nuxt</a>
+<a class="mt-1 mb-1" href=/tags/pixel>pixel</a>
+<a class="mt-1 mb-1" href=/tags/poem>poem</a>
+<a class="mt-1 mb-1" href=/tags/study>study</a>
+<a class="mt-1 mb-1" href=/tags/tech>tech</a>
+<a class="mt-1 mb-1" href=/tags/tsubo>tsubo</a>
+<a class="mt-1 mb-1" href=/tags/twitter>twitter</a>
+<a class="mt-1 mb-1" href=/tags/unity>unity</a>
+<a class="mt-1 mb-1" href=/tags/web>web</a>
+<a class="mt-1 mb-1" href=/tags/work>work</a>
+<a class="mt-1 mb-1" href=/tags/workout>workout</a>
+<a class="mt-1 mb-1" href=/tags/yamadajirushi>yamadajirushi</a>
+<a class="mt-1 mb-1" href=/tags/yodan>yodan</a></div></div></div><footer class=footer><div class=container><div class=row><div class="col-md-6 col-sm-6 text-center text-lg-left">&copy; yamacraft 2022 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a></div><div class="col-md-6 col-sm-6 text-center text-lg-right"><a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
+<script src=/js/mediumish.js></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN2EJQSS9T"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WN2EJQSS9T",{anonymize_ip:!1})}</script></body></html>
