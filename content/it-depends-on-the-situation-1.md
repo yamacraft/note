@@ -1,6 +1,6 @@
 ---
 title: "クロスプラットフォームを導入したいかどうかは、場合による"
-date: 2022-12-02T00:05:00+09:00
+date: 2022-12-05T00:05:00+09:00
 draft: false
 categories: ["tech"]
 tags: ["tech", "advent2022"]
