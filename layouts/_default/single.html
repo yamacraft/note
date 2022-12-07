@@ -46,7 +46,7 @@
                             <ul class="tags">
                             {{ range .Params.tags }}
                             <li>
-                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>&ensp;
+                            <a href="{{ "/note/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>&ensp;
                             </li>
                             {{ end }}
                             </ul>
@@ -74,7 +74,7 @@
                         <ul class="tags">
                         {{ range .Params.tags }}
                         <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>&ensp;
+                        <a href="{{ "/note/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>&ensp;
                         </li>
                         {{ end }}
                         </ul>
