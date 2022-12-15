@@ -6,6 +6,8 @@ categories: ["tech"]
 tags: ["tech", "advent2022", "android", "architecture"]
 ---
 
+※ 記事公開以降に一部修正と補足を追加しています。
+
 [Android Advent Calendar 2022](https://qiita.com/advent-calendar/2022/android)の13日目の記事になります。
 
 去年末、[Android公式のアーキテクチャガイドが刷新された](https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html)のはご存じでしょうか？
@@ -22,7 +24,7 @@ Android公式がアーキテクチャガイドを用意したのは（記憶が�
 ## 2017年のアーキテクチャはAACの利用が前提
 
 2017年の公式推奨アーキテクチャは、AAC（Android Architecture Components）を使用して作ります。
-また、DIを利用するためにHiltを利用します。
+~~また、DIを利用するためにHiltを利用します。~~
 
 ![2017年のアーキテクチャガイドで掲載されていた構成図](/note/image/goodbye-2017-architecture-guide/2017-aac-guide.png)
 
@@ -35,8 +37,17 @@ ViewModelからViewへデータを渡す時はLiveDataを使います。
 DataSourceで使っているRoomやRetrofit、SQLiteやWebServiceは、あくまでも一例です。
 AACよりも利用の強制力はありません。
 
-ついでに書くとDIもHiltが大前提になっていましたが、ほかのDIライブラリを使うことも禁止されていません。
-なんなら手動による依存関係の挿入方法の資料もあり、ここには2017年版アーキテクチャガイドのなごりを見ることができます。
+### （補足）Hiltの利用について
+
+ここは指摘されて気がつきましたが、Hiltが登場したのは2020年にリリースされたDagger 2.28からだったので、自分の記憶違いでした。
+じゃあDagger2の勘違いかと思いきや、念の為ちょっと調べてみたところ、Dagger2を使って書かれていたと思われるような痕跡も見当たりませんでした。
+ですので、Hiltを使っていたという記載は、おそらく別のドキュメントの内容を混同していた可能性があります。
+
+とはいえ、「関心の分離」を実装するのにDIは非常に役立ちますし、現状ほぼ必須の技術だと考えています。
+ですので、以降の記事は最初の内容でそのまま掲載することにします。
+
+ちなみに手動による依存関係の挿入方法の資料もあります。
+また、ここには2017年版アーキテクチャガイドのなごりを見ることができます。
 
 [手動による依存関係挿入  \|  Android デベロッパー  \|  Android Developers](https://developer.android.com/training/dependency-injection/manual?hl=ja)
 
@@ -253,7 +264,7 @@ Android開発界隈では、長いことActivityやFragmentにコードを詰め
 これの解決策として、Daggerを使ったDIの利用などが取り上げられたこともありましたが、根本的な解決には至りませんでした。
 このあたりは2017年までのAndroidの設計に関する記事の内容が、MVPやMVVMなどバリエーション豊かだったことからもわかります。
 
-こうした背景から、より明確な設計によってアプリを作れるよう、AACの誕生とともにアーキテクチャガイドが作成されたようです。
+こうした背景から、より明確な設計でアプリを作れるよう、AACの誕生とともにアーキテクチャガイドが作成されたようです。
 
 {{< youtube FrteWKKVyzI >}}
 
