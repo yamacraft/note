@@ -3,7 +3,7 @@ title: "2022年競馬の雑感"
 date: 2022-12-30T23:00:00+09:00
 draft: false
 categories: ["diary"]
-tags: ["diary", "keiba"]
+tags: ["diary", "keiba", "advent2022"]
 ---
 
 さっくりと思い浮かんだ、今年の競馬の雑感です。
