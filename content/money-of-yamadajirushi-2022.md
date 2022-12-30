@@ -3,7 +3,7 @@ title: "ヤマダ印と俺と金（2022年版）"
 date: 2022-12-27T22:00:00+09:00
 draft: false
 categories: ["work"]
-tags: ["work", "money", "life"]
+tags: ["work", "money", "life", "advent2022"]
 ---
 
 ## ヤマダ印の収入
