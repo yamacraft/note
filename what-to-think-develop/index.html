@@ -1,0 +1,75 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.109.0"><link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/note/ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/note/ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/note/ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/note/ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/note/ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/note/ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/note/ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/note/ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/note/ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/note/ico/favicon-16x16.png><link rel=manifest href=/note/ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><title>何を考えてプロダクト開発に取り組んでいるか | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png"><meta name=twitter:title content="何を考えてプロダクト開発に取り組んでいるか"><meta name=twitter:description content="ここ数年、仕事でプロダクト開発をしている時にITエンジニアとして意識していることを書きます。 ちなみに、toC向けのプロダクトを条件としていま"><meta property="og:title" content="何を考えてプロダクト開発に取り組んでいるか"><meta property="og:description" content="ここ数年、仕事でプロダクト開発をしている時にITエンジニアとして意識していることを書きます。 ちなみに、toC向けのプロダクトを条件としていま"><meta property="og:type" content="article"><meta property="og:url" content="https://yamacraft.github.io/note/what-to-think-develop/"><meta property="og:image" content="https://yamacraft.github.io/note/image/ogp.png"><meta property="article:section" content><meta property="article:published_time" content="2023-01-16T23:30:00+09:00"><meta property="article:modified_time" content="2023-01-16T23:30:00+09:00"><link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css rel=stylesheet integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel=stylesheet><link href=/note/css/medium.css rel=stylesheet><link href=/note/css/additional.css rel=stylesheet><link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css></head><body><div class=site-content-custom><div class=container><div class=mainheading><a href=https://yamacraft.github.io/note/><h1 class=sitetitle>山田航空ネットワーク3rd</h1></a><p class=lead><a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a></p></div><div class=main-content><div class=container><div class=row><div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset"><p>Share</p><ul><li class="ml-1 mr-1"><a target=_blank href="https://twitter.com/intent/tweet?text=%e4%bd%95%e3%82%92%e8%80%83%e3%81%88%e3%81%a6%e3%83%97%e3%83%ad%e3%83%80%e3%82%af%e3%83%88%e9%96%8b%e7%99%ba%e3%81%ab%e5%8f%96%e3%82%8a%e7%b5%84%e3%82%93%e3%81%a7%e3%81%84%e3%82%8b%e3%81%8b - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fwhat-to-think-develop%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'><i class="fab fa-twitter"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fwhat-to-think-develop%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'><i class="fab fa-facebook-f"></i></a></li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered"><div class=mainheading><span class=post-date>Jan 16, 2023 - 4 min read</span><h1 class=posttitle>何を考えてプロダクト開発に取り組んでいるか</h1><div class=after-post-tags><ul class=tags><li><a href=/note/tags/work>work</a>&ensp;</li><li><a href=/note/tags/product>product</a>&ensp;</li></ul></div></div><div class=article-post><p>ここ数年、仕事でプロダクト開発をしている時にITエンジニアとして意識していることを書きます。</p><p>ちなみに、toC向けのプロダクトを条件としています。</p><h2 id=まとめ>まとめ</h2><ul><li>ユーザーファーストで考えるのはやめた</li><li>利益（数字）ファーストはそもそも門外漢になる</li><li>品質を高めることを第一に考えて取り組んでいきたい<ul><li>ユーザーが離れる機会を減らすことを尽くす</li><li>手持ちのカードの中での最善を尽くす</li></ul></li></ul><h2 id=ユーザーファーストでいるのは苦しい>ユーザーファーストでいるのは、苦しい</h2><p>数年前までの自分は、ユーザーファーストであることが最良と考えていましたが、考えを改めることにしました。</p><p>ユーザーファーストは、突き詰めるとユーザーへの無償奉仕に行き着くと考えています。
+たとえば買い切りやサブスクリプションといった課金要素自体は、ユーザーが喜ぶものではありません。
+それが巡り巡ってサーバの増強になる等の理由で、ひいてはユーザーの喜びへ還元されると言うこともできますが、そんな理屈は結局何にでも言えてしまうわけです。
+広告なんてもってのほかです。
+見たことありますか？アプリやWebサービスに広告が入って喜ぶユーザーを。
+あるとしたら、よっぽど提供しているコンテンツがつまらなさ過ぎて、広告のコンテンツの方がまだおもしろかった場合でしょうか。</p><p>仕事でやる以上、（最初から採算度外視のプロジェクトでなければ）利益のことを考慮する必要が出てきます。
+そのためにはユーザーファーストから目を背けなければいけないこともあるでしょう。</p><p>という感じで、ユーザーファーストを突き詰めていくのは企業としてはかなり難しいもののように感じます。
+ですので、この考えはやめることに至りました。</p><h2 id=利益ファーストはブレる>利益ファーストは、ブレる</h2><p>かといって、利益を第一にするとプロダクトは盛大にブレます。
+より利益になりそうなものへと手を付けることになるので、それは当然と言えます。
+最初からミッション（目的）が特定の利益を得ることが前提のプロダクトなら、そこまでブレを感じずにいられる可能性はありそうです。
+ただ残念ながら、そんなプロダクトには出会ったことがありません。
+まあ突き詰めると技術コストとかも削減するに至りそうなものですし、今後関わる機会もなさそうです。</p><h2 id=利益はコンテンツの質中身で決まる>利益はコンテンツの質（中身）で決まる</h2><p>結局のところ、プロダクトがどれだけの利益を得るかは、最終的にそのプロダクトの抱えるコンテンツの質（中身）がすべてだと私は考えています。
+これはプロダクト自体の品質の話ではありません。</p><p>動画配信サービスを例にします。
+複数あるサブスクリプション系の動画配信サービスのうち、どれかひとつのみ登録しようと考えた場合に決め手となるのは、何を配信しているかに尽きます。
+どれだけWebサイトやアプリが洗練された作りであろうと、ろくなコンテンツが配信されていなければ、ユーザーは見向きもしてくれません。</p><p>たとえばよっぽど提供しているコンテンツが魅力に溢れていても、サーバの動作が不安定だったり動画プレイヤーの作りがお粗末で不便だったりすれば、ユーザーは離れることがあります。
+先ほどの話だと、その後ユーザーは残った動画配信サービスから１つ選んで登録する流れになりますが、現実はそんなに甘くありません。
+同じコンテンツを配信している場合はそれもありそうですが、離脱したサービスの独自コンテンツを視聴目的としていたのであれば、ほかのサービスに移ることはないでしょう。</p><p>これは主にBtoC向けの話でしたが、CtoCでも同様です。
+どちらもある程度のクオリティのコントロールはできるでしょうが、完全なコントロールは不可能です。</p><p>そしてここまで考えるようになると、もはやいちエンジニアだけではどうにもならない範疇の話になってしまいます。</p><h2 id=品質でユーザーは増やせないが減る離れる機会を減らすことができる>品質でユーザーは増やせないが、減る（離れる）機会を減らすことができる</h2><p>一方で先ほど触れた「プロダクトの品質が悪いとユーザーが離れる」という部分は、ITエンジニアがメインになって取り組める問題と考えています。
+むしろITエンジニアが中心となるべき問題とも言えるでしょう。</p><p>そうした理由から、最近の私はプロダクトの品質を高め、プロダクトの品質理由でユーザーが離れないようにすることを意識するようにしています。</p><h2 id=品質も最高のものは作れない>品質も最高のものは作れない</h2><p>ただ残念ながら、品質においてもリソースの都合で無限に品質を突き詰めることができません。
+このリソースとは人的なものや、予算、時間といろいろあります。</p><p>結局この手のリソースなんてものは後から拡充すると言いながら、いつまでもされないケースで満ち溢れています。
+ですので未来には期待せず、いまある手持ちのカードから最良を目指すことを常に意識するようにしています。</p><p>以上です。
+あなたの意識はどこから？</p></div><div class=after-post-tags><ul class=tags><li><a href=/note/tags/work>work</a>&ensp;</li><li><a href=/note/tags/product>product</a>&ensp;</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold"><a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/why-use-gather-and-youtube-live/>GatherとYoutube配信をやりだしたワケ &#187;</a><div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags"><div class="d-md-flex h-100"><div class="col-md-4 transpdark2 align-self-center text-center h-100"><div class="d-md-flex align-items-center justify-content-center h-100"><h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center"><a class="mt-1 mb-1" href=/note/tags/adb>adb</a>
+<a class="mt-1 mb-1" href=/note/tags/advent2022>advent2022</a>
+<a class="mt-1 mb-1" href=/note/tags/android>android</a>
+<a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/architecture>architecture</a>
+<a class="mt-1 mb-1" href=/note/tags/bjj>bjj</a>
+<a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
+<a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
+<a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
+<a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
+<a class="mt-1 mb-1" href=/note/tags/design>design</a>
+<a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
+<a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/docker>docker</a>
+<a class="mt-1 mb-1" href=/note/tags/done-report>done-report</a>
+<a class="mt-1 mb-1" href=/note/tags/easylauncher>easylauncher</a>
+<a class="mt-1 mb-1" href=/note/tags/firebase>firebase</a>
+<a class="mt-1 mb-1" href=/note/tags/flutter>flutter</a>
+<a class="mt-1 mb-1" href=/note/tags/gather>gather</a>
+<a class="mt-1 mb-1" href=/note/tags/git>git</a>
+<a class="mt-1 mb-1" href=/note/tags/github>github</a>
+<a class="mt-1 mb-1" href=/note/tags/github-actions>github-actions</a>
+<a class="mt-1 mb-1" href=/note/tags/google-play>google-play</a>
+<a class="mt-1 mb-1" href=/note/tags/googleio>googleio</a>
+<a class="mt-1 mb-1" href=/note/tags/homete>homete</a>
+<a class="mt-1 mb-1" href=/note/tags/hugo>hugo</a>
+<a class="mt-1 mb-1" href=/note/tags/keiba>keiba</a>
+<a class="mt-1 mb-1" href=/note/tags/life>life</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design>material-design</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design3>material-design3</a>
+<a class="mt-1 mb-1" href=/note/tags/memo>memo</a>
+<a class="mt-1 mb-1" href=/note/tags/money>money</a>
+<a class="mt-1 mb-1" href=/note/tags/notice>notice</a>
+<a class="mt-1 mb-1" href=/note/tags/nuxt>nuxt</a>
+<a class="mt-1 mb-1" href=/note/tags/pixel>pixel</a>
+<a class="mt-1 mb-1" href=/note/tags/poem>poem</a>
+<a class="mt-1 mb-1" href=/note/tags/product>product</a>
+<a class="mt-1 mb-1" href=/note/tags/study>study</a>
+<a class="mt-1 mb-1" href=/note/tags/tech>tech</a>
+<a class="mt-1 mb-1" href=/note/tags/tsubo>tsubo</a>
+<a class="mt-1 mb-1" href=/note/tags/twitter>twitter</a>
+<a class="mt-1 mb-1" href=/note/tags/unity>unity</a>
+<a class="mt-1 mb-1" href=/note/tags/web>web</a>
+<a class="mt-1 mb-1" href=/note/tags/work>work</a>
+<a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
+<a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
+<a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
+<a class="mt-1 mb-1" href=/note/tags/youtube>youtube</a></div></div></div><footer class=footer><div class=container><div class=row><div class="col-md-6 col-sm-6 text-center text-lg-left">&copy; yamacraft 2023 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a></div><div class="col-md-6 col-sm-6 text-center text-lg-right"><a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
+<script src=/js/mediumish.js></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN2EJQSS9T"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WN2EJQSS9T",{anonymize_ip:!1})}</script></body></html>
