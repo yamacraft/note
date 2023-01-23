@@ -1,6 +1,6 @@
 ---
 title: "AndroidでOGP情報を取得する（OkHttp3+Jsoup）"
-date: 2023-01-23T17:09:00+09:00
+date: 2023-01-23T18:00:00+09:00
 draft: false
 categories: ["tech"]
 tags: ["tech", ""]
