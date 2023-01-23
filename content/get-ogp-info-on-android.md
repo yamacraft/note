@@ -3,7 +3,7 @@ title: "AndroidでOGP情報を取得する（OkHttp3+Jsoup）"
 date: 2023-01-23T18:00:00+09:00
 draft: false
 categories: ["tech"]
-tags: ["tech", ""]
+tags: ["tech", "android"]
 ---
 
 対象のWebサイトのOGP情報を取得する方法ですが、私には対象のサイトのHTMLを読み込んでからmetaタグのOGP情報を取得する方法しか浮かびませんでした。
