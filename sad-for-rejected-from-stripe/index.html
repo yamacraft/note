@@ -1,0 +1,75 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.110.0"><link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/note/ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/note/ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/note/ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/note/ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/note/ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/note/ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/note/ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/note/ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/note/ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/note/ico/favicon-16x16.png><link rel=manifest href=/note/ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://yamacraft.github.io/note/image/ogp.png"><meta name=twitter:title content="Buy Me a Coffeeを利用したいがStripeから拒絶されている"><meta name=twitter:description content="発端 先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、Buy Me a Cof"><meta property="og:title" content="Buy Me a Coffeeを利用したいがStripeから拒絶されている"><meta property="og:description" content="発端 先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、Buy Me a Cof"><meta property="og:type" content="article"><meta property="og:url" content="https://yamacraft.github.io/note/sad-for-rejected-from-stripe/"><meta property="og:image" content="https://yamacraft.github.io/note/image/ogp.png"><meta property="article:section" content><meta property="article:published_time" content="2023-02-13T18:00:00+09:00"><meta property="article:modified_time" content="2023-02-13T18:00:00+09:00"><link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css rel=stylesheet integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel=stylesheet><link href=/note/css/medium.css rel=stylesheet><link href=/note/css/additional.css rel=stylesheet><link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css></head><body><div class=site-content-custom><div class=container><div class=mainheading><a href=https://yamacraft.github.io/note/><h1 class=sitetitle>山田航空ネットワーク3rd</h1></a><p class=lead><a href=https://twitter.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a></p></div><div class=main-content><div class=container><div class=row><div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset"><p>Share</p><ul><li class="ml-1 mr-1"><a target=_blank href="https://twitter.com/intent/tweet?text=Buy%20Me%20a%20Coffee%e3%82%92%e5%88%a9%e7%94%a8%e3%81%97%e3%81%9f%e3%81%84%e3%81%8cStripe%e3%81%8b%e3%82%89%e6%8b%92%e7%b5%b6%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fsad-for-rejected-from-stripe%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'><i class="fab fa-twitter"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fsad-for-rejected-from-stripe%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'><i class="fab fa-facebook-f"></i></a></li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered"><div class=mainheading><span class=post-date>Feb 13, 2023 - 6 min read</span><h1 class=posttitle>Buy Me a Coffeeを利用したいがStripeから拒絶されている</h1><div class=after-post-tags><ul class=tags><li><a href=/note/tags/tech>tech</a>&ensp;</li><li><a href=/note/tags/stripe>stripe</a>&ensp;</li><li><a href=/note/tags/buy-me-a-coffee>Buy Me a Coffee</a>&ensp;</li></ul></div></div><div class=article-post><h2 id=発端>発端</h2><p>先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、<a href=https://www.buymeacoffee.com/>Buy Me a Coffee</a>のアカウントの開設をしました。
+Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。</p><p>で、Buy Me a Coffeeで受けた支援を受け取るためには<a href=https://stripe.com/jp>Stripe</a>との連携もしくは<a href=https://www.payoneer.com/ja/>Payoneer</a>経由での銀行口座の登録が必要になります。
+いちおうどちらもダメな場合、Buy Me a Coffee自体に出金先の銀行口座を登録できるようですが、こちらはまだ試していません。</p><p>ネットを見る限りStripeを使っての受け取りが一般的な様だったので、自分もそれに習ったところ、審査はリジェクトされアカウントが閉鎖されてしまったというのが今回の記事の内容になります。</p><h2 id=審査落ちまでの流れ>審査落ちまでの流れ</h2><p>Buy Me a CoffeeからStripeを連携するまでの流れは簡単で、アカウント開設後の設定画面のPayouts内にある「Connect Stripe」ボタンをクリックするだけです。
+その後はStripeとの連携画面に移行するので、後は必要な情報を入力するのみです。</p><p><img src=/note/image/sad-for-rejected-from-stripe/connect-stripe01.png alt=PayoutsからStripeと連携する></p><p><img src=/note/image/sad-for-rejected-from-stripe/connect-stripe02.png alt=Stripeの登録画面></p><p>ここで少々やっかい（というか今回の最大の問題点と思われる部分）なのが、事業詳細の入力画面です。</p><p>後にわりと重要な部分だとわかるのですが、小さなテキスト入力欄に「１〜２行程度」とあるので、書かれていた例を元に以下のような感じで詳細を入力しました。
+（リジェクトによって入力内容を確認できないので、記憶をもとに書いています。そのため微妙な差異があります。）</p><ul><li>業種: ブログ、SNS</li><li>事業のWebサイト: <a href=https://www.buymeacoffee.com/yamacraft>https://www.buymeacoffee.com/yamacraft</a></li><li>商品、サービス内容の詳細: Androidアプリ開発に関する技術記事の執筆、Webサービス・アプリケーションの提供や運営に伴う支援を受け取るサービスです。</li></ul><p>以上を入力して送信直後、 <strong>即時にStripeから決済機能の一時停止連絡が来ました</strong>。</p><p><img src=/note/image/sad-for-rejected-from-stripe/connect-stripe03.png alt=Stripeからの一時停止連絡></p><p>Webサイト先でビジネスの詳細を確認できないという内容で、この速度からしてbotか何かによる判定なのでしょう。</p><p>しかしこれは考えてみればおかしな話です。
+記載したWebサイトは、Buy Me a Coffeeが用意した各アカウントのシェアページです。</p><p>Buy Me a Coffeeは通常のECサイトと異なり、販売（投げ銭）先の商品やその取引、請求の管理はBuy Me a Coffee側が担っています。
+Stripeとの連携ができるということは、Stripe側もこのサービスの内容を確認したうえで認可しているはずです。</p><p>どうにも腑に落ちないので、Stripeのサポートに質問を投げてみました。</p><p><img src=/note/image/sad-for-rejected-from-stripe/connect-stripe04.png alt=Stripeからの問い合わせ返答></p><p>Stripe社の小林さんという方から返答がきました。</p><blockquote><p>お調べいたしましたところ、弊社のアカウント審査専門チームがご登録ビジネスウェブサイト：https://www.buymeacoffee.com/yamacraft にて貴社のビジネス詳細を確認することができませんため、貴社のアカウントの決済機能 (顧客への請求と銀行口座への入金) を一時停止させていただいております。</p><p>弊社Stripe には決済代行業者に課せられた KYC (顧客確認) 義務 [0] があるため、Stripe で開設されるすべてのアカウントに関して調査を実行する必要があります。https://support.stripe.com/questions/know-your-customer-obligations
+この調査には、各ユーザーの本人確認など、多くの情報の確認が含まれます。
+ビジネスのサポートが可能であるかを確認するため、貴社のビジネスのウェブサイトの審査ができなければなりません。</p><p>最も重要なこととして、顧客に何を販売しているか、および顧客から貴社にどのようにして連絡できるかに関する情報がウェブサイト掲載されている必要があります。
+通常、サイトに提供する商品やサービスの説明が掲載されている限り、この要件の履行方法についてはかなり柔軟に扱っております。</p><p>調査を完了するには、ビジネスのウェブサイトをお持ちでない場合や必要でない場合でも、この情報をお知らせいただく必要があります。</p></blockquote><p>やはりどうにも腑に落ちません。
+何度も書きますが、Buy Me a Coffeeで販売している商品（投げ銭）はBuy Me a Coffee側が管理しているもので、こちらでは1杯あたりの金額の調整以外に設定できるものはありません。
+たとえばYouTubeのスパチャ機能やnoteの記事サポート、zennの有料バッジの利用はユーザー側が機能の説明責任を持つ必要はないはずです。
+ここはサービスの提供側であるBuy Me a Coffee側が受け持つはずですし、そのサービス内容にStripe側が合意しているからこそ、連携機能が可能となっているはずではないでしょうか。</p><p>というか、実際に検索すればいくつも見つかりますが、日本国内のユーザーでStripeと連携したBuy Me a Coffeeが無事使えている人、いくつも目に入るんですよね…。
+そんなわけで、再度以下の対応をやって、再申請を実施しました。</p><ul><li>Buy Me a Coffeeのシェアページの内容に支援サイトであることを記載＋支払い時のトラブルは運営サイトへ連絡する旨を記述</li><li>Stripeの再申請時のサービス詳細の記述に請求は即時にされること、支払い時のトラブルはBuy Me a Coffee側に連絡する旨を記述</li></ul><p>以上を行ったものの、再審査の開始が行われていなさそうな雰囲気があったため、再度上記のサポートに問い合わせました。
+その結果、 <strong>無事アカウントが閉鎖されてしまいました</strong>。</p><p><img src=/note/image/sad-for-rejected-from-stripe/connect-stripe05.png alt=Stripeからアカウント閉鎖の連絡></p><p>メールで明確に拒絶されているように、Stripeのダッシュボードでは、以前あった再審査のフォームへのリンクも消えていました。
+いちおう、メールであれば再度の審査を依頼できるようですが、正直私の力ではどうにかできる範疇を超えているように感じます。</p><h2 id=buy-me-a-coffeeの導入を考えている人たち導入している人たちへのメッセージ>Buy Me a Coffeeの導入を考えている人たち／導入している人たちへのメッセージ</h2><p>現時点でStripeでの受け取りを考えている場合、自分のように蹴られる可能性が高いです。
+また、すでに導入している人も、何らかの見直しで突然Stripeを閉鎖される可能性があります。</p><p>いちおう最初にも書いたように、出金先としてPayoneerや直接の銀行口座の登録が存在するようですので、そちらの利用も検討したほうが良さそうです。</p><p>個人的には2023年移行で無事Stripeと連携ができた人の情報が知りたいです。
+もしいらっしゃれば<a href=https://twitter.com/yamacraft/>@yamacraft</a>にご連絡ください。</p><h2 id=buy-me-a-coffeeへの問い合わせ>Buy Me a Coffeeへの問い合わせ</h2><p>いちおうDeepLの力も借りつつBuy Me a Coffeeに問答無用で蹴られたことをサポートメールで連絡しました。
+同じような状況で無駄な労力を使ってしまう人が減ることを祈ります。</p></div><div class=after-post-tags><ul class=tags><li><a href=/note/tags/tech>tech</a>&ensp;</li><li><a href=/note/tags/stripe>stripe</a>&ensp;</li><li><a href=/note/tags/buy-me-a-coffee>Buy Me a Coffee</a>&ensp;</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold"><a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/create-homete-yo-v1/>GPT-3に褒めてもらうプロトタイプを作った &#187;</a><div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags"><div class="d-md-flex h-100"><div class="col-md-4 transpdark2 align-self-center text-center h-100"><div class="d-md-flex align-items-center justify-content-center h-100"><h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center"><a class="mt-1 mb-1" href=/note/tags/adb>adb</a>
+<a class="mt-1 mb-1" href=/note/tags/advent2022>advent2022</a>
+<a class="mt-1 mb-1" href=/note/tags/android>android</a>
+<a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/architecture>architecture</a>
+<a class="mt-1 mb-1" href=/note/tags/bjj>bjj</a>
+<a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
+<a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
+<a class="mt-1 mb-1" href=/note/tags/buy-me-a-coffee>buy-me-a-coffee</a>
+<a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle-ci</a>
+<a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
+<a class="mt-1 mb-1" href=/note/tags/design>design</a>
+<a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
+<a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/docker>docker</a>
+<a class="mt-1 mb-1" href=/note/tags/done-report>done-report</a>
+<a class="mt-1 mb-1" href=/note/tags/easylauncher>easylauncher</a>
+<a class="mt-1 mb-1" href=/note/tags/firebase>firebase</a>
+<a class="mt-1 mb-1" href=/note/tags/flutter>flutter</a>
+<a class="mt-1 mb-1" href=/note/tags/gather>gather</a>
+<a class="mt-1 mb-1" href=/note/tags/git>git</a>
+<a class="mt-1 mb-1" href=/note/tags/github>github</a>
+<a class="mt-1 mb-1" href=/note/tags/github-actions>github-actions</a>
+<a class="mt-1 mb-1" href=/note/tags/google-play>google-play</a>
+<a class="mt-1 mb-1" href=/note/tags/googleio>googleio</a>
+<a class="mt-1 mb-1" href=/note/tags/gpt-3>gpt-3</a>
+<a class="mt-1 mb-1" href=/note/tags/homete>homete</a>
+<a class="mt-1 mb-1" href=/note/tags/hugo>hugo</a>
+<a class="mt-1 mb-1" href=/note/tags/keiba>keiba</a>
+<a class="mt-1 mb-1" href=/note/tags/life>life</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design>material-design</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design3>material-design3</a>
+<a class="mt-1 mb-1" href=/note/tags/memo>memo</a>
+<a class="mt-1 mb-1" href=/note/tags/money>money</a>
+<a class="mt-1 mb-1" href=/note/tags/notice>notice</a>
+<a class="mt-1 mb-1" href=/note/tags/nuxt>nuxt</a>
+<a class="mt-1 mb-1" href=/note/tags/pixel>pixel</a>
+<a class="mt-1 mb-1" href=/note/tags/poem>poem</a>
+<a class="mt-1 mb-1" href=/note/tags/product>product</a>
+<a class="mt-1 mb-1" href=/note/tags/stripe>stripe</a>
+<a class="mt-1 mb-1" href=/note/tags/study>study</a>
+<a class="mt-1 mb-1" href=/note/tags/tech>tech</a>
+<a class="mt-1 mb-1" href=/note/tags/tsubo>tsubo</a>
+<a class="mt-1 mb-1" href=/note/tags/twitter>twitter</a>
+<a class="mt-1 mb-1" href=/note/tags/unity>unity</a>
+<a class="mt-1 mb-1" href=/note/tags/web>web</a>
+<a class="mt-1 mb-1" href=/note/tags/work>work</a>
+<a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
+<a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
+<a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
+<a class="mt-1 mb-1" href=/note/tags/youtube>youtube</a></div></div></div><footer class=footer><div class=container><div class=row><div class="col-md-6 col-sm-6 text-center text-lg-left">&copy; yamacraft 2023 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a></div><div class="col-md-6 col-sm-6 text-center text-lg-right"><a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script>
+<script src=/js/mediumish.js></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN2EJQSS9T"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WN2EJQSS9T",{anonymize_ip:!1})}</script></body></html>
