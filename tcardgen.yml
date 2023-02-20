@@ -1,0 +1,21 @@
+title:
+  fontSize: 65
+  fontStyle: Bold
+category:
+  fontSize: 38
+  fontStyle: Regular
+info:
+  start:
+    pX: 124
+    pY: 536
+  fontSize: 30
+  fontStyle: Regular
+tags:
+  start:
+    pX: 1104
+    pY: 465
+  fontStyle: Regular
+  fontSize: 0
+  boxAlign: Right
+  fgHexColor: "#FFFFFF"
+  bgHexColor: "#7F7776"
