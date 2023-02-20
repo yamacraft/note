@@ -2,6 +2,7 @@
 title: "D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応"
 date: 2020-10-14T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "work", "app_restore", "dic_restore", "android"]
 ---

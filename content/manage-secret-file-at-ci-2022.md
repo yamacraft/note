@@ -2,6 +2,7 @@
 title: "CIでAndroidのSecretファイルをどう扱うか（2022年最新版）"
 date: 2022-03-07T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "ci", "android", "GitHub Actions", "Circle CI"]
 ---

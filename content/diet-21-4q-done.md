@@ -2,6 +2,7 @@
 title: "2021年4Q 減量結果報告（年間振り返り含む）"
 date: 2022-01-10T16:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "workout"]
 ---

@@ -2,6 +2,7 @@
 title: "個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア"
 date: 2022-05-16T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "poem", "ci", "Android", "Firebase"]
 ---

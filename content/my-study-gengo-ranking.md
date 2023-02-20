@@ -2,6 +2,7 @@
 title: "俺が学ぶべきプログラミング言語ランキング"
 date: 2021-02-22T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "study", "dabun"]
 ---

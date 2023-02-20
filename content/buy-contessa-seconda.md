@@ -2,6 +2,7 @@
 title: "椅子をコンテッサセコンダに変えた"
 date: 2022-02-09T21:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary"]
 ---

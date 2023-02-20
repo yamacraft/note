@@ -2,6 +2,7 @@
 title: "adbでAlarmManagerの登録内容を確認する"
 date: 2022-08-11T22:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android", "adb"]
 ---

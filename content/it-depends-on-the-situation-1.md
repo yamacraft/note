@@ -2,6 +2,7 @@
 title: "クロスプラットフォームを導入したいかどうかは、場合による"
 date: 2022-12-05T00:05:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "advent2022"]
 images: ["/note/image/it-depends-on-the-situation/2022-10-06-13-28.jpg"]

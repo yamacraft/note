@@ -2,6 +2,7 @@
 title: "2017年に公式が推奨していたアーキテクチャの備忘録"
 date: 2022-12-13T00:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "advent2022", "android", "architecture"]
 ---

@@ -2,6 +2,7 @@
 title: "ブラジリアン柔術を始めた（15年ぶり2度目）"
 date: 2022-06-06T20:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "bjj"]
 images: ["/note/image/restart-bjj/restart_bjj_header.jpg"]

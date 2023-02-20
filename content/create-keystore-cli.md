@@ -2,6 +2,7 @@
 title: "Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する"
 date: 2022-04-11T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android"]
 ---

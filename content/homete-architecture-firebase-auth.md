@@ -2,6 +2,7 @@
 title: "Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移"
 date: 2021-11-12T21:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "homete", "android", "firebase"]
 ---

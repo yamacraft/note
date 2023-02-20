@@ -2,6 +2,7 @@
 title: "2021年1Q 減量結果報告"
 date: 2021-04-26T19:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "workout"]
 ---

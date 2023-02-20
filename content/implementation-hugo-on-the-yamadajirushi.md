@@ -2,6 +2,7 @@
 title: "ヤマダ印のサイトをHugoで生成するように変えた"
 date: 2020-09-28T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "yamadajirushi"]
 ---

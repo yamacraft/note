@@ -2,6 +2,7 @@
 title: "2023年の学習優先度"
 date: 2022-12-12T00:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "advent2022", "memo"]
 ---

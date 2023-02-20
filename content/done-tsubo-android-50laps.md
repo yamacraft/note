@@ -2,6 +2,7 @@
 title: "Getting Over It（android版）を50回クリアしました"
 date: 2021-11-07T17:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "tsubo"]
 ---

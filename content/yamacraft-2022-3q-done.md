@@ -2,6 +2,7 @@
 title: "2022 3Qやったこと"
 date: 2022-10-10T22:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "done-report"]
 ---

@@ -2,6 +2,7 @@
 title: "法人クレカを申し込むことにした"
 date: 2021-11-22T18:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "yamadajirushi"]
 ---

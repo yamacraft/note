@@ -2,6 +2,7 @@
 title: "2020 2Qやったこと"
 date: 2020-07-04T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "done-report"]
 ---

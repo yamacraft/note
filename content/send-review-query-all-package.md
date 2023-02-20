@@ -2,6 +2,7 @@
 title: "D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ"
 date: 2022-07-18T17:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android", "Google Play"]
 ---

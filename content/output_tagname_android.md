@@ -2,6 +2,7 @@
 title: "GitHub Actionsでtagをpushするための下準備と実行"
 date: 2022-05-25T19:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android", "git", "GitHub Actions", "ci"]
 ---

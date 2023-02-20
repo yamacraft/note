@@ -2,6 +2,7 @@
 title: "2022 2Qやったこと"
 date: 2022-07-04T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "done-report"]
 ---
