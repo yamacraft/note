@@ -2,6 +2,7 @@
 title: "FlutterでOpenAI APIを利用するときの備忘録"
 date: 2023-03-06T17:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "flutter", "openai"]
 ---

@@ -71,4 +71,4 @@ typings/
 .hugo_build.lock
 
 public/
-fonts/
+tcardgen/fonts/
