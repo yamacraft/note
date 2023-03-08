@@ -2,6 +2,7 @@
 title: "自分のClubhouseとの付き合い方"
 date: 2021-02-13T21:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["yodan"]
 ---

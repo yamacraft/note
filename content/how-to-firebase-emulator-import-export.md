@@ -2,6 +2,7 @@
 title: "Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ"
 date: 2021-05-10T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "firebase"]
 ---

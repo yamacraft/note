@@ -2,6 +2,7 @@
 title: "アプリのデザインと実装のつらみを話しました"
 date: 2022-09-19T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "design", "android"]
 ---

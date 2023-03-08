@@ -2,6 +2,7 @@
 title: "FirebaseをCIでデプロイできるようにする（2020年版）"
 date: 2020-12-21T00:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "firebase"]
 ---

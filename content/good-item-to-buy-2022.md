@@ -2,6 +2,7 @@
 title: "2022年買ってよかったもの"
 date: 2022-12-30T19:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "advent2022"]
 ---

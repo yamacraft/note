@@ -2,6 +2,7 @@
 title: "2021年3Q 減量結果報告"
 date: 2021-10-09T22:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary", "workout"]
 ---

@@ -2,6 +2,7 @@
 title: "合同会社ヤマダ印を設立して３年が経ちました"
 date: 2022-12-07T00:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "yamadajirushi", "advent2022"]
 ---

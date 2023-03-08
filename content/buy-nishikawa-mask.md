@@ -2,6 +2,7 @@
 title: "西川のマスクを買った"
 date: 2020-06-20T22:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary"]
 ---

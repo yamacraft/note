@@ -32,11 +32,12 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
 
-      - name: Upload Archive
-        uses: actions/upload-artifact@v1
-        with:
-          name: gh-pages
-          path: public
+      ## 現状Storageを逼迫してるだけなのでしばらくコメントアウト
+      # - name: Upload Archive
+      #   uses: actions/upload-artifact@v1
+      #   with:
+      #     name: gh-pages
+      #     path: public
 
       - name: Notify Slack
         uses: 8398a7/action-slack@v3

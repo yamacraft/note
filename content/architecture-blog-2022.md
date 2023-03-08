@@ -2,6 +2,7 @@
 title: "yamacraftのブログを支えるシステム（2022年版）"
 date: 2022-12-01T12:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "advent2022", "blog"]
 ---

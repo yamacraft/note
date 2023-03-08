@@ -2,6 +2,7 @@
 title: "UAスポーツマスクの所感"
 date: 2020-08-10T22:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary"]
 ---

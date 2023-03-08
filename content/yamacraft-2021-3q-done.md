@@ -2,6 +2,7 @@
 title: "2021 3Qやったこと"
 date: 2021-10-09T19:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "done-report"]
 ---

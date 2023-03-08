@@ -2,6 +2,7 @@
 title: "何を考えてプロダクト開発に取り組んでいるか"
 date: 2023-01-16T23:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "product"]
 ---

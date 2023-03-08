@@ -2,6 +2,7 @@
 title: "GPT-3に褒めてもらうプロトタイプを作った"
 date: 2023-02-07T18:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "flutter", "gpt-3"]
 ---

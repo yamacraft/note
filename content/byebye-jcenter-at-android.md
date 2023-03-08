@@ -2,6 +2,7 @@
 title: "JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況"
 date: 2021-02-08T15:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "work", "yamadajirushi", "android"]
 ---

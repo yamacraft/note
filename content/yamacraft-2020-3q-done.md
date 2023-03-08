@@ -2,6 +2,7 @@
 title: "2020 3Qやったこと"
 date: 2020-10-15T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "done-report"]
 ---

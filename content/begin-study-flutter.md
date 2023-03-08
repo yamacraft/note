@@ -2,6 +2,7 @@
 title: "Flutterの勉強を始めたのと今後のFlutterとの付き合い方"
 date: 2022-05-06T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech", "work"]
 tags: ["tech", "work", "flutter", "web"]
 ---

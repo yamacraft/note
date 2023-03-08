@@ -2,6 +2,7 @@
 title: "リモートワークがいいかどうかは、場合による"
 date: 2022-12-06T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "advent2022"]
 images: ["/note/image/it-depends-on-the-situation/2022-10-06-13-28.jpg"]

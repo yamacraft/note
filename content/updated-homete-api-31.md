@@ -2,6 +2,7 @@
 title: "HometeのtargetSdkVersionを31に上げています"
 date: 2021-11-29T18:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "homete", "android"]
 ---

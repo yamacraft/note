@@ -2,6 +2,7 @@
 title: "個人的な2021年のふりかえりと2022年の目標"
 date: 2021-12-30T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "diary"]
 ---

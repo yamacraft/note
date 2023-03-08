@@ -2,6 +2,7 @@
 title: "ブログのデプロイをGitHub Actionsで行うようにした"
 date: 2020-05-29T18:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "CI", "GitHub Actions"]
 ---

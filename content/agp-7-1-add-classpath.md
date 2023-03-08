@@ -2,6 +2,7 @@
 title: "AGP7.1でclasspathを追加する"
 date: 2022-01-31T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android"]
 ---

@@ -2,6 +2,7 @@
 title: "法人化して半年経ちました"
 date: 2020-07-20T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "yamadajirushi"]
 ---

@@ -2,6 +2,7 @@
 title: "特別定額給付金をオンライン申請した"
 date: 2020-05-10T22:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["diary"]
 tags: ["diary"]
 ---

@@ -2,6 +2,7 @@
 title: "GatherとYoutube配信をやりだしたワケ"
 date: 2023-01-14T23:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["work"]
 tags: ["work", "gather", "youtube"]
 ---

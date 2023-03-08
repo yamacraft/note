@@ -2,6 +2,7 @@
 title: "Android Studioでいつの間にかJDKが消えた件と対応"
 date: 2021-08-16T17:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android"]
 ---

@@ -2,6 +2,7 @@
 title: "Buy Me a Coffeeを利用したいがStripeから拒絶されている"
 date: 2023-02-13T18:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "stripe", "Buy Me a Coffee"]
 ---

@@ -2,6 +2,7 @@
 title: "Material Design3でTypographyが変わった"
 date: 2022-01-20T20:00:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "android", "Material Design3", "Material Design"]
 ---

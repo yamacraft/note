@@ -2,6 +2,7 @@
 title: "山田航空ネットワーク3rdを支える技術"
 date: 2021-12-06T18:30:00+09:00
 draft: false
+author: ["yamacraft"]
 categories: ["tech"]
 tags: ["tech", "blog", "hugo", "github"]
 ---
