@@ -1,5 +1,5 @@
 ---
-title: "Buy Me a Coffeeを利用したいがStripeから拒絶されている"
+title: "Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】"
 date: 2023-02-13T18:00:00+09:00
 draft: false
 author: ["yamacraft"]
@@ -99,3 +99,19 @@ Stripe社の小林さんという方から返答がきました。
 
 いちおうDeepLの力も借りつつBuy Me a Coffeeに問答無用で蹴られたことをサポートメールで連絡しました。
 同じような状況で無駄な労力を使ってしまう人が減ることを祈ります。
+
+## 追記（3/13）
+
+Buy Me a Coffeeから返事が来ましたが「ほかにStripeが機能しているアクティブな日本ユーザーがいるから大丈夫だし、Stripeに連絡してくれ」という内容で詰みました。
+
+![PayoutsからStripeと連携する](/note/image/sad-for-rejected-from-stripe/mail-buy-me-a-coffee1.png)
+
+サポートメールにはStripe以外の受け取り手段は日本でもちゃんと対応されていますよね？という質問を入れていましたがStripe以外はないという回答が返ってきました。
+いやPayoneerと直接の銀行口座への出金の項目あるじゃない！とさらに返信したところ、PayoneerとWise（おそらく口座出金に使っている）使えますという言質を取ることができました。
+
+![PayoutsからStripeと連携する](/note/image/sad-for-rejected-from-stripe/mail-buy-me-a-coffee2.png)
+
+ということで、Stripeが使えない問題は未解決ですが、別手段で出金できることがわかったのでBuy Me a Coffeeを利用することにします。
+Stripe自体はこの追記を書く直前に、利用範囲を限定させるような動きが見えるので今後新規での利用は無理なのかなあという印象を持ちました。
+
+* [tomoyuki@NappsさんはTwitterを使っています: 「Stripeはネイティブアプリでの使用少なくとも日本は禁止になったみたい。KYCでURLが必要とサポートから公式に連絡が来てしまった。　LIFFもだめだろうなあ。決済業者探さないと。」 / Twitter](https://twitter.com/sarukun99/status/1633622475727855617)
