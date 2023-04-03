@@ -9,6 +9,9 @@ https://yamacraft.github.io/note
 
 ```sh
 $ hugo new <filename>.md
+
+# og:imageの作成
+$ ./tcardgen/run.sh content/<filename>.md
 ```
 
 ### カテゴリー
