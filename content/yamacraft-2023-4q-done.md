@@ -1,6 +1,6 @@
 ---
 title: "2023 4Qやったこと"
-date: 2024-01-08T17:00:00+09:00
+date: 2024-01-08T18:00:00+09:00
 draft: false
 author: ["yamacraft"]
 categories: ["work"]
