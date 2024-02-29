@@ -65,7 +65,7 @@ var getFirebaseDatabase = function() {
 
 ## 各種埋め込み表示
 
-{{< tweet 1247107110636150786 >}}
+{{< tweet user="i" id="1247107110636150786" >}}
 
 {{< youtube yi1TbzML2cU >}}
 

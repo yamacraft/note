@@ -93,4 +93,4 @@ tags: ["work", "done-report"]
 * [yamacraftの趣味とつぶやいた話に深堀りできる1on1](https://meety.net/matches/iTroNLuBJEIr)
 * [ヤマダ印の開発支援って何してくれるの？をお答えします](https://meety.net/matches/iTroNLuBJEIr)
 
-{{< tweet 1514069667538935808 >}}
+{{< tweet user="yamacraft" id="1514069667538935808" >}}
