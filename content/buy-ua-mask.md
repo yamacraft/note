@@ -9,7 +9,7 @@ tags: ["diary"]
 
 なんとなく注文していた[UAスポーツマスク](https://www.underarmour.co.jp/ja-jp/SportsMask.html)が先日届いたので、先日これをスポーツジムで使ってきました。つまり、すべて先日の話です。
 
-{{< tweet 1288423432804171776 >}}
+{{< tweet user="yamacraft" id="1288423432804171776" >}}
 
 ## サイズ感
 

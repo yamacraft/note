@@ -31,7 +31,7 @@ tags: ["work", "done-report"]
 
 chatGPTを利用してFlutterのWebサービスの実験台を作っていましたが、現在開発が中断しています。
 
-{{< tweet 1653329519984652288 >}}
+{{< tweet user="yamacraft" id="1653329519984652288" >}}
 
 [\[WIP\]Homete\-YO開発記録 〜ChatGPTにコード全部考えてもらう〜](https://zenn.dev/yamacraft/scraps/89e41c33af8543)
 
