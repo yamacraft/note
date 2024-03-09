@@ -1,6 +1,6 @@
 ---
 title: "Simple Mobile Toolsが売却されたので、Fossifyに移行した"
-date: 2024-03-09T14:00:00+09:00
+date: 2024-03-09T15:30:00+09:00
 draft: false
 author: ["yamacraft"]
 categories: ["diary"]
