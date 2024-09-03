@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notice on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/notice/</link><description>Recent content in Notice on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Sat, 18 Jul 2020 10:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/notice/index.xml" rel="self" type="application/rss+xml"/><item><title>【終了】2020年10月からのお仕事を探しています</title><link>https://yamacraft.github.io/note/next-work-202010/</link><pubDate>Sat, 18 Jul 2020 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/next-work-202010/</guid><description>新規クライアントとの契約が締結しましたので、こちらの記事での募集は終了しました。 諸注意 yamacraftの転職先探しではありません。中途採用</description></item><item><title>ブログを移転した</title><link>https://yamacraft.github.io/note/start-blog-3rd/</link><pubDate>Sun, 17 May 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/start-blog-3rd/</guid><description>ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。 これからのドキュメント関連のアウトプットに</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notice on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/notice/</link><description>Recent content in Notice on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Sat, 18 Jul 2020 10:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/notice/index.xml" rel="self" type="application/rss+xml"/><item><title>【終了】2020年10月からのお仕事を探しています</title><link>https://yamacraft.github.io/note/next-work-202010/</link><pubDate>Sat, 18 Jul 2020 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/next-work-202010/</guid><description>&lt;p>新規クライアントとの契約が締結しましたので、こちらの記事での募集は終了しました。&lt;/p>
+&lt;h2 id="諸注意">諸注意&lt;/h2>
+&lt;ul>
+&lt;li>yamacraftの転職先探しではありません。中途採用という形でのお話はお断りさせていただきます。&lt;/li>
+&lt;li>仲介業者様からのご連絡はお断りさせていただきます。&lt;/li>
+&lt;/ul>
+&lt;h2 id="募集概要">募集概要&lt;/h2>
+&lt;ul>
+&lt;li>業務可能な日数（工数）は、週１〜４日としています。事務作業等の時間確保のため、週５日案件はお断りさせていただきます。&lt;/li>
+&lt;li>契約期間は例外なく、最長で３ヵ月までとしています。それ以上の期間をご希望の場合は、３ヵ月後にあらためて再契約（更新）という形を取らせていただいています。&lt;/li>
+&lt;li>リモートワークが希望ですが、クライアント先に出勤しての作業も可能です。&lt;/li>
+&lt;/ul>
+&lt;h2 id="yamacraftと合同会社ヤマダ印について">yamacraftと合同会社ヤマダ印について&lt;/h2>
+&lt;p>Androidアプリエンジニアとして各企業を転々としながら、2018年6月にフリーランサーとなり、2019年12月より法人化しました。&lt;/p></description></item><item><title>ブログを移転した</title><link>https://yamacraft.github.io/note/start-blog-3rd/</link><pubDate>Sun, 17 May 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/start-blog-3rd/</guid><description>&lt;p>ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。&lt;/p>
+&lt;h2 id="これからのドキュメント関連のアウトプットについて">これからのドキュメント関連のアウトプットについて&lt;/h2>
+&lt;ul>
+&lt;li>日記、雑記など → ここ&lt;/li>
+&lt;li>技術関連の記事 → Gistかここ&lt;/li>
+&lt;li>仕事（ヤマダ印関連も含む）に関するようなドキュメント
+&lt;ul>
+&lt;li>一度書いたら更新しないもの → ここ&lt;/li>
+&lt;li>一度書いた後も更新する可能性があるもの → Gist&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>こんな感じで使い分けていきます（予定）。&lt;/p></description></item></channel></rss>
