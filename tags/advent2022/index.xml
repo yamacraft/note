@@ -11,14 +11,38 @@
 普段のトレーニングや夏場のアンダーウェアでも使いたくなる着心地。
 もっと早く買えばよかった。&lt;/p></description></item><item><title>ヤマダ印と俺と金（2022年版）</title><link>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</link><pubDate>Tue, 27 Dec 2022 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</guid><description>&lt;h2 id="ヤマダ印の収入">ヤマダ印の収入&lt;/h2>
 &lt;p>現在のヤマダ印の収入は、yamacraft本人の請ける業務委託が100%を占めています。
-それ以外の収入はありません。（※）&lt;/p></description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p>※ 記事公開以降に一部修正と補足を追加しています。&lt;/p>
+それ以外の収入はありません。（※）&lt;/p>
+&lt;p>業務委託は基本的に準委任契約で、現在は週4日稼働で72万円/月を基準に請けています。
+週5日でないのは、ヤマダ印の事務作業で最低でも月に平日1〜2日を確保したいためです。&lt;/p></description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p>※ 記事公開以降に一部修正と補足を追加しています。&lt;/p>
 &lt;p>&lt;a href="https://qiita.com/advent-calendar/2022/android">Android Advent Calendar 2022&lt;/a>の13日目の記事になります。&lt;/p>
-&lt;p>去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html">Android公式のアーキテクチャガイドが刷新された&lt;/a>のはご存じでしょうか？&lt;/p></description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p>※ プログラム関連に限った話をしています。&lt;/p>
+&lt;p>去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html">Android公式のアーキテクチャガイドが刷新された&lt;/a>のはご存じでしょうか？&lt;/p>
+&lt;p>Android公式がアーキテクチャガイドを用意したのは（記憶が間違っていなければ）2017年のGoogleIOからでした。
+あのころに比べると、明らかに文量が増えています。
+その変化に戸惑っている方はいるんじゃないでしょうか。&lt;/p></description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p>※ プログラム関連に限った話をしています。&lt;/p>
 &lt;p>2022年は、あまり勉強方面がうまくいきませんでした。
-おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して３年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</link><pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</guid><description>&lt;p>すっかり忘れていましたが、&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2022年12月3日で設立3周年を迎えることができました。&lt;/p></description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/it-depends-on-the-situation-1/">クロスプラットフォームを導入したいかどうかは、場合による&lt;/a>&lt;/p></description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p>今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
+おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して３年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</link><pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</guid><description>&lt;p>すっかり忘れていましたが、&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2022年12月3日で設立3周年を迎えることができました。&lt;/p>
+&lt;h2 id="3年目の変化">3年目の変化&lt;/h2>
+&lt;p>ただしくは4年目からになるのですが、会社の所在地が変わることになりました。
+とはいってもこれはこちらの都合ではなく、所在地（登記先住所）として利用しているバーチャルオフィスの閉所に伴う都合です。
+ついでに会社の電話番号（銀行口座などの登録に必要）はauオフィスナンバーを使っていましたが、こちらも変更先の問題で変わることになってしまいました。&lt;/p></description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/it-depends-on-the-situation-1/">クロスプラットフォームを導入したいかどうかは、場合による&lt;/a>&lt;/p>
+&lt;p>上記の記事の続きです。
+今回は画像右下の「どこで仕事をしたい？」の質問部分の話。&lt;/p>
+&lt;p>再度書きますが、あくまでもyamacraft個人の見解であることをご留意ください。&lt;/p></description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p>今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
 （ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）&lt;/p></description></item><item><title>AndroidはCSVをサポートしていないので導入は避けようという資料</title><link>https://yamacraft.github.io/note/unsupport-csv-at-android/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/unsupport-csv-at-android/</guid><description>&lt;p>いまプライベートで作っているアプリでCSVインポート機能を実装しようとして、「これは安易に導入しちゃだめだな…」と感じたのでまとめた資料です。&lt;/p></description></item><item><title>yamacraftのブログを支えるシステム（2022年版）</title><link>https://yamacraft.github.io/note/architecture-blog-2022/</link><pubDate>Thu, 01 Dec 2022 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/architecture-blog-2022/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://yamacraft.github.io/note/">山田航空ネットワーク3rd | 山田航空ネットワーク3rd&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://yamacraft.github.io/">山田航空ネットワークフロント&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p></description></item></channel></rss>
+&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p>
+&lt;h2 id="利用しているシステムアプリ">利用しているシステム・アプリ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/">Hugo&lt;/a>&lt;/li>
+&lt;li>GitHub Actions&lt;/li>
+&lt;li>GitHub Pages / Firebase Hosting&lt;/li>
+&lt;li>&lt;a href="https://textlint.github.io/">textlint&lt;/a> + VSCode&lt;/li>
+&lt;/ul>
+&lt;h2 id="各システムアプリの詳細">各システム・アプリの詳細&lt;/h2>
+&lt;h3 id="hugo">Hugo&lt;/h3>
+&lt;p>静的サイトジェネレータです。
+Markdownでコンテンツ部分を作成できます。
+静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item></channel></rss>

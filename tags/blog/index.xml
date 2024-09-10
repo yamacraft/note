@@ -3,6 +3,47 @@
 &lt;li>&lt;a href="https://yamacraft.github.io/">山田航空ネットワークフロント&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
-&lt;p>こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p>今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
+&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p>
+&lt;h2 id="利用しているシステムアプリ">利用しているシステム・アプリ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/">Hugo&lt;/a>&lt;/li>
+&lt;li>GitHub Actions&lt;/li>
+&lt;li>GitHub Pages / Firebase Hosting&lt;/li>
+&lt;li>&lt;a href="https://textlint.github.io/">textlint&lt;/a> + VSCode&lt;/li>
+&lt;/ul>
+&lt;h2 id="各システムアプリの詳細">各システム・アプリの詳細&lt;/h2>
+&lt;h3 id="hugo">Hugo&lt;/h3>
+&lt;p>静的サイトジェネレータです。
+Markdownでコンテンツ部分を作成できます。
+静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
+&lt;p>こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p>
+&lt;h2 id="良いと感じた点">良いと感じた点&lt;/h2>
+&lt;ul>
+&lt;li>Markdown形式で書ける&lt;/li>
+&lt;li>ゆるくCSSやHTMLの改修ができる&lt;/li>
+&lt;/ul>
+&lt;h2 id="課題と感じる点">課題と感じる点&lt;/h2>
+&lt;ul>
+&lt;li>予約公開ができない
+&lt;ul>
+&lt;li>都合上、公開時間以降にmasterを更新する必要がある&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>画像の添付が少し面倒&lt;/li>
+&lt;li>TOPページの大きな改修が難しい
+&lt;ul>
+&lt;li>固定記事リンク、カテゴリごとのリンクページなどが欲しくなった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="2022年にやろうと考えていること">2022年にやろうと考えていること&lt;/h2>
+&lt;ul>
+&lt;li>予約公開に関する対応&lt;/li>
+&lt;li>TOPページ含めたデザインの改修&lt;/li>
+&lt;li>Mediumやnoteなどにある、リンク先のブログカード表示の実装&lt;/li>
+&lt;/ul>
+&lt;h2 id="各解説">各解説&lt;/h2>
+&lt;h3 id="良いと感じた点について">良いと感じた点について&lt;/h3>
+&lt;p>Markdown形式で記事が書きたい！という理由でHugoを選んだので、この点には大きく満足しています。
+また、コンテンツ部分は素直なHTMLタグで構成されていることもあって、CSSの修正がやりやすいこともメリットに感じています。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p>今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
 その補足として、現在のブログはどういうしくみで運用しているのかを、あらためてまとめることにしました。&lt;/p></description></item></channel></rss>
