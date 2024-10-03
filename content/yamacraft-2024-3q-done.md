@@ -1,6 +1,6 @@
 ---
 title: "2024 3Qやったこと"
-date: 2024-10-03T10:00:00+09:00
+date: 2024-10-03T20:00:00+09:00
 draft: false
 author: ["yamacraft"]
 categories: ["work"]
