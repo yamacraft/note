@@ -42,11 +42,11 @@ tags: ["work", "done-report"]
 
 ### 体重の推移
 
-![体重推移（2023年/3Q）](/note/image/yamacraft-2024-2q-done/2q_chart_weight.png)
+![体重推移（2024年/2Q）](/note/image/yamacraft-2024-2q-done/2q_chart_weight.png)
 
-![体脂肪率推移（2023年/3Q）](/note/image/yamacraft-2024-2q-done/2q_chart_bfp.png)
+![体脂肪率推移（2024年/2Q）](/note/image/yamacraft-2024-2q-done/2q_chart_bfp.png)
 
-![除脂肪重推移（2023年/3Q）](/note/image/yamacraft-2024-2q-done/2q_chart_lbm.png)
+![除脂肪重推移（2024年/2Q）](/note/image/yamacraft-2024-2q-done/2q_chart_lbm.png)
 
 前期で現状維持を目標としていましたが、無事達成できました。
 あすけんに感謝。
