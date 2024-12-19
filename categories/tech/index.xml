@@ -7,11 +7,8 @@
 ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p></description></item><item><title>HometeにAIリプライ機能を搭載した話を動画にしました</title><link>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</link><pubDate>Mon, 17 Apr 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</guid><description>&lt;p>すっかりこのブログに書いた気でいましたが、書いていませんでした。（なので書きます。）&lt;/p>
 &lt;p>表題の通り、先日&lt;a href="https://homete.yamaglo.jp">Homete&lt;/a>に実装したAIリプライ機能に関する話を動画にして、YouTubeに投稿しました。&lt;/p>
 &lt;p>
-
- 
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 
 &lt;a href="https://www.youtube.com/watch?v=_P_2amfe_wQ">HometeにAIのリプライを追加した話【5分LT】 - YouTube&lt;/a>&lt;/p></description></item><item><title>FlutterでOpenAI APIを利用するときの備忘録</title><link>https://yamacraft.github.io/note/using-openai-with-flutter/</link><pubDate>Mon, 06 Mar 2023 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/using-openai-with-flutter/</guid><description>&lt;p>表題の通りです。&lt;/p>
