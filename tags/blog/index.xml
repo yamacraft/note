@@ -15,7 +15,7 @@
 &lt;h3 id="hugo">Hugo&lt;/h3>
 &lt;p>静的サイトジェネレータです。
 Markdownでコンテンツ部分を作成できます。
-静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
+静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
 &lt;p>こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p>
 &lt;h2 id="良いと感じた点">良いと感じた点&lt;/h2>
 &lt;ul>

@@ -19,7 +19,7 @@ LTも含め、発表側での参加は数年ぶりじゃないかという気が
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 該当するActivity（アプリ）の一覧を取得
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">val&lt;/span> activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff">0&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>このAPIを使うためには、 &lt;code>QUERY_ALL_PACKAGES&lt;/code> 権限の利用が必要です。
-設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p></description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/idea-branch-model-and-ci/">個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a>の続きみたいな記事です。&lt;/p>
+設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p></description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/">個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a>の続きみたいな記事です。&lt;/p>
 &lt;p>masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
 この作業自体は、Gitコマンドを２つたたくだけで実装できます。&lt;/p></description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p>長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p>
 &lt;p>ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p></description></item><item><title>Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する</title><link>https://yamacraft.github.io/note/create-keystore-cli/</link><pubDate>Mon, 11 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-keystore-cli/</guid><description>&lt;p>Gistの方で以前書いたメモですが、わりと何度も見直す機会があったので、あらためて少し解説を挟みながら記事を書くことにしました。&lt;/p>
@@ -33,7 +33,7 @@ LTも含め、発表側での参加は数年ぶりじゃないかという気が
 &lt;h2 id="android-12のoverscroll">Android 12のOverScroll&lt;/h2>
 &lt;p>Android 12では、オーバースクロールの表現方法が変わりました。
 いわゆる「伸びる（ストレッチ）」やつです。&lt;/p></description></item><item><title>HometeのtargetSdkVersionを31に上げています</title><link>https://yamacraft.github.io/note/updated-homete-api-31/</link><pubDate>Mon, 29 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/updated-homete-api-31/</guid><description>&lt;p>Android 12が正式リリースされ、自分の手元にもPixel6 Proが届いたこともあり、HometeのtargetSdkVersionを31に上げる作業をしています。&lt;/p></description></item><item><title>Pixel6 Proを買いました</title><link>https://yamacraft.github.io/note/buy-pixel6-pro/</link><pubDate>Mon, 15 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-pixel6-pro/</guid><description>&lt;p>表題の通りです。&lt;/p>
-&lt;p>&lt;img src="https://yamacraft.github.io/note/note/image/add_buy-pixel6-pro/pixel6pro_buy.jpg" alt="Pixel6 Pro買いました">&lt;/p>
+&lt;p>&lt;img src="https://yamacraft.github.io/note/image/add_buy-pixel6-pro/pixel6pro_buy.jpg" alt="Pixel6 Pro買いました">&lt;/p>
 &lt;p>ちなみに去年Pixel5を買っていませんでしたが、完全に買うタイミングを逃してしまったからです。
 その間にPixel4のバッテリー膨張があり、今年はさっさと買い換えよう、という判断に至りました。&lt;/p></description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について">この記事について&lt;/h2>
 &lt;p>&lt;a href="https://homete.yamaglo.jp/">Homete&lt;/a>のユーザー認証には、Firebase Authenticationを使っています。
@@ -49,38 +49,38 @@ Webページ側はさらにランディングページらしく、Hometeの概�
 &lt;h2 id="言いたいこと">言いたいこと&lt;/h2>
 &lt;p>&lt;strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません&lt;/strong>&lt;/p></description></item><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="dic-v200を公開しました">D.I.C. v2.0.0を公開しました&lt;/h2>
 &lt;p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p></description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="コードをkotlinに変えるということ">コードをKotlinに変えるということ&lt;/h2>
 &lt;p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
 現在は公式のドキュメントのサンプルもKotlinでの記載が優先して表示されるなど、メインの開発公式言語の地位を築いています。
 この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p></description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="開発環境を整えるということについて">開発環境を整えるということについて&lt;/h2>
 &lt;p>メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
-早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p></description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/note/restore-android-app/">先日の記事&lt;/a>で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p>
+早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p></description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/restore-android-app/">先日の記事&lt;/a>で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p>
 &lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="dic-について">D.I.C. について&lt;/h2>
 &lt;p>数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
