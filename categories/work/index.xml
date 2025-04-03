@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/categories/work/</link><description>Recent content in Work on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 19 Dec 2024 21:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>サブ業務の募集を開始しました（2024.12）</title><link>https://yamacraft.github.io/note/update-recent-state-2024-12/</link><pubDate>Thu, 19 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/update-recent-state-2024-12/</guid><description>&lt;p>すでに&lt;a href="https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/">先日の記事&lt;/a>にも書きましたが、サブ業務（副業枠）で受けていた案件が11月末をもって終了したため、新規案件の募集を開始しています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/categories/work/</link><description>Recent content in Work on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 03 Apr 2025 22:00:04 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</link><pubDate>Thu, 03 Apr 2025 22:00:04 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
+&lt;h2 id="2024年のまとめ">2024年のまとめ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/">2024 2Q&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/">2024 3Q&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-4q-done/">2024 4Q&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="仕事">仕事&lt;/h2>
+&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
+&lt;ul>
+&lt;li>メイン業務（平日のフルタイム）
+&lt;ul>
+&lt;li>依然として、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>サブ業務（平日夜間など）
+&lt;ul>
+&lt;li>現在空いています。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="自社開発など">自社開発など&lt;/h3>
+&lt;ul>
+&lt;li>まだ進行中ですが、ドメインの移管などのインフラ部分を整備しています&lt;/li>
+&lt;li>&lt;a href="https://www.cursor.com/ja">Cursor（Proプラン）&lt;/a>と&lt;a href="https://github.com/cline/cline">Cline&lt;/a>を導入することにしました
+&lt;ul>
+&lt;li>2025年上半期は試験期間として、結果で継続利用を決めます&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>検証用に使っているiPhoneをiPhone XSからiPhone 16に更新しました&lt;/li>
+&lt;/ul>
+&lt;h2 id="企業関連">企業関連&lt;/h2>
+&lt;ul>
+&lt;li>所要で会社の登記住所を変更する必要が発生したため、その関連の対応に追われていました&lt;/li>
+&lt;/ul>
+&lt;h2 id="プライベート方面のトピック">プライベート方面のトピック&lt;/h2>
+&lt;ul>
+&lt;li>新日本プロレスの1.4、1.5の東京ドーム興行を観にいきました&lt;/li>
+&lt;li>機動戦士Gundam GQuuuuuuX Beginning観ました&lt;/li>
+&lt;li>EVO Japanのスト6に参加登録しました&lt;/li>
+&lt;/ul>
+&lt;h3 id="体重の推移">体重の推移&lt;/h3>
+&lt;p>&lt;img src="https://yamacraft.github.io/note/image/yamacraft-2025-1q-done/1q_chart_weight.png" alt="体重推移（2025年/1Q）">&lt;/p></description></item><item><title>2024 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。
+が、すっかり書くのを忘れて4月になってしまったので、今回は振り返りなしで淡々とまとめます。&lt;/p>
+&lt;h2 id="2024年のまとめ">2024年のまとめ&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/">2024 2Q&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/">2024 3Q&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="仕事">仕事&lt;/h2>
+&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p></description></item><item><title>サブ業務の募集を開始しました（2024.12）</title><link>https://yamacraft.github.io/note/update-recent-state-2024-12/</link><pubDate>Thu, 19 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/update-recent-state-2024-12/</guid><description>&lt;p>すでに&lt;a href="https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/">先日の記事&lt;/a>にも書きましたが、サブ業務（副業枠）で受けていた案件が11月末をもって終了したため、新規案件の募集を開始しています。
 サブ業務でやれる仕事の内容や稼働時間帯、報酬に関しても&lt;a href="https://yamacraft.github.io/note/detail-second-job/">個別ページを用意して記載しています&lt;/a>。&lt;/p>
 &lt;p>ご興味のある企業様はそちらをご確認の上、できれば合同会社ヤマダ印の連絡フォームからご連絡お願いします（連絡フォームは前述のWebページにもリンクを貼っています）。
 そのほかの手段で連絡を入れてもらった場合でも、最終的に連絡フォームを一度通してもらうことがあります（ログとして残るようにするため）。&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して５年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</link><pubDate>Thu, 05 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</guid><description>&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2024年12月3日で設立5周年を迎えることができました。&lt;/p>
