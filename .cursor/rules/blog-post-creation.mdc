@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# ブログ記事作成
+
+## 新規記事の作成
+新しい記事を作成するには、以下のコマンドを実行します：
+```sh
+hugo new <filename>.md
+```
+
+## OGP画像の作成
+記事のOGP画像を作成するには、以下のコマンドを実行します：
+```sh
+./tcardgen/run.sh content/<filename>.md
+```
+
+## 記事の確認方法
+ローカルサーバーで記事を確認するには：
+```sh
+hugo server --ignoreCache --minify -D
+```
+http://localhost:1313/note/ でプレビューが可能です。
+
+## デプロイ
+記事の公開はGitHub Actionsによって自動化されています：
+- masterブランチが更新されると、GitHub Actionsによってサイトが生成され、デプロイされます
+- 生成されたサイトは `gh-pages` ブランチに保存されます
+
+## サンプル記事
+利用可能なマークダウン記法のサンプル記事として [sample.md](mdc:content/sample.md) が参考になります。
