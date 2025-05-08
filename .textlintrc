@@ -3,24 +3,21 @@
     "comments": true
   },
   "rules": {
-    "ja-no-abusage": true,
-    "ja-no-mixed-period": true,
-    "ja-no-redundant-expression": true,
-    "ja-no-successive-word": true,
-    "ja-no-weak-phrase": true,
-    "ja-unnatural-alphabet": true,
-    "ja-technical-writing/no-exclamation-question-mark": false,
-    "no-double-negative-ja": true,
-    "no-doubled-joshi": true,
-    "no-dropping-the-ra": true,
-    "no-mix-dearu-desumasu": true,
-    "no-nfd": true,
-    "prefer-tari-tari": true,
-    "preset-ja-spacing": true,
-    "preset-ja-technical-writing": true,
-    "spellcheck-tech-word": false,
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow": []
+      },
+      "no-doubled-joshi": {
+        "allow": ["も"]
+      },
+      "no-exclamation-question-mark": false
+    },
     "prh": {
-      "rulePaths": ["./prh-rules/media/WEB+DB_PRESS.yml"]
+      "rulePaths": [
+        "./prh-rules/web+db.yml",
+        "./prh-rules/kanji-open.yml"
+      ]
     }
   }
 }
