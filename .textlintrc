@@ -15,7 +15,7 @@
     },
     "prh": {
       "rulePaths": [
-        "./prh-rules/media/WEB+DB_PRESS.yml",
+        "./prh-rules/web+db.yml",
         "./prh-rules/kanji-open.yml"
       ]
     }
