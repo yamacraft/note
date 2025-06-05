@@ -232,9 +232,6 @@ rules:
   - expected: タイムスタンプ
     pattern: /\btimestamp\b|\bTimestamp\b/
 
-  - expected: ツイート
-    pattern: /\btweet\b|\bTweet\b|ツィート/
-
   - expected: ツリーオブジェクト
     pattern: ツリー・オブジェクト
 
@@ -1255,10 +1252,6 @@ rules:
       - from: ヤフーメール
         to:   Yahoo!メール
 
-
-  - expected: "Yahoo!ウィジェット"
-    pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
-
   - expected: YouTube
     pattern: /\bYoutube\b|\byoutube\b/
 
@@ -1440,17 +1433,9 @@ rules:
   - expected: "!? $1"
     pattern: /！？([^\n\s「」『』（）［］])/
 
-  # ★!?あ★
-  - expected: "!? $1"
-    pattern: /\!\?([^\n\s「」『』（）［］])/
-
   # ★？！あ★
   - expected: "?! $1"
     pattern: /？！([^\n\s「」『』（）［］])/
-
-  # ★?!あ★
-  - expected: "?! $1"
-    pattern: /\?\!([^\n\s「」『』（）［］])/
 
   # ★？？あ★
   - expected: "?? $1"
