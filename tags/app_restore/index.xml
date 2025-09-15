@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App_restore on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/app_restore/</link><description>Recent content in App_restore on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Wed, 14 Oct 2020 18:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/app_restore/index.xml" rel="self" type="application/rss+xml"/><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-v200を公開しました">D.I.C. v2.0.0を公開しました&lt;/h2>
-&lt;p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p></description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="コードをkotlinに変えるということ">コードをKotlinに変えるということ&lt;/h2>
-&lt;p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App_restore on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/app_restore/</link><description>Recent content in App_restore on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Wed, 14 Oct 2020 18:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/app_restore/index.xml" rel="self" type="application/rss+xml"/><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-v200を公開しました"&gt;D.I.C. v2.0.0を公開しました&lt;/h2&gt;
+&lt;p&gt;本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="コードをkotlinに変えるということ"&gt;コードをKotlinに変えるということ&lt;/h2&gt;
+&lt;p&gt;Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
 現在は公式のドキュメントのサンプルもKotlinでの記載が優先して表示されるなど、メインの開発公式言語の地位を築いています。
-この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p></description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="開発環境を整えるということについて">開発環境を整えるということについて&lt;/h2>
-&lt;p>メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
-早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p></description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/restore-android-app/">先日の記事&lt;/a>で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p>
-&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-について">D.I.C. について&lt;/h2>
-&lt;p>数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
+この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="開発環境を整えるということについて"&gt;開発環境を整えるということについて&lt;/h2&gt;
+&lt;p&gt;メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
+早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/restore-android-app/"&gt;先日の記事&lt;/a&gt;で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p&gt;
+&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-について"&gt;D.I.C. について&lt;/h2&gt;
+&lt;p&gt;数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
 ついでに、端末にインストールしているアプリの一覧を、targetSdkVesion付きで見れる機能も追加していました。
-現在は配信を停止しています。&lt;/p></description></item><item><title>Androidアプリのレストアという需要</title><link>https://yamacraft.github.io/note/restore-android-app/</link><pubDate>Mon, 05 Oct 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-android-app/</guid><description>&lt;p>壺fm#6でも触れた内容を、ブラッシュアップした内容です。&lt;/p>
-&lt;p>最近、YouTubeのお勧め動画に出て来るようになってから、旧車のレストアやカスタマイズをしている動画をよく見ています。
-動かなかったり朽ちた機械を試行錯誤したり、時には既存のものを組み合わせて解決する様を見ていると、なんだか既視感があります。&lt;/p></description></item></channel></rss>
+現在は配信を停止しています。&lt;/p&gt;</description></item><item><title>Androidアプリのレストアという需要</title><link>https://yamacraft.github.io/note/restore-android-app/</link><pubDate>Mon, 05 Oct 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-android-app/</guid><description>&lt;p&gt;壺fm#6でも触れた内容を、ブラッシュアップした内容です。&lt;/p&gt;
+&lt;p&gt;最近、YouTubeのお勧め動画に出て来るようになってから、旧車のレストアやカスタマイズをしている動画をよく見ています。
+動かなかったり朽ちた機械を試行錯誤したり、時には既存のものを組み合わせて解決する様を見ていると、なんだか既視感があります。&lt;/p&gt;</description></item></channel></rss>

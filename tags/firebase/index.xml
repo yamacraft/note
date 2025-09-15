@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firebase on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/firebase/</link><description>Recent content in Firebase on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Mon, 08 May 2023 12:30:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/firebase/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p>まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p>
-&lt;h3 id="chatgptを活用した開発スタンス">ChatGPTを活用した開発スタンス&lt;/h3>
-&lt;p>自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
-ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p></description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p>長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p>
-&lt;p>ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p></description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について">この記事について&lt;/h2>
-&lt;p>&lt;a href="https://homete.yamaglo.jp/">Homete&lt;/a>のユーザー認証には、Firebase Authenticationを使っています。
-また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p>
-&lt;p>&lt;a href="https://developer.android.com/jetpack/guide">アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a>&lt;/p></description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p>今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
-個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p></description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする">現在のFirebase local emulatorのデータをエクスポートする&lt;/h2>
-&lt;p>Firebase local emulatorが起動中の状態で、 &lt;code>firebase emulators:export&lt;/code> コマンドを呼び出すことで、データをエクスポートできます。&lt;/p></description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase">QiitaのFirebase Advent Calendar 2020&lt;/a>の21日目の記事になります。&lt;/p>
-&lt;p>また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65">Firebaseプロジェクトのデプロイについて&lt;/a>の2020年版の記事になります。&lt;/p>
-&lt;h2 id="前提条件">前提条件&lt;/h2>
-&lt;p>CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p>
-&lt;ul>
-&lt;li>開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li>
-&lt;li>秘匿情報はリポジトリに組み込まない&lt;/li>
-&lt;li>CIでデプロイ可能にする&lt;/li>
-&lt;/ul>
-&lt;h2 id="firebase-cliについて">Firebase CLIについて&lt;/h2>
-&lt;p>その名の通り、CLI上でFirebaseを利用するためのツールです。
-本記事ではこのツールを使うことを前提としています。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firebase on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/firebase/</link><description>Recent content in Firebase on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Mon, 08 May 2023 12:30:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/firebase/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p&gt;まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p&gt;
+&lt;h3 id="chatgptを活用した開発スタンス"&gt;ChatGPTを活用した開発スタンス&lt;/h3&gt;
+&lt;p&gt;自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
+ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p&gt;</description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p&gt;長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p&gt;
+&lt;p&gt;ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p&gt;</description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について"&gt;この記事について&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://homete.yamaglo.jp/"&gt;Homete&lt;/a&gt;のユーザー認証には、Firebase Authenticationを使っています。
+また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.android.com/jetpack/guide"&gt;アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p&gt;今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
+個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p&gt;</description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする"&gt;現在のFirebase local emulatorのデータをエクスポートする&lt;/h2&gt;
+&lt;p&gt;Firebase local emulatorが起動中の状態で、 &lt;code&gt;firebase emulators:export&lt;/code&gt; コマンドを呼び出すことで、データをエクスポートできます。&lt;/p&gt;</description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase"&gt;QiitaのFirebase Advent Calendar 2020&lt;/a&gt;の21日目の記事になります。&lt;/p&gt;
+&lt;p&gt;また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65"&gt;Firebaseプロジェクトのデプロイについて&lt;/a&gt;の2020年版の記事になります。&lt;/p&gt;
+&lt;h2 id="前提条件"&gt;前提条件&lt;/h2&gt;
+&lt;p&gt;CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li&gt;
+&lt;li&gt;秘匿情報はリポジトリに組み込まない&lt;/li&gt;
+&lt;li&gt;CIでデプロイ可能にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="firebase-cliについて"&gt;Firebase CLIについて&lt;/h2&gt;
+&lt;p&gt;その名の通り、CLI上でFirebaseを利用するためのツールです。
+本記事ではこのツールを使うことを前提としています。&lt;/p&gt;</description></item></channel></rss>

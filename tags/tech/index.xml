@@ -1,180 +1,182 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/tech/</link><description>Recent content in Tech on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 10 Apr 2025 20:30:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>ドメインを移管した（2025年）</title><link>https://yamacraft.github.io/note/done-transfer-domain-2025/</link><pubDate>Thu, 10 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-transfer-domain-2025/</guid><description>&lt;p>&lt;a href="https://yamaglo.jp">yamaglo.jp&lt;/a>ならびに&lt;a href="https://yamadajirushi.co.jp/">yamadajirushi.co.jp&lt;/a>のドメインの管理を、お名前.comから&lt;a href="https://jpdirect.jp/">JP Direct&lt;/a>へ移管しました。
-DNSは以前からCloud DNSを使っていたので大丈夫なはずですが、今月サイトへのアクセスが一時的にできなくなったら、察してください。&lt;/p></description></item><item><title>DroidKaigi2023に行った雑感（セッション除く）</title><link>https://yamacraft.github.io/note/went-droidkaigi-2023/</link><pubDate>Mon, 18 Sep 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/went-droidkaigi-2023/</guid><description>&lt;p>&lt;a href="https://2023.droidkaigi.jp/">DroidKaigi 2023&lt;/a>のDay1とDay2にオフライン参加しました。&lt;/p>
-&lt;p>おそらくセッションに関連する感想はいろんなところで投稿されているはずですので、ここではそれ以外に関する雑感を書きます。&lt;/p></description></item><item><title>Now in Android調査 #1 - 2つのapplicationモジュール</title><link>https://yamacraft.github.io/note/research-now-in-android-1/</link><pubDate>Mon, 19 Jun 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/research-now-in-android-1/</guid><description>&lt;p>最近、Android公式のアプリアーキテクチャガイドを読み直していて、その流れで&lt;a href="https://github.com/android/nowinandroid">Now in Android&lt;/a>のプロジェクトの構成を調べています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on 山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/tags/tech/</link><description>Recent content in Tech on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Mon, 15 Sep 2025 14:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>DroidKaigi2025個人的雑感・備忘録（Day2）</title><link>https://yamacraft.github.io/note/memo-droidkaigi-2025-day2/</link><pubDate>Mon, 15 Sep 2025 14:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-droidkaigi-2025-day2/</guid><description>&lt;p&gt;個人的に振り返ったりする際の備忘録として残します。
+書いてるのはセッションの内容のメモというより、自分の感想や内容に関連した持論等です。
+文体が安定しないのも御愛嬌。&lt;/p&gt;</description></item><item><title>ドメインを移管した（2025年）</title><link>https://yamacraft.github.io/note/done-transfer-domain-2025/</link><pubDate>Thu, 10 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-transfer-domain-2025/</guid><description>&lt;p&gt;&lt;a href="https://yamaglo.jp"&gt;yamaglo.jp&lt;/a&gt;ならびに&lt;a href="https://yamadajirushi.co.jp/"&gt;yamadajirushi.co.jp&lt;/a&gt;のドメインの管理を、お名前.comから&lt;a href="https://jpdirect.jp/"&gt;JP Direct&lt;/a&gt;へ移管しました。
+DNSは以前からCloud DNSを使っていたので大丈夫なはずですが、今月サイトへのアクセスが一時的にできなくなったら、察してください。&lt;/p&gt;</description></item><item><title>DroidKaigi2023に行った雑感（セッション除く）</title><link>https://yamacraft.github.io/note/went-droidkaigi-2023/</link><pubDate>Mon, 18 Sep 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/went-droidkaigi-2023/</guid><description>&lt;p&gt;&lt;a href="https://2023.droidkaigi.jp/"&gt;DroidKaigi 2023&lt;/a&gt;のDay1とDay2にオフライン参加しました。&lt;/p&gt;
+&lt;p&gt;おそらくセッションに関連する感想はいろんなところで投稿されているはずですので、ここではそれ以外に関する雑感を書きます。&lt;/p&gt;</description></item><item><title>Now in Android調査 #1 - 2つのapplicationモジュール</title><link>https://yamacraft.github.io/note/research-now-in-android-1/</link><pubDate>Mon, 19 Jun 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/research-now-in-android-1/</guid><description>&lt;p&gt;最近、Android公式のアプリアーキテクチャガイドを読み直していて、その流れで&lt;a href="https://github.com/android/nowinandroid"&gt;Now in Android&lt;/a&gt;のプロジェクトの構成を調べています。
 公式ドキュメントや公式のブログ記事、YouTubeのフィードを表示してくれるアプリで、プロジェクトはマルチモジュールで構成されています。
-アプリアーキテクチャガイドでも、「モジュール化機能を備えた、完全に機能するAndroidアプリ」として取り上げられています。&lt;/p></description></item><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p>まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p>
-&lt;h3 id="chatgptを活用した開発スタンス">ChatGPTを活用した開発スタンス&lt;/h3>
-&lt;p>自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
-ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p></description></item><item><title>HometeにAIリプライ機能を搭載した話を動画にしました</title><link>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</link><pubDate>Mon, 17 Apr 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</guid><description>&lt;p>すっかりこのブログに書いた気でいましたが、書いていませんでした。（なので書きます。）&lt;/p>
-&lt;p>表題の通り、先日&lt;a href="https://homete.yamaglo.jp">Homete&lt;/a>に実装したAIリプライ機能に関する話を動画にして、YouTubeに投稿しました。&lt;/p>
-&lt;p>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div>
+アプリアーキテクチャガイドでも、「モジュール化機能を備えた、完全に機能するAndroidアプリ」として取り上げられています。&lt;/p&gt;</description></item><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p&gt;まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p&gt;
+&lt;h3 id="chatgptを活用した開発スタンス"&gt;ChatGPTを活用した開発スタンス&lt;/h3&gt;
+&lt;p&gt;自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
+ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p&gt;</description></item><item><title>HometeにAIリプライ機能を搭載した話を動画にしました</title><link>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</link><pubDate>Mon, 17 Apr 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</guid><description>&lt;p&gt;すっかりこのブログに書いた気でいましたが、書いていませんでした。（なので書きます。）&lt;/p&gt;
+&lt;p&gt;表題の通り、先日&lt;a href="https://homete.yamaglo.jp"&gt;Homete&lt;/a&gt;に実装したAIリプライ機能に関する話を動画にして、YouTubeに投稿しました。&lt;/p&gt;
+&lt;p&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;a href="https://www.youtube.com/watch?v=_P_2amfe_wQ">HometeにAIのリプライを追加した話【5分LT】 - YouTube&lt;/a>&lt;/p></description></item><item><title>FlutterでOpenAI APIを利用するときの備忘録</title><link>https://yamacraft.github.io/note/using-openai-with-flutter/</link><pubDate>Mon, 06 Mar 2023 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/using-openai-with-flutter/</guid><description>&lt;p>表題の通りです。&lt;/p>
-&lt;p>自分はFlutterの経験がたいへんに浅いので、その点をご留意ください。&lt;/p>
-&lt;h2 id="利用方法">利用方法&lt;/h2>
-&lt;p>Flutterの場合、&lt;a href="https://pub.dev/packages/openai_client">OpenAIを利用するためのpackageが配布されているようですが&lt;/a>、公式から提供されているものではありません。
-ですので、httpパッケージを使っての実装することにしました。&lt;/p></description></item><item><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】</title><link>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</link><pubDate>Mon, 13 Feb 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</guid><description>&lt;h2 id="発端">発端&lt;/h2>
-&lt;p>先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、&lt;a href="https://www.buymeacoffee.com/">Buy Me a Coffee&lt;/a>のアカウントの開設をしました。
-Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。&lt;/p></description></item><item><title>GPT-3に褒めてもらうプロトタイプを作った</title><link>https://yamacraft.github.io/note/create-homete-yo-v1/</link><pubDate>Tue, 07 Feb 2023 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-homete-yo-v1/</guid><description>&lt;h2 id="作ったもの紹介">作ったもの紹介&lt;/h2>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9">pic.twitter.com/rtH7r7mlD9&lt;/a>&lt;/p>&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw">February 6, 2023&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;a href="https://www.youtube.com/watch?v=_P_2amfe_wQ"&gt;HometeにAIのリプライを追加した話【5分LT】 - YouTube&lt;/a&gt;&lt;/p&gt;</description></item><item><title>FlutterでOpenAI APIを利用するときの備忘録</title><link>https://yamacraft.github.io/note/using-openai-with-flutter/</link><pubDate>Mon, 06 Mar 2023 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/using-openai-with-flutter/</guid><description>&lt;p&gt;表題の通りです。&lt;/p&gt;
+&lt;p&gt;自分はFlutterの経験がたいへんに浅いので、その点をご留意ください。&lt;/p&gt;
+&lt;h2 id="利用方法"&gt;利用方法&lt;/h2&gt;
+&lt;p&gt;Flutterの場合、&lt;a href="https://pub.dev/packages/openai_client"&gt;OpenAIを利用するためのpackageが配布されているようですが&lt;/a&gt;、公式から提供されているものではありません。
+ですので、httpパッケージを使っての実装することにしました。&lt;/p&gt;</description></item><item><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】</title><link>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</link><pubDate>Mon, 13 Feb 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</guid><description>&lt;h2 id="発端"&gt;発端&lt;/h2&gt;
+&lt;p&gt;先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、&lt;a href="https://www.buymeacoffee.com/"&gt;Buy Me a Coffee&lt;/a&gt;のアカウントの開設をしました。
+Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。&lt;/p&gt;</description></item><item><title>GPT-3に褒めてもらうプロトタイプを作った</title><link>https://yamacraft.github.io/note/create-homete-yo-v1/</link><pubDate>Tue, 07 Feb 2023 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-homete-yo-v1/</guid><description>&lt;h2 id="作ったもの紹介"&gt;作ったもの紹介&lt;/h2&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9"&gt;pic.twitter.com/rtH7r7mlD9&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw"&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
-&lt;p>chatGPTで特定人物の口調を真似させたり、決められたルールで会話させている人たちを見かけたことがきっかけで、上記のツイートを投稿しました。
-その後GPT-3のAPIで再現できそうだという情報をいただいたので、試しにFlutterでプロトタイプを作ってみました。&lt;/p></description></item><item><title>AndroidでOGP情報を取得する（OkHttp3+Jsoup）</title><link>https://yamacraft.github.io/note/get-ogp-info-on-android/</link><pubDate>Mon, 23 Jan 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/get-ogp-info-on-android/</guid><description>&lt;p>対象のWebサイトのOGP情報を取得する方法ですが、私には対象のサイトのHTMLを読み込んでからmetaタグのOGP情報を取得する方法しか浮かびませんでした。&lt;/p></description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p>※ 記事公開以降に一部修正と補足を追加しています。&lt;/p>
-&lt;p>&lt;a href="https://qiita.com/advent-calendar/2022/android">Android Advent Calendar 2022&lt;/a>の13日目の記事になります。&lt;/p>
-&lt;p>去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html">Android公式のアーキテクチャガイドが刷新された&lt;/a>のはご存じでしょうか？&lt;/p>
-&lt;p>Android公式がアーキテクチャガイドを用意したのは（記憶が間違っていなければ）2017年のGoogleIOからでした。
+&lt;p&gt;chatGPTで特定人物の口調を真似させたり、決められたルールで会話させている人たちを見かけたことがきっかけで、上記のツイートを投稿しました。
+その後GPT-3のAPIで再現できそうだという情報をいただいたので、試しにFlutterでプロトタイプを作ってみました。&lt;/p&gt;</description></item><item><title>AndroidでOGP情報を取得する（OkHttp3+Jsoup）</title><link>https://yamacraft.github.io/note/get-ogp-info-on-android/</link><pubDate>Mon, 23 Jan 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/get-ogp-info-on-android/</guid><description>&lt;p&gt;対象のWebサイトのOGP情報を取得する方法ですが、私には対象のサイトのHTMLを読み込んでからmetaタグのOGP情報を取得する方法しか浮かびませんでした。&lt;/p&gt;</description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p&gt;※ 記事公開以降に一部修正と補足を追加しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/advent-calendar/2022/android"&gt;Android Advent Calendar 2022&lt;/a&gt;の13日目の記事になります。&lt;/p&gt;
+&lt;p&gt;去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html"&gt;Android公式のアーキテクチャガイドが刷新された&lt;/a&gt;のはご存じでしょうか？&lt;/p&gt;
+&lt;p&gt;Android公式がアーキテクチャガイドを用意したのは（記憶が間違っていなければ）2017年のGoogleIOからでした。
 あのころに比べると、明らかに文量が増えています。
-その変化に戸惑っている方はいるんじゃないでしょうか。&lt;/p></description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p>※ プログラム関連に限った話をしています。&lt;/p>
-&lt;p>2022年は、あまり勉強方面がうまくいきませんでした。
-おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p></description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/it-depends-on-the-situation-1/">クロスプラットフォームを導入したいかどうかは、場合による&lt;/a>&lt;/p>
-&lt;p>上記の記事の続きです。
-今回は画像右下の「どこで仕事をしたい？」の質問部分の話。&lt;/p>
-&lt;p>再度書きますが、あくまでもyamacraft個人の見解であることをご留意ください。&lt;/p></description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p>今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
-（ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）&lt;/p></description></item><item><title>AndroidはCSVをサポートしていないので導入は避けようという資料</title><link>https://yamacraft.github.io/note/unsupport-csv-at-android/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/unsupport-csv-at-android/</guid><description>&lt;p>いまプライベートで作っているアプリでCSVインポート機能を実装しようとして、「これは安易に導入しちゃだめだな…」と感じたのでまとめた資料です。&lt;/p></description></item><item><title>yamacraftのブログを支えるシステム（2022年版）</title><link>https://yamacraft.github.io/note/architecture-blog-2022/</link><pubDate>Thu, 01 Dec 2022 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/architecture-blog-2022/</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/">山田航空ネットワーク3rd | 山田航空ネットワーク3rd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/">山田航空ネットワークフロント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p>
-&lt;h2 id="利用しているシステムアプリ">利用しているシステム・アプリ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gohugo.io/">Hugo&lt;/a>&lt;/li>
-&lt;li>GitHub Actions&lt;/li>
-&lt;li>GitHub Pages / Firebase Hosting&lt;/li>
-&lt;li>&lt;a href="https://textlint.github.io/">textlint&lt;/a> + VSCode&lt;/li>
-&lt;/ul>
-&lt;h2 id="各システムアプリの詳細">各システム・アプリの詳細&lt;/h2>
-&lt;h3 id="hugo">Hugo&lt;/h3>
-&lt;p>静的サイトジェネレータです。
+その変化に戸惑っている方はいるんじゃないでしょうか。&lt;/p&gt;</description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p&gt;※ プログラム関連に限った話をしています。&lt;/p&gt;
+&lt;p&gt;2022年は、あまり勉強方面がうまくいきませんでした。
+おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p&gt;</description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/it-depends-on-the-situation-1/"&gt;クロスプラットフォームを導入したいかどうかは、場合による&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上記の記事の続きです。
+今回は画像右下の「どこで仕事をしたい？」の質問部分の話。&lt;/p&gt;
+&lt;p&gt;再度書きますが、あくまでもyamacraft個人の見解であることをご留意ください。&lt;/p&gt;</description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p&gt;今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
+（ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）&lt;/p&gt;</description></item><item><title>AndroidはCSVをサポートしていないので導入は避けようという資料</title><link>https://yamacraft.github.io/note/unsupport-csv-at-android/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/unsupport-csv-at-android/</guid><description>&lt;p&gt;いまプライベートで作っているアプリでCSVインポート機能を実装しようとして、「これは安易に導入しちゃだめだな…」と感じたのでまとめた資料です。&lt;/p&gt;</description></item><item><title>yamacraftのブログを支えるシステム（2022年版）</title><link>https://yamacraft.github.io/note/architecture-blog-2022/</link><pubDate>Thu, 01 Dec 2022 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/architecture-blog-2022/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/"&gt;山田航空ネットワーク3rd | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/"&gt;山田航空ネットワークフロント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p&gt;
+&lt;h2 id="利用しているシステムアプリ"&gt;利用しているシステム・アプリ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Actions&lt;/li&gt;
+&lt;li&gt;GitHub Pages / Firebase Hosting&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://textlint.github.io/"&gt;textlint&lt;/a&gt; + VSCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="各システムアプリの詳細"&gt;各システム・アプリの詳細&lt;/h2&gt;
+&lt;h3 id="hugo"&gt;Hugo&lt;/h3&gt;
+&lt;p&gt;静的サイトジェネレータです。
 Markdownでコンテンツ部分を作成できます。
-静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item><item><title>アプリのデザインと実装のつらみを話しました</title><link>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</link><pubDate>Mon, 19 Sep 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</guid><description>&lt;p>すっかりこちらに報告し忘れていましたが、先日『&lt;a href="https://wantedly.connpass.com/event/256518/">Mobile勉強会 Wantedly × チームラボ #6&lt;/a>』にLTで参加しました。
-LTも含め、発表側での参加は数年ぶりじゃないかという気がします。&lt;/p></description></item><item><title>adbでAlarmManagerの登録内容を確認する</title><link>https://yamacraft.github.io/note/check_alarm_at_adb/</link><pubDate>Thu, 11 Aug 2022 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/check_alarm_at_adb/</guid><description>&lt;p>Androidアプリにおいてアプリ自身で特定の時間に何かしらの処理（以下、アラーム処理）を行いたい場合は、&lt;code>AlarmManager&lt;/code>を使う方法が考えられます。
-さらに&lt;code>setInexactRepeating()&lt;/code>を使うことで、（タイミングに制限がありますが）一定間隔でアラーム処理を行うことが可能です。&lt;/p></description></item><item><title>D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ</title><link>https://yamacraft.github.io/note/send-review-query-all-package/</link><pubDate>Mon, 18 Jul 2022 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/send-review-query-all-package/</guid><description>&lt;p>ヤマグロでリリースしている&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic">D.I.C.&lt;/a>には、端末がインストールしているアプリの一覧を表示し、各アプリのtargetSdkVersionを確認できる機能があります。&lt;/p>
-&lt;p>この機能を実装するために、アプリでは &lt;code>PackageManager.queryIntentActivities()&lt;/code> を使っています。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">val&lt;/span> packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">val&lt;/span> intent = Intent(&lt;span style="color:#a6e22e">Intent&lt;/span>.ACTION_MAIN).apply {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> addCategory(&lt;span style="color:#a6e22e">Intent&lt;/span>.CATEGORY_LAUNCHER)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 該当するActivity（アプリ）の一覧を取得
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">val&lt;/span> activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff">0&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>このAPIを使うためには、 &lt;code>QUERY_ALL_PACKAGES&lt;/code> 権限の利用が必要です。
-設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p></description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/">個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a>の続きみたいな記事です。&lt;/p>
-&lt;p>masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
-この作業自体は、Gitコマンドを２つたたくだけで実装できます。&lt;/p></description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p>長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p>
-&lt;p>ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p></description></item><item><title>Flutterの勉強を始めたのと今後のFlutterとの付き合い方</title><link>https://yamacraft.github.io/note/begin-study-flutter/</link><pubDate>Fri, 06 May 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/begin-study-flutter/</guid><description>&lt;p>GWの大半は休日返上して午前中にプロダクト開発、午後にFlutter（＋Jetpack Compose）の勉強をやっていました。&lt;/p>
-&lt;p>勉強といっても、自分の場合はコード書きながら覚えていくのが手っ取り早いという理由から、ひたすらGoogle Codelabsをやり続けていました。&lt;/p></description></item><item><title>Twitter開発者ポータルの出禁が解除されてた</title><link>https://yamacraft.github.io/note/comeback-twitter-develop-site/</link><pubDate>Tue, 26 Apr 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/comeback-twitter-develop-site/</guid><description>&lt;p>Twitterに書いてある内容がすべてなんですが、知らないうちにTwitter開発者ポータルのサイトがリニューアルされて、出禁も解除されていました。&lt;/p></description></item><item><title>Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する</title><link>https://yamacraft.github.io/note/create-keystore-cli/</link><pubDate>Mon, 11 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-keystore-cli/</guid><description>&lt;p>Gistの方で以前書いたメモですが、わりと何度も見直す機会があったので、あらためて少し解説を挟みながら記事を書くことにしました。&lt;/p>
-&lt;p>&lt;a href="https://gist.github.com/yamacraft/ed03bdcf08cc64bd82cbb82c6d06b9ae">Androidとかで使う証明書鍵をコマンドラインで生成する&lt;/a>&lt;/p>
-&lt;h2 id="基本">基本&lt;/h2>
-&lt;p>Androidアプリの署名に使う鍵ファイルを生成したい場合、 &lt;code>keytool&lt;/code> を使います。&lt;/p></description></item><item><title>CIでAndroidのSecretファイルをどう扱うか（2022年最新版）</title><link>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</link><pubDate>Mon, 07 Mar 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</guid><description>&lt;p>AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。
-たとえばリリース用のkeystoreファイルだったり、そのファイル関連のパスワード情報などです。&lt;/p></description></item><item><title>AGP7.1でclasspathを追加する</title><link>https://yamacraft.github.io/note/agp-7-1-add-classpath/</link><pubDate>Mon, 31 Jan 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/agp-7-1-add-classpath/</guid><description>&lt;p>先日、AGP（Android Gradle Plugin）7.1とAndroid Studio 2021.1.1（Bumblebee）がリリースされました。
-これによって、Android StudioのBumblebeeでプロジェクトを新規作成すると、AGP 7.1のgradleファイルが作られるようになりました。&lt;/p></description></item><item><title>Material Design3でTypographyが変わった</title><link>https://yamacraft.github.io/note/material3-typography-list/</link><pubDate>Thu, 20 Jan 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/material3-typography-list/</guid><description>&lt;h2 id="material3の正式リリース">Material3の正式リリース&lt;/h2>
-&lt;p>先日、Android版のmaterial-componentsの1.5.0がリリースされました。
-このリリースバージョンから&lt;a href="https://m3.material.io/">Material Design3&lt;/a>が含まれるようになりました。&lt;/p></description></item><item><title>個人的な2021年のふりかえりと2022年の目標</title><link>https://yamacraft.github.io/note/goal-next-year-2021/</link><pubDate>Thu, 30 Dec 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goal-next-year-2021/</guid><description>&lt;p>先日、会社（仕事）の振り返りを書きましたが、今回は個人的な部分のふりかえりと来年の目標を簡単に書きました。
-おそらくこれが年内最後の記事です。&lt;/p>
-&lt;p>&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/">2021年のヤマダ印ふりかえる | 山田航空ネットワーク3rd&lt;/a>&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
-&lt;p>こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p>
-&lt;h2 id="良いと感じた点">良いと感じた点&lt;/h2>
-&lt;ul>
-&lt;li>Markdown形式で書ける&lt;/li>
-&lt;li>ゆるくCSSやHTMLの改修ができる&lt;/li>
-&lt;/ul>
-&lt;h2 id="課題と感じる点">課題と感じる点&lt;/h2>
-&lt;ul>
-&lt;li>予約公開ができない
-&lt;ul>
-&lt;li>都合上、公開時間以降にmasterを更新する必要がある&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>画像の添付が少し面倒&lt;/li>
-&lt;li>TOPページの大きな改修が難しい
-&lt;ul>
-&lt;li>固定記事リンク、カテゴリごとのリンクページなどが欲しくなった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="2022年にやろうと考えていること">2022年にやろうと考えていること&lt;/h2>
-&lt;ul>
-&lt;li>予約公開に関する対応&lt;/li>
-&lt;li>TOPページ含めたデザインの改修&lt;/li>
-&lt;li>Mediumやnoteなどにある、リンク先のブログカード表示の実装&lt;/li>
-&lt;/ul>
-&lt;h2 id="各解説">各解説&lt;/h2>
-&lt;h3 id="良いと感じた点について">良いと感じた点について&lt;/h3>
-&lt;p>Markdown形式で記事が書きたい！という理由でHugoを選んだので、この点には大きく満足しています。
-また、コンテンツ部分は素直なHTMLタグで構成されていることもあって、CSSの修正がやりやすいこともメリットに感じています。&lt;/p></description></item><item><title>Android 12におけるOverScroll表現の雑多なメモ</title><link>https://yamacraft.github.io/note/advent2021-android-overscroll/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2021-android-overscroll/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2021/android">QiitaのAndroid Advent Calendar 2021&lt;/a>の14日目の記事になります。&lt;/p>
-&lt;h2 id="android-12のoverscroll">Android 12のOverScroll&lt;/h2>
-&lt;p>Android 12では、オーバースクロールの表現方法が変わりました。
-いわゆる「伸びる（ストレッチ）」やつです。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p>今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
-その補足として、現在のブログはどういうしくみで運用しているのかを、あらためてまとめることにしました。&lt;/p></description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について">この記事について&lt;/h2>
-&lt;p>&lt;a href="https://homete.yamaglo.jp/">Homete&lt;/a>のユーザー認証には、Firebase Authenticationを使っています。
-また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p>
-&lt;p>&lt;a href="https://developer.android.com/jetpack/guide">アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a>&lt;/p></description></item><item><title>Android Studioでいつの間にかJDKが消えた件と対応</title><link>https://yamacraft.github.io/note/missing-android-studio-jdk/</link><pubDate>Mon, 16 Aug 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/missing-android-studio-jdk/</guid><description>&lt;p>どのタイミングからなのかわかりませんが（おそらく2020.3.1以降）、Android Studioに埋め込まれていたJDKのパスが変わってました。&lt;/p></description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p>今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
-個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p></description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする">現在のFirebase local emulatorのデータをエクスポートする&lt;/h2>
-&lt;p>Firebase local emulatorが起動中の状態で、 &lt;code>firebase emulators:export&lt;/code> コマンドを呼び出すことで、データをエクスポートできます。&lt;/p></description></item><item><title>アカウント登録方法の選定</title><link>https://yamacraft.github.io/note/select-authentication-service/</link><pubDate>Fri, 23 Apr 2021 22:15:00 +0900</pubDate><guid>https://yamacraft.github.io/note/select-authentication-service/</guid><description>&lt;p>現在進行系で、SNS系のコミュニケーションアプリを開発しています。&lt;/p>
-&lt;p>こうしたサービスを作るためには、当然アカウント登録（認証）を実装する必要があります。
+静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p&gt;</description></item><item><title>アプリのデザインと実装のつらみを話しました</title><link>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</link><pubDate>Mon, 19 Sep 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</guid><description>&lt;p&gt;すっかりこちらに報告し忘れていましたが、先日『&lt;a href="https://wantedly.connpass.com/event/256518/"&gt;Mobile勉強会 Wantedly × チームラボ #6&lt;/a&gt;』にLTで参加しました。
+LTも含め、発表側での参加は数年ぶりじゃないかという気がします。&lt;/p&gt;</description></item><item><title>adbでAlarmManagerの登録内容を確認する</title><link>https://yamacraft.github.io/note/check_alarm_at_adb/</link><pubDate>Thu, 11 Aug 2022 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/check_alarm_at_adb/</guid><description>&lt;p&gt;Androidアプリにおいてアプリ自身で特定の時間に何かしらの処理（以下、アラーム処理）を行いたい場合は、&lt;code&gt;AlarmManager&lt;/code&gt;を使う方法が考えられます。
+さらに&lt;code&gt;setInexactRepeating()&lt;/code&gt;を使うことで、（タイミングに制限がありますが）一定間隔でアラーム処理を行うことが可能です。&lt;/p&gt;</description></item><item><title>D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ</title><link>https://yamacraft.github.io/note/send-review-query-all-package/</link><pubDate>Mon, 18 Jul 2022 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/send-review-query-all-package/</guid><description>&lt;p&gt;ヤマグロでリリースしている&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic"&gt;D.I.C.&lt;/a&gt;には、端末がインストールしているアプリの一覧を表示し、各アプリのtargetSdkVersionを確認できる機能があります。&lt;/p&gt;
+&lt;p&gt;この機能を実装するために、アプリでは &lt;code&gt;PackageManager.queryIntentActivities()&lt;/code&gt; を使っています。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; intent = Intent(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.ACTION_MAIN).apply {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; addCategory(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.CATEGORY_LAUNCHER)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 該当するActivity（アプリ）の一覧を取得
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このAPIを使うためには、 &lt;code&gt;QUERY_ALL_PACKAGES&lt;/code&gt; 権限の利用が必要です。
+設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p&gt;</description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/"&gt;個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a&gt;の続きみたいな記事です。&lt;/p&gt;
+&lt;p&gt;masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
+この作業自体は、Gitコマンドを２つたたくだけで実装できます。&lt;/p&gt;</description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p&gt;長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p&gt;
+&lt;p&gt;ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p&gt;</description></item><item><title>Flutterの勉強を始めたのと今後のFlutterとの付き合い方</title><link>https://yamacraft.github.io/note/begin-study-flutter/</link><pubDate>Fri, 06 May 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/begin-study-flutter/</guid><description>&lt;p&gt;GWの大半は休日返上して午前中にプロダクト開発、午後にFlutter（＋Jetpack Compose）の勉強をやっていました。&lt;/p&gt;
+&lt;p&gt;勉強といっても、自分の場合はコード書きながら覚えていくのが手っ取り早いという理由から、ひたすらGoogle Codelabsをやり続けていました。&lt;/p&gt;</description></item><item><title>Twitter開発者ポータルの出禁が解除されてた</title><link>https://yamacraft.github.io/note/comeback-twitter-develop-site/</link><pubDate>Tue, 26 Apr 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/comeback-twitter-develop-site/</guid><description>&lt;p&gt;Twitterに書いてある内容がすべてなんですが、知らないうちにTwitter開発者ポータルのサイトがリニューアルされて、出禁も解除されていました。&lt;/p&gt;</description></item><item><title>Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する</title><link>https://yamacraft.github.io/note/create-keystore-cli/</link><pubDate>Mon, 11 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-keystore-cli/</guid><description>&lt;p&gt;Gistの方で以前書いたメモですが、わりと何度も見直す機会があったので、あらためて少し解説を挟みながら記事を書くことにしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gist.github.com/yamacraft/ed03bdcf08cc64bd82cbb82c6d06b9ae"&gt;Androidとかで使う証明書鍵をコマンドラインで生成する&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
+&lt;p&gt;Androidアプリの署名に使う鍵ファイルを生成したい場合、 &lt;code&gt;keytool&lt;/code&gt; を使います。&lt;/p&gt;</description></item><item><title>CIでAndroidのSecretファイルをどう扱うか（2022年最新版）</title><link>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</link><pubDate>Mon, 07 Mar 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</guid><description>&lt;p&gt;AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。
+たとえばリリース用のkeystoreファイルだったり、そのファイル関連のパスワード情報などです。&lt;/p&gt;</description></item><item><title>AGP7.1でclasspathを追加する</title><link>https://yamacraft.github.io/note/agp-7-1-add-classpath/</link><pubDate>Mon, 31 Jan 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/agp-7-1-add-classpath/</guid><description>&lt;p&gt;先日、AGP（Android Gradle Plugin）7.1とAndroid Studio 2021.1.1（Bumblebee）がリリースされました。
+これによって、Android StudioのBumblebeeでプロジェクトを新規作成すると、AGP 7.1のgradleファイルが作られるようになりました。&lt;/p&gt;</description></item><item><title>Material Design3でTypographyが変わった</title><link>https://yamacraft.github.io/note/material3-typography-list/</link><pubDate>Thu, 20 Jan 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/material3-typography-list/</guid><description>&lt;h2 id="material3の正式リリース"&gt;Material3の正式リリース&lt;/h2&gt;
+&lt;p&gt;先日、Android版のmaterial-componentsの1.5.0がリリースされました。
+このリリースバージョンから&lt;a href="https://m3.material.io/"&gt;Material Design3&lt;/a&gt;が含まれるようになりました。&lt;/p&gt;</description></item><item><title>個人的な2021年のふりかえりと2022年の目標</title><link>https://yamacraft.github.io/note/goal-next-year-2021/</link><pubDate>Thu, 30 Dec 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goal-next-year-2021/</guid><description>&lt;p&gt;先日、会社（仕事）の振り返りを書きましたが、今回は個人的な部分のふりかえりと来年の目標を簡単に書きました。
+おそらくこれが年内最後の記事です。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/"&gt;2021年のヤマダ印ふりかえる | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/p&gt;</description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/tech-note-2021/"&gt;山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p&gt;
+&lt;h2 id="良いと感じた点"&gt;良いと感じた点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown形式で書ける&lt;/li&gt;
+&lt;li&gt;ゆるくCSSやHTMLの改修ができる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="課題と感じる点"&gt;課題と感じる点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;予約公開ができない
+&lt;ul&gt;
+&lt;li&gt;都合上、公開時間以降にmasterを更新する必要がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;画像の添付が少し面倒&lt;/li&gt;
+&lt;li&gt;TOPページの大きな改修が難しい
+&lt;ul&gt;
+&lt;li&gt;固定記事リンク、カテゴリごとのリンクページなどが欲しくなった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2022年にやろうと考えていること"&gt;2022年にやろうと考えていること&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;予約公開に関する対応&lt;/li&gt;
+&lt;li&gt;TOPページ含めたデザインの改修&lt;/li&gt;
+&lt;li&gt;Mediumやnoteなどにある、リンク先のブログカード表示の実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="各解説"&gt;各解説&lt;/h2&gt;
+&lt;h3 id="良いと感じた点について"&gt;良いと感じた点について&lt;/h3&gt;
+&lt;p&gt;Markdown形式で記事が書きたい！という理由でHugoを選んだので、この点には大きく満足しています。
+また、コンテンツ部分は素直なHTMLタグで構成されていることもあって、CSSの修正がやりやすいこともメリットに感じています。&lt;/p&gt;</description></item><item><title>Android 12におけるOverScroll表現の雑多なメモ</title><link>https://yamacraft.github.io/note/advent2021-android-overscroll/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2021-android-overscroll/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2021/android"&gt;QiitaのAndroid Advent Calendar 2021&lt;/a&gt;の14日目の記事になります。&lt;/p&gt;
+&lt;h2 id="android-12のoverscroll"&gt;Android 12のOverScroll&lt;/h2&gt;
+&lt;p&gt;Android 12では、オーバースクロールの表現方法が変わりました。
+いわゆる「伸びる（ストレッチ）」やつです。&lt;/p&gt;</description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p&gt;今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
+その補足として、現在のブログはどういうしくみで運用しているのかを、あらためてまとめることにしました。&lt;/p&gt;</description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について"&gt;この記事について&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://homete.yamaglo.jp/"&gt;Homete&lt;/a&gt;のユーザー認証には、Firebase Authenticationを使っています。
+また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.android.com/jetpack/guide"&gt;アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Android Studioでいつの間にかJDKが消えた件と対応</title><link>https://yamacraft.github.io/note/missing-android-studio-jdk/</link><pubDate>Mon, 16 Aug 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/missing-android-studio-jdk/</guid><description>&lt;p&gt;どのタイミングからなのかわかりませんが（おそらく2020.3.1以降）、Android Studioに埋め込まれていたJDKのパスが変わってました。&lt;/p&gt;</description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p&gt;今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
+個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p&gt;</description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする"&gt;現在のFirebase local emulatorのデータをエクスポートする&lt;/h2&gt;
+&lt;p&gt;Firebase local emulatorが起動中の状態で、 &lt;code&gt;firebase emulators:export&lt;/code&gt; コマンドを呼び出すことで、データをエクスポートできます。&lt;/p&gt;</description></item><item><title>アカウント登録方法の選定</title><link>https://yamacraft.github.io/note/select-authentication-service/</link><pubDate>Fri, 23 Apr 2021 22:15:00 +0900</pubDate><guid>https://yamacraft.github.io/note/select-authentication-service/</guid><description>&lt;p&gt;現在進行系で、SNS系のコミュニケーションアプリを開発しています。&lt;/p&gt;
+&lt;p&gt;こうしたサービスを作るためには、当然アカウント登録（認証）を実装する必要があります。
 今回はFirebase Authentication（＋FirebaseUI）で実装することにしました。
-あとはそこから、何の認証方式を使うかを決めなければいけません。&lt;/p></description></item><item><title>俺が学ぶべきプログラミング言語ランキング</title><link>https://yamacraft.github.io/note/my-study-gengo-ranking/</link><pubDate>Mon, 22 Feb 2021 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-study-gengo-ranking/</guid><description>&lt;p>定期的に「プログラマーはこの言語を学ぶべき」みたいな記事を見かけます。
-と書いていたら、ちょうど令和3年最新版が出てきたみたいですね。&lt;/p>
-&lt;p>&lt;a href="https://www.itmedia.co.jp/business/articles/2102/11/news022.html">2021年、ITエンジニアが学びたいプログラミング言語ランキング - ITmedia ビジネスオンライン&lt;/a>&lt;/p></description></item><item><title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</title><link>https://yamacraft.github.io/note/byebye-jcenter-at-android/</link><pubDate>Mon, 08 Feb 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/byebye-jcenter-at-android/</guid><description>&lt;p>JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。&lt;/p>
-&lt;p>&lt;a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/">Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog&lt;/a>&lt;/p>
-&lt;p>余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
-個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。&lt;/p></description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase">QiitaのFirebase Advent Calendar 2020&lt;/a>の21日目の記事になります。&lt;/p>
-&lt;p>また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65">Firebaseプロジェクトのデプロイについて&lt;/a>の2020年版の記事になります。&lt;/p>
-&lt;h2 id="前提条件">前提条件&lt;/h2>
-&lt;p>CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p>
-&lt;ul>
-&lt;li>開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li>
-&lt;li>秘匿情報はリポジトリに組み込まない&lt;/li>
-&lt;li>CIでデプロイ可能にする&lt;/li>
-&lt;/ul>
-&lt;h2 id="firebase-cliについて">Firebase CLIについて&lt;/h2>
-&lt;p>その名の通り、CLI上でFirebaseを利用するためのツールです。
-本記事ではこのツールを使うことを前提としています。&lt;/p></description></item><item><title>WebViewで表示しているWebページのHTMLを取得する(deprecated)</title><link>https://yamacraft.github.io/note/advent2020-android-webview/</link><pubDate>Sat, 19 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-android-webview/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/android">QiitaのAndroid Advent Calendar 2020&lt;/a>の19日目の記事になります。&lt;/p>
-&lt;h2 id="言いたいこと">言いたいこと&lt;/h2>
-&lt;p>&lt;strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません&lt;/strong>&lt;/p></description></item><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-v200を公開しました">D.I.C. v2.0.0を公開しました&lt;/h2>
-&lt;p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p></description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="コードをkotlinに変えるということ">コードをKotlinに変えるということ&lt;/h2>
-&lt;p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
+あとはそこから、何の認証方式を使うかを決めなければいけません。&lt;/p&gt;</description></item><item><title>俺が学ぶべきプログラミング言語ランキング</title><link>https://yamacraft.github.io/note/my-study-gengo-ranking/</link><pubDate>Mon, 22 Feb 2021 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-study-gengo-ranking/</guid><description>&lt;p&gt;定期的に「プログラマーはこの言語を学ぶべき」みたいな記事を見かけます。
+と書いていたら、ちょうど令和3年最新版が出てきたみたいですね。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.itmedia.co.jp/business/articles/2102/11/news022.html"&gt;2021年、ITエンジニアが学びたいプログラミング言語ランキング - ITmedia ビジネスオンライン&lt;/a&gt;&lt;/p&gt;</description></item><item><title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</title><link>https://yamacraft.github.io/note/byebye-jcenter-at-android/</link><pubDate>Mon, 08 Feb 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/byebye-jcenter-at-android/</guid><description>&lt;p&gt;JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/"&gt;Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
+個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。&lt;/p&gt;</description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase"&gt;QiitaのFirebase Advent Calendar 2020&lt;/a&gt;の21日目の記事になります。&lt;/p&gt;
+&lt;p&gt;また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65"&gt;Firebaseプロジェクトのデプロイについて&lt;/a&gt;の2020年版の記事になります。&lt;/p&gt;
+&lt;h2 id="前提条件"&gt;前提条件&lt;/h2&gt;
+&lt;p&gt;CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li&gt;
+&lt;li&gt;秘匿情報はリポジトリに組み込まない&lt;/li&gt;
+&lt;li&gt;CIでデプロイ可能にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="firebase-cliについて"&gt;Firebase CLIについて&lt;/h2&gt;
+&lt;p&gt;その名の通り、CLI上でFirebaseを利用するためのツールです。
+本記事ではこのツールを使うことを前提としています。&lt;/p&gt;</description></item><item><title>WebViewで表示しているWebページのHTMLを取得する(deprecated)</title><link>https://yamacraft.github.io/note/advent2020-android-webview/</link><pubDate>Sat, 19 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-android-webview/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/android"&gt;QiitaのAndroid Advent Calendar 2020&lt;/a&gt;の19日目の記事になります。&lt;/p&gt;
+&lt;h2 id="言いたいこと"&gt;言いたいこと&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-v200を公開しました"&gt;D.I.C. v2.0.0を公開しました&lt;/h2&gt;
+&lt;p&gt;本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="コードをkotlinに変えるということ"&gt;コードをKotlinに変えるということ&lt;/h2&gt;
+&lt;p&gt;Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
 現在は公式のドキュメントのサンプルもKotlinでの記載が優先して表示されるなど、メインの開発公式言語の地位を築いています。
-この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p></description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="開発環境を整えるということについて">開発環境を整えるということについて&lt;/h2>
-&lt;p>メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
-早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p></description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/restore-android-app/">先日の記事&lt;/a>で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p>
-&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-について">D.I.C. について&lt;/h2>
-&lt;p>数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
+この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="開発環境を整えるということについて"&gt;開発環境を整えるということについて&lt;/h2&gt;
+&lt;p&gt;メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
+早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/restore-android-app/"&gt;先日の記事&lt;/a&gt;で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p&gt;
+&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-について"&gt;D.I.C. について&lt;/h2&gt;
+&lt;p&gt;数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
 ついでに、端末にインストールしているアプリの一覧を、targetSdkVesion付きで見れる機能も追加していました。
-現在は配信を停止しています。&lt;/p></description></item><item><title>easylauncherをdocker上でも使えるようにする</title><link>https://yamacraft.github.io/note/easy-launcher-use-docker/</link><pubDate>Mon, 01 Jun 2020 13:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/easy-launcher-use-docker/</guid><description>&lt;p>ただの覚書です。&lt;/p>
-&lt;p>自分が開発しているAndroidアプリのプロダクトには、アプリのバリアントを可視化しやすいようにeasylauncherを導入しています。&lt;/p></description></item><item><title>ブログのデプロイをGitHub Actionsで行うようにした</title><link>https://yamacraft.github.io/note/blog-generate-by-github-actions/</link><pubDate>Fri, 29 May 2020 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/blog-generate-by-github-actions/</guid><description>&lt;p>このブログはHugoとGitHub Pagesを使って公開しています。&lt;/p>
-&lt;p>これまでは手動で &lt;code>hugo&lt;/code> コマンドを叩いてサイトを生成し、それもリポジトリに加えてpushするやり方で更新していました。&lt;/p></description></item></channel></rss>
+現在は配信を停止しています。&lt;/p&gt;</description></item><item><title>easylauncherをdocker上でも使えるようにする</title><link>https://yamacraft.github.io/note/easy-launcher-use-docker/</link><pubDate>Mon, 01 Jun 2020 13:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/easy-launcher-use-docker/</guid><description>&lt;p&gt;ただの覚書です。&lt;/p&gt;
+&lt;p&gt;自分が開発しているAndroidアプリのプロダクトには、アプリのバリアントを可視化しやすいようにeasylauncherを導入しています。&lt;/p&gt;</description></item><item><title>ブログのデプロイをGitHub Actionsで行うようにした</title><link>https://yamacraft.github.io/note/blog-generate-by-github-actions/</link><pubDate>Fri, 29 May 2020 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/blog-generate-by-github-actions/</guid><description>&lt;p&gt;このブログはHugoとGitHub Pagesを使って公開しています。&lt;/p&gt;
+&lt;p&gt;これまでは手動で &lt;code&gt;hugo&lt;/code&gt; コマンドを叩いてサイトを生成し、それもリポジトリに加えてpushするやり方で更新していました。&lt;/p&gt;</description></item></channel></rss>

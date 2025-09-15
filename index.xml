@@ -1,788 +1,790 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/</link><description>Recent content on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 17 Jul 2025 21:30:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-2q-done/</link><pubDate>Thu, 17 Jul 2025 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2025年のまとめ">2025年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2025-1q-done/">2024 1Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;ul>
-&lt;li>メイン業務（平日のフルタイム）
-&lt;ul>
-&lt;li>ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝い中。稼働内容も変わらず、週四日稼働でフルリモート案件。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>サブ業務（平日夜間など）
-&lt;ul>
-&lt;li>現在案件なし。&lt;a href="https://yamacraft.github.io/note/detail-second-job/">依頼・相談等は随時受付中&lt;/a>。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>なお、昨今のゆめみさん絡みのアレやコレに関して、自分はそれらの内情や実情に関しては一切把握していません。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/</link><description>Recent content on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Mon, 15 Sep 2025 14:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/index.xml" rel="self" type="application/rss+xml"/><item><title>DroidKaigi2025個人的雑感・備忘録（Day2）</title><link>https://yamacraft.github.io/note/memo-droidkaigi-2025-day2/</link><pubDate>Mon, 15 Sep 2025 14:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-droidkaigi-2025-day2/</guid><description>&lt;p&gt;個人的に振り返ったりする際の備忘録として残します。
+書いてるのはセッションの内容のメモというより、自分の感想や内容に関連した持論等です。
+文体が安定しないのも御愛嬌。&lt;/p&gt;</description></item><item><title>2025 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-2q-done/</link><pubDate>Thu, 17 Jul 2025 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2025年のまとめ"&gt;2025年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2025-1q-done/"&gt;2024 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メイン業務（平日のフルタイム）
+&lt;ul&gt;
+&lt;li&gt;ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝い中。稼働内容も変わらず、週四日稼働でフルリモート案件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サブ業務（平日夜間など）
+&lt;ul&gt;
+&lt;li&gt;現在案件なし。&lt;a href="https://yamacraft.github.io/note/detail-second-job/"&gt;依頼・相談等は随時受付中&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なお、昨今のゆめみさん絡みのアレやコレに関して、自分はそれらの内情や実情に関しては一切把握していません。
 最近特にプロパーとそれ以外の情報の壁を感じますし。
-ですので、これらに関して聞かれても、インターネットで得られる以上の情報は聞き出せないことをご了承ください。&lt;/p></description></item><item><title>2025年の花粉症対策を振り返る</title><link>https://yamacraft.github.io/note/review-pollen-defense-2025/</link><pubDate>Thu, 05 Jun 2025 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-pollen-defense-2025/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/pollen-defense-2025/">今年の花粉症対策を記事にした&lt;/a>手前、その結果も振り返った記事を書いた方が後々役に立つのではないかと思い、書くことに決めました。&lt;/p>
-&lt;h2 id="花粉症対策をしていた期間">花粉症対策をしていた期間&lt;/h2>
-&lt;p>2月中旬から、おおよそ5月下旬まで行いました。
+ですので、これらに関して聞かれても、インターネットで得られる以上の情報は聞き出せないことをご了承ください。&lt;/p&gt;</description></item><item><title>2025年の花粉症対策を振り返る</title><link>https://yamacraft.github.io/note/review-pollen-defense-2025/</link><pubDate>Thu, 05 Jun 2025 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-pollen-defense-2025/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/pollen-defense-2025/"&gt;今年の花粉症対策を記事にした&lt;/a&gt;手前、その結果も振り返った記事を書いた方が後々役に立つのではないかと思い、書くことに決めました。&lt;/p&gt;
+&lt;h2 id="花粉症対策をしていた期間"&gt;花粉症対策をしていた期間&lt;/h2&gt;
+&lt;p&gt;2月中旬から、おおよそ5月下旬まで行いました。
 この辺りはだいたい例年どおりといったところ。
-自分はスギとヒノキ両方にアレルギーがあるので、これぐらいの長さがあります。&lt;/p></description></item><item><title>リモートワーク廃止と飲み会強制参加の類似性</title><link>https://yamacraft.github.io/note/remote-work-abolition-thoughts/</link><pubDate>Thu, 24 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/remote-work-abolition-thoughts/</guid><description>&lt;h2 id="フルリモートワーク廃止の流れ">フルリモートワーク廃止の流れ&lt;/h2>
-&lt;p>2024年末あたりから、フルリモートワークを廃止する企業のニュースをよく見かけるようになりました。
+自分はスギとヒノキ両方にアレルギーがあるので、これぐらいの長さがあります。&lt;/p&gt;</description></item><item><title>リモートワーク廃止と飲み会強制参加の類似性</title><link>https://yamacraft.github.io/note/remote-work-abolition-thoughts/</link><pubDate>Thu, 24 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/remote-work-abolition-thoughts/</guid><description>&lt;h2 id="フルリモートワーク廃止の流れ"&gt;フルリモートワーク廃止の流れ&lt;/h2&gt;
+&lt;p&gt;2024年末あたりから、フルリモートワークを廃止する企業のニュースをよく見かけるようになりました。
 フルリモートワークが続くことを前提に、5〜10年後に住まいを東京から地元に戻したいと考えている私にとって、とても心配な状況です。
 しかし企業がこのような判断をすることは、ある程度理解できます。
-ただ、廃止の理由として主に語られる内容が、どうしてもしっくりきません。&lt;/p></description></item><item><title>ドメインを移管した（2025年）</title><link>https://yamacraft.github.io/note/done-transfer-domain-2025/</link><pubDate>Thu, 10 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-transfer-domain-2025/</guid><description>&lt;p>&lt;a href="https://yamaglo.jp">yamaglo.jp&lt;/a>ならびに&lt;a href="https://yamadajirushi.co.jp/">yamadajirushi.co.jp&lt;/a>のドメインの管理を、お名前.comから&lt;a href="https://jpdirect.jp/">JP Direct&lt;/a>へ移管しました。
-DNSは以前からCloud DNSを使っていたので大丈夫なはずですが、今月サイトへのアクセスが一時的にできなくなったら、察してください。&lt;/p></description></item><item><title>2025 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</link><pubDate>Thu, 03 Apr 2025 22:00:04 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2024年のまとめ">2024年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/">2024 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/">2024 3Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-4q-done/">2024 4Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;ul>
-&lt;li>メイン業務（平日のフルタイム）
-&lt;ul>
-&lt;li>依然として、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>サブ業務（平日夜間など）
-&lt;ul>
-&lt;li>現在空いています。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="自社開発など">自社開発など&lt;/h3>
-&lt;ul>
-&lt;li>まだ進行中ですが、ドメインの移管などのインフラ部分を整備しています&lt;/li>
-&lt;li>&lt;a href="https://www.cursor.com/ja">Cursor（Proプラン）&lt;/a>と&lt;a href="https://github.com/cline/cline">Cline&lt;/a>を導入することにしました
-&lt;ul>
-&lt;li>2025年上半期は試験期間として、結果で継続利用を決めます&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>検証用に使っているiPhoneをiPhone XSからiPhone 16に更新しました&lt;/li>
-&lt;/ul>
-&lt;h2 id="企業関連">企業関連&lt;/h2>
-&lt;ul>
-&lt;li>所要で会社の登記住所を変更する必要が発生したため、その関連の対応に追われていました&lt;/li>
-&lt;/ul>
-&lt;h2 id="プライベート方面のトピック">プライベート方面のトピック&lt;/h2>
-&lt;ul>
-&lt;li>新日本プロレスの1.4、1.5の東京ドーム興行を観にいきました&lt;/li>
-&lt;li>機動戦士Gundam GQuuuuuuX Beginning観ました&lt;/li>
-&lt;li>EVO Japanのスト6に参加登録しました&lt;/li>
-&lt;/ul>
-&lt;h3 id="体重の推移">体重の推移&lt;/h3>
-&lt;p>&lt;img src="https://yamacraft.github.io/note/image/yamacraft-2025-1q-done/1q_chart_weight.png" alt="体重推移（2025年/1Q）">&lt;/p></description></item><item><title>2024 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。
-が、すっかり書くのを忘れて4月になってしまったので、今回は振り返りなしで淡々とまとめます。&lt;/p>
-&lt;h2 id="2024年のまとめ">2024年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/">2024 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/">2024 3Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p></description></item><item><title>花粉症と戦う（2025年版）</title><link>https://yamacraft.github.io/note/pollen-defense-2025/</link><pubDate>Thu, 27 Feb 2025 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/pollen-defense-2025/</guid><description>&lt;p>2月の中旬を過ぎ、春一番も落ち着き、暖かい日も来るようになると花粉の訪れを感じます。&lt;/p>
-&lt;p>&lt;img src="https://yamacraft.github.io/note/image/pollen-defense-2025/pollen-defense-2025-pollen.png" alt="ついに花粉レーダーが少ないではなくなった…">&lt;/p>
-&lt;p>自分はひどい花粉症持ちです。スギ・ヒノキはもちろんのこと、ブタクサやイネも結構だめです。
+ただ、廃止の理由として主に語られる内容が、どうしてもしっくりきません。&lt;/p&gt;</description></item><item><title>ドメインを移管した（2025年）</title><link>https://yamacraft.github.io/note/done-transfer-domain-2025/</link><pubDate>Thu, 10 Apr 2025 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-transfer-domain-2025/</guid><description>&lt;p&gt;&lt;a href="https://yamaglo.jp"&gt;yamaglo.jp&lt;/a&gt;ならびに&lt;a href="https://yamadajirushi.co.jp/"&gt;yamadajirushi.co.jp&lt;/a&gt;のドメインの管理を、お名前.comから&lt;a href="https://jpdirect.jp/"&gt;JP Direct&lt;/a&gt;へ移管しました。
+DNSは以前からCloud DNSを使っていたので大丈夫なはずですが、今月サイトへのアクセスが一時的にできなくなったら、察してください。&lt;/p&gt;</description></item><item><title>2025 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</link><pubDate>Thu, 03 Apr 2025 22:00:04 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2024年のまとめ"&gt;2024年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/"&gt;2024 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/"&gt;2024 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/"&gt;2024 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-4q-done/"&gt;2024 4Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メイン業務（平日のフルタイム）
+&lt;ul&gt;
+&lt;li&gt;依然として、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サブ業務（平日夜間など）
+&lt;ul&gt;
+&lt;li&gt;現在空いています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="自社開発など"&gt;自社開発など&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;まだ進行中ですが、ドメインの移管などのインフラ部分を整備しています&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cursor.com/ja"&gt;Cursor（Proプラン）&lt;/a&gt;と&lt;a href="https://github.com/cline/cline"&gt;Cline&lt;/a&gt;を導入することにしました
+&lt;ul&gt;
+&lt;li&gt;2025年上半期は試験期間として、結果で継続利用を決めます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;検証用に使っているiPhoneをiPhone XSからiPhone 16に更新しました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="企業関連"&gt;企業関連&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;所要で会社の登記住所を変更する必要が発生したため、その関連の対応に追われていました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="プライベート方面のトピック"&gt;プライベート方面のトピック&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新日本プロレスの1.4、1.5の東京ドーム興行を観にいきました&lt;/li&gt;
+&lt;li&gt;機動戦士Gundam GQuuuuuuX Beginning観ました&lt;/li&gt;
+&lt;li&gt;EVO Japanのスト6に参加登録しました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="体重の推移"&gt;体重の推移&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://yamacraft.github.io/note/image/yamacraft-2025-1q-done/1q_chart_weight.png" alt="体重推移（2025年/1Q）"&gt;&lt;/p&gt;</description></item><item><title>2024 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。
+が、すっかり書くのを忘れて4月になってしまったので、今回は振り返りなしで淡々とまとめます。&lt;/p&gt;
+&lt;h2 id="2024年のまとめ"&gt;2024年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/"&gt;2024 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/"&gt;2024 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-3q-done/"&gt;2024 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;</description></item><item><title>花粉症と戦う（2025年版）</title><link>https://yamacraft.github.io/note/pollen-defense-2025/</link><pubDate>Thu, 27 Feb 2025 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/pollen-defense-2025/</guid><description>&lt;p&gt;2月の中旬を過ぎ、春一番も落ち着き、暖かい日も来るようになると花粉の訪れを感じます。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://yamacraft.github.io/note/image/pollen-defense-2025/pollen-defense-2025-pollen.png" alt="ついに花粉レーダーが少ないではなくなった…"&gt;&lt;/p&gt;
+&lt;p&gt;自分はひどい花粉症持ちです。スギ・ヒノキはもちろんのこと、ブタクサやイネも結構だめです。
 スギは過去にアレルギー検査をした際に、すごい数値をたたき出していた記憶があります。
-症状は目や鼻だけでなく、そこからくる頭痛や、ひどい時は微熱や腹痛など風邪の初期症状のようなものも発症します。&lt;/p></description></item><item><title>サブ業務の募集を開始しました（2024.12）</title><link>https://yamacraft.github.io/note/update-recent-state-2024-12/</link><pubDate>Thu, 19 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/update-recent-state-2024-12/</guid><description>&lt;p>すでに&lt;a href="https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/">先日の記事&lt;/a>にも書きましたが、サブ業務（副業枠）で受けていた案件が11月末をもって終了したため、新規案件の募集を開始しています。
-サブ業務でやれる仕事の内容や稼働時間帯、報酬に関しても&lt;a href="https://yamacraft.github.io/note/detail-second-job/">個別ページを用意して記載しています&lt;/a>。&lt;/p>
-&lt;p>ご興味のある企業様はそちらをご確認の上、できれば合同会社ヤマダ印の連絡フォームからご連絡お願いします（連絡フォームは前述のWebページにもリンクを貼っています）。
-そのほかの手段で連絡を入れてもらった場合でも、最終的に連絡フォームを一度通してもらうことがあります（ログとして残るようにするため）。&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して５年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</link><pubDate>Thu, 05 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</guid><description>&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2024年12月3日で設立5周年を迎えることができました。&lt;/p>
-&lt;h2 id="6年目からの方向性">6年目からの方向性&lt;/h2>
-&lt;p>無事6年目を迎えることになったヤマダ印ですが、今後は影を潜める方向でいくことにします。
-というのも、どうも「合同会社ヤマダ印」の社名を先に出すと、派遣会社やその類の企業と勘違いされるケースがちらほらあったからです。&lt;/p></description></item><item><title>2024 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-3q-done/</link><pubDate>Thu, 03 Oct 2024 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-3q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="今年2024年のまとめ">今年（2024年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/">2024 2Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>2023年12月から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
-稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>2024 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-2q-done/</link><pubDate>Mon, 15 Jul 2024 14:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="今年2024年のまとめ">今年（2024年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/">2024 1Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>（前期と同じ内容です）&lt;/p>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
-稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>2024 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-1q-done/</link><pubDate>Mon, 29 Apr 2024 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="去年2023年のまとめ">去年（2023年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/">2023 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/">2023 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-3q-done/">2023 3Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-4q-done/">2023 4Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
-稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>Androidアプリのエラーハンドリング（例外の扱い方）を考える（WIP版）</title><link>https://yamacraft.github.io/note/android-error-handling-design-wip/</link><pubDate>Sun, 10 Mar 2024 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/android-error-handling-design-wip/</guid><description>&lt;p>最近、Androidアプリのエラーハンドリングの実装方法について考えることがあったので、とりあえずいま頭に浮かんでいる内容をアウトプットしてみることにしました。&lt;/p></description></item><item><title>Simple Mobile Toolsが売却されたので、Fossifyに移行した</title><link>https://yamacraft.github.io/note/goodbye-simple-mobile-tools/</link><pubDate>Sat, 09 Mar 2024 15:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-simple-mobile-tools/</guid><description>&lt;p>オープンソースで開発が進められていたSimple Mobile Toolsが、ZipoApps社へ売却されることが去年の12月に判明しました。
-これはプロジェクトを立ち上げたtibbi氏が認めています。&lt;/p></description></item><item><title>優先度はころころと変わるもの</title><link>https://yamacraft.github.io/note/embrace-changing-priorities/</link><pubDate>Sun, 14 Jan 2024 11:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/embrace-changing-priorities/</guid><description>&lt;p>年末年始の合間に、BlueSkyの投稿をXに同期するツールを作成していました。
+症状は目や鼻だけでなく、そこからくる頭痛や、ひどい時は微熱や腹痛など風邪の初期症状のようなものも発症します。&lt;/p&gt;</description></item><item><title>サブ業務の募集を開始しました（2024.12）</title><link>https://yamacraft.github.io/note/update-recent-state-2024-12/</link><pubDate>Thu, 19 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/update-recent-state-2024-12/</guid><description>&lt;p&gt;すでに&lt;a href="https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/"&gt;先日の記事&lt;/a&gt;にも書きましたが、サブ業務（副業枠）で受けていた案件が11月末をもって終了したため、新規案件の募集を開始しています。
+サブ業務でやれる仕事の内容や稼働時間帯、報酬に関しても&lt;a href="https://yamacraft.github.io/note/detail-second-job/"&gt;個別ページを用意して記載しています&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;ご興味のある企業様はそちらをご確認の上、できれば合同会社ヤマダ印の連絡フォームからご連絡お願いします（連絡フォームは前述のWebページにもリンクを貼っています）。
+そのほかの手段で連絡を入れてもらった場合でも、最終的に連絡フォームを一度通してもらうことがあります（ログとして残るようにするため）。&lt;/p&gt;</description></item><item><title>合同会社ヤマダ印を設立して５年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</link><pubDate>Thu, 05 Dec 2024 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-5th-anniversary/</guid><description>&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;は2024年12月3日で設立5周年を迎えることができました。&lt;/p&gt;
+&lt;h2 id="6年目からの方向性"&gt;6年目からの方向性&lt;/h2&gt;
+&lt;p&gt;無事6年目を迎えることになったヤマダ印ですが、今後は影を潜める方向でいくことにします。
+というのも、どうも「合同会社ヤマダ印」の社名を先に出すと、派遣会社やその類の企業と勘違いされるケースがちらほらあったからです。&lt;/p&gt;</description></item><item><title>2024 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-3q-done/</link><pubDate>Thu, 03 Oct 2024 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-3q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="今年2024年のまとめ"&gt;今年（2024年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/"&gt;2024 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-2q-done/"&gt;2024 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;2023年12月から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
+稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>2024 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-2q-done/</link><pubDate>Mon, 15 Jul 2024 14:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="今年2024年のまとめ"&gt;今年（2024年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2024-1q-done/"&gt;2024 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;（前期と同じ内容です）&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
+稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>2024 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2024-1q-done/</link><pubDate>Mon, 29 Apr 2024 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2024-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="去年2023年のまとめ"&gt;去年（2023年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/"&gt;2023 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/"&gt;2023 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-3q-done/"&gt;2023 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-4q-done/"&gt;2023 4Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
+稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>Androidアプリのエラーハンドリング（例外の扱い方）を考える（WIP版）</title><link>https://yamacraft.github.io/note/android-error-handling-design-wip/</link><pubDate>Sun, 10 Mar 2024 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/android-error-handling-design-wip/</guid><description>&lt;p&gt;最近、Androidアプリのエラーハンドリングの実装方法について考えることがあったので、とりあえずいま頭に浮かんでいる内容をアウトプットしてみることにしました。&lt;/p&gt;</description></item><item><title>Simple Mobile Toolsが売却されたので、Fossifyに移行した</title><link>https://yamacraft.github.io/note/goodbye-simple-mobile-tools/</link><pubDate>Sat, 09 Mar 2024 15:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-simple-mobile-tools/</guid><description>&lt;p&gt;オープンソースで開発が進められていたSimple Mobile Toolsが、ZipoApps社へ売却されることが去年の12月に判明しました。
+これはプロジェクトを立ち上げたtibbi氏が認めています。&lt;/p&gt;</description></item><item><title>優先度はころころと変わるもの</title><link>https://yamacraft.github.io/note/embrace-changing-priorities/</link><pubDate>Sun, 14 Jan 2024 11:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/embrace-changing-priorities/</guid><description>&lt;p&gt;年末年始の合間に、BlueSkyの投稿をXに同期するツールを作成していました。
 進捗としては、両者のトークンの取得や更新、投稿までの処理は実装済み。
 あとはこれらを連携するだけだったのですが、ちょっと仕事方面で調べることが出てきたので、しばらく開発を中断することにしました。
-とはいえ、このツールは開発中に激しく路線変更を繰り返したので、いまは設計をまとめるタイミングに入ったのだと考えることにしています。&lt;/p></description></item><item><title>2023 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-4q-done/</link><pubDate>Mon, 08 Jan 2024 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="今年2023年のまとめ">今年（2023年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/">2023 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/">2023 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-3q-done/">2023 3Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
-稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>2023 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-3q-done/</link><pubDate>Tue, 12 Dec 2023 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-3q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;p>今回もすっかり遅れてしまったので、報告のみとします。
+とはいえ、このツールは開発中に激しく路線変更を繰り返したので、いまは設計をまとめるタイミングに入ったのだと考えることにしています。&lt;/p&gt;</description></item><item><title>2023 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-4q-done/</link><pubDate>Mon, 08 Jan 2024 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="今年2023年のまとめ"&gt;今年（2023年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/"&gt;2023 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/"&gt;2023 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-3q-done/"&gt;2023 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
+稼働内容も変わらず、週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>2023 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-3q-done/</link><pubDate>Tue, 12 Dec 2023 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-3q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;p&gt;今回もすっかり遅れてしまったので、報告のみとします。
 次はたぶん大丈夫です。
-きっと。&lt;/p>
-&lt;h2 id="今年2023年のまとめ">今年（2023年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/">2023 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/">2023 2Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
-相変わらずの週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>DroidKaigi2023に行った雑感（セッション除く）</title><link>https://yamacraft.github.io/note/went-droidkaigi-2023/</link><pubDate>Mon, 18 Sep 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/went-droidkaigi-2023/</guid><description>&lt;p>&lt;a href="https://2023.droidkaigi.jp/">DroidKaigi 2023&lt;/a>のDay1とDay2にオフライン参加しました。&lt;/p>
-&lt;p>おそらくセッションに関連する感想はいろんなところで投稿されているはずですので、ここではそれ以外に関する雑感を書きます。&lt;/p></description></item><item><title>2023 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-2q-done/</link><pubDate>Mon, 11 Sep 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;p>ちょっと7月以降がたいへんに忙しく、まとめるのが3Qの終わりすら見えた、この時期になってしまいました。&lt;/p>
-&lt;p>そのため今回は報告のみとします。&lt;/p></description></item><item><title>Now in Android調査 #1 - 2つのapplicationモジュール</title><link>https://yamacraft.github.io/note/research-now-in-android-1/</link><pubDate>Mon, 19 Jun 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/research-now-in-android-1/</guid><description>&lt;p>最近、Android公式のアプリアーキテクチャガイドを読み直していて、その流れで&lt;a href="https://github.com/android/nowinandroid">Now in Android&lt;/a>のプロジェクトの構成を調べています。
+きっと。&lt;/p&gt;
+&lt;h2 id="今年2023年のまとめ"&gt;今年（2023年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-1q-done/"&gt;2023 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2023-2q-done/"&gt;2023 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;前期から引き続き、ゆめみ株式会社さんのところでAndroidアプリ開発をお手伝いしています。
+相変わらずの週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>DroidKaigi2023に行った雑感（セッション除く）</title><link>https://yamacraft.github.io/note/went-droidkaigi-2023/</link><pubDate>Mon, 18 Sep 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/went-droidkaigi-2023/</guid><description>&lt;p&gt;&lt;a href="https://2023.droidkaigi.jp/"&gt;DroidKaigi 2023&lt;/a&gt;のDay1とDay2にオフライン参加しました。&lt;/p&gt;
+&lt;p&gt;おそらくセッションに関連する感想はいろんなところで投稿されているはずですので、ここではそれ以外に関する雑感を書きます。&lt;/p&gt;</description></item><item><title>2023 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-2q-done/</link><pubDate>Mon, 11 Sep 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;p&gt;ちょっと7月以降がたいへんに忙しく、まとめるのが3Qの終わりすら見えた、この時期になってしまいました。&lt;/p&gt;
+&lt;p&gt;そのため今回は報告のみとします。&lt;/p&gt;</description></item><item><title>Now in Android調査 #1 - 2つのapplicationモジュール</title><link>https://yamacraft.github.io/note/research-now-in-android-1/</link><pubDate>Mon, 19 Jun 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/research-now-in-android-1/</guid><description>&lt;p&gt;最近、Android公式のアプリアーキテクチャガイドを読み直していて、その流れで&lt;a href="https://github.com/android/nowinandroid"&gt;Now in Android&lt;/a&gt;のプロジェクトの構成を調べています。
 公式ドキュメントや公式のブログ記事、YouTubeのフィードを表示してくれるアプリで、プロジェクトはマルチモジュールで構成されています。
-アプリアーキテクチャガイドでも、「モジュール化機能を備えた、完全に機能するAndroidアプリ」として取り上げられています。&lt;/p></description></item><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p>まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p>
-&lt;h3 id="chatgptを活用した開発スタンス">ChatGPTを活用した開発スタンス&lt;/h3>
-&lt;p>自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
-ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p></description></item><item><title>個人名義のWebサイトに仕事の情報も集約しはじめている</title><link>https://yamacraft.github.io/note/migration-work-position/</link><pubDate>Mon, 24 Apr 2023 10:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/migration-work-position/</guid><description>&lt;h2 id="集約化について">集約化について&lt;/h2>
-&lt;p>少しずつ&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印の公式サイト&lt;/a>に掲載している情報を「yamacraft個人の仕事の窓口に使っている会社」のみに絞り、仕事関係の情報は&lt;a href="https://yamacraft.github.io/">山田航空ネットワーク&lt;/a>に集約させようとしています。
-ほかの作業の合間に少しずつやるので、完了はだいたい8月ぐらいを見込んでいます。&lt;/p>
-&lt;h2 id="集約することにした理由">集約することにした理由&lt;/h2>
-&lt;p>自分の中では（それが真実かどうかはともかく）法人化＝社会的な信用の担保という印象を持たれるかと考えていましたが、どうやらそうではなかったようです。
+アプリアーキテクチャガイドでも、「モジュール化機能を備えた、完全に機能するAndroidアプリ」として取り上げられています。&lt;/p&gt;</description></item><item><title>ChatGPT（GPT-4）におまかせ開発やって感じたこと（その１）</title><link>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</link><pubDate>Mon, 08 May 2023 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-develop-with-chatgpt-1st/</guid><description>&lt;p&gt;まだ完成してないので総評はできませんが、GWのスキマ時間を利用してFlutterのWebアプリケーション開発をやっていました。&lt;/p&gt;
+&lt;h3 id="chatgptを活用した開発スタンス"&gt;ChatGPTを活用した開発スタンス&lt;/h3&gt;
+&lt;p&gt;自分はまだ、Flutterは「書いてあることはなんとなくわかるが、Androidネイティブアプリ開発でやれるレベルは全然できない」という技術レベルです。
+ということもあり、せっかくだからChatGPT（GPT-4）にコーディングの大半をお任せしたらどこまで実装できるか試してみよう、と思い立ったのがこの開発の始まりです。&lt;/p&gt;</description></item><item><title>個人名義のWebサイトに仕事の情報も集約しはじめている</title><link>https://yamacraft.github.io/note/migration-work-position/</link><pubDate>Mon, 24 Apr 2023 10:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/migration-work-position/</guid><description>&lt;h2 id="集約化について"&gt;集約化について&lt;/h2&gt;
+&lt;p&gt;少しずつ&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印の公式サイト&lt;/a&gt;に掲載している情報を「yamacraft個人の仕事の窓口に使っている会社」のみに絞り、仕事関係の情報は&lt;a href="https://yamacraft.github.io/"&gt;山田航空ネットワーク&lt;/a&gt;に集約させようとしています。
+ほかの作業の合間に少しずつやるので、完了はだいたい8月ぐらいを見込んでいます。&lt;/p&gt;
+&lt;h2 id="集約することにした理由"&gt;集約することにした理由&lt;/h2&gt;
+&lt;p&gt;自分の中では（それが真実かどうかはともかく）法人化＝社会的な信用の担保という印象を持たれるかと考えていましたが、どうやらそうではなかったようです。
 これが何かしらのサービスや商品を提供するのであれば話は別なのでしょうが、自身の労働力を提供する業務形態の場合、企業の名を出すと「実はほかの人が送られるんじゃ」という抵抗をもたれやすいようです。
 一方でフリーランス名義だけど仕事の契約は所属企業で、という形式に抵抗をもつ会社との出会いはありませんでした。
 これはそういうやりとりをしたわけでもないので、当然と言えば当然ですが。
-といっても、別に個人名義でも会社名義でもかまわないという企業としか出会っていないのも事実です。&lt;/p></description></item><item><title>HometeにAIリプライ機能を搭載した話を動画にしました</title><link>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</link><pubDate>Mon, 17 Apr 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</guid><description>&lt;p>すっかりこのブログに書いた気でいましたが、書いていませんでした。（なので書きます。）&lt;/p>
-&lt;p>表題の通り、先日&lt;a href="https://homete.yamaglo.jp">Homete&lt;/a>に実装したAIリプライ機能に関する話を動画にして、YouTubeに投稿しました。&lt;/p>
-&lt;p>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div>
+といっても、別に個人名義でも会社名義でもかまわないという企業としか出会っていないのも事実です。&lt;/p&gt;</description></item><item><title>HometeにAIリプライ機能を搭載した話を動画にしました</title><link>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</link><pubDate>Mon, 17 Apr 2023 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/post-youtube-homete-ai-reply/</guid><description>&lt;p&gt;すっかりこのブログに書いた気でいましたが、書いていませんでした。（なので書きます。）&lt;/p&gt;
+&lt;p&gt;表題の通り、先日&lt;a href="https://homete.yamaglo.jp"&gt;Homete&lt;/a&gt;に実装したAIリプライ機能に関する話を動画にして、YouTubeに投稿しました。&lt;/p&gt;
+&lt;p&gt;&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/_P_2amfe_wQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;a href="https://www.youtube.com/watch?v=_P_2amfe_wQ">HometeにAIのリプライを追加した話【5分LT】 - YouTube&lt;/a>&lt;/p></description></item><item><title>2023 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-1q-done/</link><pubDate>Mon, 03 Apr 2023 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="去年2022年のまとめ">去年（2022年）のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/">2022 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/">2022 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-3q-done/">2022 3Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-4q-done/">2022 4Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;p>12月より、新規クライアントさん（ゆめみ株式会社）のところでAndroidアプリ開発をお手伝いしています。
-相変わらずの週四日稼働でフルリモート案件です。&lt;/p></description></item><item><title>FlutterでOpenAI APIを利用するときの備忘録</title><link>https://yamacraft.github.io/note/using-openai-with-flutter/</link><pubDate>Mon, 06 Mar 2023 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/using-openai-with-flutter/</guid><description>&lt;p>表題の通りです。&lt;/p>
-&lt;p>自分はFlutterの経験がたいへんに浅いので、その点をご留意ください。&lt;/p>
-&lt;h2 id="利用方法">利用方法&lt;/h2>
-&lt;p>Flutterの場合、&lt;a href="https://pub.dev/packages/openai_client">OpenAIを利用するためのpackageが配布されているようですが&lt;/a>、公式から提供されているものではありません。
-ですので、httpパッケージを使っての実装することにしました。&lt;/p></description></item><item><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】</title><link>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</link><pubDate>Mon, 13 Feb 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</guid><description>&lt;h2 id="発端">発端&lt;/h2>
-&lt;p>先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、&lt;a href="https://www.buymeacoffee.com/">Buy Me a Coffee&lt;/a>のアカウントの開設をしました。
-Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。&lt;/p></description></item><item><title>GPT-3に褒めてもらうプロトタイプを作った</title><link>https://yamacraft.github.io/note/create-homete-yo-v1/</link><pubDate>Tue, 07 Feb 2023 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-homete-yo-v1/</guid><description>&lt;h2 id="作ったもの紹介">作ったもの紹介&lt;/h2>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9">pic.twitter.com/rtH7r7mlD9&lt;/a>&lt;/p>&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw">February 6, 2023&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;a href="https://www.youtube.com/watch?v=_P_2amfe_wQ"&gt;HometeにAIのリプライを追加した話【5分LT】 - YouTube&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2023 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2023-1q-done/</link><pubDate>Mon, 03 Apr 2023 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2023-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="去年2022年のまとめ"&gt;去年（2022年）のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/"&gt;2022 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/"&gt;2022 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-3q-done/"&gt;2022 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-4q-done/"&gt;2022 4Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;p&gt;12月より、新規クライアントさん（ゆめみ株式会社）のところでAndroidアプリ開発をお手伝いしています。
+相変わらずの週四日稼働でフルリモート案件です。&lt;/p&gt;</description></item><item><title>FlutterでOpenAI APIを利用するときの備忘録</title><link>https://yamacraft.github.io/note/using-openai-with-flutter/</link><pubDate>Mon, 06 Mar 2023 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/using-openai-with-flutter/</guid><description>&lt;p&gt;表題の通りです。&lt;/p&gt;
+&lt;p&gt;自分はFlutterの経験がたいへんに浅いので、その点をご留意ください。&lt;/p&gt;
+&lt;h2 id="利用方法"&gt;利用方法&lt;/h2&gt;
+&lt;p&gt;Flutterの場合、&lt;a href="https://pub.dev/packages/openai_client"&gt;OpenAIを利用するためのpackageが配布されているようですが&lt;/a&gt;、公式から提供されているものではありません。
+ですので、httpパッケージを使っての実装することにしました。&lt;/p&gt;</description></item><item><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】</title><link>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</link><pubDate>Mon, 13 Feb 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</guid><description>&lt;h2 id="発端"&gt;発端&lt;/h2&gt;
+&lt;p&gt;先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、&lt;a href="https://www.buymeacoffee.com/"&gt;Buy Me a Coffee&lt;/a&gt;のアカウントの開設をしました。
+Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。&lt;/p&gt;</description></item><item><title>GPT-3に褒めてもらうプロトタイプを作った</title><link>https://yamacraft.github.io/note/create-homete-yo-v1/</link><pubDate>Tue, 07 Feb 2023 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-homete-yo-v1/</guid><description>&lt;h2 id="作ったもの紹介"&gt;作ったもの紹介&lt;/h2&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9"&gt;pic.twitter.com/rtH7r7mlD9&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw"&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
-&lt;p>chatGPTで特定人物の口調を真似させたり、決められたルールで会話させている人たちを見かけたことがきっかけで、上記のツイートを投稿しました。
-その後GPT-3のAPIで再現できそうだという情報をいただいたので、試しにFlutterでプロトタイプを作ってみました。&lt;/p></description></item><item><title>AndroidでOGP情報を取得する（OkHttp3+Jsoup）</title><link>https://yamacraft.github.io/note/get-ogp-info-on-android/</link><pubDate>Mon, 23 Jan 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/get-ogp-info-on-android/</guid><description>&lt;p>対象のWebサイトのOGP情報を取得する方法ですが、私には対象のサイトのHTMLを読み込んでからmetaタグのOGP情報を取得する方法しか浮かびませんでした。&lt;/p></description></item><item><title>何を考えてプロダクト開発に取り組んでいるか</title><link>https://yamacraft.github.io/note/what-to-think-develop/</link><pubDate>Mon, 16 Jan 2023 23:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/what-to-think-develop/</guid><description>&lt;p>ここ数年、仕事でプロダクト開発をしている時にITエンジニアとして意識していることを書きます。&lt;/p>
-&lt;p>ちなみに、toC向けのプロダクトを条件としています。&lt;/p></description></item><item><title>GatherとYoutube配信をやりだしたワケ</title><link>https://yamacraft.github.io/note/why-use-gather-and-youtube-live/</link><pubDate>Sat, 14 Jan 2023 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/why-use-gather-and-youtube-live/</guid><description>&lt;p>&lt;img src="https://yamacraft.github.io/note/image/why-use-gather-and-youtube-live.png" alt="最近の配信画面">&lt;/p>
-&lt;p>去年末からオフィスアワーを&lt;a href="https://www.gather.town/">Gather&lt;/a>でやりつつ、その画面含め作業配信をYouTubeで配信している件についての理由を書きます。&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/@yamacraft">yamacraft / 山田航空 - YouTube&lt;/a>&lt;/p>
-&lt;h2 id="gatherの導入理由">Gatherの導入理由&lt;/h2>
-&lt;ul>
-&lt;li>PCで完結させたかった&lt;/li>
-&lt;li>バーチャルオフィスを試してみたかった&lt;/li>
-&lt;/ul>
-&lt;p>これまでオフィスアワーはClubhouseで始まり、Twitterスペースに移行し開催していました。
+&lt;p&gt;chatGPTで特定人物の口調を真似させたり、決められたルールで会話させている人たちを見かけたことがきっかけで、上記のツイートを投稿しました。
+その後GPT-3のAPIで再現できそうだという情報をいただいたので、試しにFlutterでプロトタイプを作ってみました。&lt;/p&gt;</description></item><item><title>AndroidでOGP情報を取得する（OkHttp3+Jsoup）</title><link>https://yamacraft.github.io/note/get-ogp-info-on-android/</link><pubDate>Mon, 23 Jan 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/get-ogp-info-on-android/</guid><description>&lt;p&gt;対象のWebサイトのOGP情報を取得する方法ですが、私には対象のサイトのHTMLを読み込んでからmetaタグのOGP情報を取得する方法しか浮かびませんでした。&lt;/p&gt;</description></item><item><title>何を考えてプロダクト開発に取り組んでいるか</title><link>https://yamacraft.github.io/note/what-to-think-develop/</link><pubDate>Mon, 16 Jan 2023 23:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/what-to-think-develop/</guid><description>&lt;p&gt;ここ数年、仕事でプロダクト開発をしている時にITエンジニアとして意識していることを書きます。&lt;/p&gt;
+&lt;p&gt;ちなみに、toC向けのプロダクトを条件としています。&lt;/p&gt;</description></item><item><title>GatherとYoutube配信をやりだしたワケ</title><link>https://yamacraft.github.io/note/why-use-gather-and-youtube-live/</link><pubDate>Sat, 14 Jan 2023 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/why-use-gather-and-youtube-live/</guid><description>&lt;p&gt;&lt;img src="https://yamacraft.github.io/note/image/why-use-gather-and-youtube-live.png" alt="最近の配信画面"&gt;&lt;/p&gt;
+&lt;p&gt;去年末からオフィスアワーを&lt;a href="https://www.gather.town/"&gt;Gather&lt;/a&gt;でやりつつ、その画面含め作業配信をYouTubeで配信している件についての理由を書きます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/@yamacraft"&gt;yamacraft / 山田航空 - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="gatherの導入理由"&gt;Gatherの導入理由&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PCで完結させたかった&lt;/li&gt;
+&lt;li&gt;バーチャルオフィスを試してみたかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これまでオフィスアワーはClubhouseで始まり、Twitterスペースに移行し開催していました。
 Twitterスペースは、聞くだけならPC（ブラウザ）でも可能なようですが、ホスト側はどちらもスマートフォンアプリの利用が必須でした。
 個人的に作業とオフィスアワーの両方をPCで完結させたかったのが、移行を考える切っ掛けとなりました。
-TwitterスペースがPC（ブラウザ）でも完全対応するようになれば、また戻ることは考えています。&lt;/p></description></item><item><title>2022 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-4q-done/</link><pubDate>Mon, 09 Jan 2023 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2022年のまとめ">2022年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/">2022 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/">2022 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-3q-done/">2022 3Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;h3 id="開発支援業務">開発支援業務&lt;/h3>
-&lt;p>11月までは、これまで契約していたクライアントさんと引き続きやっていましたが、12月より新規クライアントさんのところで仕事をしています。
-相変わらず週4日で、フルリモート案件のAndroidアプリ開発です。&lt;/p></description></item><item><title>2022年競馬の雑感</title><link>https://yamacraft.github.io/note/talk-of-keiba-2022/</link><pubDate>Fri, 30 Dec 2022 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-of-keiba-2022/</guid><description>&lt;p>さっくりと思い浮かんだ、今年の競馬の雑感です。&lt;/p>
-&lt;h2 id="若手騎手の活躍">若手騎手の活躍&lt;/h2>
-&lt;p>2020年から目覚ましい活躍をしながらも、重賞での勝利をなかなかつかめなかった岩田望来騎手が、今年ついに重賞で勝利をつかみました。
+TwitterスペースがPC（ブラウザ）でも完全対応するようになれば、また戻ることは考えています。&lt;/p&gt;</description></item><item><title>2022 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-4q-done/</link><pubDate>Mon, 09 Jan 2023 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2022年のまとめ"&gt;2022年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/"&gt;2022 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/"&gt;2022 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-3q-done/"&gt;2022 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;h3 id="開発支援業務"&gt;開発支援業務&lt;/h3&gt;
+&lt;p&gt;11月までは、これまで契約していたクライアントさんと引き続きやっていましたが、12月より新規クライアントさんのところで仕事をしています。
+相変わらず週4日で、フルリモート案件のAndroidアプリ開発です。&lt;/p&gt;</description></item><item><title>2022年競馬の雑感</title><link>https://yamacraft.github.io/note/talk-of-keiba-2022/</link><pubDate>Fri, 30 Dec 2022 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-of-keiba-2022/</guid><description>&lt;p&gt;さっくりと思い浮かんだ、今年の競馬の雑感です。&lt;/p&gt;
+&lt;h2 id="若手騎手の活躍"&gt;若手騎手の活躍&lt;/h2&gt;
+&lt;p&gt;2020年から目覚ましい活躍をしながらも、重賞での勝利をなかなかつかめなかった岩田望来騎手が、今年ついに重賞で勝利をつかみました。
 しかも1勝どころか4勝（中央2勝、地方2勝）で、さらに地方の重賞のうち、ひとつはJBCレディスクラシック（Jpn1）です。
-大躍進です。&lt;/p></description></item><item><title>2022年買ってよかったもの</title><link>https://yamacraft.github.io/note/good-item-to-buy-2022/</link><pubDate>Fri, 30 Dec 2022 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/good-item-to-buy-2022/</guid><description>&lt;p>さらっと書きます。&lt;/p>
-&lt;h2 id="トレーニング関連">トレーニング関連&lt;/h2>
-&lt;h3 id="アンダーアーマーのヒートギアアーマー">アンダーアーマーのヒートギアアーマー&lt;/h3>
-&lt;p>いわゆるぴったり張り付くコンプレッション系のウェア。
+大躍進です。&lt;/p&gt;</description></item><item><title>2022年買ってよかったもの</title><link>https://yamacraft.github.io/note/good-item-to-buy-2022/</link><pubDate>Fri, 30 Dec 2022 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/good-item-to-buy-2022/</guid><description>&lt;p&gt;さらっと書きます。&lt;/p&gt;
+&lt;h2 id="トレーニング関連"&gt;トレーニング関連&lt;/h2&gt;
+&lt;h3 id="アンダーアーマーのヒートギアアーマー"&gt;アンダーアーマーのヒートギアアーマー&lt;/h3&gt;
+&lt;p&gt;いわゆるぴったり張り付くコンプレッション系のウェア。
 柔術を再開した時に、少しでも快適にやれるようにと今まで買わず嫌いだったものを試しに購入したところ、たいへん快適で驚き。
 実際に汗をかいても、汗による密着というタイプの不快感がまったくありませんでした。
 普段のトレーニングや夏場のアンダーウェアでも使いたくなる着心地。
-もっと早く買えばよかった。&lt;/p></description></item><item><title>ヤマダ印と俺と金（2022年版）</title><link>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</link><pubDate>Tue, 27 Dec 2022 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</guid><description>&lt;h2 id="ヤマダ印の収入">ヤマダ印の収入&lt;/h2>
-&lt;p>現在のヤマダ印の収入は、yamacraft本人の請ける業務委託が100%を占めています。
-それ以外の収入はありません。（※）&lt;/p>
-&lt;p>業務委託は基本的に準委任契約で、現在は週4日稼働で72万円/月を基準に請けています。
-週5日でないのは、ヤマダ印の事務作業で最低でも月に平日1〜2日を確保したいためです。&lt;/p></description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p>※ 記事公開以降に一部修正と補足を追加しています。&lt;/p>
-&lt;p>&lt;a href="https://qiita.com/advent-calendar/2022/android">Android Advent Calendar 2022&lt;/a>の13日目の記事になります。&lt;/p>
-&lt;p>去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html">Android公式のアーキテクチャガイドが刷新された&lt;/a>のはご存じでしょうか？&lt;/p>
-&lt;p>Android公式がアーキテクチャガイドを用意したのは（記憶が間違っていなければ）2017年のGoogleIOからでした。
+もっと早く買えばよかった。&lt;/p&gt;</description></item><item><title>ヤマダ印と俺と金（2022年版）</title><link>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</link><pubDate>Tue, 27 Dec 2022 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/money-of-yamadajirushi-2022/</guid><description>&lt;h2 id="ヤマダ印の収入"&gt;ヤマダ印の収入&lt;/h2&gt;
+&lt;p&gt;現在のヤマダ印の収入は、yamacraft本人の請ける業務委託が100%を占めています。
+それ以外の収入はありません。（※）&lt;/p&gt;
+&lt;p&gt;業務委託は基本的に準委任契約で、現在は週4日稼働で72万円/月を基準に請けています。
+週5日でないのは、ヤマダ印の事務作業で最低でも月に平日1〜2日を確保したいためです。&lt;/p&gt;</description></item><item><title>2017年に公式が推奨していたアーキテクチャの備忘録</title><link>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goodbye-2017-architecture-guide/</guid><description>&lt;p&gt;※ 記事公開以降に一部修正と補足を追加しています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/advent-calendar/2022/android"&gt;Android Advent Calendar 2022&lt;/a&gt;の13日目の記事になります。&lt;/p&gt;
+&lt;p&gt;去年末、&lt;a href="https://android-developers-jp.googleblog.com/2022/03/rebuilding-our-guide-to-app-architecture.html"&gt;Android公式のアーキテクチャガイドが刷新された&lt;/a&gt;のはご存じでしょうか？&lt;/p&gt;
+&lt;p&gt;Android公式がアーキテクチャガイドを用意したのは（記憶が間違っていなければ）2017年のGoogleIOからでした。
 あのころに比べると、明らかに文量が増えています。
-その変化に戸惑っている方はいるんじゃないでしょうか。&lt;/p></description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p>※ プログラム関連に限った話をしています。&lt;/p>
-&lt;p>2022年は、あまり勉強方面がうまくいきませんでした。
-おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して３年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</link><pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</guid><description>&lt;p>すっかり忘れていましたが、&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2022年12月3日で設立3周年を迎えることができました。&lt;/p>
-&lt;h2 id="3年目の変化">3年目の変化&lt;/h2>
-&lt;p>ただしくは4年目からになるのですが、会社の所在地が変わることになりました。
+その変化に戸惑っている方はいるんじゃないでしょうか。&lt;/p&gt;</description></item><item><title>2023年の学習優先度</title><link>https://yamacraft.github.io/note/study-priorities-for-2023/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-priorities-for-2023/</guid><description>&lt;p&gt;※ プログラム関連に限った話をしています。&lt;/p&gt;
+&lt;p&gt;2022年は、あまり勉強方面がうまくいきませんでした。
+おそらく、最初の目標でやりたいことを増やしすぎたのが原因です。&lt;/p&gt;</description></item><item><title>合同会社ヤマダ印を設立して３年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</link><pubDate>Wed, 07 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-3rd-anniversary/</guid><description>&lt;p&gt;すっかり忘れていましたが、&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;は2022年12月3日で設立3周年を迎えることができました。&lt;/p&gt;
+&lt;h2 id="3年目の変化"&gt;3年目の変化&lt;/h2&gt;
+&lt;p&gt;ただしくは4年目からになるのですが、会社の所在地が変わることになりました。
 とはいってもこれはこちらの都合ではなく、所在地（登記先住所）として利用しているバーチャルオフィスの閉所に伴う都合です。
-ついでに会社の電話番号（銀行口座などの登録に必要）はauオフィスナンバーを使っていましたが、こちらも変更先の問題で変わることになってしまいました。&lt;/p></description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/it-depends-on-the-situation-1/">クロスプラットフォームを導入したいかどうかは、場合による&lt;/a>&lt;/p>
-&lt;p>上記の記事の続きです。
-今回は画像右下の「どこで仕事をしたい？」の質問部分の話。&lt;/p>
-&lt;p>再度書きますが、あくまでもyamacraft個人の見解であることをご留意ください。&lt;/p></description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p>今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
-（ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）&lt;/p></description></item><item><title>AndroidはCSVをサポートしていないので導入は避けようという資料</title><link>https://yamacraft.github.io/note/unsupport-csv-at-android/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/unsupport-csv-at-android/</guid><description>&lt;p>いまプライベートで作っているアプリでCSVインポート機能を実装しようとして、「これは安易に導入しちゃだめだな…」と感じたのでまとめた資料です。&lt;/p></description></item><item><title>yamacraftのブログを支えるシステム（2022年版）</title><link>https://yamacraft.github.io/note/architecture-blog-2022/</link><pubDate>Thu, 01 Dec 2022 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/architecture-blog-2022/</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/">山田航空ネットワーク3rd | 山田航空ネットワーク3rd&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/">山田航空ネットワークフロント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p>
-&lt;h2 id="利用しているシステムアプリ">利用しているシステム・アプリ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gohugo.io/">Hugo&lt;/a>&lt;/li>
-&lt;li>GitHub Actions&lt;/li>
-&lt;li>GitHub Pages / Firebase Hosting&lt;/li>
-&lt;li>&lt;a href="https://textlint.github.io/">textlint&lt;/a> + VSCode&lt;/li>
-&lt;/ul>
-&lt;h2 id="各システムアプリの詳細">各システム・アプリの詳細&lt;/h2>
-&lt;h3 id="hugo">Hugo&lt;/h3>
-&lt;p>静的サイトジェネレータです。
+ついでに会社の電話番号（銀行口座などの登録に必要）はauオフィスナンバーを使っていましたが、こちらも変更先の問題で変わることになってしまいました。&lt;/p&gt;</description></item><item><title>リモートワークがいいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</link><pubDate>Tue, 06 Dec 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-2/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/it-depends-on-the-situation-1/"&gt;クロスプラットフォームを導入したいかどうかは、場合による&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上記の記事の続きです。
+今回は画像右下の「どこで仕事をしたい？」の質問部分の話。&lt;/p&gt;
+&lt;p&gt;再度書きますが、あくまでもyamacraft個人の見解であることをご留意ください。&lt;/p&gt;</description></item><item><title>クロスプラットフォームを導入したいかどうかは、場合による</title><link>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</link><pubDate>Mon, 05 Dec 2022 00:05:00 +0900</pubDate><guid>https://yamacraft.github.io/note/it-depends-on-the-situation-1/</guid><description>&lt;p&gt;今年のDroidKaigiのサイボウズブースでやっていたアンケートの質問内容に感じ取ったことを記事にするのを、すっかり忘れていたので書きます。
+（ちなみにこの写真と記事作成に関しては当日その場で許可をもらっています）&lt;/p&gt;</description></item><item><title>AndroidはCSVをサポートしていないので導入は避けようという資料</title><link>https://yamacraft.github.io/note/unsupport-csv-at-android/</link><pubDate>Fri, 02 Dec 2022 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/unsupport-csv-at-android/</guid><description>&lt;p&gt;いまプライベートで作っているアプリでCSVインポート機能を実装しようとして、「これは安易に導入しちゃだめだな…」と感じたのでまとめた資料です。&lt;/p&gt;</description></item><item><title>yamacraftのブログを支えるシステム（2022年版）</title><link>https://yamacraft.github.io/note/architecture-blog-2022/</link><pubDate>Thu, 01 Dec 2022 12:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/architecture-blog-2022/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/"&gt;山田航空ネットワーク3rd | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/"&gt;山田航空ネットワークフロント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このブログを含めた、yamacraftが管理しているWebサイトの構築内容などをまとめました。&lt;/p&gt;
+&lt;h2 id="利用しているシステムアプリ"&gt;利用しているシステム・アプリ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Actions&lt;/li&gt;
+&lt;li&gt;GitHub Pages / Firebase Hosting&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://textlint.github.io/"&gt;textlint&lt;/a&gt; + VSCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="各システムアプリの詳細"&gt;各システム・アプリの詳細&lt;/h2&gt;
+&lt;h3 id="hugo"&gt;Hugo&lt;/h3&gt;
+&lt;p&gt;静的サイトジェネレータです。
 Markdownでコンテンツ部分を作成できます。
-静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p></description></item><item><title>2022 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-3q-done/</link><pubDate>Mon, 10 Oct 2022 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-3q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2022年のまとめ">2022年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/">2022 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/">2022 2Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;h3 id="開発支援業務">開発支援業務&lt;/h3>
-&lt;p>これまで同様、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
-ちなみにフルリモート勤務です。&lt;/p></description></item><item><title>アプリのデザインと実装のつらみを話しました</title><link>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</link><pubDate>Mon, 19 Sep 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</guid><description>&lt;p>すっかりこちらに報告し忘れていましたが、先日『&lt;a href="https://wantedly.connpass.com/event/256518/">Mobile勉強会 Wantedly × チームラボ #6&lt;/a>』にLTで参加しました。
-LTも含め、発表側での参加は数年ぶりじゃないかという気がします。&lt;/p></description></item><item><title>adbでAlarmManagerの登録内容を確認する</title><link>https://yamacraft.github.io/note/check_alarm_at_adb/</link><pubDate>Thu, 11 Aug 2022 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/check_alarm_at_adb/</guid><description>&lt;p>Androidアプリにおいてアプリ自身で特定の時間に何かしらの処理（以下、アラーム処理）を行いたい場合は、&lt;code>AlarmManager&lt;/code>を使う方法が考えられます。
-さらに&lt;code>setInexactRepeating()&lt;/code>を使うことで、（タイミングに制限がありますが）一定間隔でアラーム処理を行うことが可能です。&lt;/p></description></item><item><title>D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ</title><link>https://yamacraft.github.io/note/send-review-query-all-package/</link><pubDate>Mon, 18 Jul 2022 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/send-review-query-all-package/</guid><description>&lt;p>ヤマグロでリリースしている&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic">D.I.C.&lt;/a>には、端末がインストールしているアプリの一覧を表示し、各アプリのtargetSdkVersionを確認できる機能があります。&lt;/p>
-&lt;p>この機能を実装するために、アプリでは &lt;code>PackageManager.queryIntentActivities()&lt;/code> を使っています。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">val&lt;/span> packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">val&lt;/span> intent = Intent(&lt;span style="color:#a6e22e">Intent&lt;/span>.ACTION_MAIN).apply {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> addCategory(&lt;span style="color:#a6e22e">Intent&lt;/span>.CATEGORY_LAUNCHER)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 該当するActivity（アプリ）の一覧を取得
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">val&lt;/span> activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff">0&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>このAPIを使うためには、 &lt;code>QUERY_ALL_PACKAGES&lt;/code> 権限の利用が必要です。
-設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p></description></item><item><title>2022 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-2q-done/</link><pubDate>Mon, 04 Jul 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2022年のまとめ">2022年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/">2022 1Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;h3 id="開発支援業務">開発支援業務&lt;/h3>
-&lt;p>これまで同様、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
-ちなみにフルリモート勤務です。&lt;/p></description></item><item><title>ブラジリアン柔術を始めた（15年ぶり2度目）</title><link>https://yamacraft.github.io/note/restart-bjj/</link><pubDate>Mon, 06 Jun 2022 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restart-bjj/</guid><description>&lt;p>通って無事１ヵ月経ったので、報告がてら記事にします。&lt;/p>
-&lt;p>リモートワーク主体になってから定期的に行っていた散歩によって、偶然近所にブラジリアン柔術のジムがあることを知り、入会しました。
-実はジムの存在自体は去年末から知っていたのですが、コロナウィルスの何度目かのピークとワクチン接種の3回目待ちで、入会に四半期以上の時間をかけてしまいました。&lt;/p></description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/">個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a>の続きみたいな記事です。&lt;/p>
-&lt;p>masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
-この作業自体は、Gitコマンドを２つたたくだけで実装できます。&lt;/p></description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p>長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p>
-&lt;p>ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p></description></item><item><title>Flutterの勉強を始めたのと今後のFlutterとの付き合い方</title><link>https://yamacraft.github.io/note/begin-study-flutter/</link><pubDate>Fri, 06 May 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/begin-study-flutter/</guid><description>&lt;p>GWの大半は休日返上して午前中にプロダクト開発、午後にFlutter（＋Jetpack Compose）の勉強をやっていました。&lt;/p>
-&lt;p>勉強といっても、自分の場合はコード書きながら覚えていくのが手っ取り早いという理由から、ひたすらGoogle Codelabsをやり続けていました。&lt;/p></description></item><item><title>Twitter開発者ポータルの出禁が解除されてた</title><link>https://yamacraft.github.io/note/comeback-twitter-develop-site/</link><pubDate>Tue, 26 Apr 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/comeback-twitter-develop-site/</guid><description>&lt;p>Twitterに書いてある内容がすべてなんですが、知らないうちにTwitter開発者ポータルのサイトがリニューアルされて、出禁も解除されていました。&lt;/p></description></item><item><title>Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する</title><link>https://yamacraft.github.io/note/create-keystore-cli/</link><pubDate>Mon, 11 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-keystore-cli/</guid><description>&lt;p>Gistの方で以前書いたメモですが、わりと何度も見直す機会があったので、あらためて少し解説を挟みながら記事を書くことにしました。&lt;/p>
-&lt;p>&lt;a href="https://gist.github.com/yamacraft/ed03bdcf08cc64bd82cbb82c6d06b9ae">Androidとかで使う証明書鍵をコマンドラインで生成する&lt;/a>&lt;/p>
-&lt;h2 id="基本">基本&lt;/h2>
-&lt;p>Androidアプリの署名に使う鍵ファイルを生成したい場合、 &lt;code>keytool&lt;/code> を使います。&lt;/p></description></item><item><title>2022 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-1q-done/</link><pubDate>Mon, 04 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2021年のまとめ">2021年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/">2021 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/">2021 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-3q-done/">2021 3Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-4q-done/">2021 4Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="仕事">仕事&lt;/h2>
-&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の代表社員兼ITエンジニアとして仕事をしています。&lt;/p>
-&lt;h3 id="開発支援業務">開発支援業務&lt;/h3>
-&lt;p>前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
-ちなみにフルリモート勤務です。&lt;/p></description></item><item><title>CIでAndroidのSecretファイルをどう扱うか（2022年最新版）</title><link>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</link><pubDate>Mon, 07 Mar 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</guid><description>&lt;p>AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。
-たとえばリリース用のkeystoreファイルだったり、そのファイル関連のパスワード情報などです。&lt;/p></description></item><item><title>椅子をコンテッサセコンダに変えた</title><link>https://yamacraft.github.io/note/buy-contessa-seconda/</link><pubDate>Wed, 09 Feb 2022 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-contessa-seconda/</guid><description>&lt;h2 id="こんにちはコンテッサセコンダ">こんにちは、コンテッサセコンダ&lt;/h2>
-&lt;p>リモートワークが今後も続く中、これまで使っていたAKRACINGのゲーミングチェアがだいぶ傷んできたため、コンテッサセコンダに買い替えました。&lt;/p></description></item><item><title>AGP7.1でclasspathを追加する</title><link>https://yamacraft.github.io/note/agp-7-1-add-classpath/</link><pubDate>Mon, 31 Jan 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/agp-7-1-add-classpath/</guid><description>&lt;p>先日、AGP（Android Gradle Plugin）7.1とAndroid Studio 2021.1.1（Bumblebee）がリリースされました。
-これによって、Android StudioのBumblebeeでプロジェクトを新規作成すると、AGP 7.1のgradleファイルが作られるようになりました。&lt;/p></description></item><item><title>Material Design3でTypographyが変わった</title><link>https://yamacraft.github.io/note/material3-typography-list/</link><pubDate>Thu, 20 Jan 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/material3-typography-list/</guid><description>&lt;h2 id="material3の正式リリース">Material3の正式リリース&lt;/h2>
-&lt;p>先日、Android版のmaterial-componentsの1.5.0がリリースされました。
-このリリースバージョンから&lt;a href="https://m3.material.io/">Material Design3&lt;/a>が含まれるようになりました。&lt;/p></description></item><item><title>2021 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-4q-done/</link><pubDate>Mon, 10 Jan 2022 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;p>減量記録のまとめや去年１年間の振り返りは別で記事にしています。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/diet-21-4q-done/">2021年4Q 減量結果報告（年間振り返り含む）&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/goal-next-year-2021/">個人的な2021年のふりかえりと2022年の目標&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/">2021年のヤマダ印をふりかえる&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="2021年のまとめ">2021年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/">2021 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/">2021 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-3q-done/">2021 3Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;p>前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p></description></item><item><title>2021年4Q 減量結果報告（年間振り返り含む）</title><link>https://yamacraft.github.io/note/diet-21-4q-done/</link><pubDate>Mon, 10 Jan 2022 16:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-4q-done/</guid><description>&lt;p>１月から「１ヵ月オフ、２ヵ月オン」という周期でやっていた減量の４Q目の結果報告です。
-いったんこれが2021年最後の結果報告になるので、１年間の振り返りも書きました。&lt;/p></description></item><item><title>個人的な2021年のふりかえりと2022年の目標</title><link>https://yamacraft.github.io/note/goal-next-year-2021/</link><pubDate>Thu, 30 Dec 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goal-next-year-2021/</guid><description>&lt;p>先日、会社（仕事）の振り返りを書きましたが、今回は個人的な部分のふりかえりと来年の目標を簡単に書きました。
-おそらくこれが年内最後の記事です。&lt;/p>
-&lt;p>&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/">2021年のヤマダ印ふりかえる | 山田航空ネットワーク3rd&lt;/a>&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/tech-note-2021/">山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a>&lt;/p>
-&lt;p>こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p>
-&lt;h2 id="良いと感じた点">良いと感じた点&lt;/h2>
-&lt;ul>
-&lt;li>Markdown形式で書ける&lt;/li>
-&lt;li>ゆるくCSSやHTMLの改修ができる&lt;/li>
-&lt;/ul>
-&lt;h2 id="課題と感じる点">課題と感じる点&lt;/h2>
-&lt;ul>
-&lt;li>予約公開ができない
-&lt;ul>
-&lt;li>都合上、公開時間以降にmasterを更新する必要がある&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>画像の添付が少し面倒&lt;/li>
-&lt;li>TOPページの大きな改修が難しい
-&lt;ul>
-&lt;li>固定記事リンク、カテゴリごとのリンクページなどが欲しくなった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="2022年にやろうと考えていること">2022年にやろうと考えていること&lt;/h2>
-&lt;ul>
-&lt;li>予約公開に関する対応&lt;/li>
-&lt;li>TOPページ含めたデザインの改修&lt;/li>
-&lt;li>Mediumやnoteなどにある、リンク先のブログカード表示の実装&lt;/li>
-&lt;/ul>
-&lt;h2 id="各解説">各解説&lt;/h2>
-&lt;h3 id="良いと感じた点について">良いと感じた点について&lt;/h3>
-&lt;p>Markdown形式で記事が書きたい！という理由でHugoを選んだので、この点には大きく満足しています。
-また、コンテンツ部分は素直なHTMLタグで構成されていることもあって、CSSの修正がやりやすいこともメリットに感じています。&lt;/p></description></item><item><title>2021年のヤマダ印をふりかえる</title><link>https://yamacraft.github.io/note/review-yamadajirushi-2021/</link><pubDate>Mon, 20 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-yamadajirushi-2021/</guid><description>&lt;p>2021年ももうすぐ終わりますので、&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>の１年を振り返りを書きます。&lt;/p>
-&lt;h2 id="yamacraftと合同会社ヤマダ印について">yamacraftと合同会社ヤマダ印について&lt;/h2>
-&lt;p>SWEエンジニアです。
-合同会社ヤマダ印の代表でもありますが、こちらはフリーランスからそのまま法人成りを行った一人会社です。&lt;/p></description></item><item><title>Android 12におけるOverScroll表現の雑多なメモ</title><link>https://yamacraft.github.io/note/advent2021-android-overscroll/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2021-android-overscroll/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2021/android">QiitaのAndroid Advent Calendar 2021&lt;/a>の14日目の記事になります。&lt;/p>
-&lt;h2 id="android-12のoverscroll">Android 12のOverScroll&lt;/h2>
-&lt;p>Android 12では、オーバースクロールの表現方法が変わりました。
-いわゆる「伸びる（ストレッチ）」やつです。&lt;/p></description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p>今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
-その補足として、現在のブログはどういうしくみで運用しているのかを、あらためてまとめることにしました。&lt;/p></description></item><item><title>HometeのtargetSdkVersionを31に上げています</title><link>https://yamacraft.github.io/note/updated-homete-api-31/</link><pubDate>Mon, 29 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/updated-homete-api-31/</guid><description>&lt;p>Android 12が正式リリースされ、自分の手元にもPixel6 Proが届いたこともあり、HometeのtargetSdkVersionを31に上げる作業をしています。&lt;/p></description></item><item><title>法人クレカを申し込むことにした</title><link>https://yamacraft.github.io/note/tsuraiyo-debit-card/</link><pubDate>Mon, 22 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tsuraiyo-debit-card/</guid><description>&lt;p>ヤマダ印ではこれまで口座開設とともに発行されたデビットカードを使っていましたが、経理作業などでちょっとつらいことが積み重なってきたので、法人用のクレジットカードを申し込むことにしました。&lt;/p></description></item><item><title>Pixel6 Proを買いました</title><link>https://yamacraft.github.io/note/buy-pixel6-pro/</link><pubDate>Mon, 15 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-pixel6-pro/</guid><description>&lt;p>表題の通りです。&lt;/p>
-&lt;p>&lt;img src="https://yamacraft.github.io/note/image/add_buy-pixel6-pro/pixel6pro_buy.jpg" alt="Pixel6 Pro買いました">&lt;/p>
-&lt;p>ちなみに去年Pixel5を買っていませんでしたが、完全に買うタイミングを逃してしまったからです。
-その間にPixel4のバッテリー膨張があり、今年はさっさと買い換えよう、という判断に至りました。&lt;/p></description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について">この記事について&lt;/h2>
-&lt;p>&lt;a href="https://homete.yamaglo.jp/">Homete&lt;/a>のユーザー認証には、Firebase Authenticationを使っています。
-また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p>
-&lt;p>&lt;a href="https://developer.android.com/jetpack/guide">アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a>&lt;/p></description></item><item><title>Getting Over It（android版）を50回クリアしました</title><link>https://yamacraft.github.io/note/done-tsubo-android-50laps/</link><pubDate>Sun, 07 Nov 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-tsubo-android-50laps/</guid><description>&lt;p>すっかり報告が遅れてしまいましたが、先月Google Playで配信されている方のGetting Over Itで、50回クリア（※）を達成しました。&lt;/p>
-&lt;p>すでにSteam版とApp Store（iOS）版は50回クリアしているので、これによって現在リリースされているすべてのプラットフォーム版を制覇したことになります。&lt;/p></description></item><item><title>愛用している室内トレーニングアイテム 2021年版</title><link>https://yamacraft.github.io/note/training-goods-202111/</link><pubDate>Mon, 01 Nov 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/training-goods-202111/</guid><description>&lt;p>11月になって、今年最後の減量期間が始まりました。&lt;/p>
-&lt;p>&lt;a href="https://yamacraft.github.io/note/tags/workout/">減量方法は過去の報告記事に記載していますが&lt;/a>、室内のトレーニングで使っている道具は（おそらく）紹介したことがありませんでした。
-せっかくですので、主に使っているアイテムをこの記事で紹介します。&lt;/p>
-&lt;p>いちおう、利用頻度（もしくはコスパ）の高いものから順番に紹介します。&lt;/p></description></item><item><title>2021秋華賞の期待</title><link>https://yamacraft.github.io/note/expectation-shukasho-2021/</link><pubDate>Sat, 16 Oct 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/expectation-shukasho-2021/</guid><description>&lt;p>明日の秋華賞の予想をしようと出馬表を眺めていたらTwitterでちょっと書きたいことが出てきて、でも140文字では収まらないと思ったので書きます。&lt;/p></description></item><item><title>2021年3Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-3q-done/</link><pubDate>Sat, 09 Oct 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-3q-done/</guid><description>&lt;p>１月から「１ヵ月オフ、２ヵ月オン」という周期でやっている減量の3Q目の結果報告です。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/diet-21-1q-done">１Q結果&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/diet-21-2q-done">２Q結果&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="基本方針">基本方針&lt;/h2>
-&lt;ul>
-&lt;li>基本は摂取カロリー（食事）の調整で痩せる&lt;/li>
-&lt;li>諸々の事情により運動で消費カロリーを大きく増やせないため、大きな結果を求めない&lt;/li>
-&lt;li>筋肉量をなるべく維持できるように、トレーニング（室内）自体は毎日行う&lt;/li>
-&lt;/ul>
-&lt;h2 id="結果">結果&lt;/h2>
-&lt;p>体組成計で記録した体重、体脂肪率、除脂肪重の推移です。&lt;/p></description></item><item><title>2021 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-3q-done/</link><pubDate>Sat, 09 Oct 2021 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-3q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="今年のまとめ">今年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/">2021 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/">2021 2Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;p>前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p></description></item><item><title>１回目の新型コロナウイルスワクチンの接種が終わった</title><link>https://yamacraft.github.io/note/done-1st-cominaty/</link><pubDate>Sun, 05 Sep 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-1st-cominaty/</guid><description>&lt;p>表題の通りです。&lt;/p>
-&lt;p>当初はせめて12月までには接種できてほしいなあという気持ちでしたが、想像よりも早く事が進んで助かりました。&lt;/p>
-&lt;p>以下、備忘録的なメモです。&lt;/p></description></item><item><title>Android Studioでいつの間にかJDKが消えた件と対応</title><link>https://yamacraft.github.io/note/missing-android-studio-jdk/</link><pubDate>Mon, 16 Aug 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/missing-android-studio-jdk/</guid><description>&lt;p>どのタイミングからなのかわかりませんが（おそらく2020.3.1以降）、Android Studioに埋め込まれていたJDKのパスが変わってました。&lt;/p></description></item><item><title>Hometeの新しいホーム画面のデザイン案</title><link>https://yamacraft.github.io/note/homete-new-home-design-idea/</link><pubDate>Mon, 19 Jul 2021 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-new-home-design-idea/</guid><description>&lt;p>Hometeのキャッチコピーを変更し、PlayストアとWebページ（現在はランディングページとして利用中）に反映しました。
-Webページ側はさらにランディングページらしく、Hometeの概要やら特徴を追記しました。&lt;/p></description></item><item><title>2021年2Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-2q-done/</link><pubDate>Mon, 05 Jul 2021 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-2q-done/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/diet-21-1q-done">前Qに続き&lt;/a>、今Qも５〜６月を使って減量を実施しました。
-この記事はその結果報告です。&lt;/p>
-&lt;h2 id="基本方針">基本方針&lt;/h2>
-&lt;ul>
-&lt;li>基本は摂取カロリー（食事）の調整で痩せる&lt;/li>
-&lt;li>諸々の事情により運動で消費カロリーを大きく増やせないため、大きな結果を求めない&lt;/li>
-&lt;li>筋肉量をなるべく維持できるように、トレーニング（室内）自体は毎日行う&lt;/li>
-&lt;/ul>
-&lt;h2 id="結果">結果&lt;/h2>
-&lt;p>体組成計で記録した体重、体脂肪率、除脂肪重の推移です。&lt;/p></description></item><item><title>2021 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-2q-done/</link><pubDate>Mon, 05 Jul 2021 16:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="今年のまとめ">今年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/">2021 1Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;p>前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p></description></item><item><title>Hometeのα版（オープンテスト）をリリースしました</title><link>https://yamacraft.github.io/note/release-homete-alpha/</link><pubDate>Wed, 30 Jun 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/release-homete-alpha/</guid><description>&lt;p>本日2021年6月30日に、『Homete』という名前の新規サービス（アプリ）をオープンテストで公開しました。&lt;/p>
-&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.homete">Homete - 誰かを褒めて、誰かに褒められるコミュニケーションツール - Google Play のアプリ&lt;/a>&lt;/p></description></item><item><title>いま開発中のアプリ（サービス）についての状況報告</title><link>https://yamacraft.github.io/note/product-report-homete-202105/</link><pubDate>Mon, 31 May 2021 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/product-report-homete-202105/</guid><description>&lt;p>３月ぐらいから本格的に着手しているアプリ開発ですが、今月も完成しませんでした。
+静的サイトジェネレータはいくつか種類がありますが、利用者の数とバイナリファイルで動作する点から決めました。&lt;/p&gt;</description></item><item><title>2022 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-3q-done/</link><pubDate>Mon, 10 Oct 2022 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-3q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2022年のまとめ"&gt;2022年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/"&gt;2022 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-2q-done/"&gt;2022 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;h3 id="開発支援業務"&gt;開発支援業務&lt;/h3&gt;
+&lt;p&gt;これまで同様、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
+ちなみにフルリモート勤務です。&lt;/p&gt;</description></item><item><title>アプリのデザインと実装のつらみを話しました</title><link>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</link><pubDate>Mon, 19 Sep 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/talk-2022-08-mobile-benkyokai/</guid><description>&lt;p&gt;すっかりこちらに報告し忘れていましたが、先日『&lt;a href="https://wantedly.connpass.com/event/256518/"&gt;Mobile勉強会 Wantedly × チームラボ #6&lt;/a&gt;』にLTで参加しました。
+LTも含め、発表側での参加は数年ぶりじゃないかという気がします。&lt;/p&gt;</description></item><item><title>adbでAlarmManagerの登録内容を確認する</title><link>https://yamacraft.github.io/note/check_alarm_at_adb/</link><pubDate>Thu, 11 Aug 2022 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/check_alarm_at_adb/</guid><description>&lt;p&gt;Androidアプリにおいてアプリ自身で特定の時間に何かしらの処理（以下、アラーム処理）を行いたい場合は、&lt;code&gt;AlarmManager&lt;/code&gt;を使う方法が考えられます。
+さらに&lt;code&gt;setInexactRepeating()&lt;/code&gt;を使うことで、（タイミングに制限がありますが）一定間隔でアラーム処理を行うことが可能です。&lt;/p&gt;</description></item><item><title>D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ</title><link>https://yamacraft.github.io/note/send-review-query-all-package/</link><pubDate>Mon, 18 Jul 2022 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/send-review-query-all-package/</guid><description>&lt;p&gt;ヤマグロでリリースしている&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic"&gt;D.I.C.&lt;/a&gt;には、端末がインストールしているアプリの一覧を表示し、各アプリのtargetSdkVersionを確認できる機能があります。&lt;/p&gt;
+&lt;p&gt;この機能を実装するために、アプリでは &lt;code&gt;PackageManager.queryIntentActivities()&lt;/code&gt; を使っています。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; intent = Intent(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.ACTION_MAIN).apply {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; addCategory(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.CATEGORY_LAUNCHER)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 該当するActivity（アプリ）の一覧を取得
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このAPIを使うためには、 &lt;code&gt;QUERY_ALL_PACKAGES&lt;/code&gt; 権限の利用が必要です。
+設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p&gt;</description></item><item><title>2022 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-2q-done/</link><pubDate>Mon, 04 Jul 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2022年のまとめ"&gt;2022年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2022-1q-done/"&gt;2022 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;h3 id="開発支援業務"&gt;開発支援業務&lt;/h3&gt;
+&lt;p&gt;これまで同様、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
+ちなみにフルリモート勤務です。&lt;/p&gt;</description></item><item><title>ブラジリアン柔術を始めた（15年ぶり2度目）</title><link>https://yamacraft.github.io/note/restart-bjj/</link><pubDate>Mon, 06 Jun 2022 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restart-bjj/</guid><description>&lt;p&gt;通って無事１ヵ月経ったので、報告がてら記事にします。&lt;/p&gt;
+&lt;p&gt;リモートワーク主体になってから定期的に行っていた散歩によって、偶然近所にブラジリアン柔術のジムがあることを知り、入会しました。
+実はジムの存在自体は去年末から知っていたのですが、コロナウィルスの何度目かのピークとワクチン接種の3回目待ちで、入会に四半期以上の時間をかけてしまいました。&lt;/p&gt;</description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/"&gt;個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a&gt;の続きみたいな記事です。&lt;/p&gt;
+&lt;p&gt;masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
+この作業自体は、Gitコマンドを２つたたくだけで実装できます。&lt;/p&gt;</description></item><item><title>個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア</title><link>https://yamacraft.github.io/note/idea-branch-model-and-ci/</link><pubDate>Mon, 16 May 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/idea-branch-model-and-ci/</guid><description>&lt;p&gt;長いこと個人アカウントで管理していたヤマグロの各種プロジェクトを、ヤマグロのGitHub Organizationにまとめる作業を始めました。&lt;/p&gt;
+&lt;p&gt;ついでに使っているCIがCircle CIだったりGitHub Actionsだったりと統一感がなかったのでGitHub Actionに一元化、CIでやる内容の改修も行っています。&lt;/p&gt;</description></item><item><title>Flutterの勉強を始めたのと今後のFlutterとの付き合い方</title><link>https://yamacraft.github.io/note/begin-study-flutter/</link><pubDate>Fri, 06 May 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/begin-study-flutter/</guid><description>&lt;p&gt;GWの大半は休日返上して午前中にプロダクト開発、午後にFlutter（＋Jetpack Compose）の勉強をやっていました。&lt;/p&gt;
+&lt;p&gt;勉強といっても、自分の場合はコード書きながら覚えていくのが手っ取り早いという理由から、ひたすらGoogle Codelabsをやり続けていました。&lt;/p&gt;</description></item><item><title>Twitter開発者ポータルの出禁が解除されてた</title><link>https://yamacraft.github.io/note/comeback-twitter-develop-site/</link><pubDate>Tue, 26 Apr 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/comeback-twitter-develop-site/</guid><description>&lt;p&gt;Twitterに書いてある内容がすべてなんですが、知らないうちにTwitter開発者ポータルのサイトがリニューアルされて、出禁も解除されていました。&lt;/p&gt;</description></item><item><title>Androidアプリの署名に使う鍵ファイルをコマンドライン（CLI）で生成する</title><link>https://yamacraft.github.io/note/create-keystore-cli/</link><pubDate>Mon, 11 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-keystore-cli/</guid><description>&lt;p&gt;Gistの方で以前書いたメモですが、わりと何度も見直す機会があったので、あらためて少し解説を挟みながら記事を書くことにしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gist.github.com/yamacraft/ed03bdcf08cc64bd82cbb82c6d06b9ae"&gt;Androidとかで使う証明書鍵をコマンドラインで生成する&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
+&lt;p&gt;Androidアプリの署名に使う鍵ファイルを生成したい場合、 &lt;code&gt;keytool&lt;/code&gt; を使います。&lt;/p&gt;</description></item><item><title>2022 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2022-1q-done/</link><pubDate>Mon, 04 Apr 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2022-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2021年のまとめ"&gt;2021年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/"&gt;2021 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/"&gt;2021 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-3q-done/"&gt;2021 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-4q-done/"&gt;2021 4Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事"&gt;仕事&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;h3 id="開発支援業務"&gt;開発支援業務&lt;/h3&gt;
+&lt;p&gt;前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）。
+ちなみにフルリモート勤務です。&lt;/p&gt;</description></item><item><title>CIでAndroidのSecretファイルをどう扱うか（2022年最新版）</title><link>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</link><pubDate>Mon, 07 Mar 2022 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/manage-secret-file-at-ci-2022/</guid><description>&lt;p&gt;AndroidアプリのCIでアプリのデプロイ作業などを行いたい場合、Secret（秘匿情報）なファイルの扱いを避けることはできません。
+たとえばリリース用のkeystoreファイルだったり、そのファイル関連のパスワード情報などです。&lt;/p&gt;</description></item><item><title>椅子をコンテッサセコンダに変えた</title><link>https://yamacraft.github.io/note/buy-contessa-seconda/</link><pubDate>Wed, 09 Feb 2022 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-contessa-seconda/</guid><description>&lt;h2 id="こんにちはコンテッサセコンダ"&gt;こんにちは、コンテッサセコンダ&lt;/h2&gt;
+&lt;p&gt;リモートワークが今後も続く中、これまで使っていたAKRACINGのゲーミングチェアがだいぶ傷んできたため、コンテッサセコンダに買い替えました。&lt;/p&gt;</description></item><item><title>AGP7.1でclasspathを追加する</title><link>https://yamacraft.github.io/note/agp-7-1-add-classpath/</link><pubDate>Mon, 31 Jan 2022 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/agp-7-1-add-classpath/</guid><description>&lt;p&gt;先日、AGP（Android Gradle Plugin）7.1とAndroid Studio 2021.1.1（Bumblebee）がリリースされました。
+これによって、Android StudioのBumblebeeでプロジェクトを新規作成すると、AGP 7.1のgradleファイルが作られるようになりました。&lt;/p&gt;</description></item><item><title>Material Design3でTypographyが変わった</title><link>https://yamacraft.github.io/note/material3-typography-list/</link><pubDate>Thu, 20 Jan 2022 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/material3-typography-list/</guid><description>&lt;h2 id="material3の正式リリース"&gt;Material3の正式リリース&lt;/h2&gt;
+&lt;p&gt;先日、Android版のmaterial-componentsの1.5.0がリリースされました。
+このリリースバージョンから&lt;a href="https://m3.material.io/"&gt;Material Design3&lt;/a&gt;が含まれるようになりました。&lt;/p&gt;</description></item><item><title>2021 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-4q-done/</link><pubDate>Mon, 10 Jan 2022 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;p&gt;減量記録のまとめや去年１年間の振り返りは別で記事にしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/diet-21-4q-done/"&gt;2021年4Q 減量結果報告（年間振り返り含む）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/goal-next-year-2021/"&gt;個人的な2021年のふりかえりと2022年の目標&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/"&gt;2021年のヤマダ印をふりかえる&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2021年のまとめ"&gt;2021年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/"&gt;2021 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/"&gt;2021 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-3q-done/"&gt;2021 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;p&gt;前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p&gt;</description></item><item><title>2021年4Q 減量結果報告（年間振り返り含む）</title><link>https://yamacraft.github.io/note/diet-21-4q-done/</link><pubDate>Mon, 10 Jan 2022 16:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-4q-done/</guid><description>&lt;p&gt;１月から「１ヵ月オフ、２ヵ月オン」という周期でやっていた減量の４Q目の結果報告です。
+いったんこれが2021年最後の結果報告になるので、１年間の振り返りも書きました。&lt;/p&gt;</description></item><item><title>個人的な2021年のふりかえりと2022年の目標</title><link>https://yamacraft.github.io/note/goal-next-year-2021/</link><pubDate>Thu, 30 Dec 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/goal-next-year-2021/</guid><description>&lt;p&gt;先日、会社（仕事）の振り返りを書きましたが、今回は個人的な部分のふりかえりと来年の目標を簡単に書きました。
+おそらくこれが年内最後の記事です。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/review-yamadajirushi-2021/"&gt;2021年のヤマダ印ふりかえる | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/p&gt;</description></item><item><title>山田航空ネットワーク3rdを支える技術の振り返り（2021）</title><link>https://yamacraft.github.io/note/review-blog-system-2021/</link><pubDate>Mon, 27 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-blog-system-2021/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/tech-note-2021/"&gt;山田航空ネットワーク3rdを支える技術 | 山田航空ネットワーク3rd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こちらを下地に、2021年末時点でのブログのしくみ関する振り返り記事を書きました。&lt;/p&gt;
+&lt;h2 id="良いと感じた点"&gt;良いと感じた点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown形式で書ける&lt;/li&gt;
+&lt;li&gt;ゆるくCSSやHTMLの改修ができる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="課題と感じる点"&gt;課題と感じる点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;予約公開ができない
+&lt;ul&gt;
+&lt;li&gt;都合上、公開時間以降にmasterを更新する必要がある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;画像の添付が少し面倒&lt;/li&gt;
+&lt;li&gt;TOPページの大きな改修が難しい
+&lt;ul&gt;
+&lt;li&gt;固定記事リンク、カテゴリごとのリンクページなどが欲しくなった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2022年にやろうと考えていること"&gt;2022年にやろうと考えていること&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;予約公開に関する対応&lt;/li&gt;
+&lt;li&gt;TOPページ含めたデザインの改修&lt;/li&gt;
+&lt;li&gt;Mediumやnoteなどにある、リンク先のブログカード表示の実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="各解説"&gt;各解説&lt;/h2&gt;
+&lt;h3 id="良いと感じた点について"&gt;良いと感じた点について&lt;/h3&gt;
+&lt;p&gt;Markdown形式で記事が書きたい！という理由でHugoを選んだので、この点には大きく満足しています。
+また、コンテンツ部分は素直なHTMLタグで構成されていることもあって、CSSの修正がやりやすいこともメリットに感じています。&lt;/p&gt;</description></item><item><title>2021年のヤマダ印をふりかえる</title><link>https://yamacraft.github.io/note/review-yamadajirushi-2021/</link><pubDate>Mon, 20 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/review-yamadajirushi-2021/</guid><description>&lt;p&gt;2021年ももうすぐ終わりますので、&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の１年を振り返りを書きます。&lt;/p&gt;
+&lt;h2 id="yamacraftと合同会社ヤマダ印について"&gt;yamacraftと合同会社ヤマダ印について&lt;/h2&gt;
+&lt;p&gt;SWEエンジニアです。
+合同会社ヤマダ印の代表でもありますが、こちらはフリーランスからそのまま法人成りを行った一人会社です。&lt;/p&gt;</description></item><item><title>Android 12におけるOverScroll表現の雑多なメモ</title><link>https://yamacraft.github.io/note/advent2021-android-overscroll/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2021-android-overscroll/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2021/android"&gt;QiitaのAndroid Advent Calendar 2021&lt;/a&gt;の14日目の記事になります。&lt;/p&gt;
+&lt;h2 id="android-12のoverscroll"&gt;Android 12のOverScroll&lt;/h2&gt;
+&lt;p&gt;Android 12では、オーバースクロールの表現方法が変わりました。
+いわゆる「伸びる（ストレッチ）」やつです。&lt;/p&gt;</description></item><item><title>山田航空ネットワーク3rdを支える技術</title><link>https://yamacraft.github.io/note/tech-note-2021/</link><pubDate>Mon, 06 Dec 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tech-note-2021/</guid><description>&lt;p&gt;今月中に、現在使っているブログのしくみについての振り返り記事を書こうと考えています。
+その補足として、現在のブログはどういうしくみで運用しているのかを、あらためてまとめることにしました。&lt;/p&gt;</description></item><item><title>HometeのtargetSdkVersionを31に上げています</title><link>https://yamacraft.github.io/note/updated-homete-api-31/</link><pubDate>Mon, 29 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/updated-homete-api-31/</guid><description>&lt;p&gt;Android 12が正式リリースされ、自分の手元にもPixel6 Proが届いたこともあり、HometeのtargetSdkVersionを31に上げる作業をしています。&lt;/p&gt;</description></item><item><title>法人クレカを申し込むことにした</title><link>https://yamacraft.github.io/note/tsuraiyo-debit-card/</link><pubDate>Mon, 22 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/tsuraiyo-debit-card/</guid><description>&lt;p&gt;ヤマダ印ではこれまで口座開設とともに発行されたデビットカードを使っていましたが、経理作業などでちょっとつらいことが積み重なってきたので、法人用のクレジットカードを申し込むことにしました。&lt;/p&gt;</description></item><item><title>Pixel6 Proを買いました</title><link>https://yamacraft.github.io/note/buy-pixel6-pro/</link><pubDate>Mon, 15 Nov 2021 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-pixel6-pro/</guid><description>&lt;p&gt;表題の通りです。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://yamacraft.github.io/note/image/add_buy-pixel6-pro/pixel6pro_buy.jpg" alt="Pixel6 Pro買いました"&gt;&lt;/p&gt;
+&lt;p&gt;ちなみに去年Pixel5を買っていませんでしたが、完全に買うタイミングを逃してしまったからです。
+その間にPixel4のバッテリー膨張があり、今年はさっさと買い換えよう、という判断に至りました。&lt;/p&gt;</description></item><item><title>Firebase AuthenticationとAndroid推奨アーキテクチャと画面遷移</title><link>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</link><pubDate>Fri, 12 Nov 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-architecture-firebase-auth/</guid><description>&lt;h2 id="この記事について"&gt;この記事について&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://homete.yamaglo.jp/"&gt;Homete&lt;/a&gt;のユーザー認証には、Firebase Authenticationを使っています。
+また、基本的な設計は公式が推奨しているアーキテクチャにのっとっています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.android.com/jetpack/guide"&gt;アプリ アーキテクチャ ガイド  |  Android デベロッパー  |  Android Developers&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Getting Over It（android版）を50回クリアしました</title><link>https://yamacraft.github.io/note/done-tsubo-android-50laps/</link><pubDate>Sun, 07 Nov 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-tsubo-android-50laps/</guid><description>&lt;p&gt;すっかり報告が遅れてしまいましたが、先月Google Playで配信されている方のGetting Over Itで、50回クリア（※）を達成しました。&lt;/p&gt;
+&lt;p&gt;すでにSteam版とApp Store（iOS）版は50回クリアしているので、これによって現在リリースされているすべてのプラットフォーム版を制覇したことになります。&lt;/p&gt;</description></item><item><title>愛用している室内トレーニングアイテム 2021年版</title><link>https://yamacraft.github.io/note/training-goods-202111/</link><pubDate>Mon, 01 Nov 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/training-goods-202111/</guid><description>&lt;p&gt;11月になって、今年最後の減量期間が始まりました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/tags/workout/"&gt;減量方法は過去の報告記事に記載していますが&lt;/a&gt;、室内のトレーニングで使っている道具は（おそらく）紹介したことがありませんでした。
+せっかくですので、主に使っているアイテムをこの記事で紹介します。&lt;/p&gt;
+&lt;p&gt;いちおう、利用頻度（もしくはコスパ）の高いものから順番に紹介します。&lt;/p&gt;</description></item><item><title>2021秋華賞の期待</title><link>https://yamacraft.github.io/note/expectation-shukasho-2021/</link><pubDate>Sat, 16 Oct 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/expectation-shukasho-2021/</guid><description>&lt;p&gt;明日の秋華賞の予想をしようと出馬表を眺めていたらTwitterでちょっと書きたいことが出てきて、でも140文字では収まらないと思ったので書きます。&lt;/p&gt;</description></item><item><title>2021年3Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-3q-done/</link><pubDate>Sat, 09 Oct 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-3q-done/</guid><description>&lt;p&gt;１月から「１ヵ月オフ、２ヵ月オン」という周期でやっている減量の3Q目の結果報告です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/diet-21-1q-done"&gt;１Q結果&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/diet-21-2q-done"&gt;２Q結果&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="基本方針"&gt;基本方針&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基本は摂取カロリー（食事）の調整で痩せる&lt;/li&gt;
+&lt;li&gt;諸々の事情により運動で消費カロリーを大きく増やせないため、大きな結果を求めない&lt;/li&gt;
+&lt;li&gt;筋肉量をなるべく維持できるように、トレーニング（室内）自体は毎日行う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="結果"&gt;結果&lt;/h2&gt;
+&lt;p&gt;体組成計で記録した体重、体脂肪率、除脂肪重の推移です。&lt;/p&gt;</description></item><item><title>2021 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-3q-done/</link><pubDate>Sat, 09 Oct 2021 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-3q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="今年のまとめ"&gt;今年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/"&gt;2021 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-2q-done/"&gt;2021 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;p&gt;前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p&gt;</description></item><item><title>１回目の新型コロナウイルスワクチンの接種が終わった</title><link>https://yamacraft.github.io/note/done-1st-cominaty/</link><pubDate>Sun, 05 Sep 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/done-1st-cominaty/</guid><description>&lt;p&gt;表題の通りです。&lt;/p&gt;
+&lt;p&gt;当初はせめて12月までには接種できてほしいなあという気持ちでしたが、想像よりも早く事が進んで助かりました。&lt;/p&gt;
+&lt;p&gt;以下、備忘録的なメモです。&lt;/p&gt;</description></item><item><title>Android Studioでいつの間にかJDKが消えた件と対応</title><link>https://yamacraft.github.io/note/missing-android-studio-jdk/</link><pubDate>Mon, 16 Aug 2021 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/missing-android-studio-jdk/</guid><description>&lt;p&gt;どのタイミングからなのかわかりませんが（おそらく2020.3.1以降）、Android Studioに埋め込まれていたJDKのパスが変わってました。&lt;/p&gt;</description></item><item><title>Hometeの新しいホーム画面のデザイン案</title><link>https://yamacraft.github.io/note/homete-new-home-design-idea/</link><pubDate>Mon, 19 Jul 2021 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/homete-new-home-design-idea/</guid><description>&lt;p&gt;Hometeのキャッチコピーを変更し、PlayストアとWebページ（現在はランディングページとして利用中）に反映しました。
+Webページ側はさらにランディングページらしく、Hometeの概要やら特徴を追記しました。&lt;/p&gt;</description></item><item><title>2021年2Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-2q-done/</link><pubDate>Mon, 05 Jul 2021 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-2q-done/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/diet-21-1q-done"&gt;前Qに続き&lt;/a&gt;、今Qも５〜６月を使って減量を実施しました。
+この記事はその結果報告です。&lt;/p&gt;
+&lt;h2 id="基本方針"&gt;基本方針&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基本は摂取カロリー（食事）の調整で痩せる&lt;/li&gt;
+&lt;li&gt;諸々の事情により運動で消費カロリーを大きく増やせないため、大きな結果を求めない&lt;/li&gt;
+&lt;li&gt;筋肉量をなるべく維持できるように、トレーニング（室内）自体は毎日行う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="結果"&gt;結果&lt;/h2&gt;
+&lt;p&gt;体組成計で記録した体重、体脂肪率、除脂肪重の推移です。&lt;/p&gt;</description></item><item><title>2021 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-2q-done/</link><pubDate>Mon, 05 Jul 2021 16:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="今年のまとめ"&gt;今年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2021-1q-done/"&gt;2021 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;p&gt;前Qに続き、継続して契約しているクライアントさんのところでAndroidアプリの開発案件をやっていました（週４日）&lt;/p&gt;</description></item><item><title>Hometeのα版（オープンテスト）をリリースしました</title><link>https://yamacraft.github.io/note/release-homete-alpha/</link><pubDate>Wed, 30 Jun 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/release-homete-alpha/</guid><description>&lt;p&gt;本日2021年6月30日に、『Homete』という名前の新規サービス（アプリ）をオープンテストで公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.homete"&gt;Homete - 誰かを褒めて、誰かに褒められるコミュニケーションツール - Google Play のアプリ&lt;/a&gt;&lt;/p&gt;</description></item><item><title>いま開発中のアプリ（サービス）についての状況報告</title><link>https://yamacraft.github.io/note/product-report-homete-202105/</link><pubDate>Mon, 31 May 2021 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/product-report-homete-202105/</guid><description>&lt;p&gt;３月ぐらいから本格的に着手しているアプリ開発ですが、今月も完成しませんでした。
 という報告ずっと続けているのもよくないので、いったん現時点の開発状況とかをまとめて公開することに決めました。
-これもいずれ、何かのノウハウになることでしょう。&lt;/p></description></item><item><title>2021年日本ダービーの感想</title><link>https://yamacraft.github.io/note/thoughts-2021-japan-derby/</link><pubDate>Sun, 30 May 2021 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thoughts-2021-japan-derby/</guid><description>&lt;p>まあ、まずはレース映像を見ましょう。&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/c-OuE_gC9TY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div>
+これもいずれ、何かのノウハウになることでしょう。&lt;/p&gt;</description></item><item><title>2021年日本ダービーの感想</title><link>https://yamacraft.github.io/note/thoughts-2021-japan-derby/</link><pubDate>Sun, 30 May 2021 21:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thoughts-2021-japan-derby/</guid><description>&lt;p&gt;まあ、まずはレース映像を見ましょう。&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/c-OuE_gC9TY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;p>ウマ娘のアプリが2021年にリリースされたおかげで、現実の競馬に興味を持った人が一気に増えた印象を持ちました。&lt;/p></description></item><item><title>ソダシのオークス敗戦を見て感じたことをいろいろ書きたい</title><link>https://yamacraft.github.io/note/thoughts-2021-oaks/</link><pubDate>Mon, 24 May 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thoughts-2021-oaks/</guid><description>&lt;p>今週のオークス、すごくおもしろくなかったですか？
-私はとてもおもしろいと思ったので、こうして記事を書きます。&lt;/p>
-&lt;h2 id="勝利者とお父さん">勝利者とお父さん&lt;/h2>
-&lt;p>白毛馬のソダシが２冠目を奪取するかが注目されていましたが、結果はユーバーレーベンの勝利。
-ゴールドシップ産駒初のG1勝利となりました。&lt;/p></description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p>今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
-個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p></description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする">現在のFirebase local emulatorのデータをエクスポートする&lt;/h2>
-&lt;p>Firebase local emulatorが起動中の状態で、 &lt;code>firebase emulators:export&lt;/code> コマンドを呼び出すことで、データをエクスポートできます。&lt;/p></description></item><item><title>2021年1Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-1q-done/</link><pubDate>Mon, 26 Apr 2021 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-1q-done/</guid><description>&lt;p>準備期間も含めて、試験的に１〜３月の３ヵ月を使って減量を実施していました。
-この記事はその結果報告になります。&lt;/p>
-&lt;h2 id="結果">結果&lt;/h2>
-&lt;p>１月は準備期間に費やし、減量自体は２〜３月の２ヵ月で行いました。&lt;/p></description></item><item><title>アカウント登録方法の選定</title><link>https://yamacraft.github.io/note/select-authentication-service/</link><pubDate>Fri, 23 Apr 2021 22:15:00 +0900</pubDate><guid>https://yamacraft.github.io/note/select-authentication-service/</guid><description>&lt;p>現在進行系で、SNS系のコミュニケーションアプリを開発しています。&lt;/p>
-&lt;p>こうしたサービスを作るためには、当然アカウント登録（認証）を実装する必要があります。
+&lt;p&gt;ウマ娘のアプリが2021年にリリースされたおかげで、現実の競馬に興味を持った人が一気に増えた印象を持ちました。&lt;/p&gt;</description></item><item><title>ソダシのオークス敗戦を見て感じたことをいろいろ書きたい</title><link>https://yamacraft.github.io/note/thoughts-2021-oaks/</link><pubDate>Mon, 24 May 2021 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thoughts-2021-oaks/</guid><description>&lt;p&gt;今週のオークス、すごくおもしろくなかったですか？
+私はとてもおもしろいと思ったので、こうして記事を書きます。&lt;/p&gt;
+&lt;h2 id="勝利者とお父さん"&gt;勝利者とお父さん&lt;/h2&gt;
+&lt;p&gt;白毛馬のソダシが２冠目を奪取するかが注目されていましたが、結果はユーバーレーベンの勝利。
+ゴールドシップ産駒初のG1勝利となりました。&lt;/p&gt;</description></item><item><title>Google I/O 2021のアーカイブ視聴用メモ</title><link>https://yamacraft.github.io/note/memo-google-io-2021-list/</link><pubDate>Tue, 18 May 2021 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/memo-google-io-2021-list/</guid><description>&lt;p&gt;今年のGoogle I/Oは日本時間だと本日の25時40分から始まるわけですが、私はリアルタイムでは寝て過ごし、アーカイブの民となります。
+個人的にKeynoteよりもWhat&amp;rsquo;s new in系を重要視しているのですが、そっちはもっと後に行われるし、その時間帯まで起きて見ている人は少ないので…。&lt;/p&gt;</description></item><item><title>Firebase local emulatorのfirestoreのデータインポート／エクスポートについてのメモ</title><link>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</link><pubDate>Mon, 10 May 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/how-to-firebase-emulator-import-export/</guid><description>&lt;h2 id="現在のfirebase-local-emulatorのデータをエクスポートする"&gt;現在のFirebase local emulatorのデータをエクスポートする&lt;/h2&gt;
+&lt;p&gt;Firebase local emulatorが起動中の状態で、 &lt;code&gt;firebase emulators:export&lt;/code&gt; コマンドを呼び出すことで、データをエクスポートできます。&lt;/p&gt;</description></item><item><title>2021年1Q 減量結果報告</title><link>https://yamacraft.github.io/note/diet-21-1q-done/</link><pubDate>Mon, 26 Apr 2021 19:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/diet-21-1q-done/</guid><description>&lt;p&gt;準備期間も含めて、試験的に１〜３月の３ヵ月を使って減量を実施していました。
+この記事はその結果報告になります。&lt;/p&gt;
+&lt;h2 id="結果"&gt;結果&lt;/h2&gt;
+&lt;p&gt;１月は準備期間に費やし、減量自体は２〜３月の２ヵ月で行いました。&lt;/p&gt;</description></item><item><title>アカウント登録方法の選定</title><link>https://yamacraft.github.io/note/select-authentication-service/</link><pubDate>Fri, 23 Apr 2021 22:15:00 +0900</pubDate><guid>https://yamacraft.github.io/note/select-authentication-service/</guid><description>&lt;p&gt;現在進行系で、SNS系のコミュニケーションアプリを開発しています。&lt;/p&gt;
+&lt;p&gt;こうしたサービスを作るためには、当然アカウント登録（認証）を実装する必要があります。
 今回はFirebase Authentication（＋FirebaseUI）で実装することにしました。
-あとはそこから、何の認証方式を使うかを決めなければいけません。&lt;/p></description></item><item><title>2021 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-1q-done/</link><pubDate>Mon, 12 Apr 2021 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-1q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="去年のまとめ">去年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac">2020 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/">2020 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-3q-done/">2020 3Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-4q-done/">2020 4Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="やったこと">やったこと&lt;/h2>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;p>引き続き、去年末から契約しているクライアントさんのところでAndroidアプリの開発案件をやっています（週４日）&lt;/p></description></item><item><title>俺が学ぶべきプログラミング言語ランキング</title><link>https://yamacraft.github.io/note/my-study-gengo-ranking/</link><pubDate>Mon, 22 Feb 2021 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-study-gengo-ranking/</guid><description>&lt;p>定期的に「プログラマーはこの言語を学ぶべき」みたいな記事を見かけます。
-と書いていたら、ちょうど令和3年最新版が出てきたみたいですね。&lt;/p>
-&lt;p>&lt;a href="https://www.itmedia.co.jp/business/articles/2102/11/news022.html">2021年、ITエンジニアが学びたいプログラミング言語ランキング - ITmedia ビジネスオンライン&lt;/a>&lt;/p></description></item><item><title>自分のClubhouseとの付き合い方</title><link>https://yamacraft.github.io/note/my-rule-use-clubhouse/</link><pubDate>Sat, 13 Feb 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-rule-use-clubhouse/</guid><description>&lt;p>良い部分や悪い部分がいろいろ出ているClubhouseですが、せっかく招待させていただいたこともあるので、自分なりに有効活用していこうと考えています。&lt;/p></description></item><item><title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</title><link>https://yamacraft.github.io/note/byebye-jcenter-at-android/</link><pubDate>Mon, 08 Feb 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/byebye-jcenter-at-android/</guid><description>&lt;p>JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。&lt;/p>
-&lt;p>&lt;a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/">Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog&lt;/a>&lt;/p>
-&lt;p>余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
-個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。&lt;/p></description></item><item><title>作業記録（2021年1月25日）</title><link>https://yamacraft.github.io/note/work-report-20210125/</link><pubDate>Mon, 25 Jan 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/work-report-20210125/</guid><description>&lt;p>年明けから決算関連で細かい事務作業が大量発生していましたが、ようやく一段落ついたので開発関係の作業を本格的に再開。&lt;/p>
-&lt;p>まずはAAびゅーわとD.I.C.のAndroid Gradleプラグインをアップデート（AS4.1.2対応）して、ついでにライブラリもアップデートして動作確認。&lt;/p></description></item><item><title>2020 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-4q-done/</link><pubDate>Thu, 31 Dec 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-4q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2020年のまとめ">2020年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac">2020 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/">2020 2Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-3q-done/">2020 3Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="やったこと">やったこと&lt;/h2>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;ul>
-&lt;li>11月より、新規のクライアントさんと週４日でAndroidアプリ開発案件を行っています。
-&lt;ul>
-&lt;li>最初は客先常駐多めでしたが、コロナ関連もあってほぼフルリモートでお仕事をさせていただいています。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>同様に11月より、別のクライアントさんのAndroidアプリ開発に関する、コーディング以外のもろもろのお手伝い（短期）をしています。&lt;/li>
-&lt;/ul>
-&lt;h3 id="自社開発系">自社開発系&lt;/h3>
-&lt;ul>
-&lt;li>フルKotlin化などを施したD.I.C.を公開しました
-&lt;ul>
-&lt;li>&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic">D.I.C. - Google Play のアプリ&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/yamacraft/DIC-android-public">このバージョンからのD.I.C.のソースコードを公開しました&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>minSdkVersinの更新やライブラリの更新、などを施したAAびゅーわを公開しました
-&lt;ul>
-&lt;li>&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.aaviewer">AAびゅーわ - AA表示アプリ - Google Play のアプリ&lt;/a>&lt;/li>
-&lt;li>AAぶらうざ（仮）にHTML部分だけを抜き出して表示するモードを追加しました。（&lt;a href="https://yge.yamaglo.jp/posts/20201019-relase-aaviewer-v170/">解説記事&lt;/a>）&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="他の業務関連">他の業務関連&lt;/h3>
-&lt;ul>
-&lt;li>ヤマグロのお知らせブログを&lt;a href="https://yge.yamaglo.jp/">noteから自社サーバへ移転しました&lt;/a>。
-&lt;ul>
-&lt;li>Hugoで運用しています。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="その他プライベート方面のトピック">その他プライベート方面のトピック&lt;/h3>
-&lt;ul>
-&lt;li>PS5、Xbox Series Xともに買えていません。
-&lt;ul>
-&lt;li>アストロシティミニとか、ゲームギアミニは買えました。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="売上支援報告">売上／支援報告&lt;/h2>
-&lt;h3 id="booth">booth&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">月&lt;/th>
- &lt;th style="text-align: right">売上&lt;/th>
- &lt;th style="text-align: left">概要&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">10月&lt;/td>
- &lt;td style="text-align: right">¥1000&lt;/td>
- &lt;td style="text-align: left">Authentication本 *2&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">11月&lt;/td>
- &lt;td style="text-align: right">¥1000&lt;/td>
- &lt;td style="text-align: left">Authentication本 *2&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">12月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">合計&lt;/td>
- &lt;td style="text-align: right">¥2000&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>いまさらですけど、テーブル関係のCSSは改修の必要がありますね。&lt;/p></description></item><item><title>お父さんになれなかったエタリオウ</title><link>https://yamacraft.github.io/note/thankyou-etario/</link><pubDate>Fri, 25 Dec 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thankyou-etario/</guid><description>&lt;p>&lt;a href="https://adventar.org/calendars/5130">競馬 Advent Calendar 2020 - Adventar&lt;/a>として投稿しようかと思っていました。（埋まってた）&lt;/p>
-&lt;p>エタリオウ、という競走馬がいました。
-アーモンドアイやラッキーライラック、フィエールマンやワグネリアンと同じ2015年生まれの競走馬です。&lt;/p></description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase">QiitaのFirebase Advent Calendar 2020&lt;/a>の21日目の記事になります。&lt;/p>
-&lt;p>また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65">Firebaseプロジェクトのデプロイについて&lt;/a>の2020年版の記事になります。&lt;/p>
-&lt;h2 id="前提条件">前提条件&lt;/h2>
-&lt;p>CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p>
-&lt;ul>
-&lt;li>開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li>
-&lt;li>秘匿情報はリポジトリに組み込まない&lt;/li>
-&lt;li>CIでデプロイ可能にする&lt;/li>
-&lt;/ul>
-&lt;h2 id="firebase-cliについて">Firebase CLIについて&lt;/h2>
-&lt;p>その名の通り、CLI上でFirebaseを利用するためのツールです。
-本記事ではこのツールを使うことを前提としています。&lt;/p></description></item><item><title>WebViewで表示しているWebページのHTMLを取得する(deprecated)</title><link>https://yamacraft.github.io/note/advent2020-android-webview/</link><pubDate>Sat, 19 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-android-webview/</guid><description>&lt;p>この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/android">QiitaのAndroid Advent Calendar 2020&lt;/a>の19日目の記事になります。&lt;/p>
-&lt;h2 id="言いたいこと">言いたいこと&lt;/h2>
-&lt;p>&lt;strong>WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません&lt;/strong>&lt;/p></description></item><item><title>合同会社ヤマダ印を設立して１年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-1st-anniversary/</link><pubDate>Thu, 03 Dec 2020 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-1st-anniversary/</guid><description>&lt;p>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印&lt;/a>は2019年12月3日に設立しました。
-今日は設立からちょうど１年です。&lt;/p>
-&lt;p>ヤマダ印としての仕事自体は１月からになるので、正直まだ１年経った印象はそれほどありません。
+あとはそこから、何の認証方式を使うかを決めなければいけません。&lt;/p&gt;</description></item><item><title>2021 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2021-1q-done/</link><pubDate>Mon, 12 Apr 2021 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2021-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="去年のまとめ"&gt;去年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac"&gt;2020 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/"&gt;2020 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-3q-done/"&gt;2020 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-4q-done/"&gt;2020 4Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="やったこと"&gt;やったこと&lt;/h2&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;p&gt;引き続き、去年末から契約しているクライアントさんのところでAndroidアプリの開発案件をやっています（週４日）&lt;/p&gt;</description></item><item><title>俺が学ぶべきプログラミング言語ランキング</title><link>https://yamacraft.github.io/note/my-study-gengo-ranking/</link><pubDate>Mon, 22 Feb 2021 17:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-study-gengo-ranking/</guid><description>&lt;p&gt;定期的に「プログラマーはこの言語を学ぶべき」みたいな記事を見かけます。
+と書いていたら、ちょうど令和3年最新版が出てきたみたいですね。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.itmedia.co.jp/business/articles/2102/11/news022.html"&gt;2021年、ITエンジニアが学びたいプログラミング言語ランキング - ITmedia ビジネスオンライン&lt;/a&gt;&lt;/p&gt;</description></item><item><title>自分のClubhouseとの付き合い方</title><link>https://yamacraft.github.io/note/my-rule-use-clubhouse/</link><pubDate>Sat, 13 Feb 2021 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/my-rule-use-clubhouse/</guid><description>&lt;p&gt;良い部分や悪い部分がいろいろ出ているClubhouseですが、せっかく招待させていただいたこともあるので、自分なりに有効活用していこうと考えています。&lt;/p&gt;</description></item><item><title>JCenter、Bintray終了に伴うヤマグロ提供のAndroidアプリの対応状況</title><link>https://yamacraft.github.io/note/byebye-jcenter-at-android/</link><pubDate>Mon, 08 Feb 2021 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/byebye-jcenter-at-android/</guid><description>&lt;p&gt;JFrogから、JCenterやBintrayを含めたサービスの閉鎖が5/1に行われることが発表されました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/"&gt;Service End for Bintray, JCenter, GoCenter, and ChartCenter | JFrog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;余談ですが、この記事の見出しには「Into the Sunset on May 1st」と書かれています。
+個人的にこういう重大なニュースに関しては、Sunsetなんてお洒落な表現はやらずに、ちゃんとCloseって書くべきだろう派です。&lt;/p&gt;</description></item><item><title>作業記録（2021年1月25日）</title><link>https://yamacraft.github.io/note/work-report-20210125/</link><pubDate>Mon, 25 Jan 2021 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/work-report-20210125/</guid><description>&lt;p&gt;年明けから決算関連で細かい事務作業が大量発生していましたが、ようやく一段落ついたので開発関係の作業を本格的に再開。&lt;/p&gt;
+&lt;p&gt;まずはAAびゅーわとD.I.C.のAndroid Gradleプラグインをアップデート（AS4.1.2対応）して、ついでにライブラリもアップデートして動作確認。&lt;/p&gt;</description></item><item><title>2020 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-4q-done/</link><pubDate>Thu, 31 Dec 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2020年のまとめ"&gt;2020年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac"&gt;2020 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/"&gt;2020 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-3q-done/"&gt;2020 3Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="やったこと"&gt;やったこと&lt;/h2&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;11月より、新規のクライアントさんと週４日でAndroidアプリ開発案件を行っています。
+&lt;ul&gt;
+&lt;li&gt;最初は客先常駐多めでしたが、コロナ関連もあってほぼフルリモートでお仕事をさせていただいています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;同様に11月より、別のクライアントさんのAndroidアプリ開発に関する、コーディング以外のもろもろのお手伝い（短期）をしています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="自社開発系"&gt;自社開発系&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;フルKotlin化などを施したD.I.C.を公開しました
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic"&gt;D.I.C. - Google Play のアプリ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/yamacraft/DIC-android-public"&gt;このバージョンからのD.I.C.のソースコードを公開しました&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;minSdkVersinの更新やライブラリの更新、などを施したAAびゅーわを公開しました
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.aaviewer"&gt;AAびゅーわ - AA表示アプリ - Google Play のアプリ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AAぶらうざ（仮）にHTML部分だけを抜き出して表示するモードを追加しました。（&lt;a href="https://yge.yamaglo.jp/posts/20201019-relase-aaviewer-v170/"&gt;解説記事&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="他の業務関連"&gt;他の業務関連&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ヤマグロのお知らせブログを&lt;a href="https://yge.yamaglo.jp/"&gt;noteから自社サーバへ移転しました&lt;/a&gt;。
+&lt;ul&gt;
+&lt;li&gt;Hugoで運用しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="その他プライベート方面のトピック"&gt;その他プライベート方面のトピック&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PS5、Xbox Series Xともに買えていません。
+&lt;ul&gt;
+&lt;li&gt;アストロシティミニとか、ゲームギアミニは買えました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="売上支援報告"&gt;売上／支援報告&lt;/h2&gt;
+&lt;h3 id="booth"&gt;booth&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;月&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;売上&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;概要&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;10月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥1000&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Authentication本 *2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;11月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥1000&lt;/td&gt;
+ &lt;td style="text-align: left"&gt;Authentication本 *2&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;12月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥2000&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;いまさらですけど、テーブル関係のCSSは改修の必要がありますね。&lt;/p&gt;</description></item><item><title>お父さんになれなかったエタリオウ</title><link>https://yamacraft.github.io/note/thankyou-etario/</link><pubDate>Fri, 25 Dec 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/thankyou-etario/</guid><description>&lt;p&gt;&lt;a href="https://adventar.org/calendars/5130"&gt;競馬 Advent Calendar 2020 - Adventar&lt;/a&gt;として投稿しようかと思っていました。（埋まってた）&lt;/p&gt;
+&lt;p&gt;エタリオウ、という競走馬がいました。
+アーモンドアイやラッキーライラック、フィエールマンやワグネリアンと同じ2015年生まれの競走馬です。&lt;/p&gt;</description></item><item><title>FirebaseをCIでデプロイできるようにする（2020年版）</title><link>https://yamacraft.github.io/note/advent2020-firebase-deploy/</link><pubDate>Mon, 21 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-firebase-deploy/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/firebase"&gt;QiitaのFirebase Advent Calendar 2020&lt;/a&gt;の21日目の記事になります。&lt;/p&gt;
+&lt;p&gt;また、Qiitaに投稿した&lt;a href="https://qiita.com/yamacraft/items/d8b623cceb5c91692b65"&gt;Firebaseプロジェクトのデプロイについて&lt;/a&gt;の2020年版の記事になります。&lt;/p&gt;
+&lt;h2 id="前提条件"&gt;前提条件&lt;/h2&gt;
+&lt;p&gt;CIでデプロイを行う上で、次の条件を満たせるようにしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開発、ステージング、本番などにデプロイ先を切り替えられる&lt;/li&gt;
+&lt;li&gt;秘匿情報はリポジトリに組み込まない&lt;/li&gt;
+&lt;li&gt;CIでデプロイ可能にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="firebase-cliについて"&gt;Firebase CLIについて&lt;/h2&gt;
+&lt;p&gt;その名の通り、CLI上でFirebaseを利用するためのツールです。
+本記事ではこのツールを使うことを前提としています。&lt;/p&gt;</description></item><item><title>WebViewで表示しているWebページのHTMLを取得する(deprecated)</title><link>https://yamacraft.github.io/note/advent2020-android-webview/</link><pubDate>Sat, 19 Dec 2020 00:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/advent2020-android-webview/</guid><description>&lt;p&gt;この記事は、 &lt;a href="https://qiita.com/advent-calendar/2020/android"&gt;QiitaのAndroid Advent Calendar 2020&lt;/a&gt;の19日目の記事になります。&lt;/p&gt;
+&lt;h2 id="言いたいこと"&gt;言いたいこと&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WebViewで表示しているWebページのHTMLを取得しようとするのは、セキュリティ懸念からお勧めできません&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>合同会社ヤマダ印を設立して１年が経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-1st-anniversary/</link><pubDate>Thu, 03 Dec 2020 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-1st-anniversary/</guid><description>&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;は2019年12月3日に設立しました。
+今日は設立からちょうど１年です。&lt;/p&gt;
+&lt;p&gt;ヤマダ印としての仕事自体は１月からになるので、正直まだ１年経った印象はそれほどありません。
 そんな低い意識のまま、設立１年目でコロナ禍に巻き込まれながらも、こうして生き延びることができました。
-設立したこと以外に関しては、なにも勝負を挑んでないことが最大の要因なのでしょう。&lt;/p></description></item><item><title>Nuxtの勉強を始めた（2020年10月号）</title><link>https://yamacraft.github.io/note/study-nuxt-202010/</link><pubDate>Thu, 29 Oct 2020 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-nuxt-202010/</guid><description>&lt;p>いままでVue.jsのテンプレートでWebサービスを作ったことはあったのですが、Nuxtでちゃんと作ったことがなかったので勉強しています。
-Twitterでは再勉強とか書いてしまったんですが、記憶をたどっても &lt;code>create-nuxt-app&lt;/code> 以上のことをした覚えがありませんでした…。&lt;/p></description></item><item><title>2020 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-3q-done/</link><pubDate>Thu, 15 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-3q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2020年のまとめ">2020年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac">2020 1Q&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/">2020 2Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="やったこと">やったこと&lt;/h2>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;ul>
-&lt;li>前Qから引き続き、週４日の客先常駐のAndroidアプリ開発案件を行っていました。&lt;/li>
-&lt;li>今Qも全期間フルリモートでした&lt;/li>
-&lt;/ul>
-&lt;h3 id="自社開発系">自社開発系&lt;/h3>
-&lt;ul>
-&lt;li>D.I.C.をフルKotlin化＋targetSdkVersionなどのアップデートを行っていました
-&lt;ul>
-&lt;li>10月中にアップデートし（完了済み）、ソースコードをGitHubで公開予定です&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="他の業務関連">他の業務関連&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印の公式サイト&lt;/a>をHugo化しました
-&lt;ul>
-&lt;li>主に会社としてのお知らせを、簡単に掲載できるようにするための改修でした&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="その他プライベート方面のトピック">その他プライベート方面のトピック&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://radiotalk.jp/program/14723">壺fm&lt;/a>の更新を再開しました&lt;/li>
-&lt;li>&lt;a href="https://youtube.com/channel/UC5CI2_eocAzoGeH8ME9A2bw">Youtubeを少しずつ動かすようにしました&lt;/a>
-&lt;ul>
-&lt;li>まずは壺fmでプレイしているGetting Over Itのプレイ動画のアップロードから始めました&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>UnityとBlenderを再勉強し始めました
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/study-unity-blender/">UnityとBlenderを再入門した&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/make-droidkun-01/">blenderでdroidくんを作る #1&lt;/a>　&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="売上支援報告">売上／支援報告&lt;/h2>
-&lt;h3 id="booth">booth&lt;/h3>
-&lt;p>今Q分はありませんでした。&lt;/p></description></item><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-v200を公開しました">D.I.C. v2.0.0を公開しました&lt;/h2>
-&lt;p>本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p></description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="コードをkotlinに変えるということ">コードをKotlinに変えるということ&lt;/h2>
-&lt;p>Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
+設立したこと以外に関しては、なにも勝負を挑んでないことが最大の要因なのでしょう。&lt;/p&gt;</description></item><item><title>Nuxtの勉強を始めた（2020年10月号）</title><link>https://yamacraft.github.io/note/study-nuxt-202010/</link><pubDate>Thu, 29 Oct 2020 21:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-nuxt-202010/</guid><description>&lt;p&gt;いままでVue.jsのテンプレートでWebサービスを作ったことはあったのですが、Nuxtでちゃんと作ったことがなかったので勉強しています。
+Twitterでは再勉強とか書いてしまったんですが、記憶をたどっても &lt;code&gt;create-nuxt-app&lt;/code&gt; 以上のことをした覚えがありませんでした…。&lt;/p&gt;</description></item><item><title>2020 3Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-3q-done/</link><pubDate>Thu, 15 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-3q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2020年のまとめ"&gt;2020年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac"&gt;2020 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2020-2q-done/"&gt;2020 2Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="やったこと"&gt;やったこと&lt;/h2&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;前Qから引き続き、週４日の客先常駐のAndroidアプリ開発案件を行っていました。&lt;/li&gt;
+&lt;li&gt;今Qも全期間フルリモートでした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="自社開発系"&gt;自社開発系&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;D.I.C.をフルKotlin化＋targetSdkVersionなどのアップデートを行っていました
+&lt;ul&gt;
+&lt;li&gt;10月中にアップデートし（完了済み）、ソースコードをGitHubで公開予定です&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="他の業務関連"&gt;他の業務関連&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印の公式サイト&lt;/a&gt;をHugo化しました
+&lt;ul&gt;
+&lt;li&gt;主に会社としてのお知らせを、簡単に掲載できるようにするための改修でした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="その他プライベート方面のトピック"&gt;その他プライベート方面のトピック&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://radiotalk.jp/program/14723"&gt;壺fm&lt;/a&gt;の更新を再開しました&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://youtube.com/channel/UC5CI2_eocAzoGeH8ME9A2bw"&gt;Youtubeを少しずつ動かすようにしました&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;まずは壺fmでプレイしているGetting Over Itのプレイ動画のアップロードから始めました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;UnityとBlenderを再勉強し始めました
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/study-unity-blender/"&gt;UnityとBlenderを再入門した&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/make-droidkun-01/"&gt;blenderでdroidくんを作る #1&lt;/a&gt;　&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="売上支援報告"&gt;売上／支援報告&lt;/h2&gt;
+&lt;h3 id="booth"&gt;booth&lt;/h3&gt;
+&lt;p&gt;今Q分はありませんでした。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #3 - マテリアルデザインとダークテーマへの対応</title><link>https://yamacraft.github.io/note/restore-dic-03/</link><pubDate>Wed, 14 Oct 2020 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-03/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-v200を公開しました"&gt;D.I.C. v2.0.0を公開しました&lt;/h2&gt;
+&lt;p&gt;本記事で解説している内容を実装済みのD.I.C.は、現在公開中です。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #2 - コードをkotlinに置き換える</title><link>https://yamacraft.github.io/note/restore-dic-02/</link><pubDate>Mon, 12 Oct 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-02/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="コードをkotlinに変えるということ"&gt;コードをKotlinに変えるということ&lt;/h2&gt;
+&lt;p&gt;Kotlinは2017年にAndroidアプリの開発公式言語として採用されました。
 現在は公式のドキュメントのサンプルもKotlinでの記載が優先して表示されるなど、メインの開発公式言語の地位を築いています。
-この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p></description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="開発環境を整えるということについて">開発環境を整えるということについて&lt;/h2>
-&lt;p>メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
-早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p></description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p>&lt;a href="https://yamacraft.github.io/note/restore-android-app/">先日の記事&lt;/a>で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p>
-&lt;h2 id="dicレストア記録記事一覧">D.I.C.レストア記録記事一覧&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-00/">#0 - レストアの方針&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-01/">#1 - 開発環境を整える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-02/">#2 - コードをkotlinに置き換える&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yamacraft.github.io/note/restore-dic-03/">#3 - マテリアルデザインとダークテーマへの対応&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="dic-について">D.I.C. について&lt;/h2>
-&lt;p>数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
+この記事ではKotlinという言語の優劣に関して触れませんが、人気やシェアという点を考えれば、今後のメンテナンスを考えてKotlinに早急に置き換えてしまいたいです。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #1 - 開発環境を整える</title><link>https://yamacraft.github.io/note/restore-dic-01/</link><pubDate>Mon, 12 Oct 2020 15:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-01/</guid><description>&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="開発環境を整えるということについて"&gt;開発環境を整えるということについて&lt;/h2&gt;
+&lt;p&gt;メンテナンスが長期に渡って放置されていたプロダクトの改修は、コードを一部修正しては動作確認といった作業をこまめに繰り返しがちです。
+早々にコーディング以外の作業は、自動化なり、せめてコンソールでコマンドを実行するだけで完結できるようにしてしまいます。&lt;/p&gt;</description></item><item><title>D.I.C. レストア記録 #0 - レストアの方針</title><link>https://yamacraft.github.io/note/restore-dic-00/</link><pubDate>Wed, 07 Oct 2020 12:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-dic-00/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/restore-android-app/"&gt;先日の記事&lt;/a&gt;で最後に書いたように、実際に自分が現在進行系でやっているアプリの改修（レストア）の記録等を綴っていくことにします。&lt;/p&gt;
+&lt;h2 id="dicレストア記録記事一覧"&gt;D.I.C.レストア記録記事一覧&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-00/"&gt;#0 - レストアの方針&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-01/"&gt;#1 - 開発環境を整える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-02/"&gt;#2 - コードをkotlinに置き換える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yamacraft.github.io/note/restore-dic-03/"&gt;#3 - マテリアルデザインとダークテーマへの対応&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dic-について"&gt;D.I.C. について&lt;/h2&gt;
+&lt;p&gt;数年前に自分が思いつきと勢いで作った、デバイスの情報を表示するだけのアプリです。
 ついでに、端末にインストールしているアプリの一覧を、targetSdkVesion付きで見れる機能も追加していました。
-現在は配信を停止しています。&lt;/p></description></item><item><title>Androidアプリのレストアという需要</title><link>https://yamacraft.github.io/note/restore-android-app/</link><pubDate>Mon, 05 Oct 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-android-app/</guid><description>&lt;p>壺fm#6でも触れた内容を、ブラッシュアップした内容です。&lt;/p>
-&lt;p>最近、YouTubeのお勧め動画に出て来るようになってから、旧車のレストアやカスタマイズをしている動画をよく見ています。
-動かなかったり朽ちた機械を試行錯誤したり、時には既存のものを組み合わせて解決する様を見ていると、なんだか既視感があります。&lt;/p></description></item><item><title>ヤマダ印のサイトをHugoで生成するように変えた</title><link>https://yamacraft.github.io/note/implementation-hugo-on-the-yamadajirushi/</link><pubDate>Mon, 28 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/implementation-hugo-on-the-yamadajirushi/</guid><description>&lt;p>表題の通りで、&lt;a href="https://yamadajirushi.co.jp/">合同会社ヤマダ印の公式サイト&lt;/a>を&lt;a href="https://gohugo.io/">Hugo&lt;/a>で生成するようにしました。&lt;/p>
-&lt;p>理由としては、会社自体のお知らせは会社の公式サイトでやった方がよいだろうと気付いたのと、それに合わせてページ追加がしやすい形にしたかったためです。&lt;/p></description></item><item><title>blenderでdroidくんを作る #1</title><link>https://yamacraft.github.io/note/make-droidkun-01/</link><pubDate>Tue, 22 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/make-droidkun-01/</guid><description>&lt;p>シルバーウィーク後半2日の成果です。
-&lt;a href="https://yamacraft.github.io/note/study-unity-blender/">先日のblenderの勉強&lt;/a>の応用編として、droidくんを作って動かしてみました。&lt;/p>
-&lt;p>&lt;img src="https://yamacraft.github.io/note/image/make-droidkun-2009/blender.png" alt="Blenderで見るdroidくん">
-数年前に売られていた、droidくんのフィギュアを参考にしています。&lt;/p>
-&lt;p>とりあえずアーマチュアを入れてfbxファイルとして出力し、Unityに取り込んでThird Person Controllerで動かしてみます。&lt;/p></description></item><item><title>アウトプットのリハビリをやっていく</title><link>https://yamacraft.github.io/note/output-plan-202009/</link><pubDate>Mon, 14 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output-plan-202009/</guid><description>&lt;h2 id="更新の報告">更新の報告&lt;/h2>
-&lt;p>約二年ぶりに、壺fmを更新しました。&lt;/p>
-&lt;p>&lt;a href="https://radiotalk.jp/talk/366940">#3 再開告知 - 壺fm - Radiotalk(ラジオトーク)&lt;/a>&lt;/p>
-&lt;p>そしてこの時にプレイした壺（Getting Over It）のゲーム画面を、YouTubeにもアップロードしました。&lt;/p></description></item><item><title>古いAndroidプロジェクトをフルKotlin化した</title><link>https://yamacraft.github.io/note/kotlinization-old-project-done/</link><pubDate>Mon, 07 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/kotlinization-old-project-done/</guid><description>&lt;p>ちょっと考えるところがあって、１月ほど前から２年近く放置していたとあるAndroidプロジェクトを改修しています。
+現在は配信を停止しています。&lt;/p&gt;</description></item><item><title>Androidアプリのレストアという需要</title><link>https://yamacraft.github.io/note/restore-android-app/</link><pubDate>Mon, 05 Oct 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/restore-android-app/</guid><description>&lt;p&gt;壺fm#6でも触れた内容を、ブラッシュアップした内容です。&lt;/p&gt;
+&lt;p&gt;最近、YouTubeのお勧め動画に出て来るようになってから、旧車のレストアやカスタマイズをしている動画をよく見ています。
+動かなかったり朽ちた機械を試行錯誤したり、時には既存のものを組み合わせて解決する様を見ていると、なんだか既視感があります。&lt;/p&gt;</description></item><item><title>ヤマダ印のサイトをHugoで生成するように変えた</title><link>https://yamacraft.github.io/note/implementation-hugo-on-the-yamadajirushi/</link><pubDate>Mon, 28 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/implementation-hugo-on-the-yamadajirushi/</guid><description>&lt;p&gt;表題の通りで、&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印の公式サイト&lt;/a&gt;を&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;で生成するようにしました。&lt;/p&gt;
+&lt;p&gt;理由としては、会社自体のお知らせは会社の公式サイトでやった方がよいだろうと気付いたのと、それに合わせてページ追加がしやすい形にしたかったためです。&lt;/p&gt;</description></item><item><title>blenderでdroidくんを作る #1</title><link>https://yamacraft.github.io/note/make-droidkun-01/</link><pubDate>Tue, 22 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/make-droidkun-01/</guid><description>&lt;p&gt;シルバーウィーク後半2日の成果です。
+&lt;a href="https://yamacraft.github.io/note/study-unity-blender/"&gt;先日のblenderの勉強&lt;/a&gt;の応用編として、droidくんを作って動かしてみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://yamacraft.github.io/note/image/make-droidkun-2009/blender.png" alt="Blenderで見るdroidくん"&gt;
+数年前に売られていた、droidくんのフィギュアを参考にしています。&lt;/p&gt;
+&lt;p&gt;とりあえずアーマチュアを入れてfbxファイルとして出力し、Unityに取り込んでThird Person Controllerで動かしてみます。&lt;/p&gt;</description></item><item><title>アウトプットのリハビリをやっていく</title><link>https://yamacraft.github.io/note/output-plan-202009/</link><pubDate>Mon, 14 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output-plan-202009/</guid><description>&lt;h2 id="更新の報告"&gt;更新の報告&lt;/h2&gt;
+&lt;p&gt;約二年ぶりに、壺fmを更新しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://radiotalk.jp/talk/366940"&gt;#3 再開告知 - 壺fm - Radiotalk(ラジオトーク)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;そしてこの時にプレイした壺（Getting Over It）のゲーム画面を、YouTubeにもアップロードしました。&lt;/p&gt;</description></item><item><title>古いAndroidプロジェクトをフルKotlin化した</title><link>https://yamacraft.github.io/note/kotlinization-old-project-done/</link><pubDate>Mon, 07 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/kotlinization-old-project-done/</guid><description>&lt;p&gt;ちょっと考えるところがあって、１月ほど前から２年近く放置していたとあるAndroidプロジェクトを改修しています。
 全部Javaで書かれたコードということもあり、まずはフルKotlin化して、ViewModelとバックエンドの処理をCoroutineで簡単に実装。
-次はMaterial Componentsを取り込んで、&lt;a href="https://material.io/">マテリアルデザインのガイドライン&lt;/a>に合わせてデザインを修正していく予定です。&lt;/p></description></item><item><title>UAスポーツマスクの所感</title><link>https://yamacraft.github.io/note/buy-ua-mask/</link><pubDate>Mon, 10 Aug 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-ua-mask/</guid><description>&lt;p>なんとなく注文していた&lt;a href="https://www.underarmour.co.jp/ja-jp/SportsMask.html">UAスポーツマスク&lt;/a>が先日届いたので、先日これをスポーツジムで使ってきました。つまり、すべて先日の話です。&lt;/p>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">カッコイイマスク届きました（3000円） &lt;a href="https://t.co/6Mn48aCAkC">pic.twitter.com/6Mn48aCAkC&lt;/a>&lt;/p>&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1288423432804171776?ref_src=twsrc%5Etfw">July 29, 2020&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+次はMaterial Componentsを取り込んで、&lt;a href="https://material.io/"&gt;マテリアルデザインのガイドライン&lt;/a&gt;に合わせてデザインを修正していく予定です。&lt;/p&gt;</description></item><item><title>UAスポーツマスクの所感</title><link>https://yamacraft.github.io/note/buy-ua-mask/</link><pubDate>Mon, 10 Aug 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-ua-mask/</guid><description>&lt;p&gt;なんとなく注文していた&lt;a href="https://www.underarmour.co.jp/ja-jp/SportsMask.html"&gt;UAスポーツマスク&lt;/a&gt;が先日届いたので、先日これをスポーツジムで使ってきました。つまり、すべて先日の話です。&lt;/p&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;カッコイイマスク届きました（3000円） &lt;a href="https://t.co/6Mn48aCAkC"&gt;pic.twitter.com/6Mn48aCAkC&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1288423432804171776?ref_src=twsrc%5Etfw"&gt;July 29, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
-&lt;h2 id="サイズ感">サイズ感&lt;/h2>
-&lt;p>XLを注文していました。
-やや大きいかなと思いましたが、Lだったら小さすぎて使えなさそうな予感もあるサイズ感ですので、男性はXLで基本安定な気がします。&lt;/p></description></item><item><title>UnityとBlenderを再入門した</title><link>https://yamacraft.github.io/note/study-unity-blender/</link><pubDate>Mon, 27 Jul 2020 17:21:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-unity-blender/</guid><description>&lt;p>表題の通り、４連休の前半２日を使って、以前から中途半端に触っていたUnityとBlenderを本格的に入門しなおすことにしました。
-内容としては、入門書に書かれている内容をひたすら実行しただけですが。&lt;/p></description></item><item><title>法人化して半年経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-2020-half-done/</link><pubDate>Mon, 20 Jul 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-2020-half-done/</guid><description>&lt;p>&lt;a href="https://yamadajirushi.co.jp">合同会社ヤマダ印&lt;/a>として仕事を始めてから、半年が経ちました。（設立自体は去年の12月）&lt;/p>
-&lt;p>いろいろ思ったことなどを羅列します。&lt;/p>
-&lt;h2 id="住所オフィス">住所（オフィス）&lt;/h2>
-&lt;p>ヤマダ印は、リージャスのバーチャルオフィスの住所で法人登記しています。
-つまり、実態のある住所（オフィス）が存在しないことになります（なるらしいです）。&lt;/p></description></item><item><title>【終了】2020年10月からのお仕事を探しています</title><link>https://yamacraft.github.io/note/next-work-202010/</link><pubDate>Sat, 18 Jul 2020 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/next-work-202010/</guid><description>&lt;p>新規クライアントとの契約が締結しましたので、こちらの記事での募集は終了しました。&lt;/p>
-&lt;h2 id="諸注意">諸注意&lt;/h2>
-&lt;ul>
-&lt;li>yamacraftの転職先探しではありません。中途採用という形でのお話はお断りさせていただきます。&lt;/li>
-&lt;li>仲介業者様からのご連絡はお断りさせていただきます。&lt;/li>
-&lt;/ul>
-&lt;h2 id="募集概要">募集概要&lt;/h2>
-&lt;ul>
-&lt;li>業務可能な日数（工数）は、週１〜４日としています。事務作業等の時間確保のため、週５日案件はお断りさせていただきます。&lt;/li>
-&lt;li>契約期間は例外なく、最長で３ヵ月までとしています。それ以上の期間をご希望の場合は、３ヵ月後にあらためて再契約（更新）という形を取らせていただいています。&lt;/li>
-&lt;li>リモートワークが希望ですが、クライアント先に出勤しての作業も可能です。&lt;/li>
-&lt;/ul>
-&lt;h2 id="yamacraftと合同会社ヤマダ印について">yamacraftと合同会社ヤマダ印について&lt;/h2>
-&lt;p>Androidアプリエンジニアとして各企業を転々としながら、2018年6月にフリーランサーとなり、2019年12月より法人化しました。&lt;/p></description></item><item><title>2020 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-2q-done/</link><pubDate>Sat, 04 Jul 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-2q-done/</guid><description>&lt;p>四半期ごとにやっている報告的なものです。&lt;/p>
-&lt;h2 id="2020年のまとめ">2020年のまとめ&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac">2020 1Q&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="やったこと">やったこと&lt;/h2>
-&lt;h3 id="開発支援">開発支援&lt;/h3>
-&lt;ul>
-&lt;li>週４日の客先常駐のAndroidアプリ開発案件を、1Qから引き続き続けていました。&lt;/li>
-&lt;li>1Qは全期間フルリモートでした。&lt;/li>
-&lt;/ul>
-&lt;h3 id="自社開発系">自社開発系&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.aaviewer">AAびゅーわ&lt;/a> の開発をちまちまと進めています。&lt;/li>
-&lt;li>まだ全然表に出せていないレベルですが、Nuxtの勉強がてらで新しいWebサービスを開発中です。
-&lt;ul>
-&lt;li>2Q中リリース目標でしたが、だめでした。3Q中にリリースするつもりでがんばります。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="他の業務関連">他の業務関連&lt;/h3>
-&lt;ul>
-&lt;li>ヤマダ印の法人口座がひとつ増えました（６月）&lt;/li>
-&lt;/ul>
-&lt;h3 id="その他プライベート方面のトピック">その他プライベート方面のトピック&lt;/h3>
-&lt;ul>
-&lt;li>ブログをGitHub Pages + Hugo (+ CI) で再構築しました。つまりここです。&lt;/li>
-&lt;/ul>
-&lt;h2 id="売上支援報告">売上／支援報告&lt;/h2>
-&lt;h3 id="booth">booth&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">月&lt;/th>
- &lt;th style="text-align: right">売上&lt;/th>
- &lt;th style="text-align: left">概要&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">4月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">合計&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h3 id="支援kyashなど">支援（Kyashなど）&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">月&lt;/th>
- &lt;th style="text-align: right">売上&lt;/th>
- &lt;th style="text-align: left">概要&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">4月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">5月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">6月&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">合計&lt;/td>
- &lt;td style="text-align: right">¥0&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="今後の予定雑感など">今後の予定／雑感など&lt;/h2>
-&lt;p>緊急事態宣言やクライアントとの仕事がフルリモートになったこともあって、思った以上に特になにもない四半期でした。&lt;/p></description></item><item><title>西川のマスクを買った</title><link>https://yamacraft.github.io/note/buy-nishikawa-mask/</link><pubDate>Sat, 20 Jun 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-nishikawa-mask/</guid><description>&lt;p>今月頭にamazonで注文した、西川のクールマスクが届きました。&lt;/p>
-&lt;p>&lt;a href="https://shop.nishikawa1566.com/shop/g/gPZ90009022B/">日本製・西川　洗えるクールマスク（４枚セット）| 西川公式オンラインショップ 寝具通販サイト&lt;/a>&lt;/p></description></item><item><title>easylauncherをdocker上でも使えるようにする</title><link>https://yamacraft.github.io/note/easy-launcher-use-docker/</link><pubDate>Mon, 01 Jun 2020 13:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/easy-launcher-use-docker/</guid><description>&lt;p>ただの覚書です。&lt;/p>
-&lt;p>自分が開発しているAndroidアプリのプロダクトには、アプリのバリアントを可視化しやすいようにeasylauncherを導入しています。&lt;/p></description></item><item><title>ブログのデプロイをGitHub Actionsで行うようにした</title><link>https://yamacraft.github.io/note/blog-generate-by-github-actions/</link><pubDate>Fri, 29 May 2020 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/blog-generate-by-github-actions/</guid><description>&lt;p>このブログはHugoとGitHub Pagesを使って公開しています。&lt;/p>
-&lt;p>これまでは手動で &lt;code>hugo&lt;/code> コマンドを叩いてサイトを生成し、それもリポジトリに加えてpushするやり方で更新していました。&lt;/p></description></item><item><title>ブログを移転した</title><link>https://yamacraft.github.io/note/start-blog-3rd/</link><pubDate>Sun, 17 May 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/start-blog-3rd/</guid><description>&lt;p>ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。&lt;/p>
-&lt;h2 id="これからのドキュメント関連のアウトプットについて">これからのドキュメント関連のアウトプットについて&lt;/h2>
-&lt;ul>
-&lt;li>日記、雑記など → ここ&lt;/li>
-&lt;li>技術関連の記事 → Gistかここ&lt;/li>
-&lt;li>仕事（ヤマダ印関連も含む）に関するようなドキュメント
-&lt;ul>
-&lt;li>一度書いたら更新しないもの → ここ&lt;/li>
-&lt;li>一度書いた後も更新する可能性があるもの → Gist&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>こんな感じで使い分けていきます（予定）。&lt;/p></description></item><item><title>特別定額給付金をオンライン申請した</title><link>https://yamacraft.github.io/note/submit-kyufukin/</link><pubDate>Sun, 10 May 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/submit-kyufukin/</guid><description>&lt;p>自分の地域でも定額給付金の受け付けが始まっていたのと、確定申告絡みでマイナンバーカードやカードリーダーの用意が整っていたので、オンライン申請をやりました。&lt;/p></description></item></channel></rss>
+&lt;h2 id="サイズ感"&gt;サイズ感&lt;/h2&gt;
+&lt;p&gt;XLを注文していました。
+やや大きいかなと思いましたが、Lだったら小さすぎて使えなさそうな予感もあるサイズ感ですので、男性はXLで基本安定な気がします。&lt;/p&gt;</description></item><item><title>UnityとBlenderを再入門した</title><link>https://yamacraft.github.io/note/study-unity-blender/</link><pubDate>Mon, 27 Jul 2020 17:21:00 +0900</pubDate><guid>https://yamacraft.github.io/note/study-unity-blender/</guid><description>&lt;p&gt;表題の通り、４連休の前半２日を使って、以前から中途半端に触っていたUnityとBlenderを本格的に入門しなおすことにしました。
+内容としては、入門書に書かれている内容をひたすら実行しただけですが。&lt;/p&gt;</description></item><item><title>法人化して半年経ちました</title><link>https://yamacraft.github.io/note/yamadajirushi-2020-half-done/</link><pubDate>Mon, 20 Jul 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamadajirushi-2020-half-done/</guid><description>&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp"&gt;合同会社ヤマダ印&lt;/a&gt;として仕事を始めてから、半年が経ちました。（設立自体は去年の12月）&lt;/p&gt;
+&lt;p&gt;いろいろ思ったことなどを羅列します。&lt;/p&gt;
+&lt;h2 id="住所オフィス"&gt;住所（オフィス）&lt;/h2&gt;
+&lt;p&gt;ヤマダ印は、リージャスのバーチャルオフィスの住所で法人登記しています。
+つまり、実態のある住所（オフィス）が存在しないことになります（なるらしいです）。&lt;/p&gt;</description></item><item><title>【終了】2020年10月からのお仕事を探しています</title><link>https://yamacraft.github.io/note/next-work-202010/</link><pubDate>Sat, 18 Jul 2020 10:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/next-work-202010/</guid><description>&lt;p&gt;新規クライアントとの契約が締結しましたので、こちらの記事での募集は終了しました。&lt;/p&gt;
+&lt;h2 id="諸注意"&gt;諸注意&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;yamacraftの転職先探しではありません。中途採用という形でのお話はお断りさせていただきます。&lt;/li&gt;
+&lt;li&gt;仲介業者様からのご連絡はお断りさせていただきます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="募集概要"&gt;募集概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;業務可能な日数（工数）は、週１〜４日としています。事務作業等の時間確保のため、週５日案件はお断りさせていただきます。&lt;/li&gt;
+&lt;li&gt;契約期間は例外なく、最長で３ヵ月までとしています。それ以上の期間をご希望の場合は、３ヵ月後にあらためて再契約（更新）という形を取らせていただいています。&lt;/li&gt;
+&lt;li&gt;リモートワークが希望ですが、クライアント先に出勤しての作業も可能です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="yamacraftと合同会社ヤマダ印について"&gt;yamacraftと合同会社ヤマダ印について&lt;/h2&gt;
+&lt;p&gt;Androidアプリエンジニアとして各企業を転々としながら、2018年6月にフリーランサーとなり、2019年12月より法人化しました。&lt;/p&gt;</description></item><item><title>2020 2Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2020-2q-done/</link><pubDate>Sat, 04 Jul 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2020-2q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+&lt;h2 id="2020年のまとめ"&gt;2020年のまとめ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/yamacraft/a3529231635400078fbfa3b3825e7cac"&gt;2020 1Q&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="やったこと"&gt;やったこと&lt;/h2&gt;
+&lt;h3 id="開発支援"&gt;開発支援&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;週４日の客先常駐のAndroidアプリ開発案件を、1Qから引き続き続けていました。&lt;/li&gt;
+&lt;li&gt;1Qは全期間フルリモートでした。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="自社開発系"&gt;自社開発系&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.aaviewer"&gt;AAびゅーわ&lt;/a&gt; の開発をちまちまと進めています。&lt;/li&gt;
+&lt;li&gt;まだ全然表に出せていないレベルですが、Nuxtの勉強がてらで新しいWebサービスを開発中です。
+&lt;ul&gt;
+&lt;li&gt;2Q中リリース目標でしたが、だめでした。3Q中にリリースするつもりでがんばります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="他の業務関連"&gt;他の業務関連&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ヤマダ印の法人口座がひとつ増えました（６月）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="その他プライベート方面のトピック"&gt;その他プライベート方面のトピック&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ブログをGitHub Pages + Hugo (+ CI) で再構築しました。つまりここです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="売上支援報告"&gt;売上／支援報告&lt;/h2&gt;
+&lt;h3 id="booth"&gt;booth&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;月&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;売上&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;概要&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="支援kyashなど"&gt;支援（Kyashなど）&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: left"&gt;月&lt;/th&gt;
+ &lt;th style="text-align: right"&gt;売上&lt;/th&gt;
+ &lt;th style="text-align: left"&gt;概要&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;4月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;5月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;6月&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+ &lt;td style="text-align: right"&gt;¥0&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="今後の予定雑感など"&gt;今後の予定／雑感など&lt;/h2&gt;
+&lt;p&gt;緊急事態宣言やクライアントとの仕事がフルリモートになったこともあって、思った以上に特になにもない四半期でした。&lt;/p&gt;</description></item><item><title>西川のマスクを買った</title><link>https://yamacraft.github.io/note/buy-nishikawa-mask/</link><pubDate>Sat, 20 Jun 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-nishikawa-mask/</guid><description>&lt;p&gt;今月頭にamazonで注文した、西川のクールマスクが届きました。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://shop.nishikawa1566.com/shop/g/gPZ90009022B/"&gt;日本製・西川　洗えるクールマスク（４枚セット）| 西川公式オンラインショップ 寝具通販サイト&lt;/a&gt;&lt;/p&gt;</description></item><item><title>easylauncherをdocker上でも使えるようにする</title><link>https://yamacraft.github.io/note/easy-launcher-use-docker/</link><pubDate>Mon, 01 Jun 2020 13:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/easy-launcher-use-docker/</guid><description>&lt;p&gt;ただの覚書です。&lt;/p&gt;
+&lt;p&gt;自分が開発しているAndroidアプリのプロダクトには、アプリのバリアントを可視化しやすいようにeasylauncherを導入しています。&lt;/p&gt;</description></item><item><title>ブログのデプロイをGitHub Actionsで行うようにした</title><link>https://yamacraft.github.io/note/blog-generate-by-github-actions/</link><pubDate>Fri, 29 May 2020 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/blog-generate-by-github-actions/</guid><description>&lt;p&gt;このブログはHugoとGitHub Pagesを使って公開しています。&lt;/p&gt;
+&lt;p&gt;これまでは手動で &lt;code&gt;hugo&lt;/code&gt; コマンドを叩いてサイトを生成し、それもリポジトリに加えてpushするやり方で更新していました。&lt;/p&gt;</description></item><item><title>ブログを移転した</title><link>https://yamacraft.github.io/note/start-blog-3rd/</link><pubDate>Sun, 17 May 2020 23:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/start-blog-3rd/</guid><description>&lt;p&gt;ブログサービスの利用をやめて、しばらくHugoとGitHub Pagesでブログを書くことにします。&lt;/p&gt;
+&lt;h2 id="これからのドキュメント関連のアウトプットについて"&gt;これからのドキュメント関連のアウトプットについて&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日記、雑記など → ここ&lt;/li&gt;
+&lt;li&gt;技術関連の記事 → Gistかここ&lt;/li&gt;
+&lt;li&gt;仕事（ヤマダ印関連も含む）に関するようなドキュメント
+&lt;ul&gt;
+&lt;li&gt;一度書いたら更新しないもの → ここ&lt;/li&gt;
+&lt;li&gt;一度書いた後も更新する可能性があるもの → Gist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こんな感じで使い分けていきます（予定）。&lt;/p&gt;</description></item><item><title>特別定額給付金をオンライン申請した</title><link>https://yamacraft.github.io/note/submit-kyufukin/</link><pubDate>Sun, 10 May 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/submit-kyufukin/</guid><description>&lt;p&gt;自分の地域でも定額給付金の受け付けが始まっていたのと、確定申告絡みでマイナンバーカードやカードリーダーの用意が整っていたので、オンライン申請をやりました。&lt;/p&gt;</description></item></channel></rss>
