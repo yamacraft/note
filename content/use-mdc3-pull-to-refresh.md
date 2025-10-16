@@ -1,6 +1,6 @@
 ---
 title: "MDC3のPull to Refreshを使おうとして困った話（未完成）"
-date: 2025-10-16T16:00:00+09:00
+date: 2025-10-16T17:00:00+09:00
 draft: false
 author: ["yamacraft"]
 categories: ["tech"]
@@ -108,7 +108,7 @@ MDC2との実装の大きな違いは、StateとIndicatorそれぞれにリフ�
 ## MDC2版からMDC3版へ移行させる時の懸念点
 
 上記のMDC3版のコードでは、UIレイヤ上でPull to refreshを閉じる処理までを実装しています（`if (pullToRefreshState.isRefreshing){}` 部分）。
-しかし実際にアプリを作る時、ほかの操作でViewModel側の処理を直接呼び出すケースも存在するはずです。
+しかし実際にアプリを作る時、他の操作でViewModel側の処理を直接呼びだすケースも存在するはずです。
 その場合は、その操作と処理に合わせてPull to refreshのUIを表示したり非表示にしたりしたいはずです。
 
 MDC2版では `refreshing: Boolean` の値を変えることで表示を制御できるので、だいたい次のようなUiStateを使って表示の制御が可能でした。
@@ -185,7 +185,7 @@ if (pullToRefreshState.isRefreshing) {
 ## 初期ロードの表示どうする問題
 
 Pull to refreshを閉じる方はどうにかなりました。
-ですが最大の難所は、ユーザー主導ではない更新（初期ロードなど）におけるPull to refreshのprogress表示です。
+ですが最大の難所は、ユーザ主導ではない更新（初期ロードなど）におけるPull to refreshのprogress表示です。
 
 先ほども書いたように、MDC3版のPull to refreshの表示制御は `startRefresh()` しかなく、これを実行すると `isRefreshing` の値まで変わってしまいます。
 
