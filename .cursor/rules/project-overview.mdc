@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# プロジェクト概要
+
+このプロジェクトは「山田航空ネットワーク3rd」というHugoベースのブログサイトです。
+
+## 主要ファイル
+- [config.toml](mdc:config.toml) - サイトの基本設定
+- [README.md](mdc:README.md) - プロジェクトのREADME
+- [package.json](mdc:package.json) - 依存関係管理
+
+## 主要ディレクトリ
+- `content/` - ブログ記事のコンテンツ（Markdown形式）
+- `layouts/` - サイトのレイアウトテンプレート
+- `static/` - 静的ファイル（画像など）
+- `themes/` - サイトテーマ（mediumish使用）
+- `tcardgen/` - OGP画像生成ツール
+- `prh-rules/` - 校正ルール

@@ -2,15 +2,16 @@ name: Build and Deploy
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '5 15 * * *'
+  # しばらく毎日デプロイを走らせる必要がないのでコメントアウト
+  #schedule:
+  #  - cron: '5 15 * * *'
   push:
     branches:
       - master
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
         with:

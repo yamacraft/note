@@ -21,6 +21,8 @@
 	<meta name="msapplication-TileImage" content="/note/ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
+	<link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.BaseURL }}index.xml">
+
 	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
 	{{ with .Site.Params.meta.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
