@@ -1,0 +1,191 @@
+<!doctype html><html lang=ja-jp><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=generator content="Hugo 0.151.0"><link rel=apple-touch-icon sizes=57x57 href=/note/ico/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/note/ico/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/note/ico/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/note/ico/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/note/ico/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/note/ico/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/note/ico/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/note/ico/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/note/ico/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/note/ico/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/note/ico/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/note/ico/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/note/ico/favicon-16x16.png><link rel=manifest href=/note/ico/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/note/ico/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link id=feedLink rel=alternate type=application/rss+xml title=RSS href=https://yamacraft.github.io/note/index.xml><title>MDC3のPull to Refreshを使おうとして困った話（未完成） | 山田航空ネットワーク3rd</title><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="MDC3のPull to Refreshを使おうとして困った話（未完成）"><meta name=twitter:description content="この記事は未完成品ですが、完成予定はありません
+この記事は、約1年と半年ほど前（24年春ごろ）に途中まで書いて放置したものを、とりあえず公開できる程度まで体裁を整えたものになります。
+そのため、肝心なオチ（解決策）については適当な記述になっています。
+Material Designは現在Material3 Expressiveが発表されたこともあり、似たような悩みを持っている人は少ないと思っています。
+とはいえ、いちおう途中まで書いたものを捨てるのももったいないので、備忘録として公開するに至りました。"><meta property="twitter:image" content="https://yamacraft.github.io/note/image/og/use-mdc3-pull-to-refresh.png"><meta property="og:title" content="MDC3のPull to Refreshを使おうとして困った話（未完成）"><meta property="og:description" content="この記事は未完成品ですが、完成予定はありません
+この記事は、約1年と半年ほど前（24年春ごろ）に途中まで書いて放置したものを、とりあえず公開できる程度まで体裁を整えたものになります。
+そのため、肝心なオチ（解決策）については適当な記述になっています。
+Material Designは現在Material3 Expressiveが発表されたこともあり、似たような悩みを持っている人は少ないと思っています。
+とはいえ、いちおう途中まで書いたものを捨てるのももったいないので、備忘録として公開するに至りました。"><meta property="og:type" content="article"><meta property="og:url" content="https://yamacraft.github.io/note/use-mdc3-pull-to-refresh/"><meta property="og:image" content="https://yamacraft.github.io/note/image/og/use-mdc3-pull-to-refresh.png"><meta property="article:section" content><meta property="article:published_time" content="2025-10-16T17:00:00+09:00"><meta property="article:modified_time" content="2025-10-16T17:00:00+09:00"><link href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css rel=stylesheet integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.0.13/css/all.css integrity=sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel=stylesheet><link href=/note/css/medium.css rel=stylesheet><link href=/note/css/additional.css rel=stylesheet><link type=text/css rel=stylesheet href=https://yamacraft.github.io/note/css/note.css></head><body><div class=site-content-custom><div class=container><div class=mainheading><a href=https://yamacraft.github.io/note/><h1 class=sitetitle>山田航空ネットワーク3rd</h1></a><p class=lead><a href=https://x.com/yamacraft>@yamacraft</a>の雑記。感想は直接お伝えください。<br>記事フィルタはこちら → <a href=/note/tags/tech/>tech</a> / <a href=/note/tags/work/>work</a> / <a href=/note/tags/diary/>diary</a> / <a href=/note/tags/poem/>poem</a> / <a href=/note/tags/yodan/>yodan</a></p></div><div class=main-content><div class=container><div class=row><div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset"><p>Share</p><ul><li class="ml-1 mr-1"><a target=_blank href="https://twitter.com/intent/tweet?text=MDC3%e3%81%aePull%20to%20Refresh%e3%82%92%e4%bd%bf%e3%81%8a%e3%81%86%e3%81%a8%e3%81%97%e3%81%a6%e5%9b%b0%e3%81%a3%e3%81%9f%e8%a9%b1%ef%bc%88%e6%9c%aa%e5%ae%8c%e6%88%90%ef%bc%89 - %e5%b1%b1%e7%94%b0%e8%88%aa%e7%a9%ba%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af3rd&url=https%3a%2f%2fyamacraft.github.io%2fnote%2fuse-mdc3-pull-to-refresh%2f" onclick='return window.open(this.href,"twitter-share","width=550,height=435"),!1'><i class="fab fa-twitter"></i></a></li><li class="ml-1 mr-1"><a target=_blank href="https://facebook.com/sharer.php?u=https%3a%2f%2fyamacraft.github.io%2fnote%2fuse-mdc3-pull-to-refresh%2f" onclick='return window.open(this.href,"facebook-share","width=550,height=435"),!1'><i class="fab fa-facebook-f"></i></a></li></ul></div></div><div class="col-md-9 flex-first flex-md-unordered"><div class=mainheading><span class=post-date>Oct 16, 2025 - 5 min read</span><h1 class=posttitle>MDC3のPull to Refreshを使おうとして困った話（未完成）</h1><div class=after-post-tags><ul class=tags><li><a href=/note/tags/tech>tech</a>&ensp;</li><li><a href=/note/tags/android>android</a>&ensp;</li><li><a href=/note/tags/mdc3>mdc3</a>&ensp;</li><li><a href=/note/tags/compose>compose</a>&ensp;</li></ul></div></div><div class=article-post><h2 id=この記事は未完成品ですが完成予定はありません>この記事は未完成品ですが、完成予定はありません</h2><p>この記事は、約1年と半年ほど前（24年春ごろ）に途中まで書いて放置したものを、とりあえず公開できる程度まで体裁を整えたものになります。</p><p>そのため、肝心なオチ（解決策）については適当な記述になっています。
+Material Designは現在Material3 Expressiveが発表されたこともあり、似たような悩みを持っている人は少ないと思っています。
+とはいえ、いちおう途中まで書いたものを捨てるのももったいないので、備忘録として公開するに至りました。</p><h2 id=前置き>前置き</h2><p>Material Design Component（MDC）3は長いことPull to refreshコンポーネントが実装されておらず、これを使いたい場合、MDC2を並行利用する必要がありました。</p><p>ですが、<a href=https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0>Compose Material 3 Version 1.2.0</a>から、正式にPull to refresh関連のコンポーネントが実装されました。
+ComposeBomだと、 <code>2024.02.00</code> から利用が可能です。</p><h2 id=導入方法>導入方法</h2><p>比較として、MDC2での実装方法も記載します。</p><h3 id=mdc2のpull-to-refresh>MDC2のPull to refresh</h3><p><code>PullRefreshState</code> を生成し、Pull to refreshの対象となるレイアウトコンポーネントの <code>Modifier.pullRefresh()</code> にセットします。
+そしてPull to refreshの表示を担う <code>PullRefreshIndicator</code> を、コンテンツに重ねるように配置します。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#66d9ef>val</span> pullRefreshState = rememberPullRefreshState(
+</span></span><span style=display:flex><span>    refreshing = state.progress,
+</span></span><span style=display:flex><span>    onRefresh = { <span style=color:#75715e>/* TODO */</span> },
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Box(
+</span></span><span style=display:flex><span>    modifier = modifier
+</span></span><span style=display:flex><span>        .fillMaxSize()
+</span></span><span style=display:flex><span>        .pullRefresh(state = pullRefreshState),
+</span></span><span style=display:flex><span>) {
+</span></span><span style=display:flex><span>    LazyColumn(
+</span></span><span style=display:flex><span>        modifier = <span style=color:#a6e22e>Modifier</span>.fillMaxSize(),
+</span></span><span style=display:flex><span>        state = rememberLazyListState(),
+</span></span><span style=display:flex><span>    ) {
+</span></span><span style=display:flex><span>        <span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    PullRefreshIndicator(
+</span></span><span style=display:flex><span>        refreshing = state.progress,
+</span></span><span style=display:flex><span>        state = pullRefreshState,
+</span></span><span style=display:flex><span>        modifier = <span style=color:#a6e22e>Modifier</span>.align(alignment = <span style=color:#a6e22e>Alignment</span>.TopCenter),
+</span></span><span style=display:flex><span>    )
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p><img src=/note/image/use-mdc3-pull-to-refresh/pr2.gif alt="Pull to refresh(MDC2)"></p><h3 id=mdc3のpull-to-refresh>MDC3のPull to refresh</h3><p>大まかな違いはStateと表示に関するIndicator周りが変わりました。
+<code>PullRefresh</code> はMDC2、 <code>PullToRefresh</code> はMDC3と覚えてよさそうです。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#66d9ef>val</span> pullToRefreshState = rememberPullToRefreshState()
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> (pullToRefreshState.isRefreshing) {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// ここは引っ張りきった時の動作
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    LaunchedEffect(key1 = Unit) {
+</span></span><span style=display:flex><span>        delay(<span style=color:#ae81ff>1000</span> * <span style=color:#ae81ff>3</span>)
+</span></span><span style=display:flex><span>        pullToRefreshState.endRefresh()
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Box(
+</span></span><span style=display:flex><span>    modifier = modifier
+</span></span><span style=display:flex><span>        .fillMaxSize()
+</span></span><span style=display:flex><span>        .nestedScroll(connection = pullToRefreshState.nestedScrollConnection),
+</span></span><span style=display:flex><span>) {
+</span></span><span style=display:flex><span>    LazyColumn(
+</span></span><span style=display:flex><span>        modifier = <span style=color:#a6e22e>Modifier</span>.fillMaxSize(),
+</span></span><span style=display:flex><span>        state = rememberLazyListState(),
+</span></span><span style=display:flex><span>    ) {
+</span></span><span style=display:flex><span>        <span style=color:#75715e>// ...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    PullToRefreshContainer(
+</span></span><span style=display:flex><span>        state = pullToRefreshState,
+</span></span><span style=display:flex><span>        modifier = <span style=color:#a6e22e>Modifier</span>.align(alignment = <span style=color:#a6e22e>Alignment</span>.TopCenter)
+</span></span><span style=display:flex><span>    )
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p><img src=/note/image/use-mdc3-pull-to-refresh/pr3_container.gif alt="Pull to refresh(MDC3, Container)"></p><p>インジケータは上記のほかに <code>LinearProgressIndicator</code> と <code>CircularProgressIndicator</code> が追加されました。
+<code>PullToRefreshContainer</code> はMDC2に近い見た目のインジケータとなっています。
+そして残りの２つは <code>*ProgressIndicator</code> をPull to refreshに対応させたようなコンポーネントとなっています。</p><p><img src=/note/image/use-mdc3-pull-to-refresh/pr3_indicator.gif alt="Pull to refresh(MDC3, CircularIndicator)"></p><p>MDC2との実装の大きな違いは、StateとIndicatorそれぞれにリフレッシュ中を設定するパラメータが消えたことでしょうか。
+これによって、Pull to refreshがリフレッシュ中であることの状態を、こちらで実装する必要がなくなりました。
+一方で、これによって悩みどころが発生してしまいました（後述）。</p><h2 id=mdc2版からmdc3版へ移行させる時の懸念点>MDC2版からMDC3版へ移行させる時の懸念点</h2><p>上記のMDC3版のコードでは、UIレイヤ上でPull to refreshを閉じる処理までを実装しています（<code>if (pullToRefreshState.isRefreshing){}</code> 部分）。
+しかし実際にアプリを作る時、他の操作でViewModel側の処理を直接呼びだすケースも存在するはずです。
+その場合は、その操作と処理に合わせてPull to refreshのUIを表示したり非表示にしたりしたいはずです。</p><p>MDC2版では <code>refreshing: Boolean</code> の値を変えることで表示を制御できるので、だいたい次のようなUiStateを使って表示の制御が可能でした。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#75715e>// UiState
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>data</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>UiState</span>(
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>val</span> data: List&lt;String&gt; = emptyList(),
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>val</span> progress: Boolean = <span style=color:#66d9ef>false</span>,
+</span></span><span style=display:flex><span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// ViewModel内での利用例
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>fun</span> <span style=color:#a6e22e>onRefresh</span>() {
+</span></span><span style=display:flex><span>    viewModelScope.launch {
+</span></span><span style=display:flex><span>        uiState = uiState.copy(progress = <span style=color:#66d9ef>true</span>)
+</span></span><span style=display:flex><span>        delay(<span style=color:#ae81ff>3</span> * <span style=color:#ae81ff>1000</span>)
+</span></span><span style=display:flex><span>        uiState = uiState.copy(
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>data</span> = List(items) { <span style=color:#e6db74>&#34;Item </span><span style=color:#e6db74>$it</span><span style=color:#e6db74>&#34;</span> },
+</span></span><span style=display:flex><span>            progress = <span style=color:#66d9ef>false</span>
+</span></span><span style=display:flex><span>        )
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>しかしMDC3版では現在、<code>PullToRefreshState</code> やIndicator内には、 <code>refreshing</code> に該当するようなパラメータがありません。
+表示の切り替えを行うメソッドも、 <code>startRefresh()</code> と <code>endRefresh()</code> の2種類だけです。
+そしてこれらは <code>isRefreshing</code> の値も書き換えてしまいます。
+<code>isRefreshing</code> はPull to refreshを引っ張りきったかどうかのトリガ判定に使うパラメータでもあるので、安易に変更できません。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#66d9ef>if</span> (pullToRefreshState.isRefreshing) {
+</span></span><span style=display:flex><span>    LaunchedEffect(key1 = Unit) {
+</span></span><span style=display:flex><span>        <span style=color:#75715e>// 処理の中でstate.progressが更新される
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        onRefresh()
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// 例えば以下の実装をやると、onRefresh()が無限に呼ばれてしまう
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>if</span> (state.progress) {
+</span></span><span style=display:flex><span>    pullToRefreshState.startRefresh()
+</span></span><span style=display:flex><span>} <span style=color:#66d9ef>else</span> {
+</span></span><span style=display:flex><span>    pullToRefreshState.endRefresh()
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>さらにUiStateでUI状態を管理することを考えると、必要なタイミング以外で <code>endRefresh()</code> を呼びたくありません。
+MDC2版に合わせたUiStateをそのままに、どうにか実装できないかと考えた結果、次のようになりました。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-kotlin data-lang=kotlin><span style=display:flex><span><span style=color:#75715e>// 前回のprogress状態を保持
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>val</span> previousProgress = remember { mutableStateOf(state.progress) }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>val</span> pullToRefreshState = rememberPullToRefreshState()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> (pullToRefreshState.isRefreshing) {
+</span></span><span style=display:flex><span>    LaunchedEffect(key1 = Unit) {
+</span></span><span style=display:flex><span>        onRefresh()
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    LaunchedEffect(key1 = state.progress) {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span>(previousProgress.<span style=color:#66d9ef>value</span> <span style=color:#f92672>&amp;&amp;</span> state.progress.not()) {
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>if</span> (state.progress.not()) {
+</span></span><span style=display:flex><span>                pullToRefreshState.endRefresh()
+</span></span><span style=display:flex><span>            }
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>        previousProgress.<span style=color:#66d9ef>value</span> = state.progress
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>ややこしいですね。
+しかもこれは、閉じる場合のみの処理になります。
+<code>refreshing</code> に該当するパラメータが欲しい…。</p><h2 id=初期ロードの表示どうする問題>初期ロードの表示どうする問題</h2><p>Pull to refreshを閉じる方はどうにかなりました。
+ですが最大の難所は、ユーザ主導ではない更新（初期ロードなど）におけるPull to refreshのprogress表示です。</p><p>先ほども書いたように、MDC3版のPull to refreshの表示制御は <code>startRefresh()</code> しかなく、これを実行すると <code>isRefreshing</code> の値まで変わってしまいます。</p><p>結論だけで書くと、この記事を執筆時点では <code>PullToRefresh</code> ではどうにもなりませんでした。
+一方で <code>*ProgressIndicator</code> は元がProgressIndicatorであるため、こちらはUIそのものを表示／非表示する形で対応できるようです。</p><p><em>【コード／画像省略】</em></p><h2 id=追加された新コンポーネント>追加された新コンポーネント</h2><p>…という悩ましい問題があったのですが、その後バージョン1.3.0で <code>PullToRefreshBox</code> という新たなコンポーネントが追加されました。
+こちらには <code>isRefreshing</code> というパラメータが追加されており、更新状況を設定できるようになりました。</p><ul><li><a href=https://developer.android.com/reference/kotlin/androidx/compose/material3/pulltorefresh/package-summary#PullToRefreshBox(kotlin.Boolean,kotlin.Function0,androidx.compose.ui.Modifier,androidx.compose.material3.pulltorefresh.PullToRefreshState,androidx.compose.ui.Alignment,kotlin.Function1,kotlin.Function1)>developer.android.com - PullToRefreshBox</a></li><li><a href="https://developer.android.com/develop/ui/compose/components/pull-to-refresh?hl=ja">下方向にスワイプして更新  |  Jetpack Compose  |  Android Developers</a></li></ul><p>というわけで、MDC3でPull to Refreshを実装する時は <code>PullToRefreshBox</code> を使いましょう。</p><p>（補足）この記事は、この <code>PullToRefreshBox</code> の調査前に記載して放置していました。本当に解決できるかどうかは不明です。</p><h2 id=Support>yamacraftを支援する</h2><p>記事への感謝や応援を、コーヒー1杯分の支援で行うことができます。支援を受けると、さらに頑張って記事を書くようになります。</p><script type=text/javascript src=https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js data-name=bmc-button data-slug=yamacraft data-color=#00ab6b data-emoji data-font=Cookie data-text="Buy me a coffee" data-outline-color=#ffffff data-font-color=#ffffff data-coffee-color=#FFDD00></script></div><div class=after-post-tags><ul class=tags><li><a href=/note/tags/tech>tech</a>&ensp;</li><li><a href=/note/tags/android>android</a>&ensp;</li><li><a href=/note/tags/mdc3>mdc3</a>&ensp;</li><li><a href=/note/tags/compose>compose</a>&ensp;</li></ul></div><div class="row PageNavigation d-flex justify-content-between font-weight-bold"><a class="d-block col-md-6 text-lg-right" href=https://yamacraft.github.io/note/yamacraft-2025-3q-done/>2025 3Qやったこと &#187;</a><div class=clearfix></div></div></div></div></div></div></div><div class="jumbotron2 fortags"><div class="d-md-flex h-100"><div class="col-md-4 transpdark2 align-self-center text-center h-100"><div class="d-md-flex align-items-center justify-content-center h-100"><h2 class="d-md-block d-none align-self-center py-1 font-weight-light">all <span class="d-none d-md-inline">→</span></h2></div></div><div class="col-md-8 p-5 align-self-center text-center"><a class="mt-1 mb-1" href=/note/tags/adb>adb</a>
+<a class="mt-1 mb-1" href=/note/tags/advent2022>advent2022</a>
+<a class="mt-1 mb-1" href=/note/tags/advent2024>advent2024</a>
+<a class="mt-1 mb-1" href=/note/tags/android>android</a>
+<a class="mt-1 mb-1" href=/note/tags/app_restore>app_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/architecture>architecture</a>
+<a class="mt-1 mb-1" href=/note/tags/bjj>bjj</a>
+<a class="mt-1 mb-1" href=/note/tags/blender>blender</a>
+<a class="mt-1 mb-1" href=/note/tags/blog>blog</a>
+<a class="mt-1 mb-1" href=/note/tags/buy-me-a-coffee>buy me a coffee</a>
+<a class="mt-1 mb-1" href=/note/tags/chatgpt>chatgpt</a>
+<a class="mt-1 mb-1" href=/note/tags/ci>ci</a>
+<a class="mt-1 mb-1" href=/note/tags/circle-ci>circle ci</a>
+<a class="mt-1 mb-1" href=/note/tags/compose>compose</a>
+<a class="mt-1 mb-1" href=/note/tags/dabun>dabun</a>
+<a class="mt-1 mb-1" href=/note/tags/design>design</a>
+<a class="mt-1 mb-1" href=/note/tags/diary>diary</a>
+<a class="mt-1 mb-1" href=/note/tags/dic_restore>dic_restore</a>
+<a class="mt-1 mb-1" href=/note/tags/docker>docker</a>
+<a class="mt-1 mb-1" href=/note/tags/domain>domain</a>
+<a class="mt-1 mb-1" href=/note/tags/done-report>done-report</a>
+<a class="mt-1 mb-1" href=/note/tags/droidkaigi>droidkaigi</a>
+<a class="mt-1 mb-1" href=/note/tags/easylauncher>easylauncher</a>
+<a class="mt-1 mb-1" href=/note/tags/error-handling>error-handling</a>
+<a class="mt-1 mb-1" href=/note/tags/firebase>firebase</a>
+<a class="mt-1 mb-1" href=/note/tags/flutter>flutter</a>
+<a class="mt-1 mb-1" href=/note/tags/gather>gather</a>
+<a class="mt-1 mb-1" href=/note/tags/git>git</a>
+<a class="mt-1 mb-1" href=/note/tags/github>github</a>
+<a class="mt-1 mb-1" href=/note/tags/github-actions>github actions</a>
+<a class="mt-1 mb-1" href=/note/tags/google-play>google play</a>
+<a class="mt-1 mb-1" href=/note/tags/googleio>googleio</a>
+<a class="mt-1 mb-1" href=/note/tags/gpt-3>gpt-3</a>
+<a class="mt-1 mb-1" href=/note/tags/homete>homete</a>
+<a class="mt-1 mb-1" href=/note/tags/hugo>hugo</a>
+<a class="mt-1 mb-1" href=/note/tags/keiba>keiba</a>
+<a class="mt-1 mb-1" href=/note/tags/life>life</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design>material design</a>
+<a class="mt-1 mb-1" href=/note/tags/material-design3>material design3</a>
+<a class="mt-1 mb-1" href=/note/tags/mdc3>mdc3</a>
+<a class="mt-1 mb-1" href=/note/tags/memo>memo</a>
+<a class="mt-1 mb-1" href=/note/tags/money>money</a>
+<a class="mt-1 mb-1" href=/note/tags/notice>notice</a>
+<a class="mt-1 mb-1" href=/note/tags/nowinandroid>nowinandroid</a>
+<a class="mt-1 mb-1" href=/note/tags/nuxt>nuxt</a>
+<a class="mt-1 mb-1" href=/note/tags/openai>openai</a>
+<a class="mt-1 mb-1" href=/note/tags/oss>oss</a>
+<a class="mt-1 mb-1" href=/note/tags/pixel>pixel</a>
+<a class="mt-1 mb-1" href=/note/tags/poem>poem</a>
+<a class="mt-1 mb-1" href=/note/tags/pollen>pollen</a>
+<a class="mt-1 mb-1" href=/note/tags/product>product</a>
+<a class="mt-1 mb-1" href=/note/tags/recent_statue>recent_statue</a>
+<a class="mt-1 mb-1" href=/note/tags/stripe>stripe</a>
+<a class="mt-1 mb-1" href=/note/tags/study>study</a>
+<a class="mt-1 mb-1" href=/note/tags/tech>tech</a>
+<a class="mt-1 mb-1" href=/note/tags/think>think</a>
+<a class="mt-1 mb-1" href=/note/tags/thinking>thinking</a>
+<a class="mt-1 mb-1" href=/note/tags/tsubo>tsubo</a>
+<a class="mt-1 mb-1" href=/note/tags/twitter>twitter</a>
+<a class="mt-1 mb-1" href=/note/tags/unity>unity</a>
+<a class="mt-1 mb-1" href=/note/tags/web>web</a>
+<a class="mt-1 mb-1" href=/note/tags/work>work</a>
+<a class="mt-1 mb-1" href=/note/tags/workout>workout</a>
+<a class="mt-1 mb-1" href=/note/tags/yamadajirushi>yamadajirushi</a>
+<a class="mt-1 mb-1" href=/note/tags/yodan>yodan</a>
+<a class="mt-1 mb-1" href=/note/tags/youtube>youtube</a></div></div></div><footer class=footer><div class=container><div class=row><div class="col-md-6 col-sm-6 text-center text-lg-left">&copy; yamacraft 2025 · <a href=https://creativecommons.org/licenses/by/4.0/deed.ja>CC BY 4.0</a></div><div class="col-md-6 col-sm-6 text-center text-lg-right"><a target=_blank rel=noopener href=https://www.wowthemes.net>Mediumish Theme</a> by WowThemes.net</div></div></div></footer></div><script src=https://code.jquery.com/jquery-3.4.1.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script><script src=/js/mediumish.js></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-WN2EJQSS9T"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-WN2EJQSS9T")}</script></body></html>
