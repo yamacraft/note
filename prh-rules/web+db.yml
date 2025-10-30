@@ -43,7 +43,7 @@ rules:
     pattern: /アーキテクチャー|アーキティクチャ/
 
   - expected: アクティビティ
-    pattern: /\bActivity\b|アクティビティー/
+    pattern: アクティビティー
 
   - expected: アダプタ
     pattern: アダプター
@@ -71,9 +71,6 @@ rules:
 
   - expected: インデックス
     pattern: インデクス
-
-  - expected: インテント
-    pattern: /\bIntent\b/
 
   - expected: ウィジェット
     pattern: /\bWidget\b|\bwidget\b/
