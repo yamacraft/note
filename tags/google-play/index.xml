@@ -7,6 +7,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 該当するActivity（アプリ）の一覧を取得
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このAPIを使うためには、 &lt;code&gt;QUERY_ALL_PACKAGES&lt;/code&gt; 権限の利用が必要です。
 設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p&gt;</description></item></channel></rss>

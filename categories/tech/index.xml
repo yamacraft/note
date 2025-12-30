@@ -74,7 +74,7 @@ LTも含め、発表側での参加は数年ぶりじゃないかという気が
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 該当するActivity（アプリ）の一覧を取得
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; activities = packageManager.queryIntentActivities(intent, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このAPIを使うためには、 &lt;code&gt;QUERY_ALL_PACKAGES&lt;/code&gt; 権限の利用が必要です。
 設定しなかった場合APIがExceptionを吐くことはありませんが、空の情報が返却されます。&lt;/p&gt;</description></item><item><title>GitHub Actionsでtagをpushするための下準備と実行</title><link>https://yamacraft.github.io/note/output_tagname_android/</link><pubDate>Wed, 25 May 2022 19:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/output_tagname_android/</guid><description>&lt;p&gt;&lt;a href="https://yamacraft.github.io/note/idea-branch-model-and-ci/"&gt;個人（小規模）アプリ開発のブランチモデルとCI利用方法のアイデア&lt;/a&gt;の続きみたいな記事です。&lt;/p&gt;
 &lt;p&gt;masterブランチが更新されたタイミングで、tagの作成とtag pushをCI上でやろうとしていました。
