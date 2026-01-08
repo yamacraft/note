@@ -11,8 +11,8 @@ tags: ["work", "done-report"]
 
 ## 2025年のまとめ
 
-* [2024 1Q](/note/yamacraft-2025-1q-done/)
-* [2024 2Q](/note/yamacraft-2025-2q-done/)
+* [2025 1Q](/note/yamacraft-2025-1q-done/)
+* [2025 2Q](/note/yamacraft-2025-2q-done/)
 
 ## 仕事
 
