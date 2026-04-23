@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/</link><description>Recent content on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 08 Jan 2026 20:30:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-4q-done/</link><pubDate>Thu, 08 Jan 2026 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>山田航空ネットワーク3rd</title><link>https://yamacraft.github.io/note/</link><description>Recent content on 山田航空ネットワーク3rd</description><generator>Hugo</generator><language>ja-jp</language><copyright>yamacraft</copyright><lastBuildDate>Thu, 23 Apr 2026 20:00:00 +0900</lastBuildDate><atom:link href="https://yamacraft.github.io/note/index.xml" rel="self" type="application/rss+xml"/><item><title>2026 1Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2026-1q-done/</link><pubDate>Thu, 23 Apr 2026 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2026-1q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告です。&lt;/p&gt;
+&lt;h2 id="仕事面"&gt;仕事面&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yamadajirushi.co.jp/"&gt;合同会社ヤマダ印&lt;/a&gt;の代表社員兼ITエンジニアとして仕事をしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メイン業務（平日のフルタイム）
+&lt;ul&gt;
+&lt;li&gt;アクセンチュア株式会社さんのところでAndroidアプリ開発をお手伝い中。稼働内容は変わらず、週四日稼働のフルリモート案件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サブ業務（平日夜間など）
+&lt;ul&gt;
+&lt;li&gt;現在案件なし。&lt;a href="https://yamacraft.github.io/detail-second-job/"&gt;依頼・相談等は随時受付中&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;想定はしていましたが、決算対応を含む事務関連の差し込み対応が多く発生し、こちらに工数を多く割く形となってしまいました。&lt;/p&gt;</description></item><item><title>2025 4Qやったこと</title><link>https://yamacraft.github.io/note/yamacraft-2025-4q-done/</link><pubDate>Thu, 08 Jan 2026 20:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/yamacraft-2025-4q-done/</guid><description>&lt;p&gt;四半期ごとにやっている報告的なものです。&lt;/p&gt;
 &lt;h2 id="2025年のまとめ"&gt;2025年のまとめ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://yamacraft.github.io/note/yamacraft-2025-1q-done/"&gt;2025 1Q&lt;/a&gt;&lt;/li&gt;
@@ -28,7 +43,7 @@
 というのもあって、さすがにGoogleカレンダーに毎年の予定で設定しました。
 来年以降はもう大丈夫。&lt;/p&gt;</description></item><item><title>Activityの再起動にはrecreate()がある</title><link>https://yamacraft.github.io/note/activity-recreate/</link><pubDate>Thu, 30 Oct 2025 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/activity-recreate/</guid><description>&lt;h2 id="activityには再生成用のrecreateがある"&gt;Activityには再生成用のrecreate()がある&lt;/h2&gt;
 &lt;p&gt;AndroidでActivityを再起動したいとき、どのような実装が考えられるでしょうか。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;finish()
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;finish()
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;startActivity(intent)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これが浮かぶ人がわりと多いんじゃないでしょうか。
 なんなら検索してもこういうコードばかりでてくるし、自分の過去の経験でもこのコードばかり見ます。
@@ -338,7 +353,7 @@ Markdownでコンテンツ部分を作成できます。
 LTも含め、発表側での参加は数年ぶりじゃないかという気がします。&lt;/p&gt;</description></item><item><title>adbでAlarmManagerの登録内容を確認する</title><link>https://yamacraft.github.io/note/check_alarm_at_adb/</link><pubDate>Thu, 11 Aug 2022 22:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/check_alarm_at_adb/</guid><description>&lt;p&gt;Androidアプリにおいてアプリ自身で特定の時間に何かしらの処理（以下、アラーム処理）を行いたい場合は、&lt;code&gt;AlarmManager&lt;/code&gt;を使う方法が考えられます。
 さらに&lt;code&gt;setInexactRepeating()&lt;/code&gt;を使うことで、（タイミングに制限がありますが）一定間隔でアラーム処理を行うことが可能です。&lt;/p&gt;</description></item><item><title>D.I.C.のQUERY_ALL_PACKAGES利用許可申請の対応メモ</title><link>https://yamacraft.github.io/note/send-review-query-all-package/</link><pubDate>Mon, 18 Jul 2022 17:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/send-review-query-all-package/</guid><description>&lt;p&gt;ヤマグロでリリースしている&lt;a href="https://play.google.com/store/apps/details?id=jp.yamaglo.dic"&gt;D.I.C.&lt;/a&gt;には、端末がインストールしているアプリの一覧を表示し、各アプリのtargetSdkVersionを確認できる機能があります。&lt;/p&gt;
 &lt;p&gt;この機能を実装するために、アプリでは &lt;code&gt;PackageManager.queryIntentActivities()&lt;/code&gt; を使っています。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-kotlin" data-lang="kotlin"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; packageManager = getApplication&amp;lt;Application&amp;gt;().packageManager
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;val&lt;/span&gt; intent = Intent(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.ACTION_MAIN).apply {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; addCategory(&lt;span style="color:#a6e22e"&gt;Intent&lt;/span&gt;.CATEGORY_LAUNCHER)
