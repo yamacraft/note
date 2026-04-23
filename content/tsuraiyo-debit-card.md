@@ -32,4 +32,4 @@ tags: ["work", "yamadajirushi"]
 
 以上です。
 
-{{< tweet user="yamacraft" id="1458731367530119171" >}}
+{{< x user="yamacraft" id="1458731367530119171" >}}
