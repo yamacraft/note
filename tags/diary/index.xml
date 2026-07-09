@@ -75,8 +75,8 @@ Twitterでは再勉強とか書いてしまったんですが、記憶をたど�
 &lt;p&gt;そしてこの時にプレイした壺（Getting Over It）のゲーム画面を、YouTubeにもアップロードしました。&lt;/p&gt;</description></item><item><title>古いAndroidプロジェクトをフルKotlin化した</title><link>https://yamacraft.github.io/note/kotlinization-old-project-done/</link><pubDate>Mon, 07 Sep 2020 20:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/kotlinization-old-project-done/</guid><description>&lt;p&gt;ちょっと考えるところがあって、１月ほど前から２年近く放置していたとあるAndroidプロジェクトを改修しています。
 全部Javaで書かれたコードということもあり、まずはフルKotlin化して、ViewModelとバックエンドの処理をCoroutineで簡単に実装。
 次はMaterial Componentsを取り込んで、&lt;a href="https://material.io/"&gt;マテリアルデザインのガイドライン&lt;/a&gt;に合わせてデザインを修正していく予定です。&lt;/p&gt;</description></item><item><title>UAスポーツマスクの所感</title><link>https://yamacraft.github.io/note/buy-ua-mask/</link><pubDate>Mon, 10 Aug 2020 22:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/buy-ua-mask/</guid><description>&lt;p&gt;なんとなく注文していた&lt;a href="https://www.underarmour.co.jp/ja-jp/SportsMask.html"&gt;UAスポーツマスク&lt;/a&gt;が先日届いたので、先日これをスポーツジムで使ってきました。つまり、すべて先日の話です。&lt;/p&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;カッコイイマスク届きました（3000円） &lt;a href="https://t.co/6Mn48aCAkC"&gt;pic.twitter.com/6Mn48aCAkC&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1288423432804171776?ref_src=twsrc%5Etfw"&gt;July 29, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;カッコイイマスク届きました（3000円） &lt;a href="https://t.co/6Mn48aCAkC"&gt;pic.twitter.com/6Mn48aCAkC&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://x.com/yamacraft/status/1288423432804171776?ref_src=twsrc%5Etfw"&gt;July 29, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
 &lt;h2 id="サイズ感"&gt;サイズ感&lt;/h2&gt;

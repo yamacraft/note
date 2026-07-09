@@ -30,8 +30,8 @@ DNSは以前からCloud DNSを使っていたので大丈夫なはずですが�
 ですので、httpパッケージを使っての実装することにしました。&lt;/p&gt;</description></item><item><title>Buy Me a Coffeeを利用したいがStripeから拒絶されている【3/13追記】</title><link>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</link><pubDate>Mon, 13 Feb 2023 18:00:00 +0900</pubDate><guid>https://yamacraft.github.io/note/sad-for-rejected-from-stripe/</guid><description>&lt;h2 id="発端"&gt;発端&lt;/h2&gt;
 &lt;p&gt;先日のOpen AI API（GPT-3）の利用をきっかけに、気軽に金銭的支援を受けられる窓口があってもよいじゃないかと考え、&lt;a href="https://www.buymeacoffee.com/"&gt;Buy Me a Coffee&lt;/a&gt;のアカウントの開設をしました。
 Buy Me a Coffeeがどういうサービスなのかをいまさら説明するのは冗長ですので、わからない方は各自調べておいてもらえればと。&lt;/p&gt;</description></item><item><title>GPT-3に褒めてもらうプロトタイプを作った</title><link>https://yamacraft.github.io/note/create-homete-yo-v1/</link><pubDate>Tue, 07 Feb 2023 18:30:00 +0900</pubDate><guid>https://yamacraft.github.io/note/create-homete-yo-v1/</guid><description>&lt;h2 id="作ったもの紹介"&gt;作ったもの紹介&lt;/h2&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9"&gt;pic.twitter.com/rtH7r7mlD9&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://twitter.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw"&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;実はHometeをリリースして間もなく、最終的にAIに褒めてもらえるスタンドアロン式でいいんじゃないかと思ったりしていました。その当時はまだAIがそこまでのこと出来るのか懐疑的だったんですが、chatGPTで試したら多少テンプレ感はあってもしっかり返答してくれているので、もう実装は可能そう &lt;a href="https://t.co/rtH7r7mlD9"&gt;pic.twitter.com/rtH7r7mlD9&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山田航空 (@yamacraft) &lt;a href="https://x.com/yamacraft/status/1622399516317216769?ref_src=twsrc%5Etfw"&gt;February 6, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
 &lt;p&gt;chatGPTで特定人物の口調を真似させたり、決められたルールで会話させている人たちを見かけたことがきっかけで、上記のツイートを投稿しました。
