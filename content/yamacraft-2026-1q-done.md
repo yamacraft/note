@@ -20,7 +20,7 @@ tags: ["work", "done-report"]
 
 想定はしていましたが、決算対応を含む事務関連の差し込み対応が多く発生し、こちらに工数を多く割く形となってしまいました。
 
-### プライベート方面
+## プライベート方面
 
 年明けは [WRESTLE KINGDOM 20](https://www.njpw.co.jp/tournament/result/578671) を現地観戦しました。
 
@@ -28,7 +28,7 @@ tags: ["work", "done-report"]
 ただ、プライベート（非公開）でAIをごりごり使う機会があり、個人的なAIとの付き合い方が見えてきた四半期だった気がします。
 この辺は後述します。
 
-### 健康関連
+## 健康関連
 
 ![体重推移（2026年/1Q）](/note/image/yamacraft-2026-1q-done/1q_chart_weight.png)
 
